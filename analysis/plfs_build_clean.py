@@ -8,7 +8,11 @@ Put this file in the "PLFS Data" folder, next to:
     detected_columns.csv                 (made by plfs_counts_v3.py)
     nco2004_ai_exposure_3digit.csv       (exposure for 2017-18 to 2020-21, NCO-2004 codes)
     nco2015_ai_exposure_3digit.csv       (exposure for 2021-22 to 2023-24, NCO-2015 codes)
-then run:
+first check what it finds in every year (fast, builds nothing):
+
+    python3 plfs_build_clean.py --inspect > inspect_output.txt
+
+then, once every year looks right, build:
 
     python3 plfs_build_clean.py > build_output.txt
 
@@ -81,6 +85,47 @@ def find(role, labels):
         return by_label[0]
     by_name = [v for v in labels if re.search(name_pat, v, re.I) and ok(v)]
     return by_name[0] if by_name else None
+
+
+def inspect(detected):
+    """Side-by-side view of the variable picked for each role in every round, its label, and its
+    most common values, so differences in naming or coding across years are visible."""
+    names, labs, vals = {}, {}, {}
+    for rnd in ROUNDS:
+        row = detected[detected["round"] == rnd]
+        if row.empty:
+            print(f"{rnd}: not in detected_columns.csv")
+            continue
+        path = BASE / row.iloc[0]["file"]
+        labels = labels_of(path)
+        plan = {role: row.iloc[0][role] for role in FROM_DETECTED}
+        plan.update({role: find(role, labels) for role in FIND})
+        plan.update(OVERRIDES.get(rnd, {}))
+        use = {v: k for k, v in plan.items() if isinstance(v, str) and v}
+        df = pd.read_stata(path, columns=list(use), convert_categoricals=False).rename(columns=use)
+        for role in FROM_DETECTED + list(FIND):
+            v = plan.get(role)
+            names.setdefault(role, {})[rnd] = v if isinstance(v, str) and v else "NOT FOUND"
+            labs.setdefault(role, {})[rnd] = labels.get(v, "") if isinstance(v, str) else ""
+            if role in df and role not in ("nco", "nic", "weight", "age", "district"):
+                top = df[role].astype(str).str.strip().value_counts().head(12)
+                vals.setdefault(role, {})[rnd] = ", ".join(top.index)
+            elif role in df:
+                x = pd.to_numeric(df[role], errors="coerce")
+                vals.setdefault(role, {})[rnd] = (f"min {x.min():g}, max {x.max():g}, missing {x.isna().mean():.0%}"
+                                                  if x.notna().any() else "not numeric")
+        print(f"read {rnd}", file=sys.stderr)
+    with pd.option_context("display.width", 250, "display.max_colwidth", 60):
+        print("VARIABLE NAMES picked in each round (NOT FOUND = set it in OVERRIDES):")
+        print(pd.DataFrame(names).T.to_string(), "\n")
+        print("LABELS of those variables (should mean the same thing in every round):")
+        print(pd.DataFrame(labs).T.to_string(), "\n")
+        print("VALUES (most common codes, or range) - the codes should mean the same in every round:")
+        for role, per in vals.items():
+            print(f"\n{role}:")
+            for rnd, v in per.items():
+                print(f"  {rnd:<20} {v}")
+    print("\nIf every row looks consistent, run without --inspect to build the clean file.")
 
 
 def plan_round(rnd, detected):
@@ -223,6 +268,9 @@ def checks(df):
 
 def main():
     detected = pd.read_csv(BASE / "detected_columns.csv")
+    if "--inspect" in sys.argv:
+        inspect(detected)
+        return
     exposure = exposure_files()
     parts = []
     for rnd, (first_year, version) in ROUNDS.items():
