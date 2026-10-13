@@ -186,7 +186,9 @@ def load_round(rnd, first_year, version, detected, exposure):
         out["district"] = num(df["district"])
     out["urban"] = (num(df["sector"]) == 2).astype("int8")
     out["sex"] = num(df["sex"])
-    out["female"] = (out["sex"] == 2).astype("int8")
+    # sex: 1 male, 2 female, 3 transgender. female is missing for code 3 (too few to analyse
+    # separately, and they must not be counted as men); they stay in the file under sex = 3.
+    out["female"] = out["sex"].map({1: 0, 2: 1})
     out["age"] = num(df["age"])
     for v in ("marital", "social", "religion"):
         if v in df:
@@ -243,9 +245,17 @@ def checks(df):
     print("\n================ CHECKS ================")
     print("\n1. People per round (expect about 400,000-430,000):")
     print(df.groupby("round").size().to_string())
+    print("   People with sex = 3 (transgender), kept but left out of male/female comparisons:")
+    print(df[df["sex"] == 3].groupby("round").size().reindex(df["round"].unique(), fill_value=0).to_string())
+
+    print("\n1b. Largest weights per round (one person standing for millions would distort results):")
+    top = df.groupby("round")["weight"].agg(median="median", max="max")
+    top["max / median"] = top["max"] / top["median"]
+    print(top.round(0).to_string())
 
     print("\n2. Labour force participation, ages 15+, usual principal status, weighted (%):")
     a = df[df["age"] >= 15]
+    a = a[a["female"].notna()]
     lfpr = a.groupby(["round", "female"]).apply(lambda g: 100 * wmean(g["in_lf"], g["weight"])).unstack()
     lfpr.columns = ["men", "women"]
     print(lfpr.round(1).to_string())
@@ -261,7 +271,7 @@ def checks(df):
         print(miss.head(15).to_string())
 
     print("\n4. Seam check: average exposure of workers 15-64 by quarter (look for a jump 2021Q2 -> 2021Q3):")
-    seam = w.groupby(["quarter", "female"]).apply(lambda g: wmean(g["exp_ilo"], g["weight"])).unstack()
+    seam = w[w["female"].notna()].groupby(["quarter", "female"]).apply(lambda g: wmean(g["exp_ilo"], g["weight"])).unstack()
     seam.columns = ["men", "women"]
     print(seam.round(3).to_string())
 
