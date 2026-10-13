@@ -131,6 +131,7 @@ def inspect(detected):
 def plan_round(rnd, detected):
     row = detected[detected["round"] == rnd]
     if row.empty:
+        print(f"{rnd} is not in detected_columns.csv")
         sys.exit(f"{rnd} is not in detected_columns.csv: run plfs_counts_v3.py first.")
     row = row.iloc[0]
     path = BASE / row["file"]
@@ -146,6 +147,7 @@ def plan_round(rnd, detected):
         print(f"  {role:<9} {v or '-':<22} {labels.get(v, '') if v else '(not found)'}")
     if missing:
         hint = {r: [f"{v} [{l}]" for v, l in labels.items() if r[:4] in f"{v} {l}".lower()][:6] for r in missing}
+        print(f"Required variable(s) not found in {rnd}: {missing}")
         sys.exit(f"Required variable(s) not found in {rnd}: {missing}. Candidates: {hint}. "
                  "Set them in OVERRIDES and run again.")
     return path, plan
@@ -315,4 +317,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.stdout.reconfigure(line_buffering=True)  # keep what was printed even if the run stops
+    try:
+        main()
+    except SystemExit:
+        raise
+    except BaseException:
+        import traceback
+        print("\n================ ERROR ================")
+        print(traceback.format_exc())
+        print("Send this file (build_output.txt) so the error can be fixed.")
+        raise
