@@ -11,8 +11,8 @@ Put this file in the "PLFS Data" folder, next to the round folders
 (2022, 2023, ..., July17:Jun18, ...). Each round folder may hold the Stata
 files directly or inside a sub-folder; the script searches all of them.
 
-Step 1 (check what it found):   python3 plfs_cell_counts.py --inspect
-Step 2 (count):                 python3 plfs_cell_counts.py > counts_output.txt
+Step 1 (check what it found):   python3 plfs_counts_v3.py --inspect
+Step 2 (count):                 python3 plfs_counts_v3.py > counts_output.txt
 
 Outputs, written next to this file (no individual data in either):
   detected_columns.csv  which file and which variables were used per round
@@ -41,11 +41,12 @@ ROLES = ["sex", "age", "nco", "nic", "weight"]
 
 # MoSPI variable codes win over label guesses: block 4 = demographics,
 # block 5 part 1 = usual principal activity (q5 industry NIC, q6 occupation NCO).
+# The 2025 redesign names them ind_pas / ocu_pas (principal activity status).
 CODES = {
     "sex": re.compile(r"^b4q5(_|$)", re.I),
     "age": re.compile(r"^b4q6(_|$)", re.I),
-    "nic": re.compile(r"^b5pt1q5(_|$)", re.I),
-    "nco": re.compile(r"^b5pt1q6(_|$)", re.I),
+    "nic": re.compile(r"^(b5pt1q5(_|$)|ind_pas$)", re.I),
+    "nco": re.compile(r"^(b5pt1q6(_|$)|ocu_pas$)", re.I),
     "weight": re.compile(r"^(mult|mlt)", re.I),
 }
 # Fallback: match on the variable name plus its Stata label.
