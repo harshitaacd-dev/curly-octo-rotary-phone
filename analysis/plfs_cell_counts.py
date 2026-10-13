@@ -1,96 +1,200 @@
 """Day-1 feasibility check: how many women does PLFS record in data work?
 
-Counts persons by sex in
+Counts persons aged 15-64 by sex in
   - occupation NCO-2015 3-digit 413 ("keyboard operators": typists, data entry)
   - industry NIC-2008 6311x (data processing, hosting and related activities)
-  - the comparison group NIC 62xxx (IT services)
-for each PLFS person file you point it at, unweighted and survey-weighted.
+  - NIC 62 (IT services) and NIC 63 + 82 (wider definition)
+for every PLFS round folder, unweighted and (approximately) weighted.
 
-Usage
------
-1. Download each PLFS round from microdata.gov.in (free account). Keep the
-   person-level first-visit file (e.g. FPER_FV.txt, PerV1.txt, CPERV1.txt)
-   and that round's data layout Excel file.
-2. For each round, open the layout file and copy the start position and width
-   of the five fields below into ROUNDS. Field names differ across rounds,
-   which is why positions are entered by hand rather than guessed.
-3. Run:  python3 plfs_cell_counts.py
-   Output: cell_counts.csv plus a printed table.
+Put this file in the "PLFS Data" folder, next to the round folders
+(2021, 2022, ..., July17/Jun18, ...). Each round folder holds CSV, Stata (.dta)
+or JSON files; the script reads the person-level first-visit file in CSV or
+Stata form and ignores JSON.
 
-Rule of thumb: fewer than ~100 women per round in a cell means pool rounds
-or widen the definition (NIC 63 + 82) before treating it as a paper section.
+Step 1 (check what it found):   python3 plfs_cell_counts.py --inspect
+Step 2 (count):                 python3 plfs_cell_counts.py
+
+Outputs, written next to this file:
+  detected_columns.csv  which file and which columns were used per round
+  cell_counts.csv       the counts (share this one; it has no individual data)
+
+If --inspect picks a wrong file or column for a round, set it in OVERRIDES
+below and run again.
 """
 
-import csv
+import re
 import sys
 from pathlib import Path
 
 import pandas as pd
 
-# Fill one entry per round. start = 1-based start column from the layout file.
-# The values below are placeholders; replace every number with the layout's.
-ROUNDS = {
-    # "2017-18": {
-    #     "file": "data/2017-18/FPER_FV.txt",
-    #     "sex":    {"start": 0, "width": 1},   # 1 = male, 2 = female, 3 = transgender
-    #     "age":    {"start": 0, "width": 3},
-    #     "nco":    {"start": 0, "width": 3},   # usual principal status occupation (NCO-2015)
-    #     "nic":    {"start": 0, "width": 5},   # usual principal status industry (NIC-2008)
-    #     "weight": {"start": 0, "width": 10},  # multiplier; see README for the divisor
-    #     "weight_divisor": 100,                # README states how to build the final weight
-    # },
+BASE = Path(__file__).resolve().parent
+
+# Example: OVERRIDES = {"July17/Jun18": {"file": "July17/Jun18/per_fv.dta", "nco": "b5pt1q6"}}
+# Keys: file, sex, age, nco, nic, weight. Leave empty unless --inspect got something wrong.
+OVERRIDES = {}
+
+ROLES = ["sex", "age", "nco", "nic", "weight"]
+PATTERNS = {
+    "sex": re.compile(r"\bsex\b|gender", re.I),
+    "age": re.compile(r"(^|[^a-z])age([^a-z]|$)", re.I),
+    "nco": re.compile(r"nco|occupation", re.I),
+    "nic": re.compile(r"\bnic\b|nic_|nic\d|industry", re.I),
+    "weight": re.compile(r"mult|weight|wgt|mlt", re.I),
 }
+PREFER = re.compile(r"principal|usual|ups|\bps\b|_ps", re.I)
+AVOID = re.compile(r"subsid|\bss\b|_ss|weekly|cws|daily|cds|day\d|_d\d|activity_?\d", re.I)
+FIRST_VISIT = re.compile(r"fv|v1|first|perv1", re.I)
+REVISIT = re.compile(r"(^|[^a-z])rv|perrv|hhrv|revisit|v[234](\b|_)", re.I)
+HOUSEHOLD = re.compile(r"hh|household", re.I)
 
-FIELDS = ["sex", "age", "nco", "nic", "weight"]
+
+def columns_and_labels(path):
+    """Return {column: label} without loading the data."""
+    if path.suffix.lower() == ".dta":
+        with pd.io.stata.StataReader(path) as r:
+            labels = r.variable_labels()
+        return {c: labels.get(c, "") for c in labels}
+    head = pd.read_csv(path, nrows=0, low_memory=False)
+    return {c: "" for c in head.columns}
 
 
-def read_round(spec):
-    colspecs = [(spec[f]["start"] - 1, spec[f]["start"] - 1 + spec[f]["width"]) for f in FIELDS]
-    df = pd.read_fwf(spec["file"], colspecs=colspecs, names=FIELDS, dtype=str, header=None)
-    df = df.apply(lambda s: s.str.strip())
-    df["w"] = pd.to_numeric(df["weight"], errors="coerce") / spec.get("weight_divisor", 100)
+def pick_column(role, cols):
+    hits = [c for c, lab in cols.items() if PATTERNS[role].search(f"{c} {lab}")]
+    if role == "age":
+        hits = [c for c in hits if not re.search(r"wage|stage|percent|age_?group", f"{c} {cols[c]}", re.I)]
+    if not hits:
+        return None
+    def score(c):
+        text = f"{c} {cols[c]}"
+        return (bool(PREFER.search(text)) - bool(AVOID.search(text)), -len(c))
+    return sorted(hits, key=score, reverse=True)[0]
+
+
+def person_files(round_dir):
+    """Person-level, first-visit CSV/Stata files in a round folder (one format per file stem)."""
+    found = {}
+    for p in sorted(round_dir.rglob("*")):
+        if p.suffix.lower() not in (".csv", ".dta") or p.name.startswith("."):
+            continue
+        name = p.stem
+        if HOUSEHOLD.search(name) and not re.search(r"per", name, re.I):
+            continue
+        if REVISIT.search(name) and not FIRST_VISIT.search(name):
+            continue
+        try:
+            cols = columns_and_labels(p)
+        except Exception as e:  # unreadable file: report and move on
+            print(f"  could not read {p.relative_to(BASE)}: {e}")
+            continue
+        if not (pick_column("sex", cols) and pick_column("age", cols)
+                and (pick_column("nco", cols) or pick_column("nic", cols))):
+            continue
+        # prefer .dta over .csv when both exist for the same stem
+        key = name.lower()
+        if key not in found or p.suffix.lower() == ".dta":
+            found[key] = (p, cols)
+    return list(found.values())
+
+
+def detect(round_name, round_dir):
+    ov = OVERRIDES.get(round_name, {})
+    if "file" in ov:
+        p = BASE / ov["file"]
+        files = [(p, columns_and_labels(p))]
+    else:
+        files = person_files(round_dir)
+    plans = []
+    for p, cols in files:
+        plan = {"round": round_name, "file": str(p.relative_to(BASE))}
+        for role in ROLES:
+            plan[role] = ov.get(role) or pick_column(role, cols)
+            plan[f"{role}_label"] = cols.get(plan[role], "") if plan[role] else ""
+        plans.append(plan)
+    return plans
+
+
+def load(plan):
+    use = [plan[r] for r in ROLES if plan[r]]
+    path = BASE / plan["file"]
+    if path.suffix.lower() == ".dta":
+        df = pd.read_stata(path, columns=use, convert_categoricals=False)
+    else:
+        df = pd.read_csv(path, usecols=use, dtype=str, low_memory=False)
+    return df.rename(columns={plan[r]: r for r in ROLES if plan[r]})
+
+
+def code(series, width):
+    """Turn 413, 413.0, '0413 ', '01111' into zero-padded strings."""
+    s = series.astype(str).str.strip().str.replace(r"\.0+$", "", regex=True)
+    return s.where(~s.str.fullmatch(r"\d+"), s.str.zfill(width))
+
+
+def sex_code(series):
+    s = series.astype(str).str.strip().str.lower().str.replace(r"\.0+$", "", regex=True)
+    return s.replace({"male": "1", "m": "1", "female": "2", "f": "2"})
+
+
+def count(df):
+    df = df.copy()
     df["age"] = pd.to_numeric(df["age"], errors="coerce")
-    return df
-
-
-def count_cells(df):
-    work_age = df[(df["age"] >= 15) & (df["age"] <= 64)]
+    df = df[(df["age"] >= 15) & (df["age"] <= 64)]
+    df["sex"] = sex_code(df["sex"])
+    w = pd.to_numeric(df["weight"], errors="coerce") / 100 if "weight" in df else None
+    nco = code(df["nco"], 3) if "nco" in df else pd.Series("", index=df.index)
+    nic = code(df["nic"], 5) if "nic" in df else pd.Series("", index=df.index)
     cells = {
-        "NCO 413 keyboard operators": work_age["nco"].str.startswith("413", na=False),
-        "NIC 6311 data processing": work_age["nic"].str.startswith("6311", na=False),
-        "NIC 62 IT services": work_age["nic"].str.startswith("62", na=False),
-        "NIC 63 + 82 (wide definition)": work_age["nic"].str.match(r"^(63|82)", na=False),
+        "NCO 413 keyboard operators": nco.str.startswith("413"),
+        "NIC 6311 data processing": nic.str.startswith("6311"),
+        "NIC 62 IT services": nic.str.startswith("62"),
+        "NIC 63 + 82 (wide definition)": nic.str.match(r"^(63|82)"),
     }
     rows = []
-    for name, mask in cells.items():
-        sub = work_age[mask]
-        for code, label in (("1", "men"), ("2", "women")):
-            s = sub[sub["sex"] == code]
-            rows.append({"cell": name, "sex": label, "n_unweighted": len(s),
-                         "n_weighted": round(s["w"].sum())})
+    for cell, mask in cells.items():
+        for c, label in (("1", "men"), ("2", "women")):
+            m = mask & (df["sex"] == c)
+            rows.append({"cell": cell, "sex": label, "n_unweighted": int(m.sum()),
+                         "n_weighted_approx": round(w[m].sum()) if w is not None else None})
     return rows
 
 
 def main():
-    if not ROUNDS:
-        sys.exit("ROUNDS is empty: add each PLFS round's file path and field positions first.")
+    inspect = "--inspect" in sys.argv
+    rounds = sorted(d for d in BASE.iterdir() if d.is_dir() and not d.name.startswith("."))
+    plans = []
+    for d in rounds:
+        found = detect(d.name, d)
+        if not found:
+            print(f"{d.name}: no person-level CSV/Stata file with sex, age and occupation/industry found")
+        plans.extend(found)
+    detected = pd.DataFrame(plans)
+    detected.to_csv(BASE / "detected_columns.csv", index=False)
+    if detected.empty:
+        sys.exit("Nothing to count.")
+    print(detected[["round", "file"] + ROLES].to_string(index=False))
+    missing = detected[detected[["sex", "age"]].isna().any(axis=1) | detected[["nco", "nic"]].isna().all(axis=1)]
+    if not missing.empty:
+        print("\nCheck these rows: a needed column was not found. Set it in OVERRIDES.")
+    if inspect:
+        print("\nInspect only. If the files and columns look right, run without --inspect.")
+        return
+
     out = []
-    for rnd, spec in ROUNDS.items():
-        if not Path(spec["file"]).exists():
-            print(f"skip {rnd}: {spec['file']} not found")
-            continue
-        for row in count_cells(read_round(spec)):
-            out.append({"round": rnd, **row})
-    if not out:
-        sys.exit("No files read.")
-    table = pd.DataFrame(out)
-    table.to_csv("cell_counts.csv", index=False, quoting=csv.QUOTE_MINIMAL)
+    for plan in plans:
+        print(f"counting {plan['file']} ...")
+        for row in count(load(plan)):
+            out.append({"round": plan["round"], "file": plan["file"], **row})
+    table = pd.DataFrame(out).groupby(["round", "cell", "sex"], as_index=False)[
+        ["n_unweighted", "n_weighted_approx"]].sum()
+    table.to_csv(BASE / "cell_counts.csv", index=False)
+    print()
     print(table.pivot_table(index=["cell", "sex"], columns="round",
                             values="n_unweighted", aggfunc="sum").to_string())
     thin = table[(table["sex"] == "women") & (table["n_unweighted"] < 100)]
     if not thin.empty:
-        print("\nCells with fewer than 100 women (pool rounds or widen):")
+        print("\nCells with fewer than 100 women (pool rounds or widen the definition):")
         print(thin[["round", "cell", "n_unweighted"]].to_string(index=False))
+    print("\nSaved cell_counts.csv and detected_columns.csv. Share both; neither has individual data.")
 
 
 if __name__ == "__main__":
