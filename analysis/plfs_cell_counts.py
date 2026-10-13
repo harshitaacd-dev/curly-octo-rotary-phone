@@ -59,7 +59,21 @@ def columns_and_labels(path):
     return {c: "" for c in head.columns}
 
 
+# MoSPI's own variable codes win over label guesses: block 4 = demographics,
+# block 5 part 1 = usual principal activity (q5 industry NIC, q6 occupation NCO).
+CODES = {
+    "sex": re.compile(r"^b4q5(_|$)", re.I),
+    "age": re.compile(r"^b4q6(_|$)", re.I),
+    "nic": re.compile(r"^b5pt1q5(_|$)", re.I),
+    "nco": re.compile(r"^b5pt1q6(_|$)", re.I),
+    "weight": re.compile(r"^(mult|mlt)", re.I),
+}
+
+
 def pick_column(role, cols):
+    coded = [c for c in cols if CODES[role].search(c)]
+    if coded:
+        return coded[0]
     hits = [c for c, lab in cols.items() if PATTERNS[role].search(f"{c} {lab}")]
     if role == "age":
         hits = [c for c in hits if not re.search(r"wage|stage|percent|age_?group", f"{c} {cols[c]}", re.I)]
@@ -71,24 +85,37 @@ def pick_column(role, cols):
     return sorted(hits, key=score, reverse=True)[0]
 
 
-def person_files(round_dir):
-    """Person-level, first-visit CSV/Stata files in a round folder (one format per file stem)."""
+def person_files(round_dir, why):
+    """Person-level, first-visit CSV/Stata files in a round folder (one format per file stem).
+
+    Appends a one-line reason for every skipped file to `why`.
+    """
     found = {}
     for p in sorted(round_dir.rglob("*")):
-        if p.suffix.lower() not in (".csv", ".dta") or p.name.startswith("."):
+        if p.is_dir() or p.name.startswith("."):
+            continue
+        rel = p.relative_to(BASE)
+        if p.suffix.lower() not in (".csv", ".dta"):
+            why.append(f"  {rel}: skipped (not CSV or Stata)")
             continue
         name = p.stem
         if HOUSEHOLD.search(name) and not re.search(r"per", name, re.I):
+            why.append(f"  {rel}: skipped (name looks like a household file)")
             continue
         if REVISIT.search(name) and not FIRST_VISIT.search(name):
+            why.append(f"  {rel}: skipped (name looks like a revisit file)")
             continue
         try:
             cols = columns_and_labels(p)
         except Exception as e:  # unreadable file: report and move on
-            print(f"  could not read {p.relative_to(BASE)}: {e}")
+            why.append(f"  {rel}: could not read ({e})")
             continue
-        if not (pick_column("sex", cols) and pick_column("age", cols)
-                and (pick_column("nco", cols) or pick_column("nic", cols))):
+        missing = [r for r in ("sex", "age") if not pick_column(r, cols)]
+        if not (pick_column("nco", cols) or pick_column("nic", cols)):
+            missing.append("occupation/industry")
+        if missing:
+            sample = ", ".join(f"{c}" + (f" [{cols[c][:40]}]" if cols[c] else "") for c in list(cols)[:25])
+            why.append(f"  {rel}: no {', '.join(missing)} column found. First columns: {sample}")
             continue
         # prefer .dta over .csv when both exist for the same stem
         key = name.lower()
@@ -99,11 +126,15 @@ def person_files(round_dir):
 
 def detect(round_name, round_dir):
     ov = OVERRIDES.get(round_name, {})
+    why = []
     if "file" in ov:
         p = BASE / ov["file"]
         files = [(p, columns_and_labels(p))]
     else:
-        files = person_files(round_dir)
+        files = person_files(round_dir, why)
+    if not files:
+        print(f"{round_name}: no person-level CSV/Stata file with sex, age and occupation/industry found")
+        print("\n".join(why) if why else "  (folder is empty)")
     plans = []
     for p, cols in files:
         plan = {"round": round_name, "file": str(p.relative_to(BASE))}
@@ -163,15 +194,16 @@ def main():
     rounds = sorted(d for d in BASE.iterdir() if d.is_dir() and not d.name.startswith("."))
     plans = []
     for d in rounds:
-        found = detect(d.name, d)
-        if not found:
-            print(f"{d.name}: no person-level CSV/Stata file with sex, age and occupation/industry found")
-        plans.extend(found)
+        plans.extend(detect(d.name, d))
     detected = pd.DataFrame(plans)
     detected.to_csv(BASE / "detected_columns.csv", index=False)
     if detected.empty:
         sys.exit("Nothing to count.")
     print(detected[["round", "file"] + ROLES].to_string(index=False))
+    if inspect:
+        print("\nLabels of the occupation and industry columns used (should say principal/usual activity):")
+        for _, r in detected.iterrows():
+            print(f"  {r['round']}: nco={r['nco']} [{r['nco_label']}] | nic={r['nic']} [{r['nic_label']}]")
     missing = detected[detected[["sex", "age"]].isna().any(axis=1) | detected[["nco", "nic"]].isna().all(axis=1)]
     if not missing.empty:
         print("\nCheck these rows: a needed column was not found. Set it in OVERRIDES.")
