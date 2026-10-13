@@ -19,7 +19,8 @@ Definitions
               ILO score; the same cut-offs are used for every round
   ILO high    at least half of the occupation's 4-digit ISCO jobs are in ILO
               exposure gradients 3-4 (the ILO's own "highest exposure" groups)
-  graduate    general education code 13 (graduate) or 14 (postgraduate and above)
+  graduate    general education code 12 (graduate) or 13 (postgraduate and above);
+              the code counts are printed so this can be checked against the codebook
 """
 
 import re
@@ -65,6 +66,8 @@ def load(plan, exposure):
     df = df[df["age"].between(15, 64) & df["nco"].str.fullmatch(r"\d{3}") & df["sex"].isin([1, 2])]
     df = df.merge(exposure, left_on="nco", right_on="nco2015_3d", how="left")
     matched = df[SCORE].notna()
+    if "edu" in df:
+        print("  education codes (workers):", df["edu"].value_counts().sort_index().to_dict())
     print(f"  workers 15-64: {len(df):,}; matched to an exposure score: "
           f"{df.loc[matched, 'w'].sum() / df['w'].sum():.1%} of weighted workers")
     unmatched = df.loc[~matched, "nco"].value_counts().head(8)
@@ -106,8 +109,8 @@ def groups(df):
         yield "Rural", df[df["sector"] == 1]
         yield "Urban", df[df["sector"] == 2]
     if "edu" in df:
-        yield "Graduates", df[df["edu"] >= 13]
-        yield "Urban graduates", df[(df["edu"] >= 13) & (df.get("sector") == 2)]
+        yield "Graduates", df[df["edu"] >= 12]
+        yield "Urban graduates", df[(df["edu"] >= 12) & (df.get("sector") == 2)]
 
 
 def main():
