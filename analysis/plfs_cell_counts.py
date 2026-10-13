@@ -34,6 +34,10 @@ BASE = Path(__file__).resolve().parent
 # Keys: file, sex, age, nco, nic, weight. Leave empty unless --inspect got something wrong.
 OVERRIDES = {}
 
+# Round folders to leave out. "2021" holds only current-weekly-status (CWS) job codes,
+# not the usual principal activity used for every other round, so it is not comparable.
+SKIP = {"2021"}
+
 ROLES = ["sex", "age", "nco", "nic", "weight"]
 PATTERNS = {
     "sex": re.compile(r"\bsex\b|gender", re.I),
@@ -135,6 +139,10 @@ def detect(round_name, round_dir):
     if not files:
         print(f"{round_name}: no person-level CSV/Stata file with sex, age and occupation/industry found")
         print("\n".join(why) if why else "  (folder is empty)")
+    if len(files) > 1:
+        print(f"{round_name}: WARNING, {len(files)} person files found and all will be added up; "
+              "if they are the same data in two formats, keep one:")
+        print("\n".join(f"  {p.relative_to(BASE)}" for p, _ in files))
     plans = []
     for p, cols in files:
         plan = {"round": round_name, "file": str(p.relative_to(BASE))}
@@ -168,19 +176,25 @@ def sex_code(series):
 
 def count(df):
     df = df.copy()
+    df["sex"] = sex_code(df["sex"])
+    w_all = pd.to_numeric(df["weight"], errors="coerce") / 100 if "weight" in df else None
+    rows = [{"cell": "All persons in file (any age)", "sex": label,
+             "n_unweighted": int((df["sex"] == c).sum()),
+             "n_weighted_approx": round(w_all[df["sex"] == c].sum()) if w_all is not None else None}
+            for c, label in (("1", "men"), ("2", "women"))]
     df["age"] = pd.to_numeric(df["age"], errors="coerce")
     df = df[(df["age"] >= 15) & (df["age"] <= 64)]
-    df["sex"] = sex_code(df["sex"])
     w = pd.to_numeric(df["weight"], errors="coerce") / 100 if "weight" in df else None
     nco = code(df["nco"], 3) if "nco" in df else pd.Series("", index=df.index)
     nic = code(df["nic"], 5) if "nic" in df else pd.Series("", index=df.index)
     cells = {
+        "Aged 15-64": pd.Series(True, index=df.index),
+        "Aged 15-64 with an occupation code": nco.str.fullmatch(r"\d{3}"),
         "NCO 413 keyboard operators": nco.str.startswith("413"),
         "NIC 6311 data processing": nic.str.startswith("6311"),
         "NIC 62 IT services": nic.str.startswith("62"),
         "NIC 63 + 82 (wide definition)": nic.str.match(r"^(63|82)"),
     }
-    rows = []
     for cell, mask in cells.items():
         for c, label in (("1", "men"), ("2", "women")):
             m = mask & (df["sex"] == c)
@@ -194,6 +208,9 @@ def main():
     rounds = sorted(d for d in BASE.iterdir() if d.is_dir() and not d.name.startswith("."))
     plans = []
     for d in rounds:
+        if d.name in SKIP:
+            print(f"{d.name}: skipped (listed in SKIP)")
+            continue
         plans.extend(detect(d.name, d))
     detected = pd.DataFrame(plans)
     detected.to_csv(BASE / "detected_columns.csv", index=False)
