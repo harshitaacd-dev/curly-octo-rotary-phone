@@ -45,8 +45,20 @@ def clean(x):
     return re.sub(r"\s+", " ", x).strip()
 
 
+def get_page(s, url):
+    for attempt in range(5):
+        try:
+            r = s.get(url, timeout=120)
+            r.raise_for_status()
+            return r.text
+        except requests.RequestException:
+            if attempt == 4:
+                raise
+            time.sleep(2 ** (attempt + 2))
+
+
 def list_tables(s, year, page):
-    t = s.get(BASE + PAGES[page].format(y=year), timeout=120).text
+    t = get_page(s, BASE + PAGES[page].format(y=year))
     rows = []
     parts = re.split(r'<h2 class="c-genriccontent__subhead">(.*?)</h2>', t, flags=re.S)
     for heading, body in zip(parts[1::2], parts[2::2]):
