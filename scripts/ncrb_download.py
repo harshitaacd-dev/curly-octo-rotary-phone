@@ -17,7 +17,7 @@ PAGES = {
     "additional": "/crime-in-india-additional-table.html?year={y}&category=",
 }
 TOPICS = {
-    "women": re.compile(r"\bwomen\b|\brape\b|dowry|\bmodesty\b", re.I),
+    "women": re.compile(r"(?<![a-z])(women|rape|dowry|modesty)(?![a-z])", re.I),
     "cyber": re.compile(r"cyber|\bI\.?\s?T\.? Act\b|information technology", re.I),
 }
 # Women-related tables that are about police staffing, not crime.
