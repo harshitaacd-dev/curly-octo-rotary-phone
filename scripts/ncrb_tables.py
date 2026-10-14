@@ -21,6 +21,11 @@ STATE_FIX = {
     "Dadra & Nagar Haveli": "D&N Haveli", "UT of Delhi": "Delhi", "Delhi UT": "Delhi",
     "A & N Islands": "A&N Islands", "Andaman & Nicobar Islands": "A&N Islands",
 }
+STATES = {"Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat",
+          "Haryana", "Himachal Pradesh", "Jammu & Kashmir", "Jharkhand", "Karnataka", "Kerala",
+          "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha",
+          "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh",
+          "Uttarakhand", "West Bengal"}
 UTS = {"A&N Islands", "Chandigarh", "D&N Haveli", "Daman & Diu", "D&N Haveli and Daman & Diu",
        "Delhi", "Lakshadweep", "Puducherry", "Ladakh"}  # plus Jammu & Kashmir from 2019
 

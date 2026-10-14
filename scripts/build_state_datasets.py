@@ -15,17 +15,18 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(__file__))
 from ncrb_tables import parse_state_table, read_rows, text, number, clean_state, UTS  # noqa: E402
+from ncrb_pdf import parse_pdf_table  # noqa: E402
 
 AGG = {"total_states": "Total (States)", "total_uts": "Total (UTs)", "total_india": "All India"}
 
 
 # ---------------------------------------------------------------- catalog helpers
-def find(catalog, year, title_rx, fmt=("xlsx", "xls"), exclude=None):
+def find(catalog, year, title_rx, fmt=("xlsx", "xls"), exclude=None, data_year=None):
     hits = [r for r in catalog if int(r["year"]) == year and r["format"] in fmt
             and r["status"] in ("ok", "exists") and re.search(title_rx, r["title"], re.I)
             and not (exclude and re.search(exclude, r["title"], re.I))]
     for r in hits:
-        if title_year_ok(os.path.join(SRC, r["file"]), year):
+        if title_year_ok(os.path.join(SRC, r["file"]), data_year or year):
             return r
         print(f"skipping {r['file']}: its title is for a different year", file=sys.stderr)
     return None
@@ -110,7 +111,10 @@ CYBER_KEYS = [  # matched against the last segment of the head path
     ("fake_profile", r"^Fake Profile"),
     ("cyber_blackmail_threat", r"^Cyber Blackmailing"),
     ("fake_news", r"^Fake News"),
-    ("fraud_total", r"^(Fraud\b(?!.*>)|Fraud \(Total\)|Criminal Breach of Trust/Fraud)"),
+    # Before 2017 NCRB's cyber "fraud" head was criminal breach of trust (Sec 406-409) only;
+    # from 2017 it is Sec 420 r/w 465, 468-471 fraud. Keep them apart.
+    ("fraud_total", r"^(Fraud\b(?!.*>)|Fraud \(Total\))"),
+    ("cbt_fraud", r"^Criminal Breach of Trust/Fraud"),
     ("cheating", r"^Cheating( \(Sec|$)"),
     ("forgery", r"^Forgery"),
     ("data_theft", r"^Data [Tt]heft"),
@@ -270,6 +274,213 @@ def read_cyber_2014(store, rec):
                       cell["cyber_it_act_total"] + cell["cyber_ipc_total"] + cell["cyber_sll_total"], f)
 
 
+# ---------------------------------------------------------------- PDF-only years
+# Column maps written from the printed headers: NCRB column number -> (key, label).
+# For crimes against women each key column is "I" (cases); "V" and "R" follow it.
+WOMEN_2016_3A2 = {
+    "3": ("dowry_deaths", "Dowry Deaths (Sec.304B IPC)"),
+    "6": ("abetment_suicide_women", "Abetment of Suicide of Women (Sec.306 IPC)"),
+    "9": (None, "Causing miscarriage without women's consent (Sec.313 IPC)"),
+    "12": (None, "Deaths caused by act done with intent to cause miscarriage (Sec.314 IPC)"),
+    "15": ("acid_attack_incl_attempt", "Acid Attack (Sec. 326A IPC) & Attempt to Acid Attack (Sec. 326B IPC)"),
+    "18": ("cruelty_husband_relatives", "Cruelty by Husband or his relatives (Sec. 498A IPC)"),
+    "21": ("kidnap_abduction_women", "Kidnapping & Abduction of Women (Total)"),
+    "21A": (None, "Kidnapping & Abduction (Sec.363 IPC)"),
+    "21B": (None, "Kidnapping & Abduction in order to Murder (Sec.364 IPC)"),
+    "21C": (None, "Kidnapping for Ransom (Sec.364A IPC)"),
+    "21D": ("kidnap_for_marriage", "Kidnapping & Abduction of Women to compel her for Marriage (Sec.366 IPC)"),
+    "21E": (None, "Other Kidnapping & Abduction (Female) (Sec.363A, 365, 366A, 366B, 367, 368, 369 IPC)"),
+    "24": ("human_trafficking_370", "Human Trafficking (Female) (Sec.370 & 370A IPC)"),
+    "27": ("rape", "Rape (Total)"),
+    "27A": (None, "Rape (Sec.376 IPC)"),
+    "27B": (None, "Gang Rape (Sec.376D IPC)"),
+    "27C": (None, "Custodial Rape (Sec.376C IPC)"),
+    "30": ("attempt_rape", "Attempt to Commit Rape (Sec.376/511 IPC)"),
+    "33": (None, "Unnatural Offences (Sec.377 IPC)"),
+    "36": ("assault_modesty_354", "Assault on Women with Intent to Outrage her Modesty (Total)"),
+    "36A": (None, "Assault on Women (Sec.354 IPC)"),
+    "36B": ("sexual_harassment_354a", "Sexual Harassment (Sec.354A IPC)"),
+    "36C": ("disrobe_354b", "Assault or Use of Criminal Force to Women with Intent to Disrobe (Sec.354B IPC)"),
+    "36D": ("voyeurism_354c", "Voyeurism (Sec.354C IPC)"),
+    "36E": ("stalking_354d", "Stalking (Sec.354D IPC)"),
+    "39": ("insult_modesty_509", "Insult to the Modesty of Women (Sec.509 IPC)"),
+    "42": ("total_ipc_caw", "Total IPC Crimes against Women"),
+    "45": ("dowry_prohibition_act", "Dowry Prohibition Act, 1961"),
+    "48": ("immoral_traffic_act", "Immoral Traffic (Prevention) Act 1956 (Total)"),
+    "48A": (None, "ITP Act - Procuring/Inducing a Person for sake of Prostitution (Sec 5)"),
+    "48B": (None, "ITP Act - Detaining a Person in Premises where prostitution is carried on (Sec 6)"),
+    "48C": (None, "ITP Act - Prostitution in the Vicinity of Public Places (Sec 7)"),
+    "48D": (None, "ITP Act - Seducing or Soliciting for Prostitution (Sec 8)"),
+    "48E": (None, "ITP Act - Other Sections"),
+    "51": ("domestic_violence_act", "Protection of Women from Domestic Violence Act, 2005"),
+    "54": ("cyber_women_sexually_explicit_67a_67b", "Publishing or Transmitting of Material containing Sexually Explicit Act (Sec 67A IT Act)"),
+    "57": ("indecent_representation_act", "Indecent Representation of Women (Prohibition) Act, 1986"),
+    "60": ("total_sll_caw", "Total SLL Crimes against Women"),
+    "63": ("total_caw", "Total Crime against Women (IPC+SLL)"),
+}
+CYBER_2016 = {  # Tables 9A.2(i)-(iii), 2016
+    "9A.2(i)": {
+        "3": ("it65_tampering", "Tampering Computer Source Documents (Sec 65)"),
+        "4": ("it66_computer_related_total", "Computer Related Offences (Sec 66 and 66B-E) (Total)"),
+        "4A": (None, "Computer Related Offences - Under Section 66"),
+        "4B": (None, "Computer Related Offences - Under Section 66B"),
+        "4C": ("it66c_identity_theft", "Identity Theft (Sec 66C)"),
+        "4D": ("it66d_cheating_personation", "Cheating by Personation using Computer Resource (Sec 66D)"),
+        "4E": ("it66e_violation_privacy", "Violation of Privacy (Sec 66E)"),
+        "5": (None, "Cyber Terrorism (Sec 66F)"),
+        "6": ("it67_total", "Publication/Transmission of Obscene/Sexually Explicit Act in Electronic Form (Total)"),
+        "6A": ("it67a_sexually_explicit", "Under Section 67A"),
+        "6B": ("it67b_child_sexual_material", "Under Section 67B"),
+        "6C": ("it67c_retention", "Under Section 67C"),
+        "7": ("it72_breach_privacy", "Breach of Confidentiality/Privacy (Sec 72) & Disclosure of Information in Breach of Lawful Contract (Sec 72A)"),
+        "8": (None, "Other Cyber Crimes (IT Act)"),
+        "9": ("it_act_total", "Total Cyber Crimes under IT Act"),
+    },
+    "9A.2(ii)": {
+        "3": ("data_theft", "Data Theft (Sec 379 to 381 IPC)"),
+        "4": ("cbt_fraud", "Criminal Breach of Trust/Fraud (Sec 406, 408, 409 IPC) (Total)"),
+        "4A": (None, "Criminal Breach of Trust/Fraud - Debit Card/Credit Card"),
+        "4B": (None, "Criminal Breach of Trust/Fraud - Others"),
+        "5": ("cheating", "Cheating (Sec 420 IPC)"),
+        "6": ("forgery", "Forgery (Sec 465-468, 471 & 477A IPC)"),
+        "7": (None, "Counterfeiting (Sec 489A to 489E IPC)"),
+        "8": (None, "Fabrication of False Evidence/Destruction of Electronic Records (Sec 193, 204 IPC)"),
+        "9": (None, "Other IPC Crimes"),
+        "10": ("ipc_total", "Total Cyber Crimes under IPC"),
+    },
+    "9A.2(iii)": {
+        "3": (None, "Copy Right Act"),
+        "4": (None, "Trade Marks Act, 1999"),
+        "5": (None, "Other SLL Offences"),
+        "6": ("sll_total", "Total Cyber Crimes under SLL"),
+        "10": ("cyber_total", "Total Cyber Crimes"),
+    },
+}
+CYBER_2013 = {
+    "18.6": {
+        "3": ("it65_tampering", "Tampering Computer Source Document (Sec 65)"),
+        "4": (None, "Hacking - Loss/damage to computer resource/utility (Sec 66(1))"),
+        "5": (None, "Hacking (Sec 66(2))"),
+        "6": ("it67_total", "Obscene Publication/Transmission in Electronic Form (Sec 67)"),
+        "7": (None, "Failure of compliance/orders of Certifying Authority (Sec 68)"),
+        "8": (None, "Failure to assist in decrypting information intercepted by Govt. Agency (Sec 69)"),
+        "9": (None, "Un-authorised access/attempt to access protected computer system (Sec 70)"),
+        "10": (None, "Obtaining Licence or Digital Signature by misrepresentation (Sec 71)"),
+        "11": (None, "Publishing false Digital Signature certificate (Sec 73)"),
+        "12": (None, "Fraud Digital Signature (Sec 74)"),
+        "13": ("it72_breach_privacy", "Breach of confidentiality/privacy (Sec 72)"),
+        "14": (None, "Others (IT Act)"),
+        "15": ("it_act_total", "Total (IT Act)"),
+    },
+    "18.7": {
+        "3": (None, "Offences by/Against Public Servant"),
+        "4": (None, "False electronic evidence"),
+        "5": (None, "Destruction of electronic evidence"),
+        "6": ("forgery", "Forgery"),
+        "7": ("cbt_fraud", "Criminal Breach of Trust/Fraud"),
+        "8": (None, "Counterfeiting - Property mark"),
+        "9": (None, "Counterfeiting - Tampering"),
+        "10": (None, "Counterfeiting - Currency/Stamps"),
+        "11": ("ipc_total", "Total (IPC)"),
+    },
+}
+
+
+def shift(col, k):
+    m = re.match(r"(\d+)([A-Z]?)$", col)
+    return f"{int(m.group(1)) + k}{m.group(2)}"
+
+
+def read_pdf_mapped(store, cat, year, path, table, colmap, prefix, triplets=False):
+    """Read a PDF table whose columns are described by colmap {col: (key, label)}."""
+    _, recs = parse_pdf_table(os.path.join(SRC, path))
+    lookup = {}
+    for col, (key, label) in colmap.items():
+        if triplets:
+            for k, measure in ((0, "cases"), (1, "victims"), (2, "rate")):
+                lookup[shift(col, k)] = (key, label, measure)
+        else:
+            lookup[col] = (key, label, "cases")
+    n = 0
+    for r in recs:
+        if r["col"] not in lookup:
+            continue
+        key, label, measure = lookup[r["col"]]
+        st = state_name(r)
+        store.add(year, st, cat, table, label, measure, key, r["value"], path)
+        if key:
+            var = f"{prefix}{key}" + ("" if measure == "cases" else f"_{measure}")
+            store.put(year, st, var, r["value"], path, overwrite=False)
+        n += 1
+    return n
+
+
+def read_pdf_with_excel_heads(store, cat, year, path, template, table, keys, prefix):
+    """PDF whose layout matches another year's Excel table: take headers from the template."""
+    heads = {}
+    for r in parse_state_table(os.path.join(SRC, template)):
+        heads.setdefault(str(r["col"]), r["head"])
+    _, recs = parse_pdf_table(os.path.join(SRC, path))
+    for r in recs:
+        if r["col"] not in heads:
+            continue
+        p, measure = split_measure(heads[r["col"]])
+        key = match_key(keys, p)
+        st = state_name(r)
+        store.add(year, st, cat, table, p, measure, key, r["value"], path)
+        if key and measure in ("cases", "victims", "rate"):
+            store.put(year, st, f"{prefix}{key}" + ("" if measure == "cases" else f"_{measure}"),
+                      r["value"], path, overwrite=False)
+
+
+def read_pdf_years(store, path, colyears, prefix, table):
+    """Multi-year totals tables (e.g. 18.1: IT Act and IPC for 2012 & 2013)."""
+    _, recs = parse_pdf_table(os.path.join(SRC, path))
+    for r in recs:
+        if r["col"] in colyears:
+            y, var = colyears[r["col"]]
+            st = state_name(r)
+            store.add(y, st, "cyber", table, var, "cases", var, r["value"], path)
+            store.put(y, st, f"{prefix}{var}", r["value"], path, overwrite=False)
+
+
+def read_pdf_only_years(store, catalog):
+    def pdf(year, rx):
+        hits = [r for r in catalog if int(r["year"]) == year and r["format"] == "pdf"
+                and r["status"] in ("ok", "exists") and re.search(rx, r["title"], re.I)]
+        return hits[0]["file"] if hits else None
+
+    # 2019 crime heads (the Excel link serves 2020 data). Same layout as 2018 Excel.
+    tmpl = find(catalog, 2018, r"Crimes? Against Women.*Crime Head-wise & States?/UT")
+    p2019 = "2019/women/Table-3A.2_2.pdf"
+    if tmpl and os.path.exists(os.path.join(SRC, p2019)):
+        read_pdf_with_excel_heads(store, "women", 2019, p2019, tmpl["file"], "3A.2", WOMEN_KEYS, "women_")
+    f = pdf(2016, r"^Incidence \(Crime Head-wise & States/UT-wise\) -- 2016")
+    if f:
+        read_pdf_mapped(store, "women", 2016, f, "3A.2", WOMEN_2016_3A2, "women_", triplets=True)
+    for table, rx in (("9A.2(i)", r"IT Act Cases"), ("9A.2(ii)", r"^9A\.2\(ii\)"), ("9A.2(iii)", r"^9A\.2\(iii\)")):
+        f = pdf(2016, rx)
+        if f:
+            read_pdf_mapped(store, "cyber", 2016, f, table, CYBER_2016[table], "cyber_")
+    f = pdf(2016, r"Cyber Crimes Incidence & Crime Rate \(State/UT-wise\)")
+    if f:
+        _, recs = parse_pdf_table(os.path.join(SRC, f))
+        for r in recs:
+            var = {"8": "cyber_population_lakh", "9": "cyber_rate"}.get(r["col"])
+            if var:
+                store.put(2016, state_name(r), var, r["value"], f, overwrite=False)
+    f = pdf(2013, r"Cases Registered under I\.T\. Act \(State")
+    if f:
+        read_pdf_mapped(store, "cyber", 2013, f, "18.6", CYBER_2013["18.6"], "cyber_")
+    f = pdf(2013, r"Cases Registered under IPC \(State")
+    if f:
+        read_pdf_mapped(store, "cyber", 2013, f, "18.7", CYBER_2013["18.7"], "cyber_")
+    f = pdf(2013, r"Incidence of Cases Registered under Cyber Crimes \(State")
+    if f:  # 2012 & 2013 totals: IT Act (cols 3, 4) and IPC (cols 6, 7); no SLL heads then
+        read_pdf_years(store, f, {"3": (2012, "it_act_total"), "4": (2013, "it_act_total"),
+                                  "6": (2012, "ipc_total"), "7": (2013, "ipc_total")}, "cyber_", "18.1")
+
+
 # ---------------------------------------------------------------- main
 def main(src, out):
     global SRC
@@ -281,7 +492,7 @@ def main(src, out):
     # The 2015 edition's multi-year files go first so each year keeps its own report's figures.
     rec = find(catalog, 2015, r"Yearwise Cases reported under Crimes against Women during 2001-2015\(Individual State\)")
     read_women_2001_2015(store, rec)
-    rec = find(catalog, 2015, r"Cases Reported Under Cyber Crimes during 2014-2015\(StateUT\)")
+    rec = find(catalog, 2015, r"Cases Reported Under Cyber Crimes during 2014-2015\(StateUT\)", data_year=2014)
     read_cyber_2014(store, rec)
 
     for year in range(2017, 2025):
@@ -304,62 +515,147 @@ def main(src, out):
         if rec:
             read_heads(store, "cyber", year, rec, "9A.11", CYBER_CHILD_KEYS, True, "cyber_")
 
+    read_pdf_only_years(store, catalog)
+    for (st, y), cell in store.panel.items():
+        if y in (2012, 2013) and "cyber_cases" not in cell and \
+                "cyber_it_act_total" in cell and "cyber_ipc_total" in cell:
+            cell["cyber_cases"] = cell["cyber_it_act_total"] + cell["cyber_ipc_total"]
+        if y != 2016 and "women_acid_attack" in cell:
+            cell["women_acid_attack_incl_attempt"] = cell["women_acid_attack"] + cell.get("women_attempt_acid_attack", 0)
+
     # 2024 splits Sec 354 into 354/354A/354B/354C/354D (BNS 74-78); earlier years report
     # them together under 354. Add a comparable total for 2024.
     for (st, y), cell in store.panel.items():
         parts = ["women_assault_modesty_354", "women_sexual_harassment_354a", "women_disrobe_354b",
                  "women_voyeurism_354c", "women_stalking_354d"]
-        if y >= 2024 and all(p in cell for p in parts):
+        if y == 2016 and "women_assault_modesty_354" in cell:
+            cell["women_assault_modesty_354_incl_abcd"] = cell["women_assault_modesty_354"]
+        elif y >= 2024 and all(p in cell for p in parts):
             cell["women_assault_modesty_354_incl_abcd"] = sum(cell[p] for p in parts)
         elif y < 2024 and "women_assault_modesty_354" in cell:
             cell["women_assault_modesty_354_incl_abcd"] = cell["women_assault_modesty_354"]
+    # Sexual / abusive cyber crimes. NCRB counts each case once, under its principal offence,
+    # so these heads do not overlap and can be added.
+    #   sexual content = IT Act Sec 67 (obscene), 67A (sexually explicit), 67B (child sexual
+    #                    abuse material), other Sec 67, excluding 67C (data retention by
+    #                    intermediaries), plus Sec 66E (violation of privacy: capturing or
+    #                    publishing private images)
+    #   abusive        = cyber stalking/bullying, cyber blackmailing/threatening,
+    #                    defamation/morphing, fake profile, online abetment of suicide,
+    #                    and (2024) sexual intercourse by deceitful means (BNS 69)
     for (st, y), cell in store.panel.items():
-        sexual = [cell.get(k) for k in ("cyber_it67_total",)]
+        if "cyber_it67_total" in cell:
+            cell["cyber_sexual_content_total"] = (cell["cyber_it67_total"] - cell.get("cyber_it67c_retention", 0)
+                                                  + cell.get("cyber_it66e_violation_privacy", 0))
         abusive = [cell.get(k) for k in ("cyber_cyber_stalking_bullying", "cyber_cyber_blackmail_threat",
                                          "cyber_defamation_morphing", "cyber_fake_profile")]
-        if sexual[0] is not None:
-            cell["cyber_sexual_content_total"] = sexual[0] + cell.get("cyber_it66e_violation_privacy", 0)
-        if y >= 2017 and all(v is not None for v in abusive):
-            cell["cyber_abusive_total"] = sum(abusive) + cell.get("cyber_sexual_intercourse_deceit_bns69", 0)
+        if all(v is not None for v in abusive):
+            cell["cyber_abusive_total"] = (sum(abusive) + cell.get("cyber_abetment_suicide_online", 0)
+                                           + cell.get("cyber_sexual_intercourse_deceit_bns69", 0))
         if "cyber_sexual_content_total" in cell and "cyber_abusive_total" in cell:
             cell["cyber_sexual_abusive_total"] = cell["cyber_sexual_content_total"] + cell["cyber_abusive_total"]
+        if cell.get("cyber_cases") and "cyber_sexual_abusive_total" in cell:
+            cell["cyber_sexual_abusive_share_pct"] = round(100 * cell["cyber_sexual_abusive_total"] / cell["cyber_cases"], 2)
 
     write_outputs(store, out)
 
 
 ID = ["state", "year", "row_type"]
 PANEL_COLS = [
-    "women_cases", "women_population_lakh", "women_rate", "women_chargesheeting_rate",
-    "women_total_ipc_caw", "women_total_sll_caw",
-    "women_rape", "women_rape_women_18plus", "women_rape_girls_u18", "women_attempt_rape",
-    "women_murder_with_rape", "women_sexual_intercourse_deceit_bns69", "women_dowry_deaths",
-    "women_abetment_suicide_women", "women_acid_attack", "women_attempt_acid_attack",
-    "women_cruelty_husband_relatives", "women_kidnap_abduction_women", "women_kidnap_for_marriage",
-    "women_assault_modesty_354", "women_assault_modesty_354_incl_abcd", "women_sexual_harassment_354a",
-    "women_disrobe_354b", "women_voyeurism_354c", "women_stalking_354d", "women_insult_modesty_509",
-    "women_human_trafficking_370", "women_procuration_minor_girls", "women_importation_girls",
-    "women_selling_girls", "women_buying_girls", "women_dowry_prohibition_act",
-    "women_immoral_traffic_act", "women_domestic_violence_act", "women_indecent_representation_act",
-    "women_pocso_girls", "women_cyber_women_centric",
-    "cyber_cases", "cyber_population_lakh", "cyber_rate", "cyber_chargesheeting_rate",
-    "cyber_it_act_total", "cyber_ipc_total", "cyber_sll_total", "cyber_fraud_total", "cyber_cheating",
-    "cyber_forgery", "cyber_data_theft", "cyber_it66_computer_related_total", "cyber_it66c_identity_theft",
-    "cyber_it66d_cheating_personation", "cyber_it67_total", "cyber_fake_news",
-    "cyber_sexual_abusive_total", "cyber_women_cyber_total", "cyber_children_cyber_total",
+    ("women_cases", "women_total_cases"),
+    ("women_population_lakh", "female_population_lakh"),
+    ("women_rate", "women_crime_rate"),
+    ("women_chargesheeting_rate", "women_chargesheeting_rate"),
+    ("women_total_ipc_caw", "women_ipc_total"),
+    ("women_total_sll_caw", "women_sll_total"),
+    ("women_rape", "rape"),
+    ("women_rape_women_18plus", "rape_women_18plus"),
+    ("women_rape_girls_u18", "rape_girls_under18"),
+    ("women_attempt_rape", "attempt_to_rape"),
+    ("women_murder_with_rape", "murder_with_rape"),
+    ("women_sexual_intercourse_deceit_bns69", "sexual_intercourse_by_deceit_bns69"),
+    ("women_dowry_deaths", "dowry_deaths"),
+    ("women_abetment_suicide_women", "abetment_of_suicide_of_women"),
+    ("women_acid_attack", "acid_attack"),
+    ("women_attempt_acid_attack", "attempt_acid_attack"),
+    ("women_acid_attack_incl_attempt", "acid_attack_incl_attempt"),
+    ("women_cruelty_husband_relatives", "cruelty_by_husband_or_relatives"),
+    ("women_kidnap_abduction_women", "kidnapping_abduction_of_women"),
+    ("women_kidnap_for_marriage", "kidnapping_to_compel_marriage"),
+    ("women_assault_modesty_354", "assault_outrage_modesty_354_as_reported"),
+    ("women_assault_modesty_354_incl_abcd", "assault_outrage_modesty_354_incl_354a_d"),
+    ("women_sexual_harassment_354a", "sexual_harassment_354a"),
+    ("women_disrobe_354b", "assault_to_disrobe_354b"),
+    ("women_voyeurism_354c", "voyeurism_354c"),
+    ("women_stalking_354d", "stalking_354d"),
+    ("women_insult_modesty_509", "insult_to_modesty_509"),
+    ("women_human_trafficking_370", "human_trafficking_370"),
+    ("women_procuration_minor_girls", "procuration_of_minor_girls"),
+    ("women_importation_girls", "importation_of_girls"),
+    ("women_selling_girls", "selling_of_girls"),
+    ("women_buying_girls", "buying_of_girls"),
+    ("women_dowry_prohibition_act", "dowry_prohibition_act"),
+    ("women_immoral_traffic_act", "immoral_traffic_act"),
+    ("women_domestic_violence_act", "domestic_violence_act"),
+    ("women_indecent_representation_act", "indecent_representation_act"),
+    ("women_pocso_girls", "pocso_girl_victims"),
+    ("women_cyber_women_centric", "women_centric_cyber_crimes"),
+    ("cyber_cases", "cyber_total_cases"),
+    ("cyber_population_lakh", "population_lakh"),
+    ("cyber_rate", "cyber_crime_rate"),
+    ("cyber_chargesheeting_rate", "cyber_chargesheeting_rate"),
+    ("cyber_it_act_total", "cyber_it_act_total"),
+    ("cyber_ipc_total", "cyber_ipc_total"),
+    ("cyber_sll_total", "cyber_sll_total"),
+    ("cyber_fraud_total", "cyber_fraud"),
+    ("cyber_cbt_fraud", "cyber_criminal_breach_of_trust_fraud"),
+    ("cyber_cheating", "cyber_cheating"),
+    ("cyber_forgery", "cyber_forgery"),
+    ("cyber_data_theft", "cyber_data_theft"),
+    ("cyber_it66_computer_related_total", "cyber_computer_related_offences_66"),
+    ("cyber_it66c_identity_theft", "cyber_identity_theft_66c"),
+    ("cyber_it66d_cheating_personation", "cyber_cheating_by_personation_66d"),
+    ("cyber_fake_news", "cyber_fake_news"),
+    ("cyber_sexual_abusive_total", "cyber_sexual_abusive_total"),
+    ("cyber_women_cyber_total", "cyber_crimes_against_women"),
+    ("cyber_children_cyber_total", "cyber_crimes_against_children"),
 ]
 SEXUAL_COLS = [
-    "cyber_cases", "cyber_sexual_abusive_total", "cyber_sexual_content_total", "cyber_abusive_total",
-    "cyber_it67_total", "cyber_it67_obscene", "cyber_it67a_sexually_explicit",
-    "cyber_it67b_child_sexual_material", "cyber_it67_other", "cyber_it66e_violation_privacy",
-    "cyber_cyber_stalking_bullying", "cyber_cyber_blackmail_threat", "cyber_defamation_morphing",
-    "cyber_fake_profile", "cyber_sexual_intercourse_deceit_bns69", "cyber_abetment_suicide_online",
-    "cyber_women_cyber_total", "cyber_women_cyber_blackmail_threat", "cyber_women_cyber_pornography_obscene",
-    "cyber_women_cyber_stalking_bullying", "cyber_women_defamation_morphing", "cyber_women_fake_profile",
-    "cyber_women_sexual_intercourse_deceit", "cyber_women_other_cyber",
-    "cyber_children_cyber_total", "cyber_children_cyber_blackmail_harassment",
-    "cyber_children_cyber_pornography_csam", "cyber_children_cyber_stalking_bullying",
-    "cyber_children_fake_profile", "cyber_children_online_games_gaming_apps", "cyber_children_other_cyber",
-    "women_cyber_women_centric", "women_cyber_women_sexually_explicit_67a_67b",
+    ("cyber_cases", "cyber_total_cases"),
+    ("cyber_sexual_abusive_total", "sexual_abusive_total"),
+    ("cyber_sexual_abusive_share_pct", "sexual_abusive_share_pct"),
+    ("cyber_sexual_content_total", "sexual_content_total"),
+    ("cyber_abusive_total", "abusive_total"),
+    ("cyber_it67_total", "it67_all_subsections"),
+    ("cyber_it67_obscene", "it67_obscene_material"),
+    ("cyber_it67a_sexually_explicit", "it67a_sexually_explicit_material"),
+    ("cyber_it67b_child_sexual_material", "it67b_child_sexual_abuse_material"),
+    ("cyber_it67_other", "it67_other_subsections"),
+    ("cyber_it67c_retention", "it67c_retention_by_intermediaries"),
+    ("cyber_it66e_violation_privacy", "it66e_violation_of_privacy"),
+    ("cyber_cyber_stalking_bullying", "cyber_stalking_bullying"),
+    ("cyber_cyber_blackmail_threat", "cyber_blackmail_threatening"),
+    ("cyber_defamation_morphing", "defamation_morphing"),
+    ("cyber_fake_profile", "fake_profile"),
+    ("cyber_abetment_suicide_online", "abetment_of_suicide_online"),
+    ("cyber_sexual_intercourse_deceit_bns69", "sexual_intercourse_by_deceit_bns69"),
+    ("cyber_women_cyber_total", "vs_women_total"),
+    ("cyber_women_cyber_blackmail_threat", "vs_women_blackmail_threatening"),
+    ("cyber_women_cyber_pornography_obscene", "vs_women_pornography_obscene_material"),
+    ("cyber_women_cyber_stalking_bullying", "vs_women_stalking_bullying"),
+    ("cyber_women_defamation_morphing", "vs_women_defamation_morphing"),
+    ("cyber_women_fake_profile", "vs_women_fake_profile"),
+    ("cyber_women_sexual_intercourse_deceit", "vs_women_sexual_intercourse_by_deceit"),
+    ("cyber_women_other_cyber", "vs_women_other"),
+    ("cyber_children_cyber_total", "vs_children_total"),
+    ("cyber_children_cyber_blackmail_harassment", "vs_children_blackmail_harassment"),
+    ("cyber_children_cyber_pornography_csam", "vs_children_sexual_abuse_material"),
+    ("cyber_children_cyber_stalking_bullying", "vs_children_stalking_bullying"),
+    ("cyber_children_fake_profile", "vs_children_fake_profile"),
+    ("cyber_children_online_games_gaming_apps", "vs_children_online_games_gaming_apps"),
+    ("cyber_children_other_cyber", "vs_children_other"),
+    ("women_cyber_women_centric", "caw_women_centric_cyber_total"),
+    ("women_cyber_women_sexually_explicit_67a_67b", "caw_sexually_explicit_67a_67b"),
 ]
 
 
@@ -367,18 +663,29 @@ def row_type(st):
     return {"Total (States)": "total_states", "Total (UTs)": "total_uts", "All India": "total_india"}.get(st, "state_ut")
 
 
+def fmt(col, v):
+    if v == "" or v is None:
+        return ""
+    if isinstance(v, float):
+        if v == int(v) and not col.endswith(("_rate", "_lakh", "_pct")):
+            return int(v)
+        return round(v, 2)
+    return v
+
+
 def write_wide(store, path, cols):
-    keys = sorted(store.panel, key=lambda k: (k[1], row_type(k[0]) != "state_ut", k[0]))
+    keys = sorted(store.panel, key=lambda k: (k[0] if row_type(k[0]) == "state_ut" else "~" + k[0], k[1]))
+    src = [c for c, _ in cols]
     with open(path, "w", newline="", encoding="utf8") as f:
         w = csv.writer(f)
-        w.writerow(ID + [c.replace("cyber_cyber_", "cyber_") for c in cols])
+        w.writerow(ID + [name for _, name in cols])
         for st, y in keys:
             if not 2012 <= y <= 2024:
                 continue
             cell = store.panel[(st, y)]
-            if not any(c in cell for c in cols):
+            if not any(c in cell for c in src):
                 continue
-            w.writerow([st, y, row_type(st)] + [cell.get(c, "") for c in cols])
+            w.writerow([st, y, row_type(st)] + [fmt(name, cell.get(c, "")) for c, name in cols])
 
 
 def write_outputs(store, out):
