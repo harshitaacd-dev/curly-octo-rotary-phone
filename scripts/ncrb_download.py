@@ -1,11 +1,13 @@
-"""Download NCRB 'Crime in India' tables on crimes against women and cyber crimes.
+"""Download NCRB 'Crime in India' tables on crimes against women, cyber crimes
+and related topics (human trafficking, sexual offences, crimes against children,
+missing persons).
 
 Usage: python scripts/ncrb_download.py 2012 2024 data/ncrb
 
 Scrapes the English 'Contents/Tables' and 'Additional Tables' pages for each
-year, keeps tables whose chapter or title mentions women or cyber crime,
-downloads the Excel version (and the PDF too when no Excel exists), and writes
-a catalog.csv describing every file.
+year, keeps tables whose chapter or title matches one of TOPICS, downloads
+the Excel version (or the PDF when there is no working Excel link) into
+<outdir>/<year>/<topic>/, and writes a catalog.csv describing every file.
 """
 import csv, html, os, re, sys, time
 from urllib.parse import unquote, urlsplit
@@ -19,6 +21,10 @@ PAGES = {
 TOPICS = {
     "women": re.compile(r"(?<![a-z])(women|rape|dowry|modesty)(?![a-z])", re.I),
     "cyber": re.compile(r"cyber|\bI\.?\s?T\.? Act\b|information technology", re.I),
+    "trafficking": re.compile(r"trafficking|immoral traffic|\bAHT\b", re.I),
+    "sexual": re.compile(r"sexual|POCSO", re.I),
+    "children": re.compile(r"against children|child(ren)? victims|(?<![a-z])girls?(?![a-z])", re.I),
+    "missing": re.compile(r"missing", re.I),
 }
 # Women-related tables that are about police staffing, not crime.
 EXCLUDE = re.compile(r"police strength|strength of|women police|women- police|sanctioned and actual", re.I)
@@ -30,12 +36,12 @@ def english_session():
     """NCRB serves Hindi by default and lists fewer files in Hindi; switch to English."""
     s = requests.Session()
     s.headers["User-Agent"] = "Mozilla/5.0 (research data download)"
-    r = s.get(f"{BASE}/crime-in-india-year-wise.html?year=2024&keyword=", timeout=60)
-    tok = re.search(r'name="csrf-token" content="([^"]+)"', r.text).group(1)
+    url = f"{BASE}/crime-in-india-year-wise.html?year=2024&keyword="
+    tok = re.search(r'name="csrf-token" content="([^"]+)"', get_page(s, url)).group(1)
     r = s.post(f"{BASE}/api/language/set",
                data={"lang": "en", "slug": "crime-in-india-year-wise", "_csrf": tok},
                headers={"X-Requested-With": "XMLHttpRequest", "X-CSRF-Token": tok,
-                        "Referer": r.url, "Origin": BASE}, timeout=60)
+                        "Referer": url, "Origin": BASE}, timeout=60)
     assert r.json().get("success") == 1, r.text
     return s
 
