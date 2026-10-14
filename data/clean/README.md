@@ -11,12 +11,15 @@ the build checks this.
 
 | File | What it is |
 |---|---|
+| `ncrb_women_cyber_2012_2024.xlsx` | **Final workbook**: README, the two State datasets, the national cyber table, and a coverage grid (which years each column has, by State or All India only). Rebuild with `python scripts/make_workbook.py data/clean data/clean/ncrb_women_cyber_2012_2024.xlsx`. |
 | `state_women_cyber_panel.csv` | Crimes against women and cyber crimes: totals, rates, and the main crime heads |
 | `state_cyber_sexual_abusive.csv` | Cyber crimes that are sexual or abusive in nature |
 | `national_cyber_crimeheads_2014_2023.csv` | All-India cyber crime cases by crime head, 2014–2023, from Annexure I of Lok Sabha Unstarred Question 438 (MHA, 2 Dec 2025; PDF in `data/external/`). The only source found for **2015** by crime head; national only. |
 | `state_crimeheads_long.csv` | Every crime head parsed from the source tables, in long format (`year, state, category, table, crime_head, measure, key, value, source_file`). Use it for heads not in the two wide files, or for victims (`measure = victims`) and rates. |
 
 **Empty cell = not published for that year** at State/UT level (see coverage below), not zero.
+
+**All India 2015 cyber crime heads come from the national table:** IT Act, IPC and SLL totals, Sec 67, computer-related offences, cheating, forgery and data theft. NCRB never published them by State, so the 2015 State rows stay blank for these columns.
 
 ## 1. `state_women_cyber_panel.csv`
 

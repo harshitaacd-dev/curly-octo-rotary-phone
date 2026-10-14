@@ -473,6 +473,36 @@ def read_354_from_district_files(store, catalog):
             store.put(year, group, f"women_{key}", v, rec["file"] + " (sum of states)", overwrite=False)
 
 
+NATIONAL_KEYS = {
+    "Total Offences under I.T. Act": "cyber_it_act_total",
+    "Total Offences under IPC": "cyber_ipc_total",
+    "Total Offences under SLL": "cyber_sll_total",
+    "Publication/transmission of obscene / sexually explicit act in electronic form": "cyber_it67_total",
+    "Computer Related Offences": "cyber_it66_computer_related_total",
+    "Data theft": "cyber_data_theft",
+    "Cheating": "cyber_cheating",
+    "Forgery": "cyber_forgery",
+}
+
+
+def read_national_cyber_heads(store, path):
+    """All-India cyber crime heads (Lok Sabha USQ 438, 2025). Only fills All India cells that
+    are still empty, which in practice is 2015: NCRB did not publish that year's crime heads
+    by State."""
+    if not os.path.exists(path):
+        return
+    for row in csv.DictReader(open(path, encoding="utf8")):
+        var = NATIONAL_KEYS.get(row["crime_head"])
+        for y in range(2014, 2024):
+            v = number(row.get(str(y)))
+            if v is None:
+                continue
+            store.add(y, "All India", "cyber", "LS USQ 438 (2025) Annexure I", row["crime_head"], "cases",
+                      var.replace("cyber_", "") if var else "", v, os.path.basename(path))
+            if var:
+                store.put(y, "All India", var, v, os.path.basename(path), overwrite=False)
+
+
 def read_pdf_only_years(store, catalog):
     def pdf(year, rx):
         hits = [r for r in catalog if int(r["year"]) == year and r["format"] == "pdf"
@@ -546,6 +576,7 @@ def main(src, out):
 
     read_pdf_only_years(store, catalog)
     read_354_from_district_files(store, catalog)
+    read_national_cyber_heads(store, os.path.join(out, "national_cyber_crimeheads_2014_2023.csv"))
     for (st, y), cell in store.panel.items():
         if y in (2012, 2013) and "cyber_cases" not in cell and \
                 "cyber_it_act_total" in cell and "cyber_ipc_total" in cell:

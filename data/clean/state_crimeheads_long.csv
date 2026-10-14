@@ -3171,6 +3171,25 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2014,West Bengal,cyber,CII2015 cyber 2014,"Offences under SLL > Trade Marks Act, 1999",cases,,0,2015/cyber/1-Cases-Reported-Under-Cyber-Crimes-during-2014-2015_StateUT__0.xlsx
 2014,West Bengal,cyber,CII2015 cyber 2014,Offences under SLL > Other SLL Offences,cases,,0,2015/cyber/1-Cases-Reported-Under-Cyber-Crimes-during-2014-2015_StateUT__0.xlsx
 2014,West Bengal,cyber,CII2015 cyber 2014,Offences under SLL > Total SLL Offences,cases,sll_total,0,2015/cyber/1-Cases-Reported-Under-Cyber-Crimes-during-2014-2015_StateUT__0.xlsx
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,89,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,5548,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,5,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,758,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,799,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,7201,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,55,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,1115,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,63,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,10,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,1029,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,2272,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,118,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,30,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,149,national_cyber_crimeheads_2014_2023.csv
+2014,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,9622,national_cyber_crimeheads_2014_2023.csv
 2014,A&N Islands,women,CII2015 yearwise,Rape,cases,rape,32,2015/women/4-Yearwise-Cases-reported-under-Crimes-against-Women-during-2001-2015_Individual_State_.xlsx
 2014,A&N Islands,women,CII2015 yearwise,Attempt to commit Rape,cases,attempt_rape,0,2015/women/4-Yearwise-Cases-reported-under-Crimes-against-Women-during-2001-2015_Individual_State_.xlsx
 2014,A&N Islands,women,CII2015 yearwise,Kidnapping & Abduction of Women,cases,kidnap_abduction_women,17,2015/women/4-Yearwise-Cases-reported-under-Crimes-against-Women-during-2001-2015_Individual_State_.xlsx
@@ -3855,6 +3874,25 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2014,West Bengal,women,district-wise (state totals),Assault on women with intent to Disrobe,cases,disrobe_354b,687,2014/women/5District-wise-Crimes-committed-against-Women_2014.xlsx
 2014,West Bengal,women,district-wise (state totals),Voyeurism,cases,voyeurism_354c,57,2014/women/5District-wise-Crimes-committed-against-Women_2014.xlsx
 2014,West Bengal,women,district-wise (state totals),Stalking,cases,stalking_354d,259,2014/women/5District-wise-Crimes-committed-against-Women_2014.xlsx
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,88,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,6567,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,13,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,816,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,8,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,553,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,8045,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,84,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,2255,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,45,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,12,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,1026,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,3422,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,113,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,12,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,125,national_cyber_crimeheads_2014_2023.csv
+2015,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,11592,national_cyber_crimeheads_2014_2023.csv
 2015,A&N Islands,women,CII2015 yearwise,Rape,cases,rape,36,2015/women/4-Yearwise-Cases-reported-under-Crimes-against-Women-during-2001-2015_Individual_State_.xlsx
 2015,A&N Islands,women,CII2015 yearwise,Attempt to commit Rape,cases,attempt_rape,0,2015/women/4-Yearwise-Cases-reported-under-Crimes-against-Women-during-2001-2015_Individual_State_.xlsx
 2015,A&N Islands,women,CII2015 yearwise,Kidnapping & Abduction of Women,cases,kidnap_abduction_women,21,2015/women/4-Yearwise-Cases-reported-under-Crimes-against-Women-during-2001-2015_Individual_State_.xlsx
@@ -5709,6 +5747,25 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2016,West Bengal,cyber,9A.2(iii),Other SLL Offences,cases,,0,2016/cyber/table-9A.4-2016.pdf
 2016,West Bengal,cyber,9A.2(iii),Total Cyber Crimes under SLL,cases,sll_total,38,2016/cyber/table-9A.4-2016.pdf
 2016,West Bengal,cyber,9A.2(iii),Total Cyber Crimes,cases,cyber_total,478,2016/cyber/table-9A.4-2016.pdf
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,78,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,6818,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,12,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,957,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,748,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,8613,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,86,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,2329,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,81,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,10,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,1012,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,3518,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,181,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,3,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,186,national_cyber_crimeheads_2014_2023.csv
+2016,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,12317,national_cyber_crimeheads_2014_2023.csv
 2016,A&N Islands,women,3A.2,Dowry Deaths (Sec.304B IPC),cases,dowry_deaths,0,2016/women/1683013216Table3A2.pdf
 2016,A&N Islands,women,3A.2,Dowry Deaths (Sec.304B IPC),victims,dowry_deaths,0,2016/women/1683013216Table3A2.pdf
 2016,A&N Islands,women,3A.2,Dowry Deaths (Sec.304B IPC),rate,dowry_deaths,0,2016/women/1683013216Table3A2.pdf
@@ -12729,6 +12786,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2017,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/Target) r/w IT Act. > Other SLL Crimes,cases,,0,2017/cyber/table-9A.2_1-2017.xlsx
 2017,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/Target) r/w IT Act. > Total Offences under SLL,cases,sll_total,6,2017/cyber/table-9A.2_1-2017.xlsx
 2017,West Bengal,cyber,9A.2,Total Cyber Crimes,cases,cyber_total,568,2017/cyber/table-9A.2_1-2017.xlsx
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,233,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,10108,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,13,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,1768,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,4,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,4,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,1503,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,13635,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,0,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,542,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,307,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,3466,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,1896,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,99,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,12,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,86,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,311,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,170,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,1086,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,7976,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,45,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,11,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,89,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,11,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,29,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,185,national_cyber_crimeheads_2014_2023.csv
+2017,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,21796,national_cyber_crimeheads_2014_2023.csv
 2017,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,0,2017/women/Table-3A.2_1.xlsx
 2017,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,0,2017/women/Table-3A.2_1.xlsx
 2017,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0,2017/women/Table-3A.2_1.xlsx
@@ -21504,6 +21591,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2018,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/Target) r/w IT Act. > Other SLL Crimes,cases,,4,2018/cyber/table-9A.2_0-2018.xlsx
 2018,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/Target) r/w IT Act. > Total Offences under SLL,cases,sll_total,6,2018/cyber/table-9A.2_0-2018.xlsx
 2018,West Bengal,cyber,9A.2,Total Cyber Crimes (IT Act+ IPC r/w IT Act + SLL r/w IT Act),cases,cyber_total,335,2018/cyber/table-9A.2_0-2018.xlsx
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,257,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,14141,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,21,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,3076,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,6,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,13,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,980,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,18495,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,7,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,739,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,106,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,3353,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,2051,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,260,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,18,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,78,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,223,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,97,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,1713,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,8647,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,20,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,2,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,62,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,22,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,106,national_cyber_crimeheads_2014_2023.csv
+2018,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,27248,national_cyber_crimeheads_2014_2023.csv
 2018,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,0,2018/women/Table-3A.2_0.xlsx
 2018,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,0,2018/women/Table-3A.2_0.xlsx
 2018,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0,2018/women/Table-3A.2_0.xlsx
@@ -30279,6 +30396,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2019,West Bengal,cyber,9A.2,C. SLL Crimes(Involving Communication Devices as Medium/Target or r/w IT Act) > Other SLL Crimes,cases,,4,2019/cyber/table-9A.2-2019.xlsx
 2019,West Bengal,cyber,9A.2,C. SLL Crimes(Involving Communication Devices as Medium/Target or r/w IT Act) > Total Offences under SLL,cases,sll_total,6,2019/cyber/table-9A.2-2019.xlsx
 2019,West Bengal,cyber,9A.2,Total Cyber Crimes (IT Act+ IPC r/w IT Act + SLL r/w IT Act),cases,cyber_total,335,2019/cyber/table-9A.2-2019.xlsx
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,173,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,23734,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,12,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,4203,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,9,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,14,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,2699,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,30846,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,7,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,771,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,282,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,6229,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,3367,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,511,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,19,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,85,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,5,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,362,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,188,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,1974,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,13800,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,22,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,9,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,34,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,23,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,89,national_cyber_crimeheads_2014_2023.csv
+2019,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,44735,national_cyber_crimeheads_2014_2023.csv
 2019,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,0,2019/women/Table-3A.2_2.pdf
 2019,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,0,2019/women/Table-3A.2_2.pdf
 2019,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0,2019/women/Table-3A.2_2.pdf
@@ -39054,6 +39201,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2020,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT > Other SLL Crimes,cases,,0,2020/cyber/table-9A.2-2020.xlsx
 2020,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT > Total Offences under SLL,cases,sll_total,1,2020/cyber/table-9A.2-2020.xlsx
 2020,West Bengal,cyber,9A.2,Total Cyber Crimes (IT Act + IPC r/w IT Act + SLL r/w IT Act),cases,cyber_total,712,2020/cyber/table-9A.2-2020.xlsx
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,338,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,21926,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,26,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,6308,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,7,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,18,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,1017,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,29643,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,10,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,872,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,98,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,10395,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,4480,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,582,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,51,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,149,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,9,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,303,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,578,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,2674,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,20201,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,63,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,26,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,49,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,5,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,48,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,191,national_cyber_crimeheads_2014_2023.csv
+2020,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,50035,national_cyber_crimeheads_2014_2023.csv
 2020,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,0,2020/women/TABLE-3A.2.xlsx
 2020,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,0,2020/women/TABLE-3A.2.xlsx
 2020,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0,2020/women/TABLE-3A.2.xlsx
@@ -47829,6 +48006,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2021,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT > Other SLL Crimes,cases,,1,2021/cyber/1679661926TABLE9A2.xlsx
 2021,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT > Total Offences under SLL,cases,sll_total,1,2021/cyber/1679661926TABLE9A2.xlsx
 2021,West Bengal,cyber,9A.2,Total Cyber Crimes (IT Act + IPC r/w IT Act + SLL r/w IT Act),cases,cyber_total,513,2021/cyber/1679661926TABLE9A2.xlsx
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,55,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,19915,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,15,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,6598,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,3,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,7,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,5,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,827,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,27427,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,10,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,1176,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,170,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,14007,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,6343,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,198,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,31,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,123,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,689,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,179,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,2456,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,25384,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,27,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,4,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,32,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,99,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,163,national_cyber_crimeheads_2014_2023.csv
+2021,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,52974,national_cyber_crimeheads_2014_2023.csv
 2021,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,0,2021/women/1679652792TABLE3A2.xlsx
 2021,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,0,2021/women/1679652792TABLE3A2.xlsx
 2021,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0,2021/women/1679652792TABLE3A2.xlsx
@@ -56604,6 +56811,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2022,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT > Other SLL Crimes,cases,,1,2022/cyber/1702030760TABLE9A2.xlsx
 2022,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT > Total Offences under SLL,cases,sll_total,2,2022/cyber/1702030760TABLE9A2.xlsx
 2022,West Bengal,cyber,9A.2,Total Cyber Crimes (IT Act + IPC r/w IT Act + SLL r/w IT Act),cases,cyber_total,401,2022/cyber/1702030760TABLE9A2.xlsx
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,65,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,23894,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,12,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,6896,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,4,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,18,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,1017,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,31908,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,24,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,1471,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,97,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,17470,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,10509,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,224,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,61,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,157,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,2,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,696,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,230,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,2857,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,33798,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,37,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,6,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,27,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,14,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,103,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,187,national_cyber_crimeheads_2014_2023.csv
+2022,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,65893,national_cyber_crimeheads_2014_2023.csv
 2022,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,1,2022/women/1701935197TABLE3A2.xlsx
 2022,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,1,2022/women/1701935197TABLE3A2.xlsx
 2022,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0.5,2022/women/1701935197TABLE3A2.xlsx
@@ -65379,6 +65616,36 @@ year,state,category,table,crime_head,measure,key,value,source_file
 2023,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT Act > Other SLL Crimes,cases,,1,2023/cyber/TABLE9A2.xlsx
 2023,West Bengal,cyber,9A.2,C. Offences under SLL (Involving Communication Devices as Medium/ Target) r/w IT Act > Total Offences under SLL,cases,sll_total,2,2023/cyber/TABLE9A2.xlsx
 2023,West Bengal,cyber,9A.2,Total Cyber Crimes (IT Act + IPC r/w IT Act + SLL r/w IT Act),cases,cyber_total,309,2023/cyber/TABLE9A2.xlsx
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Tampering computer source documents,cases,,71,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Computer Related Offences,cases,it66_computer_related_total,35329,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Terrorism,cases,,11,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Publication/transmission of obscene / sexually explicit act in electronic form,cases,it67_total,7893,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Interception or Monitoring or decryption of Information,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Un-authorized access/attempt to access to protected computer system,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment to Commit Offences,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Attempt to Commit Offences,cases,,11,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Other Sections of IT Act,cases,,920,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under I.T. Act,cases,it_act_total,44237,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Abetment of Suicide (Online),cases,,30,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Stalking/Bullying of Women/Children,cases,,1305,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Data theft,cases,data_theft,113,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Fraud,cases,,19466,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Cheating,cases,cheating,16943,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Forgery,cases,forgery,444,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Defamation/Morphing,cases,,36,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Fake Profile,cases,,225,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Counterfeiting,cases,,0,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Cyber Blackmailing/Threatening,cases,,689,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Fake News on Social Media,cases,,209,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Other Offences,cases,,2389,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under IPC,cases,ipc_total,41849,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Gambling Act (Online Gambling),cases,,87,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Lotteries Act (Online Lotteries),cases,,0,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Copy Right Act,cases,,23,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Trade Marks Act,cases,,1,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Other SLL Crimes,cases,,223,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Total Offences under SLL,cases,sll_total,334,national_cyber_crimeheads_2014_2023.csv
+2023,All India,cyber,LS USQ 438 (2025) Annexure I,Total Cyber Crimes,cases,,86420,national_cyber_crimeheads_2014_2023.csv
 2023,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,cases,murder_with_rape,0,2023/women/TABLE3A2.xlsx
 2023,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,victims,murder_with_rape,0,2023/women/TABLE3A2.xlsx
 2023,A&N Islands,women,3A.2,Murder with Rape/Gang Rape,rate,murder_with_rape,0,2023/women/TABLE3A2.xlsx
