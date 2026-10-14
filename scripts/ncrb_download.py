@@ -86,6 +86,8 @@ def fetch(s, url, dest):
                     f.write(r.content)
                 return "ok"
             status = f"http {r.status_code}"
+            if r.status_code == 404:
+                break
         except requests.RequestException as e:
             status = f"error {type(e).__name__}"
         time.sleep(2 ** (attempt + 1))
@@ -101,11 +103,14 @@ def main(y0, y1, outdir):
                 topic = topic_of(row)
                 if not topic:
                     continue
-                url = row["excel"] or row["pdf"]
                 folder = os.path.join(outdir, str(y), topic.split("+")[0])
                 os.makedirs(folder, exist_ok=True)
-                dest = os.path.join(folder, safe_name(url))
-                status = fetch(s, url, dest)
+                # Prefer Excel; fall back to the PDF when Excel is missing or its link is broken.
+                for url in filter(None, [row["excel"], row["pdf"]]):
+                    dest = os.path.join(folder, safe_name(url))
+                    status = fetch(s, url, dest)
+                    if status in ("ok", "exists"):
+                        break
                 catalog.append({**row, "topic": topic, "file": os.path.relpath(dest, outdir),
                                 "format": os.path.splitext(dest)[1].lstrip(".").lower(), "status": status})
                 print(y, page, topic, status, row["title"][:70], file=sys.stderr)
