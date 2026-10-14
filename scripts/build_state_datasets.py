@@ -444,6 +444,35 @@ def read_pdf_years(store, path, colyears, prefix, table):
             store.put(y, st, f"{prefix}{var}", r["value"], path, overwrite=False)
 
 
+def read_354_from_district_files(store, catalog):
+    """Sec 354A-D (sexual harassment, disrobing, voyeurism, stalking) for 2014-2015.
+    The state tables only report Sec 354 as a whole for these years; the district-wise
+    files split it, and their district rows add up to each state's total row."""
+    from clean_district import parse
+    heads = [("sexual_harassment_354a", r"^Sexual Harassment$"),
+             ("disrobe_354b", r"^Assault on women with intent to Disrobe$"),
+             ("voyeurism_354c", r"^Voyeurism$"),
+             ("stalking_354d", r"^Stalking$")]
+    for year in (2014, 2015):
+        rec = find(catalog, year, r"District-wise Crimes committed against Women")
+        if not rec:
+            continue
+        cols, _, totals = parse(os.path.join(SRC, rec["file"]))
+        sums = defaultdict(float)
+        for raw_state, vals in totals.items():
+            st = clean_state(raw_state)
+            for c, head in cols.items():
+                key = match_key(heads, head)
+                if key is None or vals.get(c) is None:
+                    continue
+                store.add(year, st, "women", "district-wise (state totals)", head, "cases", key, vals[c], rec["file"])
+                store.put(year, st, f"women_{key}", vals[c], rec["file"], overwrite=False)
+                sums[("Total (UTs)" if st in UTS else "Total (States)", key)] += vals[c]
+                sums[("All India", key)] += vals[c]
+        for (group, key), v in sums.items():
+            store.put(year, group, f"women_{key}", v, rec["file"] + " (sum of states)", overwrite=False)
+
+
 def read_pdf_only_years(store, catalog):
     def pdf(year, rx):
         hits = [r for r in catalog if int(r["year"]) == year and r["format"] == "pdf"
@@ -516,6 +545,7 @@ def main(src, out):
             read_heads(store, "cyber", year, rec, "9A.11", CYBER_CHILD_KEYS, True, "cyber_")
 
     read_pdf_only_years(store, catalog)
+    read_354_from_district_files(store, catalog)
     for (st, y), cell in store.panel.items():
         if y in (2012, 2013) and "cyber_cases" not in cell and \
                 "cyber_it_act_total" in cell and "cyber_ipc_total" in cell:

@@ -36,3 +36,8 @@ Cleaned State/UT datasets built from these files are in `data/clean/`.
   downloaded separately for this and is not listed in catalog.csv.
 - Re-run to refresh or extend: `python scripts/ncrb_download.py 2012 2025 data/ncrb`
   (existing files are skipped).
+
+## Chapter PDFs
+`chapters/<year>/` holds the narrative cyber-crime and crime-against-women chapters for
+2012–2015, downloaded while looking for State-level 2015 cyber crime heads. They contain
+only all-India tables. The "2012" cyber chapter on NCRB's site is the 2013 one.

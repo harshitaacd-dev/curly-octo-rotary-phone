@@ -13,6 +13,7 @@ the build checks this.
 |---|---|
 | `state_women_cyber_panel.csv` | Crimes against women and cyber crimes: totals, rates, and the main crime heads |
 | `state_cyber_sexual_abusive.csv` | Cyber crimes that are sexual or abusive in nature |
+| `national_cyber_crimeheads_2014_2023.csv` | All-India cyber crime cases by crime head, 2014–2023, from Annexure I of Lok Sabha Unstarred Question 438 (MHA, 2 Dec 2025; PDF in `data/external/`). The only source found for **2015** by crime head; national only. |
 | `state_crimeheads_long.csv` | Every crime head parsed from the source tables, in long format (`year, state, category, table, crime_head, measure, key, value, source_file`). Use it for heads not in the two wide files, or for victims (`measure = victims`) and rates. |
 
 **Empty cell = not published for that year** at State/UT level (see coverage below), not zero.
@@ -35,7 +36,7 @@ the build checks this.
 | `kidnapping_to_compel_marriage` | 2016–2024 | Sec 366 IPC / BNS 87 |
 | `assault_outrage_modesty_354_incl_354a_d` | 2012–2024 | **Use this for trends.** Sec 354 with 354A–D (sexual harassment, disrobing, voyeurism, stalking) |
 | `assault_outrage_modesty_354_as_reported` | 2012–2024 | NCRB's own head. Equal to the above except 2024, when it is BNS 74 / Sec 354 only |
-| `sexual_harassment_354a`, `assault_to_disrobe_354b`, `voyeurism_354c`, `stalking_354d` | 2016, 2024 | Not split out in the 2017–2023 state tables |
+| `sexual_harassment_354a`, `assault_to_disrobe_354b`, `voyeurism_354c`, `stalking_354d` | 2014–2016, 2024 | 2014–2015 from the State totals in NCRB's district-wise files. 2017–2023 not published by NCRB at State level (state and district tables give only the Sec 354 total). These count all such offences, online and offline. |
 | `insult_to_modesty_509` | 2012–2024 | |
 | `human_trafficking_370` | 2016–2023 | Dropped from the 2024 women table |
 | `procuration_of_minor_girls`, `selling_of_girls`, `buying_of_girls` | 2017–2024 | `importation_of_girls`: 2012–2015, 2017–2024 |
@@ -118,6 +119,21 @@ overlap.
 For 2012–2015, NCRB's file has no aggregate rows, so `Total (States)`,
 `Total (UTs)` and `All India` are sums of the State/UT rows. They match NCRB's
 published national totals (244,270; 309,546; 337,922; 327,394).
+
+## 2015 cyber crimes by crime head, and pre-2017 categories
+
+- **2015 by State and crime head is not available from any source reachable here.**
+  - NCRB's 2015 edition publishes cyber crime heads for all India only (its chapter and Tables 18.2/18.3).
+  - data.gov.in and the parliament question archives (eparlib, loksabhadocs, pqars) refuse connections from this environment.
+  - Dataful (dataful.in, dataset 22359) republishes NCRB cyber data by year, State and crime head for 19 of the 22 years 2002–2023, but needs a sign-in to download.
+  - data.gov.in also lists "Cases registered under IT Act of Cyber crime". Both are worth checking from a browser in India.
+- **National 2015 figures by crime head** are in `national_cyber_crimeheads_2014_2023.csv`, e.g. Sec 67: 816 cases.
+- **Cyber stalking/bullying, blackmailing, defamation/morphing and fake profiles were first collected in Crime in India 2017,** so there is no earlier series.
+- **Closest earlier substitutes:**
+  - `stalking_354d` (2014–2016) counts all stalking, online and offline.
+  - `it67_all_subsections` (2013–2014, 2016) counts obscene or sexually explicit material.
+  - IT Act Sec 66A (offensive messages; struck down in March 2015) was never published by State: in 2013 it isn't a separate column, and in 2014 it is combined with Sec 66–66E.
+- **NCRB revises figures later:** the Lok Sabha table gives 44,735 cyber crimes for 2019, against 44,546 in the 2019 edition used here. The State files keep each edition's own figures.
 
 ## Things to know before comparing years
 
