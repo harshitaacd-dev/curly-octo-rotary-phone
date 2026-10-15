@@ -1,0 +1,90 @@
+{
+  "exposure": "cyberrate",
+  "states": 35,
+  "obs": 2800,
+  "categories": [
+    "assault on modesty (354 incl. A-D)",
+    "blackmail/threatening (cyber, women)",
+    "cruelty by husband/relatives",
+    "defamation/morphing (cyber, women)",
+    "dowry deaths",
+    "fake profile (cyber, women)",
+    "insult to modesty (509)",
+    "kidnapping & abduction of women",
+    "obscene material (cyber, women)",
+    "stalking/bullying (cyber, women)"
+  ],
+  "main": {
+    "coef": -0.049,
+    "se": 0.131,
+    "p": 0.7103,
+    "irr_per_sd": 0.953
+  },
+  "event_study": {
+    "2017": {
+      "coef": -0.079,
+      "se": 0.148
+    },
+    "2018": {
+      "coef": -0.011,
+      "se": 0.092
+    },
+    "2019": {
+      "coef": 0.059,
+      "se": 0.099
+    },
+    "2020": {
+      "coef": -0.002,
+      "se": 0.109
+    },
+    "2021": {
+      "coef": 0.0,
+      "se": 0.0
+    },
+    "2022": {
+      "coef": -0.087,
+      "se": 0.067
+    },
+    "2023": {
+      "coef": -0.017,
+      "se": 0.114
+    },
+    "2024": {
+      "coef": -0.13,
+      "se": 0.179
+    }
+  },
+  "pretrend_wald_p": 0.8022,
+  "by_category": {
+    "blackmail/threatening (cyber, women)": {
+      "coef": 0.135,
+      "se": 0.309,
+      "p": 0.6624
+    },
+    "defamation/morphing (cyber, women)": {
+      "coef": 1.646,
+      "se": 0.953,
+      "p": 0.0841
+    },
+    "fake profile (cyber, women)": {
+      "coef": -0.857,
+      "se": 0.615,
+      "p": 0.163
+    },
+    "obscene material (cyber, women)": {
+      "coef": -0.078,
+      "se": 0.096,
+      "p": 0.4133
+    },
+    "stalking/bullying (cyber, women)": {
+      "coef": -0.045,
+      "se": 0.281,
+      "p": 0.8739
+    }
+  },
+  "drop_2024": {
+    "coef": 0.008,
+    "se": 0.126,
+    "p": 0.9472
+  }
+}
