@@ -13,6 +13,7 @@ One CSV per platform, extracted from the archived reports in [`../reports/`](../
 | `moj.csv` | Moj | 757 | Jun 2021 – Oct 2022 (17) | same as ShareChat |
 | `pinterest.csv` | Pinterest | 4,600 | Jun 2024 – Aug 2026 (27) | actions on reported content and voluntary actions, by policy and surface (Pins, Boards, Accounts, Comments) |
 | `roblox.csv` | Roblox | 247 | May–Jun 2025, May–Jul 2026 (5) | grievance reports and enforcement actions by category; global proactive moderation total |
+| `india_it_rules_reports.xlsx` | all | | **everything in one Excel workbook**: headline monthly totals (SUMIFS formulas), all data in one filterable sheet, one sheet per platform, validation and report index. Rebuild with `python3 scripts/build_workbook.py`. |
 | `validation.csv` | all | 707 | | every published total compared with the sum of its categories (see below) |
 
 ## Columns
