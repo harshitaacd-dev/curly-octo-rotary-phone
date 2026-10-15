@@ -4,6 +4,7 @@ Outputs (data/text_threats/):
   threat_corpus_full.csv.gz   every labelled text from every source
   threat_corpus_positives.csv rows labelled as a threat or sexual threat, or
                               matching the rape lexicon
+  threat_corpus_hinglish.csv  rows detected as Romanised Hindi-English (Hinglish)
   threat_corpus_summary.csv   counts per source
 
 Harmonised columns:
@@ -13,6 +14,9 @@ Harmonised columns:
   gendered        1/0 = source says text targets women / gender;       blank = not labelled
   threat_score    continuous threat score where the source has one (else blank)
   rape_lexicon    1 if text matches RAPE_RE (keyword heuristic, NOT a label)
+  hinglish        1 if text looks like Romanised Hindi / Hinglish (heuristic, see is_hinglish)
+  hinglish_threat_lexicon  1 if text matches HINGLISH_THREAT_RE (Romanised sexual-threat
+                  phrases; heuristic, NOT a label)
   original_label  the source's own label(s), verbatim
   licence
 
@@ -36,6 +40,44 @@ RAPE_RE = re.compile(
     r"|बलात्कार|रेप(?:िस्ट)?(?![\u0900-\u097F])|ধর্ষণ|ধর্ষ|கற்பழி|வன்புணர்",
     re.IGNORECASE,
 )
+
+# Romanised Hindi phrases used to threaten rape / sexual violence or stripping,
+# abduction and "dishonouring". Bare profanity (e.g. *chod compounds) is not
+# matched, only threat-shaped verb phrases.
+HINGLISH_THREAT_RE = re.compile(
+    r"\b(?:balaa?t?kaa?r\w*"
+    r"|r[ae]pe?\s*(?:kar|kr|karo|krdo|kardo|kardi|karna|karne|karenge|karunga|krunga|krenge|karwa)\w*"
+    r"|izz?at\s*(?:loot|lut)\w*"
+    r"|chod\s*(?:dunga|dungi|denge|dalunga|daalunga|dalenge|daalenge|do|de|du)"
+    r"|pel\s*(?:dunga|denge|do|dalunga|dalenge)"
+    r"|nang[ia]\s*(?:kar|kr|karke|krke|karo|karenge|karunga|ghuma)\w*"
+    r"|utha\s*(?:lenge|lunga|le\s*jayenge|ke\s*le\s*jayenge)"
+    r"|(?:gaa?nd|gand)\s*(?:maar|mar)\s*(?:dunga|denge|lenge|lunga|di\s*jayegi))\b",
+    re.IGNORECASE,
+)
+
+# Common Hindi function words / pronouns / verbs in Romanised spelling. Ambiguous
+# English homographs (me, to, par, so, main) are left out.
+HI_WORDS = set("""hai hain hn nahi nahin nhi na kya kyu kyun kyon ko ki ke ka se mein mai
+tu tum tera teri tere mera meri mere aur bhi toh ye yeh wo woh vo kar karo karna karte
+kiya raha rahi rhe gaya gayi diya dunga denge sala saala saali bhai behen bhen maa
+ladki ladkiyon aurat randi chutiya kutta kutti jaise sab kuch bahut bohot abhi kab
+kaise apni apna apne unka uska iska isko usko wala wali wale hoga hogi chahiye lekin
+jab tab agar hum humko tujhe tujhko mujhe mujhko sabko unko inko yaar ji""".split())
+BN_WORDS = set("""ami tumi tor tui kore korte kori koro hobe ache achhe ar er oi ei
+amar tomar oder ora bou keno""".split())
+NON_LATIN = re.compile(r"[\u0900-\u0DFF]")
+
+
+def is_hinglish(text):
+    if NON_LATIN.search(text):
+        return False
+    toks = re.findall(r"[a-z]+", text.lower())
+    hi = sum(t in HI_WORDS for t in toks)
+    bn = sum(t in BN_WORDS for t in toks)
+    need = 1 if len(toks) <= 4 else 2
+    return hi >= need and hi > bn
+
 
 COLS = ["source", "source_id", "platform", "language", "split", "text", "threat",
         "sexual_threat", "gendered", "threat_score", "original_label", "licence"]
@@ -214,6 +256,39 @@ def ethos():
     })
 
 
+def trac1():
+    parts = []
+    for split in ["train", "dev"]:
+        d = pd.read_csv(RAW / f"trac1/hindi/agr_hi_{split}.csv", header=None,
+                        names=["id", "text", "agg"])
+        d["split"] = split
+        parts.append(d)
+    d = pd.concat(parts, ignore_index=True)
+    return pd.DataFrame({
+        "source": "TRAC-1 Hindi (Kumar et al. 2018)", "source_id": d.id, "platform": "Facebook",
+        "language": "hi-en (code-mixed)", "split": d.split, "text": d.text,
+        "threat": pd.NA, "sexual_threat": pd.NA, "gendered": pd.NA,
+        "original_label": "aggression=" + d["agg"],
+        "licence": "Apache-2.0 (repo licence)",
+    })
+
+
+def trac2():
+    parts = []
+    for split in ["train", "dev"]:
+        d = pd.read_csv(RAW / f"trac2/hin/trac2_hin_{split}.csv")
+        d["split"] = split
+        parts.append(d)
+    d = pd.concat(parts, ignore_index=True)
+    return pd.DataFrame({
+        "source": "TRAC-2 Hindi (2020)", "source_id": d.ID, "platform": "YouTube",
+        "language": "hi-en (code-mixed)", "split": d.split, "text": d.Text,
+        "threat": pd.NA, "sexual_threat": pd.NA, "gendered": b(d["Sub-task B"].eq("GEN")),
+        "original_label": "aggression=" + d["Sub-task A"] + "; gender=" + d["Sub-task B"],
+        "licence": "CC-BY-NC-SA-4.0",
+    })
+
+
 def civil():
     files = sorted(glob.glob(str(RAW / "civil_comments/*.parquet")))
     if not files:
@@ -240,7 +315,7 @@ def civil():
 
 def main():
     frames = []
-    for fn in [edos, guest, comma, uli, dynahate, hatecheck, cad, mhs, ethos, civil]:
+    for fn in [edos, guest, comma, uli, trac1, trac2, dynahate, hatecheck, cad, mhs, ethos, civil]:
         print(fn.__name__)
         f = fn()
         if f is not None:
@@ -248,13 +323,19 @@ def main():
     df = pd.concat(frames, ignore_index=True)
     df = df[df.text.notna() & df.text.str.strip().ne("")]
     df["rape_lexicon"] = df.text.str.contains(RAPE_RE).astype(int)
+    df["hinglish"] = df.text.map(is_hinglish).astype(int)
+    df["hinglish_threat_lexicon"] = df.text.str.contains(HINGLISH_THREAT_RE).astype(int)
     for c in ["threat", "sexual_threat", "gendered"]:
         df[c] = df[c].astype("Int64")
-    df = df[COLS[:9] + ["threat_score", "rape_lexicon", "original_label", "licence"]]
+    df = df[COLS[:9] + ["threat_score", "rape_lexicon", "hinglish",
+             "hinglish_threat_lexicon", "original_label", "licence"]]
 
     df.to_csv(ROOT / "threat_corpus_full.csv.gz", index=False, compression="gzip")
-    pos = df[df.threat.eq(1).fillna(False) | df.sexual_threat.eq(1).fillna(False) | df.rape_lexicon.eq(1)]
+    pos = df[df.threat.eq(1).fillna(False) | df.sexual_threat.eq(1).fillna(False)
+             | df.rape_lexicon.eq(1) | df.hinglish_threat_lexicon.eq(1)]
     pos.to_csv(ROOT / "threat_corpus_positives.csv", index=False)
+    hing = df[df.hinglish.eq(1)].drop_duplicates(["source", "text"])
+    hing.to_csv(ROOT / "threat_corpus_hinglish.csv", index=False)
 
     s = df.groupby("source").agg(
         texts=("text", "size"),
@@ -265,11 +346,13 @@ def main():
         gendered=("gendered", lambda x: int(x.eq(1).sum())),
         gendered_threat=("threat", lambda x: int((x.eq(1) & df.loc[x.index, "gendered"].eq(1)).sum())),
         rape_lexicon=("rape_lexicon", "sum"),
+        hinglish=("hinglish", "sum"),
+        hinglish_threat_lexicon=("hinglish_threat_lexicon", "sum"),
         licence=("licence", "first"),
     ).reset_index()
     s.to_csv(ROOT / "threat_corpus_summary.csv", index=False)
     print(s.to_string())
-    print(f"full: {len(df)} rows; positives: {len(pos)} rows")
+    print(f"full: {len(df)} rows; positives: {len(pos)} rows; hinglish: {len(hing)} rows")
 
 
 if __name__ == "__main__":

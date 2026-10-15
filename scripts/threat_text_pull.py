@@ -37,6 +37,10 @@ GIT = {
     "ethos": ("https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset.git",
               ["ethos/ethos_data/Ethos_Dataset_Multi_Label.csv",
                "ethos/ethos_data/Ethos_Dataset_Binary.csv", "LICENSE", "README.md"]),
+    # Hindi / Hinglish (Romanised Hindi-English code-mixed)
+    "trac1": ("https://github.com/kmi-linguistics/trac-1.git", ["hindi", "LICENSE", "README.md"]),
+    # Official TRAC-2 train/dev files (CC BY-NC-SA 4.0), mirrored by a participant team
+    "trac2": ("https://github.com/socialmediaie/TRAC2020.git", ["data/raw/hin"]),
 }
 
 # name -> {local filename: url}
