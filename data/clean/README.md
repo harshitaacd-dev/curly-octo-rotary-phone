@@ -14,12 +14,12 @@ the build checks this.
 | `ncrb_women_cyber_2012_2024.xlsx` | **Final workbook**: README, the two State datasets, the national cyber table, and a coverage grid (which years each column has, by State or All India only). Rebuild with `python scripts/make_workbook.py data/clean data/clean/ncrb_women_cyber_2012_2024.xlsx`. |
 | `state_women_cyber_panel.csv` | Crimes against women and cyber crimes: totals, rates, and the main crime heads |
 | `state_cyber_sexual_abusive.csv` | Cyber crimes that are sexual or abusive in nature |
-| `national_cyber_crimeheads_2014_2023.csv` | All-India cyber crime cases by crime head, 2014–2023, from Annexure I of Lok Sabha Unstarred Question 438 (MHA, 2 Dec 2025; PDF in `data/external/`). The only source found for **2015** by crime head; national only. |
+| `national_cyber_crimeheads_2014_2023.csv` | All-India cyber crime cases by crime head, 2014–2023, from Annexure I of Lok Sabha Unstarred Question 438 (MHA, 2 Dec 2025; PDF in `data/external/`). National only; used as a cross-check. only. |
 | `state_crimeheads_long.csv` | Every crime head parsed from the source tables, in long format (`year, state, category, table, crime_head, measure, key, value, source_file`). Use it for heads not in the two wide files, or for victims (`measure = victims`) and rates. |
 
 **Empty cell = not published for that year** at State/UT level (see coverage below), not zero.
 
-**All India 2015 cyber crime heads come from the national table:** IT Act, IPC and SLL totals, Sec 67, computer-related offences, cheating, forgery and data theft. NCRB never published them by State, so the 2015 State rows stay blank for these columns.
+**2015 cyber crime heads by State** come from the second sheet ("2015") of NCRB's 2015-edition workbook `1-Cases-Reported-Under-Cyber-Crimes-during-2014-2015 (StateUT)`; the first sheet holds 2014. They match the national Lok Sabha table exactly (e.g. Sec 67: 816).
 
 ## 1. `state_women_cyber_panel.csv`
 
@@ -58,8 +58,8 @@ the build checks this.
 | `cyber_it_act_total`, `cyber_ipc_total` | 2012–2014, 2016–2024 | |
 | `cyber_sll_total` | 2014, 2016–2024 | |
 | `cyber_fraud` | 2017–2024 | Sec 420 r/w 465, 468–471 IPC (BNS 318(4) etc.) |
-| `cyber_criminal_breach_of_trust_fraud` | 2013–2014, 2016 | NCRB's pre-2017 "fraud" head (Sec 406–409). **Not comparable with `cyber_fraud`.** |
-| `cyber_cheating`, `cyber_forgery`, `cyber_data_theft`, `cyber_computer_related_offences_66` | 2014, 2016–2024 (forgery from 2013) | |
+| `cyber_criminal_breach_of_trust_fraud` | 2013–2016 | NCRB's pre-2017 "fraud" head (Sec 406–409). **Not comparable with `cyber_fraud`.** |
+| `cyber_cheating`, `cyber_forgery`, `cyber_data_theft`, `cyber_computer_related_offences_66` | 2014–2024 (forgery from 2013) | |
 | `cyber_identity_theft_66c`, `cyber_cheating_by_personation_66d` | 2016–2024 | |
 | `cyber_fake_news` | 2017–2024 | |
 | `cyber_sexual_abusive_total` | 2017–2024 | Same as in file 2 |
@@ -79,9 +79,9 @@ overlap.
 |---|---|---|
 | `sexual_abusive_total` | 2017–2024 | `sexual_content_total + abusive_total` |
 | `sexual_abusive_share_pct` | 2017–2024 | % of `cyber_total_cases` |
-| `sexual_content_total` | 2013–2014, 2016–2024 | IT Act Sec 67 + 67A + 67B + other Sec 67 (i.e. `it67_all_subsections − it67c`) + Sec 66E. For 2013–2014 this is Sec 67 only (66E not reported separately) |
+| `sexual_content_total` | 2013–2024 | IT Act Sec 67 + 67A + 67B + other Sec 67 (i.e. `it67_all_subsections − it67c`) + Sec 66E. For 2013–2015 this is Sec 67 only (66E not reported separately) |
 | `abusive_total` | 2017–2024 | Cyber stalking/bullying + blackmailing/threatening + defamation/morphing + fake profile + online abetment of suicide + (2024) BNS 69 |
-| `it67_all_subsections` | 2013–2014, 2016–2024 | Publishing/transmitting obscene or sexually explicit material, all of Sec 67 |
+| `it67_all_subsections` | 2013–2024 | Publishing/transmitting obscene or sexually explicit material, all of Sec 67 |
 | `it67_obscene_material` | 2017–2024 | Sec 67 |
 | `it67a_sexually_explicit_material` | 2016–2024 | Sec 67A |
 | `it67b_child_sexual_abuse_material` | 2016–2024 | Sec 67B |
@@ -115,7 +115,7 @@ overlap.
 | 2012 | CII 2015 State-wise 2001–2015 file (Excel) | same | Table 18.1 (PDF) | — |
 | 2013 | same | same | Table 18.1 (PDF) | Tables 18.6, 18.7 (PDF) |
 | 2014 | same | same | CII 2015 cyber 2014 file (Excel) | same |
-| 2015 | same | same | Table 9A.1 of CII 2017 (Excel) | — not published by state |
+| 2015 | same | same | Table 9A.1 of CII 2017 (Excel) | CII 2015 cyber workbook, sheet "2015" (Excel) |
 | 2016 | Table 3A.1 of CII 2017 (Excel) | Table 3A.2 (PDF) | Table 9A.1 of CII 2017; rate from 9A.1 2016 (PDF) | Tables 9A.2(i)–(iii) (PDF) |
 | 2017–2024 | Table 3A.1 (Excel) | Table 3A.2 (Excel; **2019 from PDF**) | Table 9A.1 (Excel) | Tables 9A.2, 9A.10, 9A.11 (Excel) |
 
@@ -123,19 +123,13 @@ For 2012–2015, NCRB's file has no aggregate rows, so `Total (States)`,
 `Total (UTs)` and `All India` are sums of the State/UT rows. They match NCRB's
 published national totals (244,270; 309,546; 337,922; 327,394).
 
-## 2015 cyber crimes by crime head, and pre-2017 categories
+## Pre-2017 cyber categories
 
-- **2015 by State and crime head is not available from any source reachable here.**
-  - NCRB's 2015 edition publishes cyber crime heads for all India only (its chapter and Tables 18.2/18.3).
-  - data.gov.in and the parliament question archives (eparlib, loksabhadocs, pqars) refuse connections from this environment.
-  - Dataful (dataful.in, dataset 22359) republishes NCRB cyber data by year, State and crime head for 19 of the 22 years 2002–2023, but needs a sign-in to download.
-  - data.gov.in also lists "Cases registered under IT Act of Cyber crime". Both are worth checking from a browser in India.
-- **National 2015 figures by crime head** are in `national_cyber_crimeheads_2014_2023.csv`, e.g. Sec 67: 816 cases.
 - **Cyber stalking/bullying, blackmailing, defamation/morphing and fake profiles were first collected in Crime in India 2017,** so there is no earlier series.
 - **Closest earlier substitutes:**
   - `stalking_354d` (2014–2016) counts all stalking, online and offline.
-  - `it67_all_subsections` (2013–2014, 2016) counts obscene or sexually explicit material.
-  - IT Act Sec 66A (offensive messages; struck down in March 2015) was never published by State: in 2013 it isn't a separate column, and in 2014 it is combined with Sec 66–66E.
+  - `it67_all_subsections` (2013–2016) counts obscene or sexually explicit material.
+  - IT Act Sec 66A (offensive messages; struck down in March 2015) was never published by State: in 2013 it isn't a separate column, and in 2014–2015 it is combined with Sec 66–66E.
 - **NCRB revises figures later:** the Lok Sabha table gives 44,735 cyber crimes for 2019, against 44,546 in the 2019 edition used here. The State files keep each edition's own figures.
 
 ## Things to know before comparing years

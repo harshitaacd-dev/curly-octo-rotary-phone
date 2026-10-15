@@ -20,7 +20,7 @@ NOTES = [
     "Values are cases registered unless the column name says rate (per lakh population), pct or lakh.",
     "Empty cell = not published for that year at that level. It is not zero.",
     "Each year has one row per State/UT plus 'Total (States)', 'Total (UTs)' and 'All India' (see row_type). State/UT rows add up to All India wherever States have values.",
-    "All India 2015 cyber crime heads come from the national table; NCRB did not publish them by State.",
+    "2015 cyber crime heads by State come from the second sheet of NCRB's 2015-edition cyber workbook.",
     "In 'Cyber sexual-abusive', add up only within one block: offence-based columns, vs_women_*, vs_children_*, caw_* (the last three are victim-based subsets).",
     "Breaks in definitions: 2013 law change added Sec 354A-D; POCSO girl victims count as crime against women from 2017; IPC to BNS from 1 July 2024 (use assault_outrage_modesty_354_incl_354a_d for trends); cyber 'fraud' changes meaning in 2017.",
     "Boundaries: Telangana from 2014; Ladakh separate from 2020; D&N Haveli and Daman & Diu merged from 2020.",

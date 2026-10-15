@@ -55,8 +55,8 @@ def clean_state(name):
     return STATE_FIX.get(name, name)
 
 
-def read_rows(path):
-    """All cells of the first sheet as text, merged ranges filled with their value."""
+def read_rows(path, sheet=None):
+    """All cells of a sheet (the first one unless named), merged ranges filled with their value."""
     if path.lower().endswith(".xls"):
         import xlrd
         sh = xlrd.open_workbook(path, formatting_info=True).sheet_by_index(0)
@@ -66,7 +66,8 @@ def read_rows(path):
                 for c in range(c0, c1):
                     rows[r][c] = rows[r0][c0]
         return rows
-    ws = openpyxl.load_workbook(path, data_only=True).worksheets[0]
+    wb = openpyxl.load_workbook(path, data_only=True)
+    ws = wb[sheet] if sheet else wb.worksheets[0]
     rows = [list(r) for r in ws.iter_rows(values_only=True)]
     for rng in ws.merged_cells.ranges:
         v = ws.cell(rng.min_row, rng.min_col).value

@@ -241,37 +241,38 @@ def read_women_2001_2015(store, rec):
         store.put(y, group, var, v, f + " (sum of states)", overwrite=True)
 
 
-def read_cyber_2014(store, rec):
-    """2015 edition file with State/UT x cyber crime head, cases reported in 2014."""
+def read_cyber_2014_2015(store, rec):
+    """2015 edition workbook with State/UT x cyber crime head, one sheet per year (2014, 2015)."""
     f = rec["file"]
-    rows = read_rows(os.path.join(SRC, f))
-    hdr = next(i for i, r in enumerate(rows) if text(r[0]).upper() == "SL")
-    heads = {}
-    for c in range(len(rows[hdr])):
-        lab = text(rows[hdr][c])
-        if lab and lab.upper() not in ("SL", "STATE/UT"):
-            grp = text(rows[hdr - 1][c])
-            heads[c] = f"{grp} > {lab}" if grp else lab
-    state_cols = [c for c in range(len(rows[hdr])) if text(rows[hdr][c]).upper() == "STATE/UT"]
-    for r in rows[hdr + 1:]:
-        for c, head in heads.items():
-            sc = max(s for s in state_cols if s < c)
-            lab = text(r[sc])
-            v = number(r[c]) if c < len(r) else None
-            if not lab or v is None:
-                continue
-            l = lab.lower()
-            st = ("All India" if "india" in l else "Total (UTs)" if "ut" in l else "Total (States)") \
-                if "total" in l else clean_state(lab)
-            key = match_key(CYBER_KEYS, head.split(" > ")[-1])
-            store.add(2014, st, "cyber", "CII2015 cyber 2014", head, "cases", key, v, f)
-            if key:
-                store.put(2014, st, f"cyber_{key}", v, f, overwrite=True)
-    # No grand-total column in this file: total = IT Act + IPC + SLL.
-    for (st, y), cell in store.panel.items():
-        if y == 2014 and all(k in cell for k in ("cyber_it_act_total", "cyber_ipc_total", "cyber_sll_total")):
-            store.put(2014, st, "cyber_cases",
-                      cell["cyber_it_act_total"] + cell["cyber_ipc_total"] + cell["cyber_sll_total"], f)
+    for year in (2014, 2015):
+        rows = read_rows(os.path.join(SRC, f), sheet=str(year))
+        hdr = next(i for i, r in enumerate(rows) if text(r[0]).upper() == "SL")
+        heads = {}
+        for c in range(len(rows[hdr])):
+            lab = text(rows[hdr][c])
+            if lab and lab.upper() not in ("SL", "STATE/UT"):
+                grp = text(rows[hdr - 1][c])
+                heads[c] = f"{grp} > {lab}" if grp else lab
+        state_cols = [c for c in range(len(rows[hdr])) if text(rows[hdr][c]).upper() == "STATE/UT"]
+        for r in rows[hdr + 1:]:
+            for c, head in heads.items():
+                sc = max(s for s in state_cols if s < c)
+                lab = text(r[sc])
+                v = number(r[c]) if c < len(r) else None
+                if not lab or v is None:
+                    continue
+                l = lab.lower()
+                st = ("All India" if "india" in l else "Total (UTs)" if "ut" in l else "Total (States)") \
+                    if "total" in l else clean_state(lab)
+                key = match_key(CYBER_KEYS, head.split(" > ")[-1])
+                store.add(year, st, "cyber", f"CII2015 cyber {year}", head, "cases", key, v, f)
+                if key:
+                    store.put(year, st, f"cyber_{key}", v, f, overwrite=True)
+        # No grand-total column in this file: total = IT Act + IPC + SLL.
+        for (st, y), cell in store.panel.items():
+            if y == year and all(k in cell for k in ("cyber_it_act_total", "cyber_ipc_total", "cyber_sll_total")):
+                store.put(year, st, "cyber_cases",
+                          cell["cyber_it_act_total"] + cell["cyber_ipc_total"] + cell["cyber_sll_total"], f)
 
 
 # ---------------------------------------------------------------- PDF-only years
@@ -552,7 +553,7 @@ def main(src, out):
     rec = find(catalog, 2015, r"Yearwise Cases reported under Crimes against Women during 2001-2015\(Individual State\)")
     read_women_2001_2015(store, rec)
     rec = find(catalog, 2015, r"Cases Reported Under Cyber Crimes during 2014-2015\(StateUT\)", data_year=2014)
-    read_cyber_2014(store, rec)
+    read_cyber_2014_2015(store, rec)
 
     for year in range(2017, 2025):
         rec = find(catalog, year, r"^(3A\.1 )?Crime against Women \((IPC\+SLL\) )?\(?State/UT-wise\)", exclude=r"arrest")
