@@ -1,6 +1,7 @@
 """One sheet per year: States/UTs as rows, crime heads as columns.
 
 Usage: python scripts/make_yearwise_tables.py data/clean data/clean/statewise_crimeheads_by_year.xlsx
+       python scripts/make_yearwise_tables.py data/clean data/clean/statewise_cyber_crimeheads_by_year.xlsx --cyber
 
 Combines state_women_cyber_panel.csv and state_cyber_sexual_abusive.csv. Columns NCRB did not
 publish for a year are left out of that year's sheet.
@@ -50,8 +51,6 @@ GROUPS = OrderedDict([
         ("domestic_violence_act", "Domestic Violence Act"),
         ("indecent_representation_act", "Indecent Representation of Women Act"),
         ("pocso_girl_victims", "POCSO (girl victims)"),
-        ("women_centric_cyber_crimes", "Women-centric cyber crimes"),
-        ("caw_sexually_explicit_67a_67b", "Women-centric: sexually explicit material (67A/67B)"),
     ]),
     ("Cyber crimes", [
         ("cyber_total_cases", "Total cyber crimes"),
@@ -105,7 +104,12 @@ GROUPS = OrderedDict([
         ("vs_children_other", "Vs children: other"),
     ]),
 ])
-FILLS = {"Crimes against women": "F3D9E6", "Cyber crimes": "D6E4F0", "Sexual / abusive cyber crimes": "E2D9F0"}
+GROUPS["Cyber crimes in the crime-against-women table"] = [
+    ("women_centric_cyber_crimes", "Women-centric cyber crimes"),
+    ("caw_sexually_explicit_67a_67b", "Women-centric: sexually explicit material (67A/67B)"),
+]
+CYBER_GROUPS = ["Cyber crimes", "Sexual / abusive cyber crimes", "Cyber crimes in the crime-against-women table"]
+FILLS = {"Cyber crimes in the crime-against-women table": "FCE8D5", "Crimes against women": "F3D9E6", "Cyber crimes": "D6E4F0", "Sexual / abusive cyber crimes": "E2D9F0"}
 THIN = Side(style="thin", color="BBBBBB")
 
 
@@ -120,21 +124,31 @@ def load(src):
     return data
 
 
-def main(src, out):
+def main(src, out, only=None):
+    """only: list of group names to include (default: all)."""
+    global GROUPS
+    if only:
+        GROUPS = OrderedDict((g, GROUPS[g]) for g in only)
     data = load(src)
     years = sorted({y for _, y in data})
     wb = Workbook()
     notes = wb.active
     notes.title = "Notes"
+    cyber_only = all(g in CYBER_GROUPS for g in GROUPS)
     lines = [
-        "State/UT-wise crime heads by year, NCRB Crime in India 2012-2024",
+        ("State/UT-wise cyber crime heads by year" if cyber_only else "State/UT-wise crime heads by year")
+        + ", NCRB Crime in India 2012-2024",
         "",
         "One sheet per year. Rows: States/UTs, then Total (States), Total (UTs), All India.",
-        "Columns: crime heads grouped as crimes against women, cyber crimes, and sexual/abusive cyber crimes.",
+        "Columns: " + "; ".join(GROUPS) + ".",
         "Values are cases registered, except rates (per lakh population), chargesheeting rate (%), population (lakh) and share (%).",
         "A column appears in a year's sheet only if NCRB published it for that year. An empty cell inside a sheet means not reported for that State/UT.",
         "'Vs women' / 'Vs children' columns are victim-based subsets of the offence columns: do not add them to the offence columns.",
-        "Breaks: Sec 354A-D added 2013; POCSO girl victims in crime against women from 2017; IPC to BNS from 1 July 2024; cyber 'fraud' changes meaning in 2017.",
+        ("Breaks: 2012-2013 totals are IT Act + IPC only (SLL cyber crimes not counted then); 2012 has totals only "
+         "(NCRB's 2012 crime-head tables are not online); cyber 'fraud' changes meaning in 2017; stalking/bullying, "
+         "blackmail, morphing, fake profile and the victim (women/children) tables start in 2017; IPC to BNS from 1 July 2024."
+         if cyber_only else
+         "Breaks: Sec 354A-D added 2013; POCSO girl victims in crime against women from 2017; IPC to BNS from 1 July 2024; cyber 'fraud' changes meaning in 2017."),
         "Boundaries: Telangana from 2014; Ladakh separate from 2020; D&N Haveli and Daman & Diu merged from 2020.",
         "Full codebook: data/clean/README.md.",
     ]
@@ -195,4 +209,5 @@ def main(src, out):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    # Add --cyber for the cyber-only version.
+    main(sys.argv[1], sys.argv[2], CYBER_GROUPS if "--cyber" in sys.argv[3:] else None)
