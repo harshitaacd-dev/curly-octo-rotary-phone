@@ -1,0 +1,74 @@
+Source: https://help.mojapp.in/transparency-report/february-2022/
+Retrieved: 2026-10-14T23:53:08.249Z
+
+Transparency Report
+
+In accordance with the Information Technology (Guidelines for Intermediaries and Digital Media Ethics Code) Rules, 2021 (“IT Rules”), Moj is publishing this monthly transparency report for February 2022 to ensure transparency for our users. In this report, we will be sharing detailed information about the legal requests received from law enforcement authorities, number of user complaints received, and removal actions taken as well as takedown done basis violations of our community guidelines.
+
+1. Law Enforcement Requests
+
+This report includes the number of legal notices received for Moj from law enforcement authorities and investigating agencies. Basis the requests, an action is taken in the form of content/account take down and/or user data is shared with the law enforcement authorities provided correct and complete details of such user accounts are sent to us.
+
+Law enforcement requests received	Requests where user data was provided	Takedown action basis violation of community guidelines
+2	2	None
+
+February 2022
+
+2. User Complaints Received
+
+This report includes the total number of user complaints received by Moj via reporting mechanisms available across the platform, based on different categories as tagged by the users. Our users have the option to report user profiles as well as individual content for violation of our policy standards.
+
+Total number of user complaints received
+28,13,200
+
+February 2022
+
+Categories of user complaints received
+
+Terrorism (0.35%)
+Suicide/Dangerous Acts (1.12%)
+Hate speech (5.75%)
+Fake news (7.44%)
+Inappropriate username/handle/status (0.33%)
+Sharing personal information (0.64%)
+Offensive (0.59%)
+Illegal activities (4.3%)
+Violence (8.1%)
+Inappropriate comments (0.96%)
+Inappropriate profile picture (0.68%)
+Fake profile (0.73%)
+Spam (35.79%)
+Sexually explicit content (9.03%)
+Abusive language (17.68%)
+Others (6.35%)
+Non-agreement (0%)
+No category (0.18%)
+
+February 2022
+
+3. Removal Actions (Takedown)
+
+We take proactive removal actions basis violation of our Community Guidelines, Terms of Use and other policy standards. All existing policies for Moj can be accessed here.
+
+Our users have the option to report user profiles as well as individual content for violation of our policy standards. We have a reporting mechanism to enable copyright holders to report infringing copyright content on the platform. Such infringing links can be shared for review at https://moj-copyright.sharechat.com/ and are taken down within 24 hours.
+
+Takedown basis violation of Community Guidelines
+
+Copyright takedown (1)
+Sexual UGC discard (56,756)
+UGC discard (199,440)
+Comments deleted (177,069)
+
+February 2022
+
+4. Removal Actions (Ban)
+
+Depending on the severity of the violation and the parameters basis which each case has been reviewed, we enforce various bans spread across different time periods. The bans can be enforced in the form of UGC ban (user is unable to post any content on the platform for the specified ban duration), edit profile ban (user is unable to edit any profile attributes for the specified time period) and comment ban (user is banned from commenting on any post on the platform for the specified ban duration). The duration of these bans varies between one day, seven days, 30 days and 360 days. In cases where these guidelines are repeatedly breached, we permanently remove the user’s account for a period of 360 days. In the month of February, we permanently terminated 826 user accounts from Moj.
+
+	UGC ban	Edit Profile ban	Comment ban
+360 days	806	801	803
+30 days	690	18	525
+7 days	5513	228	35,774
+1 day	7	None	21
+
+February 2022

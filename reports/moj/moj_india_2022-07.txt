@@ -1,0 +1,84 @@
+Source: https://help.mojapp.in/transparency-report/july-2022/
+Retrieved: 2026-10-14T23:53:22.993Z
+
+Transparency Report
+1st July 2022- 31st July 2022
+
+At Moj, we are committed to providing a secure environment for our users. We are publishing this monthly transparency report for July 2022 to provide an insight to various stakeholders, into our efforts at keeping the platform safe for our users and upholding the first principles of online safety.
+
+This report highlights various data points pertaining to the legal requests that we have received from law enforcement authorities and how we responded to the same, the total number of user reports received, and the enforcement actions that we have taken in terms of takedown as well as ban actions based on the violation of our community standards.
+
+1. Law Enforcement Requests
+
+The below table captures the total number of legal notices that we have received for Moj from law enforcement authorities and investigating agencies for the month of July. We review these requests and share user profile data with the law enforcement authorities for valid requests, provided that the correct and complete details of such user accounts are sent to us. We may also take an action in the form of content/account take down in case there is a violation of our community guidelines.
+
+Law enforcement requests received	Requests where user data was provided	Requests wherein a takedown/ban action was taken on the basis of violation of our community guidelines
+2	2	1
+
+July 2022
+
+2. Overview of User Reports
+
+In July 2022, we received a total of 3,311,651 user reports via the reporting mechanisms available across the platform.
+
+
+Total number of user reports received for Moj	3,311,651
+
+July 2022
+
+These reports are further broken down into various categories as tagged by our users. Our users have the option to report other user profiles as well as individual content for violation of our policy standards.
+
+Reasons	Content and accounts reported	Contribution percentage of user complaints received
+Terrorism	12,952	0.39%
+Suicide/Dangerous Acts	38,629	1.17%
+Non-agreement	2	0.00%
+Hate speech	209,101	6.31%
+Misinformation	273,792	8.27%
+Inappropriate username/handle/status	12,031	0.36%
+Sharing personal information	22,019	0.66%
+Offensive	18,430	0.56%
+Illegal activities	161,385	4.87%
+Violence	271,412	8.20%
+Inappropriate comments	23,444	0.71%
+Miscellaneous	3,076	0.09%
+Inappropriate profile picture	24,269	0.79%
+Fake profile	26,163	0.79%
+Spam	1,101,898	33.27%
+Sexually explicit content	307,157	9.28%
+Abusive language	599,739	18.11%
+Others	206,152	6.23%
+
+July 2022
+
+3. Enforcement Actions (Takedown)
+
+We take proactive removal actions to ensure platform safety basis the violation of our Community Guidelines, Terms of Use and other policy standards. All existing policies for Moj can be accessed here.
+
+We review the user reports that are sent to us and enforce removal actions if the alleged content is against our community standards.
+
+We have a reporting mechanism available at https://moj-copyright.sharechat.com/ to enable copyright holders to submit claims for content on the platform that infringes their intellectual property rights. We review these claims and take down infringing content in accordance with applicable laws if valid takedown requests are submitted via the copyright tool reporting mechanism.
+
+Takedown basis violation of Community Guidelines
+Categories of content	Content pieces taken down
+Copyright violations	495
+Sexually explicit	199,871
+UGC- violation of community standards	513,469
+Comments	320,227
+
+July 2022
+
+4. Enforcement Actions (Ban)
+
+In instances where our community guidelines are repeatedly breached, we permanently terminate the user's account for a period of 360 days. In July 2022, we permanently terminated 117 user accounts from Moj.
+
+In addition to the above, we enforce account-level bans spread across different time periods depending on the severity of the violation.
+
+The bans can be enforced in the form of a UGC ban (user is unable to post any content on the platform for the specified ban duration), an edit profile ban (user is unable to edit any profile attributes for the specified time period) and comment ban (user is banned from commenting on any post on the platform for the specified ban duration). The duration of these bans can vary from one day, seven days, 30 days to 360 days.
+
+Ban duration	UGC ban	Edit Profile ban	Comment ban
+360 days	1508	110	162
+30 days	4,204	34	1873
+7 days	8,647	349	43,281
+1 day	26	19	29
+
+July 2022

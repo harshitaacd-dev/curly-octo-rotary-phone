@@ -1,0 +1,74 @@
+Source: https://help.mojapp.in/transparency-report/december-2021/
+Retrieved: 2026-10-14T23:53:01.722Z
+
+Transparency Report
+
+In accordance with the Information Technology (Guidelines for Intermediaries and Digital Media Ethics Code) Rules, 2021 ("IT Rules"), Moj is publishing this monthly transparency report for December 2021 to ensure transparency for our users. In this report, we will be sharing detailed information about the legal requests received from law enforcement authorities, number of user complaints received, and removal actions taken as well as takedown done basis violations of our community guidelines.
+
+1. Law Enforcement Requests
+
+This report includes the number of legal notices received for Moj from law enforcement authorities and investigating agencies. Basis the requests, an action is taken in the form of content/account take down and/or user data is shared with the law enforcement authorities provided correct and complete details of such user accounts are sent to us.
+
+Law enforcement requests received
+In the month of December 2021, we have not received law enforcement requests for Moj for provision of user account data.
+
+December 2021
+
+2. User Complaints Received
+
+This report includes the total number of user complaints received by Moj via reporting mechanisms available across the platform, based on different categories as tagged by the users. Our users have the option to report user profiles as well as individual content for violation of our policy standards.
+
+Total number of user complaints received
+32,32,903
+
+December 2021
+
+Categories of user complaints received
+
+Terrorism (0.3%)
+Suicide/Dangerous Acts (1.15%)
+Hate speech (5.7%)
+Fake news (7.02%)
+Inappropriate username/handle/status (0.32%)
+Sharing personal information (0.57%)
+Offensive (0.61%)
+Illegal activities (4.24%)
+Violence (7.84%)
+Inappropriate comments (0.83%)
+Inappropriate profile picture (0.65%)
+Fake profile (0.69%)
+Spam (35.98%)
+Sexually explicit content (9.51%)
+Abusive language (16.82%)
+Others (7.56%)
+Non-agreement (0%)
+No category (0.2%)
+
+December 2021
+
+3. Removal Actions (Takedown)
+
+We take proactive removal actions basis violation of our Community Guidelines, Terms of Use and other policy standards. All existing policies for Moj can be accessed here.
+
+Our users have the option to report user profiles as well as individual content for violation of our policy standards. We have a reporting mechanism to enable copyright holders to report infringing copyright content on the platform. Such infringing links can be shared for review at https://moj-copyright.sharechat.com/ and are taken down within 24 hours.
+
+Takedown basis violation of Community Guidelines
+
+Copyright takedown (66)
+Sexual UGC discard (100,027)
+UGC discard (292,352)
+Comments deleted (213,741)
+
+December 2021
+
+4. Removal Actions (Ban)
+
+Depending on the severity of the violation and the parameters basis which each case has been reviewed, we enforce various bans spread across different time periods. The bans can be enforced in the form of UGC ban (user is unable to post any content on the platform for the specified ban duration), edit profile ban (user is unable to edit any profile attributes for the specified time period) and comment ban (user is banned from commenting on any post on the platform for the specified ban duration). The duration of these bans varies between one day, seven days, 30 days and 360 days. In cases where these guidelines are repeatedly breached, we permanently remove the user’s account for a period of 360 days. In the month of December, we permanently terminated 1327 user accounts from Moj.
+
+	UGC ban	Edit Profile ban	Comment ban
+360 days	1299	1304	1331
+30 days	1513	13	928
+7 days	12,193	341	1,04,427
+1 day	11	6	62
+
+December 2021

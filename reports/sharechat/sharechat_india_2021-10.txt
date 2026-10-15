@@ -1,0 +1,79 @@
+Source: https://help.sharechat.com/transparency-report/october-2021/
+Retrieved: 2026-10-14T23:45:40.840Z
+
+Transparency Report
+
+In accordance with the Information Technology (Guidelines for Intermediaries and Digital Media Ethics Code) Rules, 2021 ("IT Rules"), ShareChat is publishing this monthly transparency report for October 2021 to ensure transparency for our users. In this report, we will be sharing detailed information about the legal requests received from law enforcement authorities, number of user complaints received, and removal actions taken as well as takedown done basis violations of our community guidelines.
+
+1. Law Enforcement Requests
+
+This report includes the number of legal notices received for ShareChat from law enforcement authorities and investigating agencies. Basis the requests, an action is taken in the form of content/account take down and/or user data is shared with the law enforcement authorities provided correct and complete details of such user accounts are sent to us.
+
+Law enforcement requests received	Requests where user data was provided	Takedown action basis violation of community guidelines
+12	11	5
+
+October 2021
+
+2. User Complaints Received
+
+This report includes the total number of user complaints received by ShareChat via reporting mechanisms available across the platform, based on different categories as tagged by the users. Our users have the option to report user profiles as well as individual content for violation of our policy standards.
+
+Total number of user complaints received
+81,96,895
+
+October 2021
+
+Categories of user complaints received
+
+Impersonation (0.01%)
+Terrorism (0.08%)
+Suicide/Dangerous Acts (0.18%)
+Inappropriate chatroom picture (0.14%)
+Inappropriate chatroom name (0.33%)
+Non-agreement (0.21%)
+Hate speech (0.43%)
+Fake news (1.59%)
+Inappropriate username/handle/status (1.95%)
+Sharing personal information (1.48%)
+Wrong group/tag (1.45%)
+Offensive (1.66%)
+Illegal activities (2.29%)
+Violence (2.11%)
+Inappropriate comments (0.13%)
+No category (9.24%)
+Inappropriate profile picture (2.05%)
+Fake profile (5.13%)
+Spam (5.95%)
+Sexually explicit content (6.17%)
+Abusive language (26.68%)
+Others (30.74%)
+
+October 2021
+
+3. Removal Actions (Takedown)
+
+We take proactive removal actions basis violation of our Community Guidelines, Terms of Use and other policy standards. All existing policies for ShareChat can be accessed here.
+
+We take down content basis review of user complaints and violation of our policy standards. We have a reporting mechanism to enable copyright holders to report infringing copyright content on the platform. Such infringing links can be shared for review at copyright.sharechat.com and are taken down within 24 hours.
+
+Takedown basis violation of Community Guidelines
+
+Copyright takedown (88,663)
+Sexual UGC discard (250,602)
+UGC discard (8,578,254)
+Chatrooms deleted (1,889)
+Comments deleted (163,411)
+
+October 2021
+
+4. Removal Actions (Ban)
+
+Depending on the severity of the violation and the parameters basis which each case has been reviewed, we enforce various bans spread across different time periods. The bans can be enforced in the form of UGC ban (user is unable to post any content on the platform for the specified ban duration), edit profile ban (user is unable to edit any profile attributes for the specified time-period) and comment ban (user is banned from commenting on any post on the platform for the specified ban duration). The duration of these bans varies between one day, seven days, 30 days and 360 days. In cases where these guidelines are repeatedly breached, we permanently remove the user’s account for a period of 360 days. In the month of October, we permanently terminated 67,396 user accounts from ShareChat.
+
+	UGC ban	Edit Profile ban	Comment ban
+360 days	65,462	65,363	65,332
+30 days	904	799	1694
+7 days	9735	26,790	83,576
+1 day	15	36	80
+
+October 2021

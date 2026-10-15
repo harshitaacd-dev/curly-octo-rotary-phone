@@ -1,0 +1,949 @@
+Source: https://policy.pinterest.com/en/india-transparency-report (section "September 2024")
+Retrieved: 2026-10-14T23:58:03.215Z
+
+Source: https://policy.pinterest.com/en/india-transparency-report (section “September 2024”). Retrieved 2026-10-14T23:58:03.203Z.
+
+Pinterest India Transparency Report — September 2024
+
+This report, covering September 2024, includes data categories specified in India IT Rules, 2021. This data includes submissions and outcomes from Pinterest’s India Grievance Form and voluntary actions taken against Indian users' content to enforce our Community Guidelines.
+
+Reports
+
+Reports submitted through the designated complaint form for grievances or complaints regarding content on Pinterest’s services or compliance with the India IT Rules, 2021. The data in the table below reflects decisions made on individual pieces of content.
+
+Policy
+
+	
+
+Pins
+
+	
+
+Boards
+
+	
+
+Accounts
+
+	
+
+Comments
+
+
+
+
+Adult content
+
+	
+
+3 deactivated
+
+
+
+
+3 limited distribution
+
+	
+
+1 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+3 deactivated
+
+
+
+
+1 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Dangerous goods and activities
+
+	
+
+1 deactivated
+
+
+
+
+2 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+1 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Graphic violence and threats
+
+	
+
+1 deactivated
+
+
+
+
+3 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Harassment and criticism
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Hateful activities
+
+	
+
+1 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Impersonation
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Irrelevant commentary
+
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+4 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Privacy
+
+	
+
+12 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+2 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Self-injury and harmful behavior
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Copyright
+
+	
+
+353 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Trademark
+
+	
+
+385 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+60 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+125 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+Local law
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+	
+
+0 deactivated
+
+
+
+
+0 limited distribution
+
+
+
+
+No violation found
+
+	
+
+439 Pins
+
+	
+
+8 boards
+
+	
+
+220 accounts
+
+	
+
+5 comments
+
+Voluntary actions
+
+In addition to reviewing and actioning reported content, content that may violate our guidelines can also be found via voluntary methods. The mechanisms used to detect different potential violations may vary based on the state of available technology, the volume of violative content and other factors such as the complexity of evaluation. We continue to iterate and evolve our tools and expect ongoing advancements as our teams continue to strive to maintain a positive and safe environment. The data in this section covers statistics on voluntary deactivations taken on content that was found via voluntary methods, including those actioned using automated tools, against users’ content in India.
+
+Policy
+
+	
+
+Pins
+
+	
+
+Boards
+
+	
+
+Accounts
+
+	
+
+Comments
+
+
+
+
+Adult content
+
+	
+
+884,296 deactivated
+
+	
+
+3,793 deactivated
+
+	
+
+376 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Child safety
+
+	
+
+544,752 deactivated
+
+	
+
+3 deactivated
+
+	
+
+1,410 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Civic participation misinformation
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Climate misinformation
+
+	
+
+12 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Conspiracy theories
+
+	
+
+59 deactivated
+
+	
+
+4 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Content claiming1
+
+	
+
+18,314 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Copyright2
+
+	
+
+186,718 deactivated
+
+	
+
+0 deactivated
+
+	
+
+7 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Dangerous goods and activities
+
+	
+
+434 deactivated
+
+	
+
+61 deactivated
+
+	
+
+29 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Graphic violence and threats
+
+	
+
+21,406 deactivated
+
+	
+
+8 deactivated
+
+	
+
+8 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Harassment and criticism
+
+	
+
+906 deactivated
+
+	
+
+9 deactivated
+
+	
+
+2 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Hateful activities
+
+	
+
+33,161 deactivated
+
+	
+
+3 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Impersonation
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+7 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Medical misinformation
+
+	
+
+1,818 deactivated
+
+	
+
+4 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Privacy
+
+	
+
+5,209 deactivated
+
+	
+
+0 deactivated
+
+	
+
+11 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Self-injury and harmful behavior
+
+	
+
+129,013 deactivated
+
+	
+
+150 deactivated
+
+	
+
+18 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Spam
+
+	
+
+1,139 deactivated
+
+	
+
+0 deactivated
+
+	
+
+20,834 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Trademark
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+	
+
+0 deactivated
+
+
+
+
+Violent actors
+
+	
+
+541 deactivated
+
+	
+
+7 deactivated
+
+	
+
+3 deactivated
+
+	
+
+0 deactivated
+
+1. Anyone who owns a copyright to content can apply for access to the Content Claiming Portal to claim their content and control how it appears on Pinterest. Once a rights holder uploads a particular image, they can tell us whether they want to allow that image to appear on Pinterest. If they choose to block the image, we will remove any matching images that we are able to identify, and continue to do so going forward; we classify those removals here as “voluntary” because the rights holder did not identify or report the removed Pins. The rights holder simply provided an image file; they did not identify or report any Pins as violating their rights. Indeed, rights holders may upload images to the Content Claiming Portal that have no matching Pins on Pinterest.
+
+2. Rights holders can select "remove all" or "remove all but mine" options in the Copyright Infringement Notification form, asking Pinterest to remove all copies of the image identified in their request. Identical copies of the image file on the platform at the time the report is processed are removed by this function and are considered “voluntary.”
+

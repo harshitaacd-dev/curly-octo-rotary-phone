@@ -1,0 +1,87 @@
+Source: https://help.sharechat.com/transparency-report/may-2022/
+Retrieved: 2026-10-14T23:46:13.996Z
+
+Transparency Report
+
+At ShareChat, we are committed to providing a secure environment for our users. We are publishing this monthly transparency report for May 2022 to provide an insight to various stakeholders, into our efforts at keeping the platform safe for our users and upholding the first principles of online safety.
+
+This report highlights various data points pertaining to the legal requests that we have received from law enforcement authorities and how we responded to the same, the total number of user reports received, and the enforcement actions that we have taken in terms of takedown as well as ban actions based on the violation of our community standards.
+
+1. Law Enforcement Requests
+
+The below table captures the total number of legal notices that we have received for ShareChat from law enforcement authorities and investigating agencies for the month of May. We review these requests and share user profile data with the law enforcement authorities for valid requests, provided that the correct and complete details of such user accounts are sent to us. We may also take an action in the form of content/account take down in case there is a violation of our community guidelines.
+
+Law enforcement requests received	Requests where user data was provided	Requests wherein a takedown/ban action was taken on the basis of violation of our community guidelines
+8	7	1
+
+May 2022
+
+2. Overview of User Reports
+
+In May 2022, we received a total of 5,452,798 user reports via the reporting mechanisms available across the platform.
+
+
+Total number of user reports received for ShareChat	5,452,798
+
+May 2022
+
+These reports are further broken down into various categories as tagged by our users. Our users have the option to report other user profiles as well as individual content for violation of our policy standards.
+
+Reasons	Content and accounts reported	Contribution percentage of user complaints received
+Impersonation	1,260	0.02%
+Terrorism	10,926	0.20%
+Suicide/Dangerous Acts	12,878	0.24%
+Inappropriate chatroom picture	3,774	0.07%
+Inappropriate chatroom name	17,489	0.32%
+Non-agreement	14,057	0.26%
+Hate speech	35,494	0.65%
+Misinformation	134,805	2.47%
+Inappropriate username/handle/status	55,222	1.01%
+Sharing personal information	85,534	1.57%
+Wrong group/tag	145,351	2.67%
+Offensive	145,408	2.67%
+Illegal activities	172,368	3.16%
+Violence	135,169	2.48%
+Inappropriate comments	8,740	0.16%
+Miscellaneous	550,778	10.10%
+Inappropriate profile picture	71,967	1.32%
+Fake profile	161,363	2.96%
+Spam	408,661	7.49%
+Sexually explicit content	557,557	10.23%
+Abusive language	1,283,199	23.53%
+Others	1,440,798	26.42%
+
+May 2022
+
+3. Enforcement Actions (Takedown)
+
+We take proactive removal actions to ensure platform safety basis the violation of our Community Guidelines, Terms of Use and other policy standards. All existing policies for ShareChat can be accessed here.
+
+We review the user reports that are sent to us and enforce removal actions if the alleged content is against our community standards.
+
+We have a reporting mechanism available at https://copyright.sharechat.com/ to enable copyright holders to submit claims for content on the platform that infringes their intellectual property rights. We review these claims and take down infringing content in accordance with applicable laws if valid takedown requests are submitted via the copyright tool reporting mechanism.
+
+Categories of content	Content pieces taken down
+Copyright violations	68,410
+Sexually explicit	150,603
+UGC- violation of community standards	2,510,308
+Chatrooms	681
+Comments	126,860
+
+May 2022
+
+4. Enforcement Actions (Ban)
+
+In instances where our community guidelines are repeatedly breached, we permanently terminate the user's account for a period of 360 days. In May 2022, we permanently terminated 11,370 user accounts from ShareChat.
+
+In addition to the above, we enforce account-level bans spread across different time periods depending on the severity of the violation.
+
+The bans can be enforced in the form of a UGC ban (user is unable to post any content on the platform for the specified ban duration), an edit profile ban (user is unable to edit any profile attributes for the specified time period) and comment ban (user is banned from commenting on any post on the platform for the specified ban duration). The duration of these bans can vary from one day, seven days, 30 days to 360 days.
+
+Ban duration	UGC ban	Edit Profile ban	Comment ban
+360 days	10,699	10,517	10,573
+30 days	1,977	1,050	948
+7 days	19,465	19,588	10,682
+1 day	3	9	4
+
+May 2022

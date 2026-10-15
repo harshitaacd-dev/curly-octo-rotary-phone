@@ -1,0 +1,102 @@
+Source: https://help.sharechat.com/transparency-report/2019-2020/
+Retrieved: 2026-10-14T23:45:13.100Z
+
+Transparency Report
+
+Today we are releasing ShareChat’s transparency report that covers data from the period of 1st July, 2019 to 30th June, 2020. This transparency report is a further representation of our commitment to sharing our processes, detailing critical information about the platform and sharing insights on how we process takedown requests from government actors, copyright holders and other stakeholders. By virtue of being an online intermediary with safe harbour privileges, the basis of our action is aligned with applicable laws in India, our Terms of Use as well as our Content and Community Guidelines.
+
+Transparency reports are a mainstay of most technology platforms globally. We believe that meaningful information and insights into the requests we receive have a significant impact on our users across India.
+
+In this report, we will be sharing information on the government requests received and the details of such legal requests for information purposes. We will also be sharing information about ShareChat’s enforcement policies, with respect to violations of our Community Guidelines and copyright take downs. We strongly believe in combating the menace of Fake News on our platform. For this purpose, we have added particulars on the steps taken by us in order to contain the spread of such content that has been marked as Fake News.
+
+This report is divided into four major verticals:
+
+1. Legal Requests
+
+During the specified time period, ShareChat received a total of forty-eight(48) legal notices from law enforcing authorities spread across various states in India. Each of these requests are reviewed for legal merit and sufficiency, as a result of which an action is taken in the form of content takedowns and/or user data is shared with the law enforcement authorities accordingly. In several instances, the requests for data were made with incomplete details, in response to which we requested for further specificity pertaining to the user account/user handles in question. In most of these case, further correspondence was not reciprocated by law enforcement and as a result, no data was shared by the platform.
+
+In the event of data being shared, ShareChat only provides details with respect to the mobile number used for registration purposes, device type, IP address/user access details and in certain specific cases, the chat history.
+
+Number of cases recorded in different states of India. This map is only for representative purposes and may not denote actual geographical or nautical boundaries.
+
+State	User Data Request	Take Down Request
+Andhra Pradesh	4	2
+Haryana	1	0
+Kerala	9	1
+Maharashtra	7	2
+Punjab	4	1
+Tamil Nadu	6	1
+Telangana	12	2
+West Bengal	1	0
+Himachal Pradesh	1	1
+Uttar Pradesh	2	0
+
+Number of Legal Requests per state
+
+This table provides a breakdown of the legal requests received by ShareChat per state. It also details out the type of legal requests received which can be put under two broad categories: user data requests and/or take down requests. We received the highest number of legal requests from the state of Telangana followed by the second highest from the state of Kerala. Out of the total forty-eight (48) legal requests received, forty-seven (47) requests were for user data. We provided data for thirty-three (33) cases.
+
+In nine (9) of the above requests for user data, a request was also made for take down of content and in one (1) case, a legal request was made solely for the takedown of content. We received a total of ten (10) legal requests for content takedown. According to Indian case laws, law enforcement can only send a takedown request alongside a judicial order. None of the above mentioned take down requests were supported by a legal court order. Nevertheless, user data information was still furnished in such cases. However, in one of the ten takedown requests, violations of community standards were noticed, and the content was taken down voluntarily.
+
+2. Community Guidelines Violations
+
+Our Community and Content Guidelines as well as Terms of Use (updated as on 1st October 2019) are available across each of the languages that we provide our services in, both in-app and on the web. Our users have the option to report user profiles as well as individual content for violation of the above-mentioned policy standards.
+
+Once a profile is reported for violating the Community Guidelines, our content reviewers based in India carefully review each case. Depending on the severity of the violation and the parameters basis which each case has been reviewed, we take action either in the form of content take down or removal of the user account. The duration of the ban varies between one day, seven days and 30 days. An account may be suspended temporarily for up to 360 days. In cases where these guidelines are repeatedly breached, we permanently terminate the user’s account. We also use automated tools in order to take down spam comments in batches, which are reported as well as individual user comments which violate our community guidelines. We recently introduced the concept of chatrooms on the platform, by virtue of which chat groups which further violate our community standards are also taken down from the platform.
+
+360 days	30 days	7 days	1 day	Permanently
+52,954	30,339	55,534	11,528	5152
+
+Accounts banned across different timespan
+
+The above data represents the number of accounts banned for different time spans including 360 days, 30 days, seven days and one day, including permanent bans.
+
+Content Take Down
+25,907,790
+
+Total content pieces removed from the platform
+
+We have also removed 25,907,790 pieces of content as they violated our Community and Content standards as well as the Terms of Services of the ShareChat community.
+
+Comments Take Down
+3,49,292
+
+Total comments removed from the platform
+
+The above data represents the total number of comments which have been taken down from the platform during the specified time period. This data includes batch removal of spam comments as well as individual user comments which violate our community standards and terms of use.
+
+Chatroom Take Down	Users banned from participating in chatrooms
+3,670	16,259
+
+Total chatrooms instances removed, and number of users banned from participating in the chatrooms
+
+The above data depicts the total number of chatrooms which have been removed from the platform as well as the number of users banned from participating in such chatrooms on account of violations of our community standards and terms of use.
+
+3. Copyright Notices
+
+ShareChat is committed to safeguarding intellectual property rights and considers copyright violations as a serious concern. It is our policy to promptly respond and take appropriate actions on any specific notices received as per the Digital Millennium Copyright Act (DMCA), the Information Technology Act, 2000 and the Information Technology Act (Intermediary Guidelines) Rules, 2011, that designate ShareChat as an intermediary. We encourage our users to post original content and foster a trusted community in order to combat copyright infringement. We notify our users to specifically not share any such content which violates and infringes upon a third party’s intellectual property rights. During the specified timeline basis which this report is prepared, we have received take down requests from various entertainment companies, production houses and individual copyright owners.
+
+In addition to the above measures put in place and to further curb the issues of copyright infringement, we have introduced a robust reporting mechanism to enable copyright holders to report such profiles which violate the rights vested in their copyrighted works. By way of this mechanism, which was introduced in October 2019, the infringing links can be shared for review at copyright.sharechat.com. The infringing links are immediately taken down from the platform within 24 hours as per applicable laws.
+
+As mentioned in the table below, during the specified time period, we received 7487 takedown requests on the copyright tool, out of which the total number of content pieces to be taken down amounted to 2,52,681. We took down a total number of 2,48,091 pieces of content from the platform.
+
+Total no. of copyright takedown requests received	Total no. of content pieces requested to be taken down from the platform	Total no. of content pieces taken down from the platform
+7487	2,52,681	2,48,091
+
+Total no. of copyright taken down requests received including, the total no. of content pieces to be taken down and the total no. of content pieces removed from the platform
+
+4. Combating Misinformation
+
+ShareChat is committed to battling fake news and the issues of misinformation. Any piece of content which spreads deliberate misinformation, hoaxes or fake propaganda, with the intent to mislead the public is strictly prohibited on our platform. As a part of this fight, we have partnered with third party fact checkers to verify content on our platform that users may report to be untrue or inaccurate.
+
+We prohibit posting of content that exaggerates an existing piece of news and overemphasizes on the non-factual elements. ShareChat aims to stop the spread of such content on the platform that misleads users or attempts to create an avenue for fabricating content, or attempts to damage someone’s reputation, or hurt their financial or political standing on the basis of incorrect information.
+
+In order to uphold these standards and processes, ShareChat has collaborated with several third-party fact checking agencies in this regard.
+
+The following data is a record of content pieces that were fact checked on the platform during the specified time period.
+
+Content pieces fact checked	Content found to be factually incorrect
+10,37,744	16,295
+
+Total number of content pieces fact checked, and the number of content pieces found to be factually incorrect
+
+The above table describes the number of content pieces sent for fact checking and the number of content pieces found to be factually incorrect. Out of the 10,37,744 pieces of content that were sent for fact checking, 16,295 were found to be factually incorrect. On the content found to be factually incorrect, we create grayscales with a notice about the nature of content. We warn users that the piece of content is found to be factually incorrect. Additionally, viewer discretion is advised.

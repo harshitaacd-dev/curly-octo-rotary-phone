@@ -1,0 +1,58 @@
+Source: https://values.snap.com/privacy/transparency/india-01-2024
+Retrieved: 2026-10-14T23:41:42.806Z
+
+Snap Values
+Policy
+Privacy
+Safety
+Transparency
+News
+Transparency Reports
+Resources
+
+India: January 2024
+
+Account / Content Violations
+
+Total Content & Account Reports	Total Content Enforced	Total Unique Accounts Enforced
+234,858	30,935	23,721
+Reason	Content & Account Reports	Content Enforced	Unique Accounts Enforced
+Sexual Content	60,539	11,932	8,931
+Harassment and Bullying	76,376	15,933	13,430
+Threats & Violence	12,494	209	196
+Self-Harm & Suicide	5,023	367	322
+False Information	4,353	4	4
+Impersonation	14,358	138	138
+Spam	43,307	2,052	1,892
+Drugs	2,437	67	62
+Weapons	2,189	1	1
+Other Regulated Goods	7,024	73	71
+Hate Speech	6,758	159	149
+CSEAI: Total Account Deletions	Terrorism: Total Account Deletions
+2,807	0
+Back to India Transparency Reports
+COMPANY
+Snap Inc.
+Careers
+News
+Privacy and Safety
+COMMUNITY
+Snapchat Support
+Spectacles Support
+Community Guidelines
+ADVERTISING
+Snapchat Ads
+Advertising Policies
+Political Ads Library
+Brand Guidelines
+Promotions Rules
+LEGAL
+Other Terms & Policies
+Law Enforcement
+Cookie Policy
+Cookie Settings
+Report Infringement
+PRIVACY POLICY
+TERMS OF SERVICE
+LANGUAGE
+English (US)

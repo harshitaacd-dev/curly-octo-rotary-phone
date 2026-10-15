@@ -1,0 +1,121 @@
+Source: https://help.sharechat.com/transparency-report/2018-2019/
+Retrieved: 2026-10-14T23:45:06.832Z
+
+Transparency Report
+
+Today we are releasing ShareChat’s first transparency report that covers data from the period of 1st June, 2018 to 31st June, 2019. This transparency report is a representation of our commitment to sharing our processes and detailing to our users critical information about the platform and how we process takedown requests from government actors, copyright holders and others. As an online intermediary, the basis of our actions are aligned with the applicable laws, our Terms of Use and our Content and Community Guidelines.
+
+Transparency reports are a mainstay of most technology platforms globally and we believe meaningful information and insights into the requests we receive have an impact on our users across India. Going forward we would be sharing these reports on a bi-annual basis.
+
+In this report, we will be sharing information around the legal requests we’ve received, details of legal requests for information, ShareChat rules enforcement and copyright take downs.
+
+We have also added details on the amount of content that has been marked as Fake News by our third party fact checkers as well as takedown requests that were received by the Election Commission of India during India’s national elections in 2019.
+
+1. Legal Requests
+
+During the time period in review, ShareChat received a total of 41 legal notices from various law enforcing authorities across various states in India. Each of these requests are reviewed for legal merit and as a result take downs and data is shared accordingly. In a number of instances, the requests for data were made with incomplete details and further correspondence was not reciprocated by law enforcement, as a result no data was shared by the platform.
+
+In the event of data being shared, ShareChat only provides the mobile number used for registration, device type, IP address and in some cases chat history.
+
+Number of cases recorded in different states of India. This map is only for representative purposes and may not denote actual geographical or nautical boundaries.
+
+State	User Data Request	Take Down Request
+Andhra Pradesh	1	0
+Assam	1	0
+Chhattisgarh	1	0
+Dadra and Nagar Haveli	1	0
+Gujarat	1	0
+Haryana	4	0
+Karnataka	2	1
+Kerala	7	1
+Madhya Pradesh	1	0
+Maharashtra	5	1
+Punjab	2	0
+Tamil Nadu	1	0
+Telangana	6	2
+West Bengal	5	2
+Central Goverment	1	0
+
+Number of Legal Requests per state
+
+The above table details a breakdown of the legal requests per state. It also details out the type of legal requests received, namely; whether for user data or take down requests. We received the highest number of legal requests from the state of Kerala followed by Telangana. Out of the 41 legal requests, 39 request were for user data. We provided data for 33 cases.
+
+In seven of the above legal requests for data, a request was also made for take down of content. According to Indian case law, law enforcement can only send take down request alongside a judicial order. None of the take down requests were supported by a legal court order. However, in five of the seven take down requests, violations of community standards were noticed and accordingly content was taken down.
+
+2. Community Guidelines Violations
+
+Our Community and Content Guidelines and Terms of Use are available across each of the languages we provide our services in, both in-app and on the web. Our users are able to report both profiles as well individual content for violation of these rules.
+
+Based on the severity and/or number of violations, we either take down content and/or ban accounts.
+
+Once a profile is reported for violating the Community Guidelines, our content reviewers based in India carefully review each case. Depending on the severity of the violation we take action either in the form of content take down or banning of the account. The duration of the ban varies between one day, seven days and 30 days. An account may be suspended temporarily for up to 360 days. In cases where these guidelines are repeatedly breached, we permanently terminate the user’s account.
+
+360 days	30 days	7 days	1 day	Permanently
+29,991	18,122	55,894	4653	5696
+
+Accounts banned across different timespan
+
+The above data represents the number of accounts banned for different time spans including 360 days, 30 days, seven days and one day, including permanent bans.
+
+Content Take Down
+1,190,452
+
+Total content pieces removed from the platform
+
+We have also removed 1,190,452 pieces of content as they violated our Community and Content standards as well as the Terms of Services of the ShareChat community.
+
+Additionally, after examining the above mentioned 40 legal cases, we voluntarily removed ten accounts for similar violations.
+
+Content Take Down during General Elections
+
+On March 20, 2019, ShareChat along with other social media platforms signed the Voluntary Code of Ethics under the aegis of the Internet and Mobile Association of India.
+
+During the 2019 Lok Sabha General Elections we were directed to take down 31 pieces of content via lawful order from the Election Commission of India that violated electoral laws in India. We took down all 31 pieces within a time span of 30 minutes of receiving the notice.
+
+3. Copyright Notices
+
+ShareChat takes copyright violations very seriously. It is our policy to respond and take action on any specific notice as per both the Digital Millennium Copyright Act (DMCA) as well as the Information Technology Act, 2000 and the Information Technology Act (Intermediary Guidelines) Rules, 2011, that designates ShareChat as an intermediary
+
+We encourage our users to post original content and not infringe community guidelines. We notify our users to specifically not share any content which is illegal and that violates and infringes upon a third party’s intellectual property rights.
+
+In the past year, we have received take down requests from various entertainment companies and small production houses. From June 1, 2018 to June 31, 2019 we received take down requests for 36,611 pieces of content.
+
+Name	Number of content take down cases
+ETV	6,591
+ZEE TV	23,643
+SONY	3,962
+Telugu Film Chamber of Commerce	1,426
+BCCI	731
+
+The above table represents five entertainment companies that sent us the highest number of take down notices. Zee TV sent the highest take down requests for 23,643 pieces of content. ETV Network sent take down requests for 6,591 pieces of content. Sony sent take down requests for 3,962 pieces of content. Telugu Film Chamber of Commerce sent take down requests for 1,426 pieces of content. The Board of Control for Cricket in India (BCCI) sent us take down requests for 731 pieces of content.
+
+Additionally, we received take down requests for 293 pieces of content from other companies, production houses and individuals. Out of the 293, 130 were from ByteDance. Another 41 were from the International Cricket Council (ICC), 58 from the Tamil Film Producers Council and 29 from small production houses.
+
+There were 35 personal requests to take down content that individuals created and owned. We took down 36,611 pieces of content, which is equivalent to the total pieces of content that were requested to be taken down in the same time period.
+
+4. Dealing with Misinformation
+
+ShareChat is committed to battling fake news and the issues of misinformation. Any piece of content which spreads deliberate misinformation, hoaxes or fake propaganda, with the intent to mislead is not permitted on our platform. As part of this fight, we’ve tied up with third party fact checkers to verify content on our platform that users may report to be untrue or inaccurate.
+
+We prohibit posting of content that exaggerates an existing piece of news by introducing nonfactual elements. ShareChat stops the spread of content that misleads users or attempts to create a sensation for fabricating content, or attempts to damage someone’s reputation, or hurt their financial or political standing on the basis of false information.
+
+In order to uphold these standards and processes, ShareChat has partnerships with several third-party fact checking agencies. In February, 2019 we partnered with NewsChecker.in which supports fact checking in Hindi, Marathi, Bengali and Tamil. The following data is a record of content pieces that were fact checked on the platform since February 2019.
+
+The following data is a record of content pieces that were fact checked on the platform during the specified time period.
+
+Content pieces fact checked	Content found to be factually incorrect
+56,679	15,768
+
+Total number of content pieces fact checked, and the number of content pieces found to be factually incorrect
+
+The above table describes the number of content pieces sent for fact checking and the number of content pieces found to be factually incorrect. Out of the 56,679 pieces of content that were sent for fact checking, 15,768 were found to be factually incorrect. On the content found to be factually incorrect, we create grayscales with a notice about the nature of content. We warn users that the piece of content is found to be factually incorrect. Additionally, viewer discretion is advised.
+
+Efforts are ongoing to expand our scope of fact checking in other languages. Besides NewsChecker, ShareChat has partnerships with FACTLY which supports us in fact checking content in Telugu and BoomLive in Kannada. We will also be partnering with Fact Crescendo which would support us in fact checking content in Assamese and Odia.
+
+5. Tailpiece
+
+As a young start up, there is a long way to go for us to win the trust of Indian users but the best way to do this is by being committed to transparency about our practices and how we uphold our users data as well as privacy.
+
+This report was prepared in consultation with the Internet Freedom Foundation, a Delhi based digital liberties organization.
+
+We would welcome any feedback and questions on this document as we move towards releasing this report on a bi-annual basis.

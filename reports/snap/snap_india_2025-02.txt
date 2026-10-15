@@ -1,0 +1,99 @@
+Source: https://values.snap.com/privacy/transparency/india-02-2025
+Retrieved: 2026-10-14T23:42:43.818Z
+
+Snap Values
+Policy
+Privacy
+Safety
+Transparency
+News
+Transparency Reports
+Resources
+
+India: February 2025
+
+Overview of our Trust & Safety Teams’ Actions to Enforce our Community Guidelines
+
+Total Enforcements	Total Unique Accounts Enforced
+77,195	50,250
+Policy Reason	Total Enforcements	Total Unique Accounts Enforced	Median Turnaround Time (minutes) From Detection To Final Action
+Sexual Content	34,315	20,904	0.6
+Child Sexual Exploitation	9,898	7,347	6.8
+Harassment and Bullying	29,292	23,530	1.4
+Threats & Violence	526	482	1.5
+Self-Harm & Suicide	125	109	8.4
+False Information	8	8	0.6
+Impersonation	112	109	0.7
+Spam	759	575	0.7
+Drugs	1,356	1,022	4.7
+Weapons	272	171	0.7
+Other Regulated Goods	188	177	0.3
+Hate Speech	339	308	1.4
+Terrorism & Violent Extremism	5	3	1.4
+			1
+
+Community Guidelines Violations Reported to our Trust & Safety Teams
+
+Total Content & Account Reports	Total Enforcements	Total Unique Accounts Enforced
+259,889	52,622	39,342
+Policy Reason	Total Content & Account Reports	Total Enforcements	Total Unique Accounts Enforced
+Sexual Content	60,965	15,031	12,306
+Child Sexual Exploitation	21,466	6,816	6,019
+Harassment and Bullying	67,571	29,261	23,508
+Threats & Violence	12,232	375	353
+Self-Harm & Suicide	5,680	48	46
+False Information	5,516	8	8
+Impersonation	17,410	111	108
+Spam	44,714	406	368
+Drugs	2,160	67	61
+Weapons	3,591	0	0
+Other Regulated Goods	8,772	160	154
+Hate Speech	6,622	338	307
+Terrorism & Violent Extremism	3,190	1	1
+
+Proactive Detection and Enforcement of our Community Guidelines
+
+Total Enforcements	Total Unique Accounts Enforced
+24,573	11,917
+Policy Reason	Total Enforcements	Total Unique Accounts Enforced
+Sexual Content	19,284	9,036
+Child Sexual Exploitation	3,082	1,394
+Harassment and Bullying	31	23
+Threats & Violence	151	130
+Self-Harm & Suicide	77	63
+False Information	0	0
+Impersonation	1	1
+Spam	353	211
+Drugs	1,289	964
+Weapons	272	171
+Other Regulated Goods	28	23
+Hate Speech	1	1
+Terrorism & Violent Extremism	4	2
+CSEA: Total Accounts Disabled
+1,457
+Back to India Transparency Reports
+COMPANY
+Snap Inc.
+Careers
+News
+Privacy and Safety
+COMMUNITY
+Snapchat Support
+Spectacles Support
+Community Guidelines
+ADVERTISING
+Snapchat Ads
+Advertising Policies
+Political Ads Library
+Brand Guidelines
+Promotions Rules
+LEGAL
+Other Terms & Policies
+Law Enforcement
+Cookie Policy
+Cookie Settings
+Report Infringement
+PRIVACY POLICY
+TERMS OF SERVICE
+LANGUAGE
+English (US)
