@@ -6,6 +6,8 @@ The reports are required by **Rule 4(1)(d) of the Information Technology (Interm
 
 Everything here was downloaded from the platforms' own websites on 14–15 October 2026. **[`reports/index.csv`](reports/index.csv)** lists every file with the period it covers, its source and any caveats.
 
+**Datasets:** the numbers from every report have been extracted into one CSV per platform in [`datasets/`](datasets/), about 20,000 rows in all, covering complaints, removals, proactive enforcement, account bans and GAC orders, by category and month. [`datasets/README.md`](datasets/README.md) explains the columns, the caveats, and the validation against each report's own totals.
+
 ## Coverage
 
 | Platform | Folder | Reports | Periods covered | Format |
@@ -51,6 +53,7 @@ Other platforms classed as significant social media intermediaries, such as **Li
 ```bash
 python3 scripts/build_index.py      # rebuild reports/index.csv (needs pdftotext + python-dateutil)
 bash scripts/fetch_direct.sh        # new X, Google and Roblox reports (skips files already present)
+python3 scripts/extract/run_all.py  # rebuild datasets/ from the reports
 ```
 
 Meta, WhatsApp, Snapchat, ShareChat/Moj and Pinterest need a real browser. The Node scripts in `scripts/` use Playwright:

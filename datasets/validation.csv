@@ -1,0 +1,708 @@
+platform,period_start,period_end,service,section,metric,stated_total,sum_of_categories,difference,categories,source_file
+Google,2021-04-01,2021-04-30,Google SSMI products (incl. YouTube),user complaints,complaints received,27762,27762,0,6,reports/google/google_india_2021-04.pdf
+Google,2021-04-01,2021-04-30,Google SSMI products (incl. YouTube),user complaints,removal actions,59350,59350,0,6,reports/google/google_india_2021-04.pdf
+Google,2021-05-01,2021-05-31,Google SSMI products (incl. YouTube),user complaints,complaints received,34883,34883,0,9,reports/google/google_india_2021-05.pdf
+Google,2021-05-01,2021-05-31,Google SSMI products (incl. YouTube),user complaints,removal actions,71132,71132,0,9,reports/google/google_india_2021-05.pdf
+Google,2021-06-01,2021-06-30,Google SSMI products (incl. YouTube),user complaints,complaints received,36265,36265,0,9,reports/google/google_india_2021-06.pdf
+Google,2021-06-01,2021-06-30,Google SSMI products (incl. YouTube),user complaints,removal actions,83613,83613,0,9,reports/google/google_india_2021-06.pdf
+Google,2021-07-01,2021-07-31,Google SSMI products (incl. YouTube),user complaints,complaints received,36934,36934,0,9,reports/google/google_india_2021-07.pdf
+Google,2021-07-01,2021-07-31,Google SSMI products (incl. YouTube),user complaints,removal actions,95680,95680,0,9,reports/google/google_india_2021-07.pdf
+Google,2021-08-01,2021-08-31,Google SSMI products (incl. YouTube),user complaints,complaints received,35191,35191,0,9,reports/google/google_india_2021-08.pdf
+Google,2021-08-01,2021-08-31,Google SSMI products (incl. YouTube),user complaints,removal actions,93550,93550,0,9,reports/google/google_india_2021-08.pdf
+Google,2021-09-01,2021-09-30,Google SSMI products (incl. YouTube),user complaints,complaints received,29842,29842,0,9,reports/google/google_india_2021-09.pdf
+Google,2021-09-01,2021-09-30,Google SSMI products (incl. YouTube),user complaints,removal actions,76967,76967,0,9,reports/google/google_india_2021-09.pdf
+Google,2021-10-01,2021-10-31,Google SSMI products (incl. YouTube),user complaints,complaints received,24569,24569,0,9,reports/google/google_india_2021-10.pdf
+Google,2021-10-01,2021-10-31,Google SSMI products (incl. YouTube),user complaints,removal actions,48594,48594,0,9,reports/google/google_india_2021-10.pdf
+Google,2021-11-01,2021-11-30,Google SSMI products (incl. YouTube),user complaints,complaints received,26087,26087,0,9,reports/google/google_india_2021-11.pdf
+Google,2021-11-01,2021-11-30,Google SSMI products (incl. YouTube),user complaints,removal actions,61114,61114,0,9,reports/google/google_india_2021-11.pdf
+Google,2021-12-01,2021-12-31,Google SSMI products (incl. YouTube),user complaints,complaints received,31497,31497,0,9,reports/google/google_india_2021-12.pdf
+Google,2021-12-01,2021-12-31,Google SSMI products (incl. YouTube),user complaints,removal actions,94173,94173,0,9,reports/google/google_india_2021-12.pdf
+Google,2022-01-01,2022-01-31,Google SSMI products (incl. YouTube),user complaints,complaints received,33995,33995,0,9,reports/google/google_india_2022-01.pdf
+Google,2022-01-01,2022-01-31,Google SSMI products (incl. YouTube),user complaints,removal actions,104285,104285,0,9,reports/google/google_india_2022-01.pdf
+Google,2022-02-01,2022-02-28,Google SSMI products (incl. YouTube),user complaints,complaints received,30065,30065,0,9,reports/google/google_india_2022-02.pdf
+Google,2022-02-01,2022-02-28,Google SSMI products (incl. YouTube),user complaints,removal actions,93067,93067,0,9,reports/google/google_india_2022-02.pdf
+Google,2022-03-01,2022-03-31,Google SSMI products (incl. YouTube),user complaints,complaints received,31699,31699,0,9,reports/google/google_india_2022-03.pdf
+Google,2022-03-01,2022-03-31,Google SSMI products (incl. YouTube),user complaints,removal actions,93457,93457,0,9,reports/google/google_india_2022-03.pdf
+Google,2022-04-01,2022-04-30,Google SSMI products (incl. YouTube),user complaints,complaints received,23322,23322,0,9,reports/google/google_india_2022-04.pdf
+Google,2022-04-01,2022-04-30,Google SSMI products (incl. YouTube),user complaints,removal actions,50504,50504,0,9,reports/google/google_india_2022-04.pdf
+Google,2022-05-01,2022-05-31,Google SSMI products (incl. YouTube),user complaints,complaints received,25694,25694,0,9,reports/google/google_india_2022-05.pdf
+Google,2022-05-01,2022-05-31,Google SSMI products (incl. YouTube),user complaints,removal actions,62673,62673,0,9,reports/google/google_india_2022-05.pdf
+Google,2022-06-01,2022-06-30,Google SSMI products (incl. YouTube),user complaints,complaints received,32717,32717,0,9,reports/google/google_india_2022-06.pdf
+Google,2022-06-01,2022-06-30,Google SSMI products (incl. YouTube),user complaints,removal actions,111493,111493,0,9,reports/google/google_india_2022-06.pdf
+Google,2022-07-01,2022-07-31,Google SSMI products (incl. YouTube),user complaints,complaints received,37173,37173,0,9,reports/google/google_india_2022-07.pdf
+Google,2022-07-01,2022-07-31,Google SSMI products (incl. YouTube),user complaints,removal actions,137657,137657,0,9,reports/google/google_india_2022-07.pdf
+Google,2022-08-01,2022-08-31,Google SSMI products (incl. YouTube),user complaints,complaints received,37282,37282,0,9,reports/google/google_india_2022-08.pdf
+Google,2022-08-01,2022-08-31,Google SSMI products (incl. YouTube),user complaints,removal actions,140928,140928,0,9,reports/google/google_india_2022-08.pdf
+Google,2022-09-01,2022-09-30,Google SSMI products (incl. YouTube),user complaints,complaints received,30753,30753,0,9,reports/google/google_india_2022-09.pdf
+Google,2022-09-01,2022-09-30,Google SSMI products (incl. YouTube),user complaints,removal actions,99746,99746,0,9,reports/google/google_india_2022-09.pdf
+Google,2022-10-01,2022-10-31,Google SSMI products (incl. YouTube),user complaints,complaints received,28864,28864,0,9,reports/google/google_india_2022-10.pdf
+Google,2022-10-01,2022-10-31,Google SSMI products (incl. YouTube),user complaints,removal actions,86961,86961,0,9,reports/google/google_india_2022-10.pdf
+Google,2022-11-01,2022-11-30,Google SSMI products (incl. YouTube),user complaints,complaints received,30759,30759,0,9,reports/google/google_india_2022-11.pdf
+Google,2022-11-01,2022-11-30,Google SSMI products (incl. YouTube),user complaints,removal actions,106486,106486,0,9,reports/google/google_india_2022-11.pdf
+Google,2022-12-01,2022-12-31,Google SSMI products (incl. YouTube),user complaints,complaints received,42758,42758,0,9,reports/google/google_india_2022-12.pdf
+Google,2022-12-01,2022-12-31,Google SSMI products (incl. YouTube),user complaints,removal actions,186338,186338,0,9,reports/google/google_india_2022-12.pdf
+Google,2023-01-01,2023-01-31,Google SSMI products (incl. YouTube),user complaints,complaints received,38780,38780,0,9,reports/google/google_india_2023-01.pdf
+Google,2023-01-01,2023-01-31,Google SSMI products (incl. YouTube),user complaints,removal actions,140342,140342,0,9,reports/google/google_india_2023-01.pdf
+Google,2023-02-01,2023-02-28,Google SSMI products (incl. YouTube),user complaints,complaints received,33246,33246,0,9,reports/google/google_india_2023-02.pdf
+Google,2023-02-01,2023-02-28,Google SSMI products (incl. YouTube),user complaints,removal actions,133648,133648,0,9,reports/google/google_india_2023-02.pdf
+Google,2023-03-01,2023-03-31,Google SSMI products (incl. YouTube),user complaints,complaints received,35406,35406,0,9,reports/google/google_india_2023-03.pdf
+Google,2023-03-01,2023-03-31,Google SSMI products (incl. YouTube),user complaints,removal actions,135505,135505,0,9,reports/google/google_india_2023-03.pdf
+Google,2023-04-01,2023-04-30,Google SSMI products (incl. YouTube),user complaints,complaints received,28739,28739,0,9,reports/google/google_india_2023-04.pdf
+Google,2023-04-01,2023-04-30,Google SSMI products (incl. YouTube),user complaints,removal actions,90666,90666,0,9,reports/google/google_india_2023-04.pdf
+Google,2023-05-01,2023-05-31,Google SSMI products (incl. YouTube),user complaints,complaints received,28301,28301,0,9,reports/google/google_india_2023-05.pdf
+Google,2023-05-01,2023-05-31,Google SSMI products (incl. YouTube),user complaints,removal actions,98553,98553,0,9,reports/google/google_india_2023-05.pdf
+Google,2023-06-01,2023-06-30,Google SSMI products (incl. YouTube),user complaints,complaints received,26078,26078,0,9,reports/google/google_india_2023-06.pdf
+Google,2023-06-01,2023-06-30,Google SSMI products (incl. YouTube),user complaints,removal actions,79808,79808,0,9,reports/google/google_india_2023-06.pdf
+Google,2023-07-01,2023-07-31,Google SSMI products (incl. YouTube),user complaints,complaints received,29190,29189,-1,9,reports/google/google_india_2023-07.pdf
+Google,2023-07-01,2023-07-31,Google SSMI products (incl. YouTube),user complaints,removal actions,113208,113208,0,9,reports/google/google_india_2023-07.pdf
+Google,2023-08-01,2023-08-31,Google SSMI products (incl. YouTube),user complaints,complaints received,28521,28521,0,9,reports/google/google_india_2023-08.pdf
+Google,2023-08-01,2023-08-31,Google SSMI products (incl. YouTube),user complaints,removal actions,110269,110269,0,9,reports/google/google_india_2023-08.pdf
+Google,2023-09-01,2023-09-30,Google SSMI products (incl. YouTube),user complaints,complaints received,22425,22425,0,9,reports/google/google_india_2023-09.pdf
+Google,2023-09-01,2023-09-30,Google SSMI products (incl. YouTube),user complaints,removal actions,66043,66043,0,9,reports/google/google_india_2023-09.pdf
+Google,2023-10-01,2023-10-31,Google SSMI products (incl. YouTube),user complaints,complaints received,22257,22257,0,9,reports/google/google_india_2023-10.pdf
+Google,2023-10-01,2023-10-31,Google SSMI products (incl. YouTube),user complaints,removal actions,65659,65659,0,9,reports/google/google_india_2023-10.pdf
+Google,2023-11-01,2023-11-30,Google SSMI products (incl. YouTube),user complaints,complaints received,19680,19680,0,9,reports/google/google_india_2023-11.pdf
+Google,2023-11-01,2023-11-30,Google SSMI products (incl. YouTube),user complaints,removal actions,57301,57301,0,9,reports/google/google_india_2023-11.pdf
+Google,2023-12-01,2023-12-31,Google SSMI products (incl. YouTube),user complaints,complaints received,21743,21743,0,9,reports/google/google_india_2023-12.pdf
+Google,2023-12-01,2023-12-31,Google SSMI products (incl. YouTube),user complaints,removal actions,65261,65261,0,9,reports/google/google_india_2023-12.pdf
+Google,2024-01-01,2024-01-31,Google SSMI products (incl. YouTube),user complaints,complaints received,24308,24308,0,9,reports/google/google_india_2024-01.pdf
+Google,2024-01-01,2024-01-31,Google SSMI products (incl. YouTube),user complaints,removal actions,63975,63975,0,9,reports/google/google_india_2024-01.pdf
+Google,2024-02-01,2024-02-29,Google SSMI products (incl. YouTube),user complaints,complaints received,22414,22414,0,9,reports/google/google_india_2024-02.pdf
+Google,2024-02-01,2024-02-29,Google SSMI products (incl. YouTube),user complaints,removal actions,59655,59655,0,9,reports/google/google_india_2024-02.pdf
+Google,2024-03-01,2024-03-31,Google SSMI products (incl. YouTube),user complaints,complaints received,23170,23170,0,9,reports/google/google_india_2024-03.pdf
+Google,2024-03-01,2024-03-31,Google SSMI products (incl. YouTube),user complaints,removal actions,57158,57158,0,9,reports/google/google_india_2024-03.pdf
+Google,2024-04-01,2024-04-30,Google SSMI products (incl. YouTube),user complaints,complaints received,20961,20961,0,9,reports/google/google_india_2024-04.pdf
+Google,2024-04-01,2024-04-30,Google SSMI products (incl. YouTube),user complaints,removal actions,51578,51578,0,9,reports/google/google_india_2024-04.pdf
+Google,2024-05-01,2024-05-31,Google SSMI products (incl. YouTube),user complaints,complaints received,22552,22552,0,9,reports/google/google_india_2024-05.pdf
+Google,2024-05-01,2024-05-31,Google SSMI products (incl. YouTube),user complaints,removal actions,55990,55990,0,9,reports/google/google_india_2024-05.pdf
+Google,2024-06-01,2024-06-30,Google SSMI products (incl. YouTube),user complaints,complaints received,21120,21120,0,9,reports/google/google_india_2024-06.pdf
+Google,2024-06-01,2024-06-30,Google SSMI products (incl. YouTube),user complaints,removal actions,53852,53852,0,9,reports/google/google_india_2024-06.pdf
+Google,2024-07-01,2024-07-31,Google SSMI products (incl. YouTube),user complaints,complaints received,24303,24303,0,9,reports/google/google_india_2024-07.pdf
+Google,2024-07-01,2024-07-31,Google SSMI products (incl. YouTube),user complaints,removal actions,67913,67913,0,9,reports/google/google_india_2024-07.pdf
+Google,2024-08-01,2024-08-31,Google SSMI products (incl. YouTube),user complaints,complaints received,26740,26740,0,9,reports/google/google_india_2024-08.pdf
+Google,2024-08-01,2024-08-31,Google SSMI products (incl. YouTube),user complaints,removal actions,83511,83511,0,9,reports/google/google_india_2024-08.pdf
+Google,2024-09-01,2024-09-30,Google SSMI products (incl. YouTube),user complaints,complaints received,27124,27124,0,9,reports/google/google_india_2024-09.pdf
+Google,2024-09-01,2024-09-30,Google SSMI products (incl. YouTube),user complaints,removal actions,93662,93662,0,9,reports/google/google_india_2024-09.pdf
+Google,2024-10-01,2024-10-31,Google SSMI products (incl. YouTube),user complaints,complaints received,23828,23828,0,9,reports/google/google_india_2024-10.pdf
+Google,2024-10-01,2024-10-31,Google SSMI products (incl. YouTube),user complaints,removal actions,70349,70349,0,9,reports/google/google_india_2024-10.pdf
+Google,2024-11-01,2024-11-30,Google SSMI products (incl. YouTube),user complaints,complaints received,21953,21953,0,9,reports/google/google_india_2024-11.pdf
+Google,2024-11-01,2024-11-30,Google SSMI products (incl. YouTube),user complaints,removal actions,53173,53173,0,9,reports/google/google_india_2024-11.pdf
+Google,2024-12-01,2024-12-31,Google SSMI products (incl. YouTube),user complaints,complaints received,25760,25760,0,9,reports/google/google_india_2024-12.pdf
+Google,2024-12-01,2024-12-31,Google SSMI products (incl. YouTube),user complaints,removal actions,65767,65767,0,9,reports/google/google_india_2024-12.pdf
+Google,2025-01-01,2025-01-31,Google SSMI products (incl. YouTube),user complaints,complaints received,25833,25833,0,9,reports/google/google_india_2025-01.pdf
+Google,2025-01-01,2025-01-31,Google SSMI products (incl. YouTube),user complaints,removal actions,73230,73230,0,9,reports/google/google_india_2025-01.pdf
+Google,2025-02-01,2025-02-28,Google SSMI products (incl. YouTube),user complaints,complaints received,20918,20918,0,9,reports/google/google_india_2025-02.pdf
+Google,2025-02-01,2025-02-28,Google SSMI products (incl. YouTube),user complaints,removal actions,45311,45311,0,9,reports/google/google_india_2025-02.pdf
+Google,2025-03-01,2025-03-31,Google SSMI products (incl. YouTube),user complaints,complaints received,26202,26202,0,9,reports/google/google_india_2025-03.pdf
+Google,2025-03-01,2025-03-31,Google SSMI products (incl. YouTube),user complaints,removal actions,51178,51178,0,9,reports/google/google_india_2025-03.pdf
+Google,2025-04-01,2025-04-30,Google SSMI products (incl. YouTube),user complaints,complaints received,22340,22340,0,9,reports/google/google_india_2025-04.pdf
+Google,2025-04-01,2025-04-30,Google SSMI products (incl. YouTube),user complaints,removal actions,54917,54917,0,9,reports/google/google_india_2025-04.pdf
+Google,2025-05-01,2025-05-31,Google SSMI products (incl. YouTube),user complaints,complaints received,23687,23687,0,9,reports/google/google_india_2025-05.pdf
+Google,2025-05-01,2025-05-31,Google SSMI products (incl. YouTube),user complaints,removal actions,62163,62163,0,9,reports/google/google_india_2025-05.pdf
+Google,2025-06-01,2025-06-30,Google SSMI products (incl. YouTube),user complaints,complaints received,24228,24228,0,9,reports/google/google_india_2025-06.pdf
+Google,2025-06-01,2025-06-30,Google SSMI products (incl. YouTube),user complaints,removal actions,57920,57920,0,9,reports/google/google_india_2025-06.pdf
+Google,2025-07-01,2025-07-31,Google SSMI products (incl. YouTube),user complaints,complaints received,26084,26084,0,9,reports/google/google_india_2025-07.pdf
+Google,2025-07-01,2025-07-31,Google SSMI products (incl. YouTube),user complaints,removal actions,66781,66781,0,9,reports/google/google_india_2025-07.pdf
+Google,2025-08-01,2025-08-31,Google SSMI products (incl. YouTube),user complaints,complaints received,26162,26162,0,9,reports/google/google_india_2025-08.pdf
+Google,2025-08-01,2025-08-31,Google SSMI products (incl. YouTube),user complaints,removal actions,56640,56640,0,9,reports/google/google_india_2025-08.pdf
+Google,2025-09-01,2025-09-30,Google SSMI products (incl. YouTube),user complaints,complaints received,25860,25860,0,9,reports/google/google_india_2025-09.pdf
+Google,2025-09-01,2025-09-30,Google SSMI products (incl. YouTube),user complaints,removal actions,57780,57780,0,9,reports/google/google_india_2025-09.pdf
+Google,2025-10-01,2025-10-31,Google SSMI products (incl. YouTube),user complaints,complaints received,23842,23842,0,9,reports/google/google_india_2025-10.pdf
+Google,2025-10-01,2025-10-31,Google SSMI products (incl. YouTube),user complaints,removal actions,55173,55173,0,9,reports/google/google_india_2025-10.pdf
+Google,2025-11-01,2025-11-30,Google SSMI products (incl. YouTube),user complaints,complaints received,23309,23309,0,9,reports/google/google_india_2025-11.pdf
+Google,2025-11-01,2025-11-30,Google SSMI products (incl. YouTube),user complaints,removal actions,51305,51305,0,9,reports/google/google_india_2025-11.pdf
+Google,2025-12-01,2025-12-31,Google SSMI products (incl. YouTube),user complaints,complaints received,25749,25749,0,9,reports/google/google_india_2025-12.pdf
+Google,2025-12-01,2025-12-31,Google SSMI products (incl. YouTube),user complaints,removal actions,55541,55541,0,9,reports/google/google_india_2025-12.pdf
+Google,2026-01-01,2026-01-31,Google SSMI products (incl. YouTube),user complaints,complaints received,26671,26671,0,9,reports/google/google_india_2026-01.pdf
+Google,2026-01-01,2026-01-31,Google SSMI products (incl. YouTube),user complaints,removal actions,63481,63481,0,9,reports/google/google_india_2026-01.pdf
+Google,2026-02-01,2026-02-28,Google SSMI products (incl. YouTube),user complaints,complaints received,21060,21060,0,9,reports/google/google_india_2026-02.pdf
+Google,2026-02-01,2026-02-28,Google SSMI products (incl. YouTube),user complaints,removal actions,46532,46532,0,9,reports/google/google_india_2026-02.pdf
+Google,2026-03-01,2026-03-31,Google SSMI products (incl. YouTube),user complaints,complaints received,22624,22624,0,9,reports/google/google_india_2026-03.pdf
+Google,2026-03-01,2026-03-31,Google SSMI products (incl. YouTube),user complaints,removal actions,55716,55716,0,9,reports/google/google_india_2026-03.pdf
+Google,2026-04-01,2026-04-30,Google SSMI products (incl. YouTube),user complaints,complaints received,21624,21624,0,9,reports/google/google_india_2026-04.pdf
+Google,2026-04-01,2026-04-30,Google SSMI products (incl. YouTube),user complaints,removal actions,51969,51969,0,9,reports/google/google_india_2026-04.pdf
+Google,2026-05-01,2026-05-31,Google SSMI products (incl. YouTube),user complaints,complaints received,21344,21344,0,9,reports/google/google_india_2026-05.pdf
+Google,2026-05-01,2026-05-31,Google SSMI products (incl. YouTube),user complaints,removal actions,47011,47011,0,9,reports/google/google_india_2026-05.pdf
+Google,2026-06-01,2026-06-30,Google SSMI products (incl. YouTube),user complaints,complaints received,23739,23739,0,9,reports/google/google_india_2026-06.pdf
+Google,2026-06-01,2026-06-30,Google SSMI products (incl. YouTube),user complaints,removal actions,43181,43181,0,9,reports/google/google_india_2026-06.pdf
+Google,2026-07-01,2026-07-31,Google SSMI products (incl. YouTube),user complaints,complaints received,25740,25740,0,9,reports/google/google_india_2026-07.pdf
+Google,2026-07-01,2026-07-31,Google SSMI products (incl. YouTube),user complaints,removal actions,46837,46837,0,9,reports/google/google_india_2026-07.pdf
+Google,2026-08-01,2026-08-31,Google SSMI products (incl. YouTube),user complaints,complaints received,23789,23789,0,9,reports/google/google_india_2026-08.pdf
+Google,2026-08-01,2026-08-31,Google SSMI products (incl. YouTube),user complaints,removal actions,39910,39910,0,9,reports/google/google_india_2026-08.pdf
+Meta,2021-05-15,2021-06-15,Facebook,user grievances,reports received,646,646,0,10,reports/meta/meta_india_2021-06_part2.pdf
+Meta,2021-05-15,2021-06-15,Facebook,user grievances,reports where tools were provided,363,363,0,7,reports/meta/meta_india_2021-06_part2.pdf
+Meta,2021-05-15,2021-06-15,Instagram,user grievances,reports received,36,36,0,5,reports/meta/meta_india_2021-06_part2.pdf
+Meta,2021-05-15,2021-06-15,Instagram,user grievances,reports where tools were provided,10,10,0,3,reports/meta/meta_india_2021-06_part2.pdf
+Meta,2021-06-16,2021-07-31,Facebook,user grievances,reports received,1504,1504,0,10,reports/meta/meta_india_2021-07.pdf
+Meta,2021-06-16,2021-07-31,Facebook,user grievances,reports where tools were provided,1326,1326,0,10,reports/meta/meta_india_2021-07.pdf
+Meta,2021-06-16,2021-07-31,Instagram,user grievances,reports received,265,265,0,7,reports/meta/meta_india_2021-07.pdf
+Meta,2021-06-16,2021-07-31,Instagram,user grievances,reports where tools were provided,181,181,0,7,reports/meta/meta_india_2021-07.pdf
+Meta,2021-08-01,2021-08-31,Facebook,user grievances,reports received,904,904,0,10,reports/meta/meta_india_2021-08.pdf
+Meta,2021-08-01,2021-08-31,Facebook,user grievances,reports where tools were provided,754,754,0,10,reports/meta/meta_india_2021-08.pdf
+Meta,2021-08-01,2021-08-31,Instagram,user grievances,reports received,106,106,0,7,reports/meta/meta_india_2021-08.pdf
+Meta,2021-08-01,2021-08-31,Instagram,user grievances,reports where tools were provided,2,2,0,7,reports/meta/meta_india_2021-08.pdf
+Meta,2021-09-01,2021-09-30,Facebook,user grievances,reports received,708,708,0,10,reports/meta/meta_india_2021-09.pdf
+Meta,2021-09-01,2021-09-30,Facebook,user grievances,reports where tools were provided,589,589,0,10,reports/meta/meta_india_2021-09.pdf
+Meta,2021-09-01,2021-09-30,Instagram,user grievances,reports received,418,418,0,8,reports/meta/meta_india_2021-09.pdf
+Meta,2021-09-01,2021-09-30,Instagram,user grievances,reports where tools were provided,242,242,0,8,reports/meta/meta_india_2021-09.pdf
+Meta,2021-10-01,2021-10-31,Facebook,user grievances,reports received,686,686,0,10,reports/meta/meta_india_2021-10.pdf
+Meta,2021-10-01,2021-10-31,Facebook,user grievances,reports where tools were provided,497,497,0,10,reports/meta/meta_india_2021-10.pdf
+Meta,2021-10-01,2021-10-31,Instagram,user grievances,reports received,652,652,0,8,reports/meta/meta_india_2021-10.pdf
+Meta,2021-10-01,2021-10-31,Instagram,user grievances,reports where tools were provided,420,420,0,8,reports/meta/meta_india_2021-10.pdf
+Meta,2021-11-01,2021-11-30,Facebook,user grievances,reports received,519,519,0,10,reports/meta/meta_india_2021-11.pdf
+Meta,2021-11-01,2021-11-30,Facebook,user grievances,reports where tools were provided,461,461,0,10,reports/meta/meta_india_2021-11.pdf
+Meta,2021-11-01,2021-11-30,Instagram,user grievances,reports received,424,424,0,8,reports/meta/meta_india_2021-11.pdf
+Meta,2021-11-01,2021-11-30,Instagram,user grievances,reports where tools were provided,332,332,0,8,reports/meta/meta_india_2021-11.pdf
+Meta,2021-12-01,2021-12-31,Facebook,user grievances,reports received,531,531,0,10,reports/meta/meta_india_2021-12.pdf
+Meta,2021-12-01,2021-12-31,Facebook,user grievances,reports where tools were provided,436,436,0,10,reports/meta/meta_india_2021-12.pdf
+Meta,2021-12-01,2021-12-31,Instagram,user grievances,reports received,414,414,0,8,reports/meta/meta_india_2021-12.pdf
+Meta,2021-12-01,2021-12-31,Instagram,user grievances,reports where tools were provided,307,307,0,8,reports/meta/meta_india_2021-12.pdf
+Meta,2022-01-01,2022-01-31,Facebook,user grievances,reports received,911,911,0,10,reports/meta/meta_india_2022-01.pdf
+Meta,2022-01-01,2022-01-31,Facebook,user grievances,reports where tools were provided,666,666,0,10,reports/meta/meta_india_2022-01.pdf
+Meta,2022-01-01,2022-01-31,Instagram,user grievances,reports received,1037,1037,0,8,reports/meta/meta_india_2022-01.pdf
+Meta,2022-01-01,2022-01-31,Instagram,user grievances,reports where tools were provided,589,589,0,8,reports/meta/meta_india_2022-01.pdf
+Meta,2022-02-01,2022-02-28,Facebook,user grievances,reports received,478,478,0,10,reports/meta/meta_india_2022-02.pdf
+Meta,2022-02-01,2022-02-28,Facebook,user grievances,reports where tools were provided,402,402,0,10,reports/meta/meta_india_2022-02.pdf
+Meta,2022-02-01,2022-02-28,Instagram,user grievances,reports received,1050,1050,0,8,reports/meta/meta_india_2022-02.pdf
+Meta,2022-02-01,2022-02-28,Instagram,user grievances,reports where tools were provided,561,561,0,8,reports/meta/meta_india_2022-02.pdf
+Meta,2022-03-01,2022-03-31,Facebook,user grievances,reports received,656,656,0,10,reports/meta/meta_india_2022-03.pdf
+Meta,2022-03-01,2022-03-31,Facebook,user grievances,reports where tools were provided,556,556,0,10,reports/meta/meta_india_2022-03.pdf
+Meta,2022-03-01,2022-03-31,Instagram,user grievances,reports received,1150,1150,0,8,reports/meta/meta_india_2022-03.pdf
+Meta,2022-03-01,2022-03-31,Instagram,user grievances,reports where tools were provided,556,556,0,8,reports/meta/meta_india_2022-03.pdf
+Meta,2022-04-01,2022-04-30,Facebook,user grievances,reports received,661,661,0,10,reports/meta/meta_india_2022-04.pdf
+Meta,2022-04-01,2022-04-30,Facebook,user grievances,reports where tools were provided,481,481,0,10,reports/meta/meta_india_2022-04.pdf
+Meta,2022-04-01,2022-04-30,Instagram,user grievances,reports received,6246,6246,0,8,reports/meta/meta_india_2022-04.pdf
+Meta,2022-04-01,2022-04-30,Instagram,user grievances,reports where tools were provided,1260,1260,0,8,reports/meta/meta_india_2022-04.pdf
+Meta,2022-05-01,2022-05-31,Facebook,user grievances,reports received,835,835,0,10,reports/meta/meta_india_2022-05.pdf
+Meta,2022-05-01,2022-05-31,Facebook,user grievances,reports where tools were provided,564,564,0,10,reports/meta/meta_india_2022-05.pdf
+Meta,2022-05-01,2022-05-31,Instagram,user grievances,reports received,13869,13869,0,8,reports/meta/meta_india_2022-05.pdf
+Meta,2022-05-01,2022-05-31,Instagram,user grievances,reports where tools were provided,4696,4696,0,8,reports/meta/meta_india_2022-05.pdf
+Meta,2022-06-01,2022-06-30,Facebook,user grievances,reports received,564,564,0,10,reports/meta/meta_india_2022-06.pdf
+Meta,2022-06-01,2022-06-30,Facebook,user grievances,reports where tools were provided,504,504,0,10,reports/meta/meta_india_2022-06.pdf
+Meta,2022-06-01,2022-06-30,Instagram,user grievances,reports received,4676,4676,0,8,reports/meta/meta_india_2022-06.pdf
+Meta,2022-06-01,2022-06-30,Instagram,user grievances,reports where tools were provided,2811,2811,0,8,reports/meta/meta_india_2022-06.pdf
+Meta,2022-07-01,2022-07-31,Facebook,user grievances,reports received,626,626,0,10,reports/meta/meta_india_2022-07.pdf
+Meta,2022-07-01,2022-07-31,Facebook,user grievances,reports where tools were provided,603,603,0,10,reports/meta/meta_india_2022-07.pdf
+Meta,2022-07-01,2022-07-31,Instagram,user grievances,reports received,1033,1033,0,8,reports/meta/meta_india_2022-07.pdf
+Meta,2022-07-01,2022-07-31,Instagram,user grievances,reports where tools were provided,945,945,0,8,reports/meta/meta_india_2022-07.pdf
+Meta,2022-08-01,2022-08-31,Facebook,user grievances,reports received,724,724,0,10,reports/meta/meta_india_2022-08.pdf
+Meta,2022-08-01,2022-08-31,Facebook,user grievances,reports where tools were provided,666,666,0,10,reports/meta/meta_india_2022-08.pdf
+Meta,2022-08-01,2022-08-31,Instagram,user grievances,reports received,1111,1111,0,8,reports/meta/meta_india_2022-08.pdf
+Meta,2022-08-01,2022-08-31,Instagram,user grievances,reports where tools were provided,973,973,0,8,reports/meta/meta_india_2022-08.pdf
+Meta,2022-09-01,2022-09-30,Facebook,user grievances,reports received,587,587,0,10,reports/meta/meta_india_2022-09.pdf
+Meta,2022-09-01,2022-09-30,Facebook,user grievances,reports where tools were provided,534,534,0,10,reports/meta/meta_india_2022-09.pdf
+Meta,2022-09-01,2022-09-30,Instagram,user grievances,reports received,1115,1115,0,8,reports/meta/meta_india_2022-09.pdf
+Meta,2022-09-01,2022-09-30,Instagram,user grievances,reports where tools were provided,987,987,0,8,reports/meta/meta_india_2022-09.pdf
+Meta,2022-10-01,2022-10-31,Facebook,user grievances,reports received,703,703,0,10,reports/meta/meta_india_2022-10.pdf
+Meta,2022-10-01,2022-10-31,Facebook,user grievances,reports where tools were provided,516,516,0,10,reports/meta/meta_india_2022-10.pdf
+Meta,2022-10-01,2022-10-31,Instagram,user grievances,reports received,1377,1377,0,8,reports/meta/meta_india_2022-10.pdf
+Meta,2022-10-01,2022-10-31,Instagram,user grievances,reports where tools were provided,982,982,0,8,reports/meta/meta_india_2022-10.pdf
+Meta,2022-11-01,2022-11-30,Facebook,user grievances,reports received,889,889,0,10,reports/meta/meta_india_2022-11.pdf
+Meta,2022-11-01,2022-11-30,Facebook,user grievances,reports where tools were provided,511,511,0,10,reports/meta/meta_india_2022-11.pdf
+Meta,2022-11-01,2022-11-30,Instagram,user grievances,reports received,2368,2368,0,8,reports/meta/meta_india_2022-11.pdf
+Meta,2022-11-01,2022-11-30,Instagram,user grievances,reports where tools were provided,1124,1124,0,8,reports/meta/meta_india_2022-11.pdf
+Meta,2022-12-01,2022-12-31,Facebook,user grievances,reports received,764,764,0,10,reports/meta/meta_india_2022-12.pdf
+Meta,2022-12-01,2022-12-31,Facebook,user grievances,reports where tools were provided,345,345,0,10,reports/meta/meta_india_2022-12.pdf
+Meta,2022-12-01,2022-12-31,Instagram,user grievances,reports received,10820,10820,0,8,reports/meta/meta_india_2022-12.pdf
+Meta,2022-12-01,2022-12-31,Instagram,user grievances,reports where tools were provided,2461,2461,0,8,reports/meta/meta_india_2022-12.pdf
+Meta,2023-01-01,2023-01-31,Facebook,user grievances,reports received,700,700,0,10,reports/meta/meta_india_2023-01.pdf
+Meta,2023-01-01,2023-01-31,Facebook,user grievances,reports where tools were provided,338,338,0,10,reports/meta/meta_india_2023-01.pdf
+Meta,2023-01-01,2023-01-31,Instagram,user grievances,reports received,19212,19212,0,8,reports/meta/meta_india_2023-01.pdf
+Meta,2023-01-01,2023-01-31,Instagram,user grievances,reports where tools were provided,1901,1901,0,8,reports/meta/meta_india_2023-01.pdf
+Meta,2023-02-01,2023-02-28,Facebook,user grievances,reports received,1647,1647,0,10,reports/meta/meta_india_2023-02.pdf
+Meta,2023-02-01,2023-02-28,Facebook,user grievances,reports where tools were provided,585,585,0,10,reports/meta/meta_india_2023-02.pdf
+Meta,2023-02-01,2023-02-28,Instagram,user grievances,reports received,14216,14216,0,8,reports/meta/meta_india_2023-02.pdf
+Meta,2023-02-01,2023-02-28,Instagram,user grievances,reports where tools were provided,3749,3749,0,8,reports/meta/meta_india_2023-02.pdf
+Meta,2023-03-01,2023-03-31,Facebook,user grievances,reports received,7193,7193,0,10,reports/meta/meta_india_2023-03.pdf
+Meta,2023-03-01,2023-03-31,Facebook,user grievances,reports where tools were provided,1903,1903,0,10,reports/meta/meta_india_2023-03.pdf
+Meta,2023-03-01,2023-03-31,Instagram,user grievances,reports received,9226,9226,0,8,reports/meta/meta_india_2023-03.pdf
+Meta,2023-03-01,2023-03-31,Instagram,user grievances,reports where tools were provided,4280,4280,0,8,reports/meta/meta_india_2023-03.pdf
+Meta,2023-04-01,2023-04-30,Facebook,user grievances,reports received,8470,8470,0,10,reports/meta/meta_india_2023-04.pdf
+Meta,2023-04-01,2023-04-30,Facebook,user grievances,reports where tools were provided,2225,2225,0,10,reports/meta/meta_india_2023-04.pdf
+Meta,2023-04-01,2023-04-30,Instagram,user grievances,reports received,9676,9676,0,8,reports/meta/meta_india_2023-04.pdf
+Meta,2023-04-01,2023-04-30,Instagram,user grievances,reports where tools were provided,3591,3591,0,8,reports/meta/meta_india_2023-04.pdf
+Meta,2023-05-01,2023-05-31,Facebook,user grievances,reports received,16995,16995,0,10,reports/meta/meta_india_2023-05.pdf
+Meta,2023-05-01,2023-05-31,Facebook,user grievances,reports where tools were provided,2325,2325,0,10,reports/meta/meta_india_2023-05.pdf
+Meta,2023-05-01,2023-05-31,Instagram,user grievances,reports received,16267,16267,0,8,reports/meta/meta_india_2023-05.pdf
+Meta,2023-05-01,2023-05-31,Instagram,user grievances,reports where tools were provided,3828,3828,0,8,reports/meta/meta_india_2023-05.pdf
+Meta,2023-06-01,2023-06-30,Facebook,user grievances,reports received,22437,22437,0,10,reports/meta/meta_india_2023-06.pdf
+Meta,2023-06-01,2023-06-30,Facebook,user grievances,reports where tools were provided,3507,3507,0,10,reports/meta/meta_india_2023-06.pdf
+Meta,2023-06-01,2023-06-30,Instagram,user grievances,reports received,19913,19913,0,8,reports/meta/meta_india_2023-06.pdf
+Meta,2023-06-01,2023-06-30,Instagram,user grievances,reports where tools were provided,6155,6155,0,8,reports/meta/meta_india_2023-06.pdf
+Meta,2023-07-01,2023-07-31,Facebook,user grievances,reports received,28506,28506,0,10,reports/meta/meta_india_2023-07.pdf
+Meta,2023-07-01,2023-07-31,Facebook,user grievances,reports where tools were provided,3200,3200,0,10,reports/meta/meta_india_2023-07.pdf
+Meta,2023-07-01,2023-07-31,Instagram,user grievances,reports received,20146,20146,0,8,reports/meta/meta_india_2023-07.pdf
+Meta,2023-07-01,2023-07-31,Instagram,user grievances,reports where tools were provided,5102,5102,0,8,reports/meta/meta_india_2023-07.pdf
+Meta,2023-08-01,2023-08-31,Facebook,user grievances,reports received,25049,25049,0,10,reports/meta/meta_india_2023-08.pdf
+Meta,2023-08-01,2023-08-31,Facebook,user grievances,reports where tools were provided,2701,2701,0,10,reports/meta/meta_india_2023-08.pdf
+Meta,2023-08-01,2023-08-31,Instagram,user grievances,reports received,20904,20904,0,8,reports/meta/meta_india_2023-08.pdf
+Meta,2023-08-01,2023-08-31,Instagram,user grievances,reports where tools were provided,4529,4529,0,8,reports/meta/meta_india_2023-08.pdf
+Meta,2023-09-01,2023-09-30,Facebook,user grievances,reports received,19850,19850,0,10,reports/meta/meta_india_2023-09.pdf
+Meta,2023-09-01,2023-09-30,Facebook,user grievances,reports where tools were provided,3121,3121,0,10,reports/meta/meta_india_2023-09.pdf
+Meta,2023-09-01,2023-09-30,Instagram,user grievances,reports received,13251,13180,-71,8,reports/meta/meta_india_2023-09.pdf
+Meta,2023-09-01,2023-09-30,Instagram,user grievances,reports where tools were provided,3486,3423,-63,8,reports/meta/meta_india_2023-09.pdf
+Meta,2023-10-01,2023-10-31,Facebook,user grievances,reports received,12960,12960,0,10,reports/meta/meta_india_2023-10.pdf
+Meta,2023-10-01,2023-10-31,Facebook,user grievances,reports where tools were provided,4705,4705,0,10,reports/meta/meta_india_2023-10.pdf
+Meta,2023-10-01,2023-10-31,Instagram,user grievances,reports received,8252,8252,0,8,reports/meta/meta_india_2023-10.pdf
+Meta,2023-10-01,2023-10-31,Instagram,user grievances,reports where tools were provided,2391,2391,0,8,reports/meta/meta_india_2023-10.pdf
+Meta,2023-11-01,2023-11-30,Facebook,user grievances,reports received,21449,26760,5311,10,reports/meta/meta_india_2023-11.pdf
+Meta,2023-11-01,2023-11-30,Facebook,user grievances,reports where tools were provided,10710,11889,1179,10,reports/meta/meta_india_2023-11.pdf
+Meta,2023-11-01,2023-11-30,Instagram,user grievances,reports received,11138,11138,0,8,reports/meta/meta_india_2023-11.pdf
+Meta,2023-11-01,2023-11-30,Instagram,user grievances,reports where tools were provided,4209,4209,0,8,reports/meta/meta_india_2023-11.pdf
+Meta,2023-12-01,2023-12-31,Facebook,user grievances,reports received,44332,44332,0,10,reports/meta/meta_india_2023-12.pdf
+Meta,2023-12-01,2023-12-31,Facebook,user grievances,reports where tools were provided,33072,33072,0,10,reports/meta/meta_india_2023-12.pdf
+Meta,2023-12-01,2023-12-31,Instagram,user grievances,reports received,19750,18440,-1310,8,reports/meta/meta_india_2023-12.pdf
+Meta,2023-12-01,2023-12-31,Instagram,user grievances,reports where tools were provided,9555,8484,-1071,8,reports/meta/meta_india_2023-12.pdf
+Meta,2024-01-01,2024-01-31,Facebook,user grievances,reports received,29548,29548,0,10,reports/meta/meta_india_2024-01.pdf
+Meta,2024-01-01,2024-01-31,Facebook,user grievances,reports where tools were provided,21060,21060,0,10,reports/meta/meta_india_2024-01.pdf
+Meta,2024-01-01,2024-01-31,Instagram,user grievances,reports received,19311,17940,-1371,8,reports/meta/meta_india_2024-01.pdf
+Meta,2024-01-01,2024-01-31,Instagram,user grievances,reports where tools were provided,9476,8318,-1158,8,reports/meta/meta_india_2024-01.pdf
+Meta,2024-02-01,2024-02-29,Facebook,user grievances,reports received,18512,18512,0,10,reports/meta/meta_india_2024-02.pdf
+Meta,2024-02-01,2024-02-29,Facebook,user grievances,reports where tools were provided,9300,9300,0,10,reports/meta/meta_india_2024-02.pdf
+Meta,2024-02-01,2024-02-29,Instagram,user grievances,reports received,12709,11574,-1135,8,reports/meta/meta_india_2024-02.pdf
+Meta,2024-02-01,2024-02-29,Instagram,user grievances,reports where tools were provided,5344,4387,-957,8,reports/meta/meta_india_2024-02.pdf
+Meta,2024-03-01,2024-03-31,Facebook,user grievances,reports received,15226,15226,0,10,reports/meta/meta_india_2024-03.pdf
+Meta,2024-03-01,2024-03-31,Facebook,user grievances,reports where tools were provided,8720,8720,0,10,reports/meta/meta_india_2024-03.pdf
+Meta,2024-03-01,2024-03-31,Instagram,user grievances,reports received,12084,12084,0,9,reports/meta/meta_india_2024-03.pdf
+Meta,2024-03-01,2024-03-31,Instagram,user grievances,reports where tools were provided,5776,5776,0,9,reports/meta/meta_india_2024-03.pdf
+Meta,2024-04-01,2024-04-30,Facebook,user grievances,reports received,17124,17124,0,10,reports/meta/meta_india_2024-04.pdf
+Meta,2024-04-01,2024-04-30,Facebook,user grievances,reports where tools were provided,9977,9977,0,10,reports/meta/meta_india_2024-04.pdf
+Meta,2024-04-01,2024-04-30,Instagram,user grievances,reports received,12924,11875,-1049,8,reports/meta/meta_india_2024-04.pdf
+Meta,2024-04-01,2024-04-30,Instagram,user grievances,reports where tools were provided,5941,5019,-922,8,reports/meta/meta_india_2024-04.pdf
+Meta,2024-05-01,2024-05-31,Facebook,user grievances,reports received,22251,22251,0,10,reports/meta/meta_india_2024-05.pdf
+Meta,2024-05-01,2024-05-31,Facebook,user grievances,reports where tools were provided,13982,13982,0,10,reports/meta/meta_india_2024-05.pdf
+Meta,2024-05-01,2024-05-31,Instagram,user grievances,reports received,14373,13556,-817,8,reports/meta/meta_india_2024-05.pdf
+Meta,2024-05-01,2024-05-31,Instagram,user grievances,reports where tools were provided,7300,6575,-725,8,reports/meta/meta_india_2024-05.pdf
+Meta,2024-06-01,2024-06-30,Facebook,user grievances,reports received,21080,21080,0,10,reports/meta/meta_india_2024-06.pdf
+Meta,2024-06-01,2024-06-30,Facebook,user grievances,reports where tools were provided,13495,13495,0,10,reports/meta/meta_india_2024-06.pdf
+Meta,2024-06-01,2024-06-30,Instagram,user grievances,reports received,10410,9885,-525,8,reports/meta/meta_india_2024-06.pdf
+Meta,2024-06-01,2024-06-30,Instagram,user grievances,reports where tools were provided,5058,4607,-451,8,reports/meta/meta_india_2024-06.pdf
+Meta,2024-07-01,2024-07-31,Facebook,user grievances,reports received,27030,27030,0,10,reports/meta/meta_india_2024-08.pdf
+Meta,2024-07-01,2024-07-31,Facebook,user grievances,reports where tools were provided,16612,16612,0,10,reports/meta/meta_india_2024-08.pdf
+Meta,2024-07-01,2024-07-31,Instagram,user grievances,reports received,10442,9887,-555,8,reports/meta/meta_india_2024-08.pdf
+Meta,2024-07-01,2024-07-31,Instagram,user grievances,reports where tools were provided,5244,4760,-484,8,reports/meta/meta_india_2024-08.pdf
+Meta,2024-08-01,2024-08-31,Facebook,user grievances,reports received,24724,24724,0,10,reports/meta/meta_india_2024-09.pdf
+Meta,2024-08-01,2024-08-31,Facebook,user grievances,reports where tools were provided,16874,16874,0,10,reports/meta/meta_india_2024-09.pdf
+Meta,2024-08-01,2024-08-31,Instagram,user grievances,reports received,13075,12456,-619,8,reports/meta/meta_india_2024-09.pdf
+Meta,2024-08-01,2024-08-31,Instagram,user grievances,reports where tools were provided,7403,6835,-568,8,reports/meta/meta_india_2024-09.pdf
+Meta,2024-09-01,2024-09-30,Facebook,user grievances,reports received,33422,33422,0,10,reports/meta/meta_india_2024-10.pdf
+Meta,2024-09-01,2024-09-30,Facebook,user grievances,reports where tools were provided,21496,21496,0,10,reports/meta/meta_india_2024-10.pdf
+Meta,2024-09-01,2024-09-30,Instagram,user grievances,reports received,14116,13211,-905,8,reports/meta/meta_india_2024-10.pdf
+Meta,2024-09-01,2024-09-30,Instagram,user grievances,reports where tools were provided,7219,6465,-754,8,reports/meta/meta_india_2024-10.pdf
+Meta,2024-10-01,2024-10-31,Facebook,user grievances,reports received,49163,49163,0,10,reports/meta/meta_india_2024-11.pdf
+Meta,2024-10-01,2024-10-31,Facebook,user grievances,reports where tools were provided,29238,29238,0,10,reports/meta/meta_india_2024-11.pdf
+Meta,2024-10-01,2024-10-31,Instagram,user grievances,reports received,18691,17855,-836,8,reports/meta/meta_india_2024-11.pdf
+Meta,2024-10-01,2024-10-31,Instagram,user grievances,reports where tools were provided,8971,8215,-756,8,reports/meta/meta_india_2024-11.pdf
+Meta,2024-11-01,2024-11-30,Facebook,user grievances,reports received,55692,55692,0,10,reports/meta/meta_india_2024-12.pdf
+Meta,2024-11-01,2024-11-30,Facebook,user grievances,reports where tools were provided,35401,35401,0,10,reports/meta/meta_india_2024-12.pdf
+Meta,2024-11-01,2024-11-30,Instagram,user grievances,reports received,21047,20372,-675,8,reports/meta/meta_india_2024-12.pdf
+Meta,2024-11-01,2024-11-30,Instagram,user grievances,reports where tools were provided,10607,9985,-622,8,reports/meta/meta_india_2024-12.pdf
+Meta,2024-12-01,2024-12-31,Facebook,user grievances,reports received,59733,59733,0,10,reports/meta/meta_india_2025-01.pdf
+Meta,2024-12-01,2024-12-31,Facebook,user grievances,reports where tools were provided,31604,31604,0,10,reports/meta/meta_india_2025-01.pdf
+Meta,2024-12-01,2024-12-31,Instagram,user grievances,reports received,30610,29426,-1184,8,reports/meta/meta_india_2025-01.pdf
+Meta,2024-12-01,2024-12-31,Instagram,user grievances,reports where tools were provided,21724,20643,-1081,8,reports/meta/meta_india_2025-01.pdf
+Meta,2025-01-01,2025-01-31,Facebook,user grievances,reports received,67318,67318,0,9,reports/meta/meta_india_2025-02.pdf
+Meta,2025-01-01,2025-01-31,Facebook,user grievances,reports where tools were provided,35780,35780,0,9,reports/meta/meta_india_2025-02.pdf
+Meta,2025-01-01,2025-01-31,Instagram,user grievances,reports received,33029,31849,-1180,7,reports/meta/meta_india_2025-02.pdf
+Meta,2025-01-01,2025-01-31,Instagram,user grievances,reports where tools were provided,24664,23571,-1093,7,reports/meta/meta_india_2025-02.pdf
+Meta,2025-02-01,2025-02-28,Facebook,user grievances,reports received,77003,77003,0,9,reports/meta/meta_india_2025-03.pdf
+Meta,2025-02-01,2025-02-28,Facebook,user grievances,reports where tools were provided,48851,48851,0,9,reports/meta/meta_india_2025-03.pdf
+Meta,2025-02-01,2025-02-28,Instagram,user grievances,reports received,26109,25189,-920,7,reports/meta/meta_india_2025-03.pdf
+Meta,2025-02-01,2025-02-28,Instagram,user grievances,reports where tools were provided,19726,18887,-839,7,reports/meta/meta_india_2025-03.pdf
+Meta,2025-03-01,2025-03-31,Facebook,user grievances,reports received,98990,98990,0,9,reports/meta/meta_india_2025-04.pdf
+Meta,2025-03-01,2025-03-31,Facebook,user grievances,reports where tools were provided,63412,63412,0,9,reports/meta/meta_india_2025-04.pdf
+Meta,2025-03-01,2025-03-31,Instagram,user grievances,reports received,28711,27809,-902,7,reports/meta/meta_india_2025-04.pdf
+Meta,2025-03-01,2025-03-31,Instagram,user grievances,reports where tools were provided,22215,21395,-820,7,reports/meta/meta_india_2025-04.pdf
+Meta,2025-04-01,2025-04-30,Facebook,user grievances,reports received,54320,54320,0,9,reports/meta/meta_india_2025-05.pdf
+Meta,2025-04-01,2025-04-30,Facebook,user grievances,reports where tools were provided,38902,38902,0,9,reports/meta/meta_india_2025-05.pdf
+Meta,2025-04-01,2025-04-30,Instagram,user grievances,reports received,21532,20726,-806,7,reports/meta/meta_india_2025-05.pdf
+Meta,2025-04-01,2025-04-30,Instagram,user grievances,reports where tools were provided,17944,17188,-756,7,reports/meta/meta_india_2025-05.pdf
+Meta,2025-05-01,2025-05-31,Facebook,user grievances,reports received,39741,39741,0,9,reports/meta/meta_india_2025-06.pdf
+Meta,2025-05-01,2025-05-31,Facebook,user grievances,reports where tools were provided,30681,30681,0,9,reports/meta/meta_india_2025-06.pdf
+Meta,2025-05-01,2025-05-31,Instagram,user grievances,reports received,21049,19955,-1094,7,reports/meta/meta_india_2025-06.pdf
+Meta,2025-05-01,2025-05-31,Instagram,user grievances,reports where tools were provided,18541,17458,-1083,7,reports/meta/meta_india_2025-06.pdf
+Meta,2025-06-01,2025-06-30,Facebook,user grievances,reports received,28984,28984,0,9,reports/meta/meta_india_2025-07.pdf
+Meta,2025-06-01,2025-06-30,Facebook,user grievances,reports where tools were provided,21338,21338,0,9,reports/meta/meta_india_2025-07.pdf
+Meta,2025-06-01,2025-06-30,Instagram,user grievances,reports received,23330,21955,-1375,7,reports/meta/meta_india_2025-07.pdf
+Meta,2025-06-01,2025-06-30,Instagram,user grievances,reports where tools were provided,19807,18491,-1316,7,reports/meta/meta_india_2025-07.pdf
+Meta,2025-07-01,2025-07-31,Facebook,user grievances,reports received,36978,36978,0,9,reports/meta/meta_india_2025-08.pdf
+Meta,2025-07-01,2025-07-31,Facebook,user grievances,reports where tools were provided,33061,33061,0,9,reports/meta/meta_india_2025-08.pdf
+Meta,2025-07-01,2025-07-31,Instagram,user grievances,reports received,22952,22952,0,8,reports/meta/meta_india_2025-08.pdf
+Meta,2025-07-01,2025-07-31,Instagram,user grievances,reports where tools were provided,18463,18463,0,8,reports/meta/meta_india_2025-08.pdf
+Meta,2025-08-01,2025-08-31,Facebook,user grievances,reports received,41557,41557,0,9,reports/meta/meta_india_2025-09.pdf
+Meta,2025-08-01,2025-08-31,Facebook,user grievances,reports where tools were provided,37484,37484,0,9,reports/meta/meta_india_2025-09.pdf
+Meta,2025-08-01,2025-08-31,Instagram,user grievances,reports received,25494,25494,0,8,reports/meta/meta_india_2025-09.pdf
+Meta,2025-08-01,2025-08-31,Instagram,user grievances,reports where tools were provided,20441,20441,0,8,reports/meta/meta_india_2025-09.pdf
+Meta,2025-09-01,2025-09-30,Facebook,user grievances,reports received,37200,37200,0,9,reports/meta/meta_india_2025-10.pdf
+Meta,2025-09-01,2025-09-30,Facebook,user grievances,reports where tools were provided,33694,33694,0,9,reports/meta/meta_india_2025-10.pdf
+Meta,2025-09-01,2025-09-30,Instagram,user grievances,reports received,21006,21006,0,8,reports/meta/meta_india_2025-10.pdf
+Meta,2025-09-01,2025-09-30,Instagram,user grievances,reports where tools were provided,17099,17099,0,8,reports/meta/meta_india_2025-10.pdf
+Meta,2025-10-01,2025-10-31,Facebook,user grievances,reports received,27381,27381,0,9,reports/meta/meta_india_2025-11.pdf
+Meta,2025-10-01,2025-10-31,Facebook,user grievances,reports where tools were provided,23904,23904,0,9,reports/meta/meta_india_2025-11.pdf
+Meta,2025-10-01,2025-10-31,Instagram,user grievances,reports received,15955,15955,0,8,reports/meta/meta_india_2025-11.pdf
+Meta,2025-10-01,2025-10-31,Instagram,user grievances,reports where tools were provided,11311,11311,0,8,reports/meta/meta_india_2025-11.pdf
+Meta,2025-10-01,2025-10-31,Threads,user grievances,reports received,12,12,0,8,reports/meta/meta_india_2025-11.pdf
+Meta,2025-10-01,2025-10-31,Threads,user grievances,reports where tools were provided,11,11,0,8,reports/meta/meta_india_2025-11.pdf
+Meta,2025-11-01,2025-11-30,Facebook,user grievances,reports received,12247,12247,0,9,reports/meta/meta_india_2025-12.pdf
+Meta,2025-11-01,2025-11-30,Facebook,user grievances,reports where tools were provided,10202,10202,0,9,reports/meta/meta_india_2025-12.pdf
+Meta,2025-11-01,2025-11-30,Instagram,user grievances,reports received,18492,18492,0,8,reports/meta/meta_india_2025-12.pdf
+Meta,2025-11-01,2025-11-30,Instagram,user grievances,reports where tools were provided,11488,11488,0,8,reports/meta/meta_india_2025-12.pdf
+Meta,2025-11-01,2025-11-30,Threads,user grievances,reports received,9,9,0,8,reports/meta/meta_india_2025-12.pdf
+Meta,2025-11-01,2025-11-30,Threads,user grievances,reports where tools were provided,7,7,0,8,reports/meta/meta_india_2025-12.pdf
+Meta,2025-12-01,2025-12-31,Facebook,user grievances,reports received,19250,19250,0,9,reports/meta/meta_india_2026-01.pdf
+Meta,2025-12-01,2025-12-31,Facebook,user grievances,reports where tools were provided,17527,17527,0,9,reports/meta/meta_india_2026-01.pdf
+Meta,2025-12-01,2025-12-31,Instagram,user grievances,reports received,41969,41969,0,8,reports/meta/meta_india_2026-01.pdf
+Meta,2025-12-01,2025-12-31,Instagram,user grievances,reports where tools were provided,31865,31865,0,8,reports/meta/meta_india_2026-01.pdf
+Meta,2025-12-01,2025-12-31,Threads,user grievances,reports received,27,27,0,8,reports/meta/meta_india_2026-01.pdf
+Meta,2025-12-01,2025-12-31,Threads,user grievances,reports where tools were provided,27,27,0,8,reports/meta/meta_india_2026-01.pdf
+Meta,2026-01-01,2026-01-31,Facebook,user grievances,reports received,18515,18515,0,9,reports/meta/meta_india_2026-02.pdf
+Meta,2026-01-01,2026-01-31,Facebook,user grievances,reports where tools were provided,17092,36222,19130,9,reports/meta/meta_india_2026-02.pdf
+Meta,2026-01-01,2026-01-31,Instagram,user grievances,reports received,39967,39967,0,8,reports/meta/meta_india_2026-02.pdf
+Meta,2026-01-01,2026-01-31,Instagram,user grievances,reports where tools were provided,31301,31301,0,8,reports/meta/meta_india_2026-02.pdf
+Meta,2026-01-01,2026-01-31,Threads,user grievances,reports received,140,140,0,8,reports/meta/meta_india_2026-02.pdf
+Meta,2026-01-01,2026-01-31,Threads,user grievances,reports where tools were provided,137,137,0,8,reports/meta/meta_india_2026-02.pdf
+Meta,2026-02-01,2026-02-28,Facebook,user grievances,reports received,14895,14895,0,9,reports/meta/meta_india_2026-03.pdf
+Meta,2026-02-01,2026-02-28,Facebook,user grievances,reports where tools were provided,14085,14085,0,9,reports/meta/meta_india_2026-03.pdf
+Meta,2026-02-01,2026-02-28,Instagram,user grievances,reports received,34986,34986,0,8,reports/meta/meta_india_2026-03.pdf
+Meta,2026-02-01,2026-02-28,Instagram,user grievances,reports where tools were provided,30364,30364,0,8,reports/meta/meta_india_2026-03.pdf
+Meta,2026-02-01,2026-02-28,Threads,user grievances,reports received,131,131,0,8,reports/meta/meta_india_2026-03.pdf
+Meta,2026-02-01,2026-02-28,Threads,user grievances,reports where tools were provided,124,124,0,8,reports/meta/meta_india_2026-03.pdf
+Meta,2026-03-01,2026-03-31,Facebook,user grievances,reports received,13886,13886,0,9,reports/meta/meta_india_2026-04.pdf
+Meta,2026-03-01,2026-03-31,Facebook,user grievances,reports where tools were provided,12942,12942,0,9,reports/meta/meta_india_2026-04.pdf
+Meta,2026-03-01,2026-03-31,Instagram,user grievances,reports received,35430,35430,0,8,reports/meta/meta_india_2026-04.pdf
+Meta,2026-03-01,2026-03-31,Instagram,user grievances,reports where tools were provided,28422,28422,0,8,reports/meta/meta_india_2026-04.pdf
+Meta,2026-03-01,2026-03-31,Threads,user grievances,reports received,103,103,0,8,reports/meta/meta_india_2026-04.pdf
+Meta,2026-03-01,2026-03-31,Threads,user grievances,reports where tools were provided,98,98,0,8,reports/meta/meta_india_2026-04.pdf
+Meta,2026-04-01,2026-04-30,Facebook,user grievances,reports received,15358,15358,0,9,reports/meta/meta_india_2026-05.pdf
+Meta,2026-04-01,2026-04-30,Facebook,user grievances,reports where tools were provided,13320,13320,0,9,reports/meta/meta_india_2026-05.pdf
+Meta,2026-04-01,2026-04-30,Instagram,user grievances,reports received,58425,58425,0,8,reports/meta/meta_india_2026-05.pdf
+Meta,2026-04-01,2026-04-30,Instagram,user grievances,reports where tools were provided,41370,41370,0,8,reports/meta/meta_india_2026-05.pdf
+Meta,2026-04-01,2026-04-30,Threads,user grievances,reports received,84,84,0,8,reports/meta/meta_india_2026-05.pdf
+Meta,2026-04-01,2026-04-30,Threads,user grievances,reports where tools were provided,79,79,0,8,reports/meta/meta_india_2026-05.pdf
+Meta,2026-05-01,2026-05-31,Facebook,user grievances,reports received,14928,14928,0,9,reports/meta/meta_india_2026-06.pdf
+Meta,2026-05-01,2026-05-31,Facebook,user grievances,reports where tools were provided,13443,13443,0,9,reports/meta/meta_india_2026-06.pdf
+Meta,2026-05-01,2026-05-31,Instagram,user grievances,reports received,144747,144747,0,8,reports/meta/meta_india_2026-06.pdf
+Meta,2026-05-01,2026-05-31,Instagram,user grievances,reports where tools were provided,105693,105693,0,8,reports/meta/meta_india_2026-06.pdf
+Meta,2026-05-01,2026-05-31,Threads,user grievances,reports received,159,159,0,8,reports/meta/meta_india_2026-06.pdf
+Meta,2026-05-01,2026-05-31,Threads,user grievances,reports where tools were provided,158,158,0,8,reports/meta/meta_india_2026-06.pdf
+Meta,2026-06-01,2026-06-30,Facebook,user grievances,reports received,13030,13030,0,9,reports/meta/meta_india_2026-07.pdf
+Meta,2026-06-01,2026-06-30,Facebook,user grievances,reports where tools were provided,11807,11807,0,9,reports/meta/meta_india_2026-07.pdf
+Meta,2026-06-01,2026-06-30,Instagram,user grievances,reports received,134172,134171,-1,8,reports/meta/meta_india_2026-07.pdf
+Meta,2026-06-01,2026-06-30,Instagram,user grievances,reports where tools were provided,104910,104909,-1,8,reports/meta/meta_india_2026-07.pdf
+Meta,2026-06-01,2026-06-30,Threads,user grievances,reports received,182,182,0,8,reports/meta/meta_india_2026-07.pdf
+Meta,2026-06-01,2026-06-30,Threads,user grievances,reports where tools were provided,174,174,0,8,reports/meta/meta_india_2026-07.pdf
+Meta,2026-07-01,2026-07-31,Facebook,user grievances,reports received,22516,22298,-218,9,reports/meta/meta_india_2026-08.pdf
+Meta,2026-07-01,2026-07-31,Facebook,user grievances,reports where tools were provided,21182,20964,-218,9,reports/meta/meta_india_2026-08.pdf
+Meta,2026-07-01,2026-07-31,Instagram,user grievances,reports received,115908,115693,-215,8,reports/meta/meta_india_2026-08.pdf
+Meta,2026-07-01,2026-07-31,Instagram,user grievances,reports where tools were provided,96694,96479,-215,8,reports/meta/meta_india_2026-08.pdf
+Meta,2026-07-01,2026-07-31,Threads,user grievances,reports received,216,216,0,8,reports/meta/meta_india_2026-08.pdf
+Meta,2026-07-01,2026-07-31,Threads,user grievances,reports where tools were provided,208,208,0,8,reports/meta/meta_india_2026-08.pdf
+Meta,2026-08-01,2026-08-31,Facebook,user grievances,reports received,11203,11203,0,9,reports/meta/meta_india_2026-09.pdf
+Meta,2026-08-01,2026-08-31,Facebook,user grievances,reports where tools were provided,10170,10170,0,9,reports/meta/meta_india_2026-09.pdf
+Meta,2026-08-01,2026-08-31,Instagram,user grievances,reports received,20815,20815,0,8,reports/meta/meta_india_2026-09.pdf
+Meta,2026-08-01,2026-08-31,Instagram,user grievances,reports where tools were provided,16004,16004,0,8,reports/meta/meta_india_2026-09.pdf
+Meta,2026-08-01,2026-08-31,Threads,user grievances,reports received,51,51,0,8,reports/meta/meta_india_2026-09.pdf
+Meta,2026-08-01,2026-08-31,Threads,user grievances,reports where tools were provided,42,42,0,8,reports/meta/meta_india_2026-09.pdf
+Roblox,2025-05-01,2025-05-31,Roblox,user grievances,enforcement actions,458,468,10,12,reports/roblox/roblox_india_2025-05.pdf
+Roblox,2025-05-01,2025-05-31,Roblox,user grievances,reports received,519,529,10,12,reports/roblox/roblox_india_2025-05.pdf
+Roblox,2025-06-01,2025-06-30,Roblox,user grievances,enforcement actions,123,122,-1,11,reports/roblox/roblox_india_2025-06.pdf
+Roblox,2025-06-01,2025-06-30,Roblox,user grievances,reports received,127,127,0,11,reports/roblox/roblox_india_2025-06.pdf
+Roblox,2026-05-01,2026-05-31,Roblox,user grievances,enforcement actions,2422,2422,0,31,reports/roblox/roblox_india_2026-05.pdf
+Roblox,2026-05-01,2026-05-31,Roblox,user grievances,reports received,2433,2433,0,31,reports/roblox/roblox_india_2026-05.pdf
+Roblox,2026-06-01,2026-06-30,Roblox,user grievances,enforcement actions,2660,2660,0,31,reports/roblox/roblox_india_2026-06.pdf
+Roblox,2026-06-01,2026-06-30,Roblox,user grievances,reports received,2686,2686,0,31,reports/roblox/roblox_india_2026-06.pdf
+Roblox,2026-07-01,2026-07-31,Roblox,user grievances,enforcement actions,684,684,0,31,reports/roblox/roblox_india_2026-07.pdf
+Roblox,2026-07-01,2026-07-31,Roblox,user grievances,reports received,737,737,0,31,reports/roblox/roblox_india_2026-07.pdf
+Snapchat,2021-06-01,2021-06-30,Snapchat,reports and enforcement,content enforced,18310,18297,-13,7,reports/snap/snap_india_2021-06.pdf
+Snapchat,2021-06-01,2021-06-30,Snapchat,reports and enforcement,content reports,58672,58426,-246,7,reports/snap/snap_india_2021-06.pdf
+Snapchat,2021-07-01,2021-07-31,Snapchat,reports and enforcement,content enforced,19585,19585,0,7,reports/snap/snap_india_2021-07.pdf
+Snapchat,2021-07-01,2021-07-31,Snapchat,reports and enforcement,content reports,59762,59762,0,7,reports/snap/snap_india_2021-07.pdf
+Snapchat,2021-08-01,2021-08-31,Snapchat,reports and enforcement,content enforced,14705,14705,0,7,reports/snap/snap_india_2021-08.pdf
+Snapchat,2021-08-01,2021-08-31,Snapchat,reports and enforcement,content reports,54741,54741,0,7,reports/snap/snap_india_2021-08.pdf
+Snapchat,2021-09-01,2021-09-30,Snapchat,reports and enforcement,content enforced,11260,11260,0,7,reports/snap/snap_india_2021-09.pdf
+Snapchat,2021-09-01,2021-09-30,Snapchat,reports and enforcement,content reports,49445,49445,0,7,reports/snap/snap_india_2021-09.pdf
+Snapchat,2021-11-01,2021-11-30,Snapchat,reports and enforcement,content enforced,13083,13083,0,7,reports/snap/snap_india_2021-11.pdf
+Snapchat,2021-12-01,2021-12-31,Snapchat,reports and enforcement,content & account reports,58147,58147,0,7,reports/snap/snap_india_2021-12.pdf
+Snapchat,2021-12-01,2021-12-31,Snapchat,reports and enforcement,content enforced,11790,11790,0,7,reports/snap/snap_india_2021-12.pdf
+Snapchat,2022-01-01,2022-01-31,Snapchat,reports and enforcement,content enforced,13468,13468,0,7,reports/snap/snap_india_2022-01.pdf
+Snapchat,2022-02-01,2022-02-28,Snapchat,reports and enforcement,content enforced,10497,10497,0,7,reports/snap/snap_india_2022-02.pdf
+Snapchat,2022-03-01,2022-03-31,Snapchat,reports and enforcement,content & account reports,69898,69898,0,10,reports/snap/snap_india_2022-03.pdf
+Snapchat,2022-03-01,2022-03-31,Snapchat,reports and enforcement,content enforced,11680,11680,0,10,reports/snap/snap_india_2022-03.pdf
+Snapchat,2022-04-01,2022-04-30,Snapchat,reports and enforcement,content & account reports,59506,59506,0,10,reports/snap/snap_india_2022-04.pdf
+Snapchat,2022-04-01,2022-04-30,Snapchat,reports and enforcement,content enforced,14318,14318,0,10,reports/snap/snap_india_2022-04.pdf
+Snapchat,2022-05-01,2022-05-31,Snapchat,reports and enforcement,content & account reports,74785,74785,0,10,reports/snap/snap_india_2022-05.pdf
+Snapchat,2022-05-01,2022-05-31,Snapchat,reports and enforcement,content enforced,18536,18536,0,10,reports/snap/snap_india_2022-05.pdf
+Snapchat,2022-06-01,2022-06-30,Snapchat,reports and enforcement,content & account reports,115410,115410,0,10,reports/snap/snap_india_2022-06.pdf
+Snapchat,2022-06-01,2022-06-30,Snapchat,reports and enforcement,content enforced,35283,35283,0,10,reports/snap/snap_india_2022-06.pdf
+Snapchat,2022-07-01,2022-07-31,Snapchat,reports and enforcement,content & account reports,169004,169004,0,10,reports/snap/snap_india_2022-07.pdf
+Snapchat,2022-07-01,2022-07-31,Snapchat,reports and enforcement,content enforced,24923,24923,0,10,reports/snap/snap_india_2022-07.pdf
+Snapchat,2022-08-01,2022-08-31,Snapchat,reports and enforcement,content & account reports,184653,184653,0,10,reports/snap/snap_india_2022-08.pdf
+Snapchat,2022-08-01,2022-08-31,Snapchat,reports and enforcement,content enforced,13010,13010,0,10,reports/snap/snap_india_2022-08.pdf
+Snapchat,2022-09-01,2022-09-30,Snapchat,reports and enforcement,content & account reports,202070,202070,0,10,reports/snap/snap_india_2022-09.pdf
+Snapchat,2022-09-01,2022-09-30,Snapchat,reports and enforcement,content enforced,26752,26752,0,10,reports/snap/snap_india_2022-09.pdf
+Snapchat,2022-10-01,2022-10-31,Snapchat,reports and enforcement,content & account reports,197697,197697,0,10,reports/snap/snap_india_2022-10.pdf
+Snapchat,2022-10-01,2022-10-31,Snapchat,reports and enforcement,content enforced,30629,30629,0,10,reports/snap/snap_india_2022-10.pdf
+Snapchat,2022-11-01,2022-11-30,Snapchat,reports and enforcement,content & account reports,180851,180851,0,11,reports/snap/snap_india_2022-11.pdf
+Snapchat,2022-11-01,2022-11-30,Snapchat,reports and enforcement,content enforced,30373,30373,0,11,reports/snap/snap_india_2022-11.pdf
+Snapchat,2022-12-01,2022-12-31,Snapchat,reports and enforcement,content & account reports,179537,179537,0,11,reports/snap/snap_india_2022-12.pdf
+Snapchat,2022-12-01,2022-12-31,Snapchat,reports and enforcement,content enforced,26633,26633,0,11,reports/snap/snap_india_2022-12.pdf
+Snapchat,2023-01-01,2023-01-31,Snapchat,reports and enforcement,content & account reports,186255,186255,0,11,reports/snap/snap_india_2023-01.pdf
+Snapchat,2023-01-01,2023-01-31,Snapchat,reports and enforcement,content enforced,28434,28434,0,11,reports/snap/snap_india_2023-01.pdf
+Snapchat,2023-02-01,2023-02-28,Snapchat,reports and enforcement,content & account reports,165380,165380,0,11,reports/snap/snap_india_2023-02.pdf
+Snapchat,2023-02-01,2023-02-28,Snapchat,reports and enforcement,content enforced,20796,20796,0,11,reports/snap/snap_india_2023-02.pdf
+Snapchat,2023-03-01,2023-03-31,Snapchat,reports and enforcement,content & account reports,194634,194634,0,11,reports/snap/snap_india_2023-03.pdf
+Snapchat,2023-03-01,2023-03-31,Snapchat,reports and enforcement,content enforced,26006,26006,0,11,reports/snap/snap_india_2023-03.pdf
+Snapchat,2023-04-01,2023-04-30,Snapchat,reports and enforcement,content & account reports,183155,183155,0,11,reports/snap/snap_india_2023-04.pdf
+Snapchat,2023-04-01,2023-04-30,Snapchat,reports and enforcement,content enforced,12907,12907,0,11,reports/snap/snap_india_2023-04.pdf
+Snapchat,2023-05-01,2023-05-31,Snapchat,reports and enforcement,content & account reports,207061,207061,0,11,reports/snap/snap_india_2023-05.pdf
+Snapchat,2023-05-01,2023-05-31,Snapchat,reports and enforcement,content enforced,18135,18135,0,11,reports/snap/snap_india_2023-05.pdf
+Snapchat,2023-06-01,2023-06-30,Snapchat,reports and enforcement,content & account reports,224234,224234,0,11,reports/snap/snap_india_2023-06.pdf
+Snapchat,2023-06-01,2023-06-30,Snapchat,reports and enforcement,content enforced,19803,19803,0,11,reports/snap/snap_india_2023-06.pdf
+Snapchat,2023-07-01,2023-07-31,Snapchat,reports and enforcement,content & account reports,242146,242146,0,11,reports/snap/snap_india_2023-07.pdf
+Snapchat,2023-07-01,2023-07-31,Snapchat,reports and enforcement,content enforced,22373,22373,0,11,reports/snap/snap_india_2023-07.pdf
+Snapchat,2023-08-01,2023-08-31,Snapchat,reports and enforcement,content & account reports,251649,251649,0,11,reports/snap/snap_india_2023-08.pdf
+Snapchat,2023-08-01,2023-08-31,Snapchat,reports and enforcement,content enforced,19397,19397,0,11,reports/snap/snap_india_2023-08.pdf
+Snapchat,2023-09-01,2023-09-30,Snapchat,reports and enforcement,content & account reports,278516,278516,0,11,reports/snap/snap_india_2023-09.pdf
+Snapchat,2023-09-01,2023-09-30,Snapchat,reports and enforcement,content enforced,20287,20287,0,11,reports/snap/snap_india_2023-09.pdf
+Snapchat,2023-10-01,2023-10-31,Snapchat,reports and enforcement,content & account reports,280536,280536,0,11,reports/snap/snap_india_2023-10.pdf
+Snapchat,2023-10-01,2023-10-31,Snapchat,reports and enforcement,content enforced,20590,20590,0,11,reports/snap/snap_india_2023-10.pdf
+Snapchat,2023-11-01,2023-11-30,Snapchat,reports and enforcement,content & account reports,277496,277496,0,11,reports/snap/snap_india_2023-11.pdf
+Snapchat,2023-11-01,2023-11-30,Snapchat,reports and enforcement,content enforced,24048,24048,0,11,reports/snap/snap_india_2023-11.pdf
+Snapchat,2023-12-01,2023-12-31,Snapchat,reports and enforcement,content & account reports,243184,243184,0,11,reports/snap/snap_india_2023-12.pdf
+Snapchat,2023-12-01,2023-12-31,Snapchat,reports and enforcement,content enforced,25482,25482,0,11,reports/snap/snap_india_2023-12.pdf
+Snapchat,2024-01-01,2024-01-31,Snapchat,reports and enforcement,content & account reports,234858,234858,0,11,reports/snap/snap_india_2024-01.pdf
+Snapchat,2024-01-01,2024-01-31,Snapchat,reports and enforcement,content enforced,30935,30935,0,11,reports/snap/snap_india_2024-01.pdf
+Snapchat,2024-02-01,2024-02-29,Snapchat,reports and enforcement,content & account reports,220657,220657,0,13,reports/snap/snap_india_2024-02.pdf
+Snapchat,2024-02-01,2024-02-29,Snapchat,reports and enforcement,content enforced,35316,35316,0,13,reports/snap/snap_india_2024-02.pdf
+Snapchat,2024-03-01,2024-03-31,Snapchat,reports and enforcement,content & account reports,239277,239277,0,13,reports/snap/snap_india_2024-03.pdf
+Snapchat,2024-03-01,2024-03-31,Snapchat,reports and enforcement,content enforced,33943,33943,0,13,reports/snap/snap_india_2024-03.pdf
+Snapchat,2024-04-01,2024-04-30,Snapchat,reports and enforcement,content & account reports,239457,239457,0,13,reports/snap/snap_india_2024-04.pdf
+Snapchat,2024-04-01,2024-04-30,Snapchat,reports and enforcement,content enforced,36747,36747,0,13,reports/snap/snap_india_2024-04.pdf
+Snapchat,2024-05-01,2024-05-31,Snapchat,reports and enforcement,content & account reports,285554,285554,0,13,reports/snap/snap_india_2024-05.pdf
+Snapchat,2024-05-01,2024-05-31,Snapchat,reports and enforcement,content enforced,48769,48769,0,13,reports/snap/snap_india_2024-05.pdf
+Snapchat,2024-06-01,2024-06-30,Snapchat,reports and enforcement,content & account reports,264330,264330,0,13,reports/snap/snap_india_2024-06.pdf
+Snapchat,2024-06-01,2024-06-30,Snapchat,reports and enforcement,content enforced,52400,52400,0,13,reports/snap/snap_india_2024-06.pdf
+Snapchat,2024-07-01,2024-07-31,Snapchat,reports and enforcement,content & account reports,274251,274251,0,13,reports/snap/snap_india_2024-07.pdf
+Snapchat,2024-07-01,2024-07-31,Snapchat,reports and enforcement,content enforced,47088,47088,0,13,reports/snap/snap_india_2024-07.pdf
+Snapchat,2024-08-01,2024-08-31,Snapchat,reports and enforcement,content & account reports,270047,270047,0,13,reports/snap/snap_india_2024-08.pdf
+Snapchat,2024-08-01,2024-08-31,Snapchat,reports and enforcement,content enforced,46778,46778,0,13,reports/snap/snap_india_2024-08.pdf
+Snapchat,2024-09-01,2024-09-30,Snapchat,reports and enforcement,content & account reports,273663,273663,0,13,reports/snap/snap_india_2024-09.pdf
+Snapchat,2024-09-01,2024-09-30,Snapchat,reports and enforcement,content enforced,48935,48935,0,13,reports/snap/snap_india_2024-09.pdf
+Snapchat,2024-10-01,2024-10-31,Snapchat,reports and enforcement,content & account reports,284273,284273,0,13,reports/snap/snap_india_2024-10.pdf
+Snapchat,2024-10-01,2024-10-31,Snapchat,reports and enforcement,enforcements,53716,53716,0,13,reports/snap/snap_india_2024-10.pdf
+Snapchat,2024-11-01,2024-11-30,Snapchat,reports and enforcement,content & account reports,263704,263704,0,13,reports/snap/snap_india_2024-11.pdf
+Snapchat,2024-11-01,2024-11-30,Snapchat,reports and enforcement,enforcements,54633,54633,0,13,reports/snap/snap_india_2024-11.pdf
+Snapchat,2024-12-01,2024-12-31,Snapchat,all enforcement (overview),enforcements,74457,74457,0,13,reports/snap/snap_india_2024-12.pdf
+Snapchat,2024-12-01,2024-12-31,Snapchat,proactive detection,enforcements,21704,21704,0,13,reports/snap/snap_india_2024-12.pdf
+Snapchat,2024-12-01,2024-12-31,Snapchat,reported to safety teams,content & account reports,263268,263268,0,13,reports/snap/snap_india_2024-12.pdf
+Snapchat,2024-12-01,2024-12-31,Snapchat,reported to safety teams,enforcements,52753,52753,0,13,reports/snap/snap_india_2024-12.pdf
+Snapchat,2025-01-01,2025-01-31,Snapchat,all enforcement (overview),enforcements,47783,47783,0,13,reports/snap/snap_india_2025-01.pdf
+Snapchat,2025-01-01,2025-01-31,Snapchat,proactive detection,enforcements,11752,11752,0,13,reports/snap/snap_india_2025-01.pdf
+Snapchat,2025-01-01,2025-01-31,Snapchat,reported to safety teams,content & account reports,243764,243764,0,13,reports/snap/snap_india_2025-01.pdf
+Snapchat,2025-01-01,2025-01-31,Snapchat,reported to safety teams,enforcements,36031,36031,0,13,reports/snap/snap_india_2025-01.pdf
+Snapchat,2025-02-01,2025-02-28,Snapchat,all enforcement (overview),enforcements,77195,77190,-5,12,reports/snap/snap_india_2025-02.pdf
+Snapchat,2025-02-01,2025-02-28,Snapchat,proactive detection,enforcements,24573,24573,0,13,reports/snap/snap_india_2025-02.pdf
+Snapchat,2025-02-01,2025-02-28,Snapchat,reported to safety teams,content & account reports,259889,259889,0,13,reports/snap/snap_india_2025-02.pdf
+Snapchat,2025-02-01,2025-02-28,Snapchat,reported to safety teams,enforcements,52622,52622,0,13,reports/snap/snap_india_2025-02.pdf
+Snapchat,2025-03-01,2025-03-31,Snapchat,all enforcement (overview),enforcements,82459,82459,0,13,reports/snap/snap_india_2025-03.pdf
+Snapchat,2025-03-01,2025-03-31,Snapchat,proactive detection,enforcements,25070,25070,0,13,reports/snap/snap_india_2025-03.pdf
+Snapchat,2025-03-01,2025-03-31,Snapchat,reported to safety teams,content & account reports,306307,306307,0,13,reports/snap/snap_india_2025-03.pdf
+Snapchat,2025-03-01,2025-03-31,Snapchat,reported to safety teams,enforcements,57389,57389,0,13,reports/snap/snap_india_2025-03.pdf
+Snapchat,2025-04-01,2025-04-30,Snapchat,all enforcement (overview),enforcements,87655,87655,0,13,reports/snap/snap_india_2025-04.pdf
+Snapchat,2025-04-01,2025-04-30,Snapchat,proactive detection,enforcements,27795,27795,0,13,reports/snap/snap_india_2025-04.pdf
+Snapchat,2025-04-01,2025-04-30,Snapchat,reported to safety teams,content & account reports,305069,305069,0,13,reports/snap/snap_india_2025-04.pdf
+Snapchat,2025-04-01,2025-04-30,Snapchat,reported to safety teams,enforcements,59860,59860,0,13,reports/snap/snap_india_2025-04.pdf
+Snapchat,2025-05-01,2025-05-31,Snapchat,all enforcement (overview),enforcements,99285,99285,0,13,reports/snap/snap_india_2025-05.pdf
+Snapchat,2025-05-01,2025-05-31,Snapchat,proactive detection,enforcements,31394,31394,0,13,reports/snap/snap_india_2025-05.pdf
+Snapchat,2025-05-01,2025-05-31,Snapchat,reported to safety teams,content & account reports,337725,337725,0,13,reports/snap/snap_india_2025-05.pdf
+Snapchat,2025-05-01,2025-05-31,Snapchat,reported to safety teams,enforcements,67891,67891,0,13,reports/snap/snap_india_2025-05.pdf
+Snapchat,2025-06-01,2025-06-30,Snapchat,all enforcement (overview),enforcements,99798,99798,0,14,reports/snap/snap_india_2025-06.pdf
+Snapchat,2025-06-01,2025-06-30,Snapchat,proactive detection,enforcements,38198,38198,0,13,reports/snap/snap_india_2025-06.pdf
+Snapchat,2025-06-01,2025-06-30,Snapchat,reported to safety teams,content & account reports,319592,319592,0,13,reports/snap/snap_india_2025-06.pdf
+Snapchat,2025-06-01,2025-06-30,Snapchat,reported to safety teams,enforcements,61600,61600,0,13,reports/snap/snap_india_2025-06.pdf
+Snapchat,2025-07-01,2025-07-31,Snapchat,all enforcement (overview),enforcements,96542,96542,0,13,reports/snap/snap_india_2025-07.pdf
+Snapchat,2025-07-01,2025-07-31,Snapchat,proactive detection,enforcements,31054,31054,0,13,reports/snap/snap_india_2025-07.pdf
+Snapchat,2025-07-01,2025-07-31,Snapchat,reported to safety teams,content & account reports,339376,339376,0,13,reports/snap/snap_india_2025-07.pdf
+Snapchat,2025-07-01,2025-07-31,Snapchat,reported to safety teams,enforcements,65488,65488,0,13,reports/snap/snap_india_2025-07.pdf
+Snapchat,2025-08-01,2025-08-31,Snapchat,all enforcement (overview),enforcements,95154,95154,0,13,reports/snap/snap_india_2025-08.pdf
+Snapchat,2025-08-01,2025-08-31,Snapchat,proactive detection,enforcements,28369,28369,0,13,reports/snap/snap_india_2025-08.pdf
+Snapchat,2025-08-01,2025-08-31,Snapchat,reported to safety teams,content & account reports,343901,343901,0,13,reports/snap/snap_india_2025-08.pdf
+Snapchat,2025-08-01,2025-08-31,Snapchat,reported to safety teams,enforcements,66785,66785,0,13,reports/snap/snap_india_2025-08.pdf
+Snapchat,2025-09-01,2025-09-30,Snapchat,all enforcement (overview),enforcements,99599,99599,0,13,reports/snap/snap_india_2025-09.pdf
+Snapchat,2025-09-01,2025-09-30,Snapchat,proactive detection,enforcements,30147,30147,0,13,reports/snap/snap_india_2025-09.pdf
+Snapchat,2025-09-01,2025-09-30,Snapchat,reported to safety teams,content & account reports,341851,341851,0,13,reports/snap/snap_india_2025-09.pdf
+Snapchat,2025-09-01,2025-09-30,Snapchat,reported to safety teams,enforcements,69452,69452,0,13,reports/snap/snap_india_2025-09.pdf
+Snapchat,2025-10-01,2025-10-31,Snapchat,all enforcement (overview),enforcements,114892,114892,0,13,reports/snap/snap_india_2025-10.pdf
+Snapchat,2025-10-01,2025-10-31,Snapchat,proactive detection,enforcements,34226,34226,0,13,reports/snap/snap_india_2025-10.pdf
+Snapchat,2025-10-01,2025-10-31,Snapchat,reported to safety teams,content & account reports,388554,388554,0,13,reports/snap/snap_india_2025-10.pdf
+Snapchat,2025-10-01,2025-10-31,Snapchat,reported to safety teams,enforcements,80666,80666,0,13,reports/snap/snap_india_2025-10.pdf
+Snapchat,2025-11-01,2025-11-30,Snapchat,all enforcement (overview),enforcements,114892,114892,0,13,reports/snap/snap_india_2025-11.pdf
+Snapchat,2025-11-01,2025-11-30,Snapchat,proactive detection,enforcements,34226,34226,0,13,reports/snap/snap_india_2025-11.pdf
+Snapchat,2025-11-01,2025-11-30,Snapchat,reported to safety teams,content & account reports,388554,388554,0,13,reports/snap/snap_india_2025-11.pdf
+Snapchat,2025-11-01,2025-11-30,Snapchat,reported to safety teams,enforcements,80666,80666,0,13,reports/snap/snap_india_2025-11.pdf
+Snapchat,2025-12-01,2025-12-31,Snapchat,all enforcement (overview),enforcements,137133,137132,-1,13,reports/snap/snap_india_2025-12.pdf
+Snapchat,2025-12-01,2025-12-31,Snapchat,proactive detection,enforcements,52667,52667,0,13,reports/snap/snap_india_2025-12.pdf
+Snapchat,2025-12-01,2025-12-31,Snapchat,reported to safety teams,content & account reports,422139,422138,-1,13,reports/snap/snap_india_2025-12.pdf
+Snapchat,2025-12-01,2025-12-31,Snapchat,reported to safety teams,enforcements,84466,84465,-1,13,reports/snap/snap_india_2025-12.pdf
+Snapchat,2026-01-01,2026-01-31,Snapchat,all enforcement (overview),enforcements,145247,145247,0,13,reports/snap/snap_india_2026-01.pdf
+Snapchat,2026-01-01,2026-01-31,Snapchat,proactive detection,enforcements,55912,55912,0,12,reports/snap/snap_india_2026-01.pdf
+Snapchat,2026-01-01,2026-01-31,Snapchat,reported to safety teams,content & account reports,447458,447458,0,13,reports/snap/snap_india_2026-01.pdf
+Snapchat,2026-01-01,2026-01-31,Snapchat,reported to safety teams,enforcements,89335,89335,0,13,reports/snap/snap_india_2026-01.pdf
+Snapchat,2026-02-01,2026-02-28,Snapchat,all enforcement (overview),enforcements,133544,133543,-1,13,reports/snap/snap_india_2026-02.pdf
+Snapchat,2026-02-01,2026-02-28,Snapchat,proactive detection,enforcements,56629,56629,0,13,reports/snap/snap_india_2026-02.pdf
+Snapchat,2026-02-01,2026-02-28,Snapchat,reported to safety teams,content & account reports,423389,423388,-1,13,reports/snap/snap_india_2026-02.pdf
+Snapchat,2026-02-01,2026-02-28,Snapchat,reported to safety teams,enforcements,76915,76914,-1,13,reports/snap/snap_india_2026-02.pdf
+Snapchat,2026-03-01,2026-03-31,Snapchat,all enforcement (overview),enforcements,171798,171797,-1,13,reports/snap/snap_india_2026-03.pdf
+Snapchat,2026-03-01,2026-03-31,Snapchat,proactive detection,enforcements,68661,68661,0,13,reports/snap/snap_india_2026-03.pdf
+Snapchat,2026-03-01,2026-03-31,Snapchat,reported to safety teams,content & account reports,530276,530275,-1,13,reports/snap/snap_india_2026-03.pdf
+Snapchat,2026-03-01,2026-03-31,Snapchat,reported to safety teams,enforcements,103137,103136,-1,13,reports/snap/snap_india_2026-03.pdf
+Snapchat,2026-04-01,2026-04-30,Snapchat,all enforcement (overview),enforcements,205289,205287,-2,13,reports/snap/snap_india_2026-04.pdf
+Snapchat,2026-04-01,2026-04-30,Snapchat,proactive detection,enforcements,95549,95549,0,13,reports/snap/snap_india_2026-04.pdf
+Snapchat,2026-04-01,2026-04-30,Snapchat,reported to safety teams,content & account reports,525591,525589,-2,13,reports/snap/snap_india_2026-04.pdf
+Snapchat,2026-04-01,2026-04-30,Snapchat,reported to safety teams,enforcements,109740,109738,-2,13,reports/snap/snap_india_2026-04.pdf
+Snapchat,2026-05-01,2026-05-31,Snapchat,all enforcement (overview),enforcements,223380,223380,0,13,reports/snap/snap_india_2026-05.pdf
+Snapchat,2026-05-01,2026-05-31,Snapchat,proactive detection,enforcements,102387,102387,0,13,reports/snap/snap_india_2026-05.pdf
+Snapchat,2026-05-01,2026-05-31,Snapchat,reported to safety teams,content & account reports,582471,582471,0,13,reports/snap/snap_india_2026-05.pdf
+Snapchat,2026-05-01,2026-05-31,Snapchat,reported to safety teams,enforcements,120993,120993,0,13,reports/snap/snap_india_2026-05.pdf
+Snapchat,2026-06-01,2026-06-30,Snapchat,all enforcement (overview),enforcements,243517,243517,0,13,reports/snap/snap_india_2026-06.pdf
+Snapchat,2026-06-01,2026-06-30,Snapchat,proactive detection,enforcements,110833,110833,0,13,reports/snap/snap_india_2026-06.pdf
+Snapchat,2026-06-01,2026-06-30,Snapchat,reported to safety teams,content & account reports,616212,616212,0,13,reports/snap/snap_india_2026-06.pdf
+Snapchat,2026-06-01,2026-06-30,Snapchat,reported to safety teams,enforcements,132684,132684,0,13,reports/snap/snap_india_2026-06.pdf
+Snapchat,2026-07-01,2026-07-31,Snapchat,all enforcement (overview),enforcements,256671,256667,-4,13,reports/snap/snap_india_2026-07.pdf
+Snapchat,2026-07-01,2026-07-31,Snapchat,proactive detection,enforcements,118422,118422,0,11,reports/snap/snap_india_2026-07.pdf
+Snapchat,2026-07-01,2026-07-31,Snapchat,reported to safety teams,content & account reports,637423,637419,-4,13,reports/snap/snap_india_2026-07.pdf
+Snapchat,2026-07-01,2026-07-31,Snapchat,reported to safety teams,enforcements,138249,138245,-4,13,reports/snap/snap_india_2026-07.pdf
+Snapchat,2026-08-01,2026-08-31,Snapchat,all enforcement (overview),enforcements,254131,254120,-11,13,reports/snap/snap_india_2026-08.pdf
+Snapchat,2026-08-01,2026-08-31,Snapchat,proactive detection,enforcements,118150,118150,0,13,reports/snap/snap_india_2026-08.pdf
+Snapchat,2026-08-01,2026-08-31,Snapchat,reported to safety teams,content & account reports,652811,652798,-13,13,reports/snap/snap_india_2026-08.pdf
+Snapchat,2026-08-01,2026-08-31,Snapchat,reported to safety teams,enforcements,135981,135970,-11,13,reports/snap/snap_india_2026-08.pdf
+Snapchat,2026-09-01,2026-09-30,Snapchat,all enforcement (overview),enforcements,256269,256260,-9,13,reports/snap/snap_india_2026-09.pdf
+Snapchat,2026-09-01,2026-09-30,Snapchat,proactive detection,enforcements,125016,125016,0,12,reports/snap/snap_india_2026-09.pdf
+Snapchat,2026-09-01,2026-09-30,Snapchat,reported to safety teams,content & account reports,647416,647402,-14,13,reports/snap/snap_india_2026-09.pdf
+Snapchat,2026-09-01,2026-09-30,Snapchat,reported to safety teams,enforcements,131253,131244,-9,13,reports/snap/snap_india_2026-09.pdf
+WhatsApp,2021-05-15,2021-06-15,WhatsApp,user grievances,accounts actioned,63,63,0,1,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,2021-05-15,2021-06-15,WhatsApp,user grievances,reports received,345,345,0,5,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,2021-06-16,2021-07-31,WhatsApp,user grievances,accounts actioned,74,74,0,2,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,2021-06-16,2021-07-31,WhatsApp,user grievances,reports received,594,594,0,5,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,2021-08-01,2021-08-31,WhatsApp,user grievances,accounts actioned,41,41,0,1,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,2021-08-01,2021-08-31,WhatsApp,user grievances,reports received,420,420,0,5,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,2021-09-01,2021-09-30,WhatsApp,user grievances,accounts actioned,51,51,0,2,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,2021-09-01,2021-09-30,WhatsApp,user grievances,reports received,560,560,0,5,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,2021-10-01,2021-10-31,WhatsApp,user grievances,accounts actioned,18,18,0,1,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,2021-10-01,2021-10-31,WhatsApp,user grievances,reports received,500,500,0,5,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,2021-11-01,2021-11-30,WhatsApp,user grievances,accounts actioned,36,36,0,1,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,2021-11-01,2021-11-30,WhatsApp,user grievances,reports received,602,602,0,5,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,2021-12-01,2021-12-31,WhatsApp,user grievances,accounts actioned,24,24,0,2,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,2021-12-01,2021-12-31,WhatsApp,user grievances,reports received,528,528,0,5,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,2022-01-01,2022-01-31,WhatsApp,user grievances,accounts actioned,24,24,0,1,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,2022-01-01,2022-01-31,WhatsApp,user grievances,reports received,495,495,0,5,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,2022-02-01,2022-02-28,WhatsApp,user grievances,accounts actioned,21,21,0,2,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,2022-02-01,2022-02-28,WhatsApp,user grievances,reports received,335,335,0,5,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,2022-03-01,2022-03-31,WhatsApp,user grievances,accounts actioned,74,74,0,1,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,2022-03-01,2022-03-31,WhatsApp,user grievances,reports received,597,597,0,5,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,2022-04-01,2022-04-30,WhatsApp,user grievances,accounts actioned,123,123,0,2,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,2022-04-01,2022-04-30,WhatsApp,user grievances,reports received,844,844,0,5,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,2022-05-01,2022-05-31,WhatsApp,user grievances,accounts actioned,24,24,0,2,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,2022-05-01,2022-05-31,WhatsApp,user grievances,reports received,528,528,0,5,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,2022-06-01,2022-06-30,WhatsApp,user grievances,accounts actioned,64,64,0,5,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,2022-06-01,2022-06-30,WhatsApp,user grievances,reports received,632,632,0,5,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,2022-07-01,2022-07-31,WhatsApp,user grievances,accounts actioned,27,27,0,1,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,2022-07-01,2022-07-31,WhatsApp,user grievances,reports received,574,574,0,5,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,2022-08-01,2022-08-31,WhatsApp,user grievances,accounts actioned,19,19,0,1,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,2022-08-01,2022-08-31,WhatsApp,user grievances,reports received,598,598,0,5,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,2022-09-01,2022-09-30,WhatsApp,user grievances,accounts actioned,23,23,0,5,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,2022-09-01,2022-09-30,WhatsApp,user grievances,reports received,666,666,0,5,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,2022-10-01,2022-10-31,WhatsApp,user grievances,accounts actioned,34,34,0,5,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,2022-10-01,2022-10-31,WhatsApp,user grievances,reports received,701,701,0,5,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,2022-11-01,2022-11-30,WhatsApp,user grievances,accounts actioned,74,74,0,5,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,2022-11-01,2022-11-30,WhatsApp,user grievances,reports received,946,946,0,5,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,2022-12-01,2022-12-31,WhatsApp,user grievances,accounts actioned,166,166,0,5,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,2022-12-01,2022-12-31,WhatsApp,user grievances,reports received,1607,1607,0,5,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,2023-01-01,2023-01-31,WhatsApp,user grievances,accounts actioned,195,195,0,5,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,2023-01-01,2023-01-31,WhatsApp,user grievances,reports received,1461,1461,0,5,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,2023-02-01,2023-02-28,WhatsApp,user grievances,accounts actioned,504,504,0,5,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,2023-02-01,2023-02-28,WhatsApp,user grievances,reports received,2804,2804,0,5,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,2023-03-01,2023-03-31,WhatsApp,user grievances,accounts actioned,585,585,0,5,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,2023-03-01,2023-03-31,WhatsApp,user grievances,reports received,4720,4720,0,5,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,2023-04-01,2023-04-30,WhatsApp,user grievances,accounts actioned,234,234,0,5,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,2023-04-01,2023-04-30,WhatsApp,user grievances,reports received,4377,4377,0,5,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,2023-05-01,2023-05-31,WhatsApp,user grievances,accounts actioned,297,297,0,5,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,2023-05-01,2023-05-31,WhatsApp,user grievances,reports received,3912,3912,0,5,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,2023-06-01,2023-06-30,WhatsApp,user grievances,accounts actioned,337,337,0,5,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,2023-06-01,2023-06-30,WhatsApp,user grievances,reports received,7893,7893,0,5,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,2023-07-01,2023-07-31,WhatsApp,user grievances,accounts actioned,72,72,0,5,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,2023-07-01,2023-07-31,WhatsApp,user grievances,reports received,11067,11067,0,5,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,2023-08-01,2023-08-31,WhatsApp,user grievances,accounts actioned,71,71,0,5,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,2023-08-01,2023-08-31,WhatsApp,user grievances,reports received,14767,14767,0,5,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,2023-09-01,2023-09-30,WhatsApp,user grievances,accounts actioned,85,85,0,5,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,2023-09-01,2023-09-30,WhatsApp,user grievances,reports received,10442,10442,0,5,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,2023-10-01,2023-10-31,WhatsApp,user grievances,accounts actioned,12,12,0,5,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,2023-10-01,2023-10-31,WhatsApp,user grievances,reports received,9063,9063,0,5,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,2023-11-01,2023-11-30,WhatsApp,user grievances,accounts actioned,6,6,0,5,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,2023-11-01,2023-11-30,WhatsApp,user grievances,reports received,8841,8841,0,5,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,2023-12-01,2023-12-31,WhatsApp,user grievances,accounts actioned,13,13,0,5,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,2023-12-01,2023-12-31,WhatsApp,user grievances,reports received,16366,16366,0,5,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,2024-01-01,2024-01-31,WhatsApp,user grievances,accounts actioned,10,10,0,5,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,2024-01-01,2024-01-31,WhatsApp,user grievances,reports received,14828,14828,0,5,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,2024-02-01,2024-02-29,WhatsApp,user grievances,accounts actioned,22,22,0,5,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,2024-02-01,2024-02-29,WhatsApp,user grievances,reports received,16618,16618,0,5,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,2024-03-01,2024-03-31,WhatsApp,user grievances,accounts actioned,11,11,0,5,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,2024-03-01,2024-03-31,WhatsApp,user grievances,reports received,12782,12782,0,5,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,2024-04-01,2024-04-30,WhatsApp,user grievances,accounts actioned,6,6,0,5,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,2024-04-01,2024-04-30,WhatsApp,user grievances,reports received,10554,10554,0,5,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,2024-05-01,2024-05-31,WhatsApp,user grievances,accounts actioned,31,31,0,5,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,2024-05-01,2024-05-31,WhatsApp,user grievances,reports received,13367,13367,0,5,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,2024-06-01,2024-06-30,WhatsApp,user grievances,accounts actioned,124,124,0,5,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,2024-06-01,2024-06-30,WhatsApp,user grievances,reports received,26200,26200,0,5,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,2024-07-01,2024-07-31,WhatsApp,user grievances,accounts actioned,94,94,0,5,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,2024-07-01,2024-07-31,WhatsApp,user grievances,reports received,34650,34650,0,5,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,2024-08-01,2024-08-31,WhatsApp,user grievances,accounts actioned,93,93,0,5,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,2024-08-01,2024-08-31,WhatsApp,user grievances,reports received,10707,10707,0,5,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,2024-09-01,2024-09-30,WhatsApp,user grievances,accounts actioned,97,97,0,5,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,2024-09-01,2024-09-30,WhatsApp,user grievances,reports received,8161,8161,0,5,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,2024-10-01,2024-10-31,WhatsApp,user grievances,accounts actioned,79,79,0,5,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,2024-10-01,2024-10-31,WhatsApp,user grievances,reports received,5306,5306,0,5,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,2024-11-01,2024-11-30,WhatsApp,user grievances,accounts actioned,79,79,0,5,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,2024-11-01,2024-11-30,WhatsApp,user grievances,reports received,7103,7103,0,5,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,2024-12-01,2024-12-31,WhatsApp,user grievances,accounts actioned,113,113,0,5,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,2024-12-01,2024-12-31,WhatsApp,user grievances,reports received,6750,6750,0,5,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,2025-01-01,2025-01-31,WhatsApp,user grievances,accounts actioned,239,239,0,5,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,2025-01-01,2025-01-31,WhatsApp,user grievances,reports received,9474,9474,0,5,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,2025-02-01,2025-02-28,WhatsApp,user grievances,accounts actioned,427,427,0,5,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,2025-02-01,2025-02-28,WhatsApp,user grievances,reports received,17649,17649,0,5,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,2025-03-01,2025-03-31,WhatsApp,user grievances,accounts actioned,423,423,0,5,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,2025-03-01,2025-03-31,WhatsApp,user grievances,reports received,22461,22461,0,5,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,2025-04-01,2025-04-30,WhatsApp,user grievances,accounts actioned,342,342,0,5,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,2025-04-01,2025-04-30,WhatsApp,user grievances,reports received,18886,18886,0,5,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,2025-05-01,2025-05-31,WhatsApp,user grievances,accounts actioned,514,514,0,5,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,2025-05-01,2025-05-31,WhatsApp,user grievances,reports received,20500,20500,0,5,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,2025-06-01,2025-06-30,WhatsApp,user grievances,accounts actioned,1001,1001,0,5,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,2025-06-01,2025-06-30,WhatsApp,user grievances,reports received,23596,23596,0,5,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,2025-07-01,2025-07-31,WhatsApp,user grievances,accounts actioned,1564,1564,0,5,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,2025-07-01,2025-07-31,WhatsApp,user grievances,reports received,32783,32783,0,5,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,2025-08-01,2025-08-31,WhatsApp,user grievances,accounts actioned,826,826,0,5,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,2025-08-01,2025-08-31,WhatsApp,user grievances,reports received,29277,29277,0,5,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,2025-09-01,2025-09-30,WhatsApp,user grievances,accounts actioned,605,605,0,5,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,2025-09-01,2025-09-30,WhatsApp,user grievances,reports received,40440,40440,0,5,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,2025-10-01,2025-10-31,WhatsApp,user grievances,accounts actioned,1060,1060,0,5,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,2025-10-01,2025-10-31,WhatsApp,user grievances,reports received,35665,35665,0,5,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,2025-11-01,2025-11-30,WhatsApp,user grievances,accounts actioned,723,723,0,5,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,2025-11-01,2025-11-30,WhatsApp,user grievances,reports received,28478,28478,0,5,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,2025-12-01,2025-12-31,WhatsApp,user grievances,accounts actioned,516,516,0,5,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,2025-12-01,2025-12-31,WhatsApp,user grievances,reports received,27747,27747,0,5,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,2026-01-01,2026-01-31,WhatsApp,user grievances,accounts actioned,520,520,0,5,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,2026-01-01,2026-01-31,WhatsApp,user grievances,reports received,27981,27981,0,5,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,2026-02-01,2026-02-28,WhatsApp,user grievances,accounts actioned,576,576,0,5,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,2026-02-01,2026-02-28,WhatsApp,user grievances,reports received,19496,19496,0,5,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,2026-03-01,2026-03-31,WhatsApp,user grievances,accounts actioned,402,402,0,5,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,2026-03-01,2026-03-31,WhatsApp,user grievances,reports received,17671,17671,0,5,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,2026-04-01,2026-04-30,WhatsApp,user grievances,accounts actioned,486,486,0,5,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,2026-04-01,2026-04-30,WhatsApp,user grievances,reports received,19189,19189,0,5,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,2026-05-01,2026-05-31,WhatsApp,user grievances,accounts actioned,399,399,0,5,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,2026-05-01,2026-05-31,WhatsApp,user grievances,reports received,19859,19859,0,5,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,2026-06-01,2026-06-30,WhatsApp,user grievances,accounts actioned,414,414,0,5,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,2026-06-01,2026-06-30,WhatsApp,user grievances,reports received,15182,15182,0,5,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,2026-07-01,2026-07-31,WhatsApp,user grievances,accounts actioned,476,476,0,5,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,2026-07-01,2026-07-31,WhatsApp,user grievances,reports received,19112,19112,0,5,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,2026-08-01,2026-08-31,WhatsApp,user grievances,accounts actioned,472,472,0,5,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,2026-08-01,2026-08-31,WhatsApp,user grievances,reports received,27085,27085,0,5,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf

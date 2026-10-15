@@ -1,0 +1,902 @@
+platform,service,period_start,period_end,section,category,metric,value,unit,notes,source_file
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,accounts banned,All,accounts banned,2011000,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,Account support,reports received,70,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,All,accounts actioned,63,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,All,reports received,345,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,Ban appeal,accounts actioned,63,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,Ban appeal,reports received,204,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,Other support,reports received,20,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,Product support,reports received,43,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-05-15,2021-06-15,user grievances,Safety issues,reports received,8,count,,reports/whatsapp/whatsapp_india_published_2021-07-15.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,accounts banned,All,accounts banned,3027000,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Account support,reports received,137,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,All,accounts actioned,74,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,All,reports received,594,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Ban appeal,accounts actioned,73,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Ban appeal,reports received,316,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Other support,reports received,45,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Product support,reports received,64,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-06-16,2021-07-31,user grievances,Safety,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2021-08-31.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,accounts banned,All,accounts banned,2070000,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,Account support,reports received,105,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,All,accounts actioned,41,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,All,reports received,420,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,Ban appeal,accounts actioned,41,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,Ban appeal,reports received,222,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,Other support,reports received,34,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,Product support,reports received,42,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-08-01,2021-08-31,user grievances,Safety,reports received,17,count,,reports/whatsapp/whatsapp_india_published_2021-10-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,accounts banned,All,accounts banned,2209000,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Account support,reports received,121,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,All,accounts actioned,51,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,All,reports received,560,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Ban appeal,accounts actioned,50,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Ban appeal,reports received,309,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Other support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Other support,reports received,49,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Product support,reports received,49,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-09-01,2021-09-30,user grievances,Safety,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2021-11-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,accounts banned,All,accounts banned,2069000,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,Account support,reports received,146,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,All,accounts actioned,18,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,All,reports received,500,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,Ban appeal,accounts actioned,18,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,Ban appeal,reports received,248,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,Other support,reports received,42,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,Product support,reports received,53,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-10-01,2021-10-31,user grievances,Safety,reports received,11,count,,reports/whatsapp/whatsapp_india_published_2021-12-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,accounts banned,All,accounts banned,1759000,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,Account support,reports received,149,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,All,accounts actioned,36,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,All,reports received,602,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,Ban appeal,accounts actioned,36,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,Ban appeal,reports received,357,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,Other support,reports received,21,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,Product support,reports received,48,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-11-01,2021-11-30,user grievances,Safety,reports received,27,count,,reports/whatsapp/whatsapp_india_published_2022-01-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,accounts banned,All,accounts banned,2079000,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Account support,reports received,149,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,All,accounts actioned,24,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,All,reports received,528,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Ban appeal,accounts actioned,23,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Ban appeal,reports received,303,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Other support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Other support,reports received,29,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Product support,reports received,34,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2021-12-01,2021-12-31,user grievances,Safety,reports received,13,count,,reports/whatsapp/whatsapp_india_published_2022-02-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,accounts banned,All,accounts banned,1858000,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,Account support,reports received,135,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,All,accounts actioned,24,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,All,reports received,495,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,Ban appeal,accounts actioned,24,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,Ban appeal,reports received,285,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,Other support,reports received,30,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,Product support,reports received,33,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-01-01,2022-01-31,user grievances,Safety,reports received,12,count,,reports/whatsapp/whatsapp_india_published_2022-03-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,accounts banned,All,accounts banned,1426000,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Account support,reports received,92,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,All,accounts actioned,21,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,All,reports received,335,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Ban appeal,accounts actioned,19,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Ban appeal,reports received,194,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Other support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Other support,reports received,17,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Product support,reports received,17,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-02-01,2022-02-28,user grievances,Safety,reports received,15,count,,reports/whatsapp/whatsapp_india_published_2022-04-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,accounts banned,All,accounts banned,1805000,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,Account support,reports received,112,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,All,accounts actioned,74,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,All,reports received,597,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,Ban appeal,accounts actioned,74,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,Ban appeal,reports received,407,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,Other support,reports received,28,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,Product support,reports received,37,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-03-01,2022-03-31,user grievances,Safety,reports received,13,count,,reports/whatsapp/whatsapp_india_published_2022-05-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,accounts banned,All,accounts banned,1666000,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Account support,reports received,90,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,All,accounts actioned,123,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,All,reports received,844,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Ban appeal,accounts actioned,122,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Ban appeal,reports received,670,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Other support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Other support,reports received,37,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Product support,reports received,34,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-04-01,2022-04-30,user grievances,Safety,reports received,13,count,,reports/whatsapp/whatsapp_india_published_2022-06-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,accounts banned,All,accounts banned,1910000,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Account support,reports received,149,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,All,accounts actioned,24,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,All,reports received,528,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Ban appeal,accounts actioned,23,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Ban appeal,reports received,303,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Other support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Other support,reports received,29,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Product support,reports received,34,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-05-01,2022-05-31,user grievances,Safety,reports received,13,count,,reports/whatsapp/whatsapp_india_published_2022-07-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,accounts banned,All,accounts banned,2210000,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Account support,reports received,123,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,All,accounts actioned,64,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,All,reports received,632,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Ban appeal,accounts actioned,64,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Ban appeal,reports received,426,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Other support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Other support,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Product support,reports received,35,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-06-01,2022-06-30,user grievances,Safety,reports received,16,count,,reports/whatsapp/whatsapp_india_published_2022-08-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,accounts banned,All,accounts banned,2387000,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,accounts banned,All,accounts banned proactively (before any user report),1416000,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,Account support,reports received,116,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,All,accounts actioned,27,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,All,reports received,574,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,Ban appeal,accounts actioned,27,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,Ban appeal,reports received,392,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,Other support,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,Product support,reports received,21,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-07-01,2022-07-31,user grievances,Safety,reports received,13,count,,reports/whatsapp/whatsapp_india_published_2022-09-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,accounts banned,All,accounts banned,2328000,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,accounts banned,All,accounts banned proactively (before any user report),1008000,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,Account support,reports received,78,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,All,accounts actioned,19,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,All,reports received,598,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,Ban appeal,accounts actioned,19,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,Ban appeal,reports received,449,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,Other support,reports received,36,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,Product support,reports received,21,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-08-01,2022-08-31,user grievances,Safety,reports received,14,count,,reports/whatsapp/whatsapp_india_published_2022-10-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,accounts banned,All,accounts banned,2685000,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,accounts banned,All,accounts banned proactively (before any user report),872000,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Account support,reports received,100,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,All,accounts actioned,23,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,All,reports received,666,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Ban appeal,accounts actioned,23,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Ban appeal,reports received,496,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Other support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Other support,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Product support,reports received,30,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-09-01,2022-09-30,user grievances,Safety,reports received,8,count,,reports/whatsapp/whatsapp_india_published_2022-11-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,accounts banned,All,accounts banned,2324000,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,accounts banned,All,accounts banned proactively (before any user report),811000,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Account support,reports received,87,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,All,accounts actioned,34,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,All,reports received,701,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Ban appeal,accounts actioned,33,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Ban appeal,reports received,550,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Other support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Other support,reports received,23,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Product support,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-10-01,2022-10-31,user grievances,Safety,reports received,9,count,,reports/whatsapp/whatsapp_india_published_2022-12-01.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,accounts banned,All,accounts banned,3716000,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,accounts banned,All,accounts banned proactively (before any user report),990000,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Account support,reports received,47,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,All,accounts actioned,74,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,All,reports received,946,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Ban appeal,accounts actioned,73,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Ban appeal,reports received,830,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Other support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Other support,reports received,34,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Product support,reports received,31,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-11-01,2022-11-30,user grievances,Safety,reports received,4,count,,reports/whatsapp/whatsapp_india_published_2022-12-21.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,accounts banned,All,accounts banned,3677000,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,accounts banned,All,accounts banned proactively (before any user report),1389000,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Account support,reports received,68,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,All,accounts actioned,166,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,All,reports received,1607,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Ban appeal,accounts actioned,164,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Ban appeal,reports received,1459,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Other support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Other support,reports received,44,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Product support,reports received,23,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2022-12-01,2022-12-31,user grievances,Safety,reports received,13,count,,reports/whatsapp/whatsapp_india_published_2023-02-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,accounts banned,All,accounts banned,2918000,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,accounts banned,All,accounts banned proactively (before any user report),1038000,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Account support,reports received,51,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,All,accounts actioned,195,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,All,reports received,1461,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Ban appeal,accounts actioned,191,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Ban appeal,reports received,1337,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Other support,accounts actioned,4,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Other support,reports received,45,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Product support,reports received,21,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-01-01,2023-01-31,user grievances,Safety,reports received,7,count,,reports/whatsapp/whatsapp_india_published_2023-03-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,accounts banned,All,accounts banned,4597400,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,accounts banned,All,accounts banned proactively (before any user report),1298000,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Account support,reports received,71,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,All,accounts actioned,504,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,All,reports received,2804,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Ban appeal,accounts actioned,495,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Ban appeal,reports received,2548,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Other support,accounts actioned,7,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Other support,reports received,136,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Product support,reports received,35,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Safety,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-02-01,2023-02-28,user grievances,Safety,reports received,14,count,,reports/whatsapp/whatsapp_india_published_2023-04-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,GAC orders,All,orders complied with,0,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,GAC orders,All,orders received,0,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,accounts banned,All,accounts banned,4715906,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,accounts banned,All,accounts banned proactively (before any user report),1659385,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Account support,reports received,98,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,All,accounts actioned,585,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,All,reports received,4720,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Ban appeal,accounts actioned,553,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Ban appeal,reports received,4316,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Other support,accounts actioned,32,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Other support,reports received,260,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Product support,reports received,36,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-03-01,2023-03-31,user grievances,Safety,reports received,10,count,,reports/whatsapp/whatsapp_india_published_2023-05-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,GAC orders,All,orders complied with,2,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,GAC orders,All,orders received,2,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,accounts banned,All,accounts banned,7452500,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,accounts banned,All,accounts banned proactively (before any user report),2469700,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Account support,reports received,69,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,All,accounts actioned,234,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,All,reports received,4377,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Ban appeal,accounts actioned,223,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Ban appeal,reports received,4100,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Other support,accounts actioned,11,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Other support,reports received,169,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Product support,reports received,18,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-04-01,2023-04-30,user grievances,Safety,reports received,21,count,,reports/whatsapp/whatsapp_india_published_2023-06-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,GAC orders,All,orders complied with,0,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,GAC orders,All,orders received,0,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,accounts banned,All,accounts banned,6508000,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,accounts banned,All,accounts banned proactively (before any user report),2420700,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Account support,reports received,148,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,All,accounts actioned,297,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,All,reports received,3912,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Ban appeal,accounts actioned,280,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Ban appeal,reports received,3474,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Other support,accounts actioned,16,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Other support,reports received,225,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Product support,reports received,28,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Safety,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-05-01,2023-05-31,user grievances,Safety,reports received,37,count,,reports/whatsapp/whatsapp_india_published_2023-07-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,GAC orders,All,orders complied with,1,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,GAC orders,All,orders received,1,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,accounts banned,All,accounts banned,6611700,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,accounts banned,All,accounts banned proactively (before any user report),2434200,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Account support,reports received,157,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,All,accounts actioned,337,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,All,reports received,7893,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Ban appeal,accounts actioned,299,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Ban appeal,reports received,7247,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Other support,accounts actioned,34,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Other support,reports received,412,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Product support,reports received,45,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Safety,accounts actioned,3,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-06-01,2023-06-30,user grievances,Safety,reports received,32,count,,reports/whatsapp/whatsapp_india_published_2023-08-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,GAC orders,All,orders complied with,5,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,GAC orders,All,orders received,5,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,accounts banned,All,accounts banned,7228000,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,accounts banned,All,accounts banned proactively (before any user report),3108000,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Account support,reports received,392,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,All,accounts actioned,72,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,All,reports received,11067,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Ban appeal,accounts actioned,21,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Ban appeal,reports received,9818,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Other support,accounts actioned,49,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Other support,reports received,655,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Product support,reports received,115,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Safety,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-07-01,2023-07-31,user grievances,Safety,reports received,87,count,,reports/whatsapp/whatsapp_india_published_2023-09-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,GAC orders,All,orders complied with,1,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,GAC orders,All,orders received,1,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,accounts banned,All,accounts banned,7420748,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,accounts banned,All,accounts banned proactively (before any user report),3506905,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Account support,reports received,674,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,All,accounts actioned,71,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,All,reports received,14767,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Ban appeal,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Ban appeal,reports received,12461,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Other support,accounts actioned,68,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Other support,reports received,1205,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Product support,reports received,220,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-08-01,2023-08-31,user grievances,Safety,reports received,207,count,,reports/whatsapp/whatsapp_india_published_2023-10-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,GAC orders,All,orders complied with,6,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,GAC orders,All,orders received,6,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,accounts banned,All,accounts banned,7111000,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,accounts banned,All,accounts banned proactively (before any user report),2571000,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Account support,reports received,1031,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,All,accounts actioned,85,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,All,reports received,10442,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Ban appeal,accounts actioned,7,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Ban appeal,reports received,7396,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Other support,accounts actioned,74,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Other support,reports received,1518,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Product support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Product support,reports received,370,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Safety,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-09-01,2023-09-30,user grievances,Safety,reports received,127,count,,reports/whatsapp/whatsapp_india_published_2023-11-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,GAC orders,All,orders complied with,5,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,GAC orders,All,orders received,5,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,accounts banned,All,accounts banned,7548000,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,accounts banned,All,accounts banned proactively (before any user report),1919000,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Account support,reports received,2237,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,All,accounts actioned,12,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,All,reports received,9063,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Ban appeal,accounts actioned,4,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Ban appeal,reports received,4771,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Other support,accounts actioned,7,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Other support,reports received,1472,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Product support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Product support,reports received,537,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-10-01,2023-10-31,user grievances,Safety,reports received,46,count,,reports/whatsapp/whatsapp_india_published_2023-12-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,GAC orders,All,orders complied with,8,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,GAC orders,All,orders received,8,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,accounts banned,All,accounts banned,7196000,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,accounts banned,All,accounts banned proactively (before any user report),1954000,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Account support,reports received,2068,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,All,accounts actioned,6,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,All,reports received,8841,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Ban appeal,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Ban appeal,reports received,4613,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Other support,accounts actioned,5,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Other support,reports received,1412,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Product support,reports received,703,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-11-01,2023-11-30,user grievances,Safety,reports received,45,count,,reports/whatsapp/whatsapp_india_published_2024-01-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,GAC orders,All,orders complied with,4,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,GAC orders,All,orders received,4,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,accounts banned,All,accounts banned,6934000,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,accounts banned,All,accounts banned proactively (before any user report),1658000,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Account support,reports received,2927,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,All,accounts actioned,13,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,All,reports received,16366,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Ban appeal,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Ban appeal,reports received,9547,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Other support,accounts actioned,11,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Other support,reports received,2244,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Product support,reports received,1335,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2023-12-01,2023-12-31,user grievances,Safety,reports received,313,count,,reports/whatsapp/whatsapp_india_published_2024-02-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,GAC orders,All,orders complied with,4,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,GAC orders,All,orders received,4,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,accounts banned,All,accounts banned,6728000,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,accounts banned,All,accounts banned proactively (before any user report),1358000,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Account support,reports received,2501,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,All,accounts actioned,10,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,All,reports received,14828,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Ban appeal,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Ban appeal,reports received,9024,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Other support,accounts actioned,4,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Other support,reports received,1727,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Product support,accounts actioned,4,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Product support,reports received,1516,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-01-01,2024-01-31,user grievances,Safety,reports received,60,count,,reports/whatsapp/whatsapp_india_published_2024-03-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,GAC orders,All,orders complied with,5,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,GAC orders,All,orders received,5,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,accounts banned,All,accounts banned,7628000,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,accounts banned,All,accounts banned proactively (before any user report),1424000,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Account support,reports received,2493,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,All,accounts actioned,22,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,All,reports received,16618,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Ban appeal,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Ban appeal,reports received,10268,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Other support,accounts actioned,20,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Other support,reports received,2749,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Product support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Product support,reports received,1053,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-02-01,2024-02-29,user grievances,Safety,reports received,55,count,,reports/whatsapp/whatsapp_india_published_2024-04-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,GAC orders,All,orders complied with,5,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,GAC orders,All,orders received,5,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,accounts banned,All,accounts banned,7954000,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,accounts banned,All,accounts banned proactively (before any user report),1430000,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Account support,reports received,2874,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,All,accounts actioned,11,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,All,reports received,12782,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Ban appeal,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Ban appeal,reports received,6661,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Other support,accounts actioned,10,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Other support,reports received,2338,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Product support,reports received,742,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-03-01,2024-03-31,user grievances,Safety,reports received,167,count,,reports/whatsapp/whatsapp_india_published_2024-05-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,GAC orders,All,orders complied with,2,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,GAC orders,All,orders received,2,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,accounts banned,All,accounts banned,7182000,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,accounts banned,All,accounts banned proactively (before any user report),1302000,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Account support,reports received,2120,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,All,accounts actioned,6,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,All,reports received,10554,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Ban appeal,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Ban appeal,reports received,5509,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Other support,accounts actioned,6,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Other support,reports received,1722,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Product support,reports received,1003,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-04-01,2024-04-30,user grievances,Safety,reports received,200,count,,reports/whatsapp/whatsapp_india_published_2024-06-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,GAC orders,All,orders complied with,11,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,GAC orders,All,orders received,11,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,accounts banned,All,accounts banned,6620000,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,accounts banned,All,accounts banned proactively (before any user report),1255000,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Account support,reports received,1996,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,All,accounts actioned,31,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,All,reports received,13367,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Ban appeal,accounts actioned,9,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Ban appeal,reports received,6470,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Other support,accounts actioned,16,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Other support,reports received,3844,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Product support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Product support,reports received,874,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Safety,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-05-01,2024-05-31,user grievances,Safety,reports received,183,count,,reports/whatsapp/whatsapp_india_published_2024-07-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,GAC orders,All,orders complied with,1,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,GAC orders,All,orders received,1,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,accounts banned,All,accounts banned,6064000,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,accounts banned,All,accounts banned proactively (before any user report),945000,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Account support,reports received,1477,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,All,accounts actioned,124,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,All,reports received,26200,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Ban appeal,accounts actioned,29,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Ban appeal,reports received,14325,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Other support,accounts actioned,93,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Other support,reports received,9626,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Product support,reports received,607,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Safety,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-06-01,2024-06-30,user grievances,Safety,reports received,165,count,,reports/whatsapp/whatsapp_india_published_2024-08-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,GAC orders,All,orders complied with,12,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,GAC orders,All,orders received,12,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,accounts banned,All,accounts banned,6127000,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,accounts banned,All,accounts banned proactively (before any user report),1092000,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Account support,reports received,2052,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,All,accounts actioned,94,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,All,reports received,34650,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Ban appeal,accounts actioned,11,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Ban appeal,reports received,20811,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Other support,accounts actioned,80,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Other support,reports received,10648,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Product support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Product support,reports received,970,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Safety,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-07-01,2024-07-31,user grievances,Safety,reports received,169,count,,reports/whatsapp/whatsapp_india_published_2024-09-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,GAC orders,All,orders complied with,4,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,GAC orders,All,orders received,4,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,accounts banned,All,accounts banned,8458000,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,accounts banned,All,accounts banned proactively (before any user report),1661000,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Account support,reports received,347,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,All,accounts actioned,93,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,All,reports received,10707,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Ban appeal,accounts actioned,15,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Ban appeal,reports received,4788,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Other support,accounts actioned,78,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Other support,reports received,5115,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Product support,reports received,109,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-08-01,2024-08-31,user grievances,Safety,reports received,348,count,,reports/whatsapp/whatsapp_india_published_2024-10-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,GAC orders,All,orders complied with,2,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,GAC orders,All,orders received,2,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,accounts banned,All,accounts banned,8584000,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,accounts banned,All,accounts banned proactively (before any user report),1658000,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Account support,accounts actioned,3,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Account support,reports received,238,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,All,accounts actioned,97,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,All,reports received,8161,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Ban appeal,accounts actioned,33,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Ban appeal,reports received,3744,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Other support,accounts actioned,61,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Other support,reports received,3196,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Product support,reports received,113,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-09-01,2024-09-30,user grievances,Safety,reports received,870,count,,reports/whatsapp/whatsapp_india_published_2024-11-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,GAC orders,All,orders complied with,5,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,GAC orders,All,orders received,5,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,accounts banned,All,accounts banned,8293000,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,accounts banned,All,accounts banned proactively (before any user report),1610000,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Account support,reports received,200,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,All,accounts actioned,79,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,All,reports received,5306,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Ban appeal,accounts actioned,26,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Ban appeal,reports received,2158,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Other support,accounts actioned,51,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Other support,reports received,2512,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Product support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Product support,reports received,107,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-10-01,2024-10-31,user grievances,Safety,reports received,329,count,,reports/whatsapp/whatsapp_india_published_2024-12-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,GAC orders,All,orders complied with,3,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,GAC orders,All,orders received,3,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,accounts banned,All,accounts banned,9629000,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,accounts banned,All,accounts banned proactively (before any user report),1389000,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Account support,reports received,219,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,All,accounts actioned,79,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,All,reports received,7103,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Ban appeal,accounts actioned,24,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Ban appeal,reports received,3052,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Other support,accounts actioned,55,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Other support,reports received,2934,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Product support,reports received,113,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-11-01,2024-11-30,user grievances,Safety,reports received,785,count,,reports/whatsapp/whatsapp_india_published_2025-01-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,GAC orders,All,orders complied with,3,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,GAC orders,All,orders received,3,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,accounts banned,All,accounts banned,9089000,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,accounts banned,All,accounts banned proactively (before any user report),1300000,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Account support,reports received,205,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,All,accounts actioned,113,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,All,reports received,6750,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Ban appeal,accounts actioned,48,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Ban appeal,reports received,2637,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Other support,accounts actioned,64,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Other support,reports received,3269,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Product support,reports received,107,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Safety,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2024-12-01,2024-12-31,user grievances,Safety,reports received,532,count,,reports/whatsapp/whatsapp_india_published_2025-02-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,GAC orders,All,orders complied with,14,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,GAC orders,All,orders received,14,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,accounts banned,All,accounts banned,9967000,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,accounts banned,All,accounts banned proactively (before any user report),1327000,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Account support,reports received,168,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,All,accounts actioned,239,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,All,reports received,9474,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Ban appeal,accounts actioned,111,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Ban appeal,reports received,4212,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Other support,accounts actioned,128,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Other support,reports received,4467,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Product support,reports received,113,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-01-01,2025-01-31,user grievances,Safety,reports received,514,count,,reports/whatsapp/whatsapp_india_published_2025-03-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,GAC orders,All,orders complied with,2,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,GAC orders,All,orders received,2,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,accounts banned,All,accounts banned,9781000,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,accounts banned,All,accounts banned proactively (before any user report),1424000,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Account support,reports received,102,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,All,accounts actioned,427,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,All,reports received,17649,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Ban appeal,accounts actioned,110,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Ban appeal,reports received,9262,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Other support,accounts actioned,315,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Other support,reports received,7878,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Product support,reports received,99,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-02-01,2025-02-28,user grievances,Safety,reports received,308,count,,reports/whatsapp/whatsapp_india_published_2025-04-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,GAC orders,All,orders complied with,5,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,GAC orders,All,orders received,5,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,accounts banned,All,accounts banned,11187000,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,accounts banned,All,accounts banned proactively (before any user report),1849000,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Account support,reports received,147,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,All,accounts actioned,423,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,All,reports received,22461,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Ban appeal,accounts actioned,211,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Ban appeal,reports received,12079,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Other support,accounts actioned,206,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Other support,reports received,9864,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Product support,accounts actioned,4,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Product support,reports received,116,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Safety,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-03-01,2025-03-31,user grievances,Safety,reports received,255,count,,reports/whatsapp/whatsapp_india_published_2025-05-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,GAC orders,All,orders complied with,12,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,GAC orders,All,orders received,12,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,accounts banned,All,accounts banned,9778000,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,accounts banned,All,accounts banned proactively (before any user report),1439000,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Account support,reports received,135,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,All,accounts actioned,342,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,All,reports received,18886,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Ban appeal,accounts actioned,157,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Ban appeal,reports received,10074,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Other support,accounts actioned,184,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Other support,reports received,8101,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Product support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Product support,reports received,94,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-04-01,2025-04-30,user grievances,Safety,reports received,482,count,,reports/whatsapp/whatsapp_india_published_2025-06-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,GAC orders,All,orders complied with,2,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,GAC orders,All,orders received,2,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,accounts banned,All,accounts banned,11282674,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,accounts banned,All,accounts banned proactively (before any user report),1381505,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Account support,reports received,102,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,All,accounts actioned,514,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,All,reports received,20500,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Ban appeal,accounts actioned,377,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Ban appeal,reports received,13750,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Other support,accounts actioned,135,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Other support,reports received,6118,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Product support,reports received,104,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Safety,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-05-01,2025-05-31,user grievances,Safety,reports received,426,count,,reports/whatsapp/whatsapp_india_published_2025-07-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,GAC orders,All,orders complied with,11,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,GAC orders,All,orders received,11,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,accounts banned,All,accounts banned,9870078,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,accounts banned,All,accounts banned proactively (before any user report),1979225,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Account support,reports received,133,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,All,accounts actioned,1001,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,All,reports received,23596,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Ban appeal,accounts actioned,756,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Ban appeal,reports received,16069,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Other support,accounts actioned,242,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Other support,reports received,6970,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Product support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Product support,reports received,74,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-06-01,2025-06-30,user grievances,Safety,reports received,350,count,,reports/whatsapp/whatsapp_india_published_2025-08-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,GAC orders,All,orders complied with,6,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,GAC orders,All,orders received,6,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,accounts banned,All,accounts banned,8913862,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,accounts banned,All,accounts banned proactively (before any user report),2358386,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Account support,reports received,161,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,All,accounts actioned,1564,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,All,reports received,32783,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Ban appeal,accounts actioned,846,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Ban appeal,reports received,18090,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Other support,accounts actioned,714,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Other support,reports received,14174,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Product support,accounts actioned,3,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Product support,reports received,135,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-07-01,2025-07-31,user grievances,Safety,reports received,223,count,,reports/whatsapp/whatsapp_india_published_2025-09-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,GAC orders,All,orders complied with,14,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,GAC orders,All,orders received,14,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,accounts banned,All,accounts banned,8257498,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,accounts banned,All,accounts banned proactively (before any user report),1648396,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Account support,reports received,164,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,All,accounts actioned,826,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,All,reports received,29277,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Ban appeal,accounts actioned,442,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Ban appeal,reports received,19035,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Other support,accounts actioned,382,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Other support,reports received,9782,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Product support,reports received,113,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-08-01,2025-08-31,user grievances,Safety,reports received,183,count,,reports/whatsapp/whatsapp_india_published_2025-10-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,GAC orders,All,orders complied with,21,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,GAC orders,All,orders received,21,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,accounts banned,All,accounts banned,10021232,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,accounts banned,All,accounts banned proactively (before any user report),2057370,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Account support,reports received,271,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,All,accounts actioned,605,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,All,reports received,40440,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Ban appeal,accounts actioned,306,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Ban appeal,reports received,30395,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Other support,accounts actioned,299,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Other support,reports received,9545,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Product support,reports received,115,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-09-01,2025-09-30,user grievances,Safety,reports received,114,count,,reports/whatsapp/whatsapp_india_published_2025-11-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,GAC orders,All,orders complied with,16,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,GAC orders,All,orders received,16,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,accounts banned,All,accounts banned,9126723,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,accounts banned,All,accounts banned proactively (before any user report),2179365,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Account support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Account support,reports received,267,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,All,accounts actioned,1060,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,All,reports received,35665,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Ban appeal,accounts actioned,783,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Ban appeal,reports received,26554,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Other support,accounts actioned,276,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Other support,reports received,8568,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Product support,reports received,109,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-10-01,2025-10-31,user grievances,Safety,reports received,167,count,,reports/whatsapp/whatsapp_india_published_2025-12-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,GAC orders,All,orders complied with,13,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,GAC orders,All,orders received,13,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,accounts banned,All,accounts banned,8431911,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,accounts banned,All,accounts banned proactively (before any user report),2160400,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Account support,reports received,191,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,All,accounts actioned,723,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,All,reports received,28478,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Ban appeal,accounts actioned,194,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Ban appeal,reports received,18841,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Other support,accounts actioned,529,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Other support,reports received,9132,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Product support,reports received,122,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-11-01,2025-11-30,user grievances,Safety,reports received,192,count,,reports/whatsapp/whatsapp_india_published_2026-01-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,GAC orders,All,orders complied with,13,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,GAC orders,All,orders received,13,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,accounts banned,All,accounts banned,8362961,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,accounts banned,All,accounts banned proactively (before any user report),2039975,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Account support,reports received,128,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,All,accounts actioned,516,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,All,reports received,27747,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Ban appeal,accounts actioned,181,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Ban appeal,reports received,16016,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Other support,accounts actioned,335,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Other support,reports received,11302,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Product support,reports received,105,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2025-12-01,2025-12-31,user grievances,Safety,reports received,196,count,,reports/whatsapp/whatsapp_india_published_2026-02-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,GAC orders,All,orders complied with,16,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,GAC orders,All,orders received,16,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,accounts banned,All,accounts banned,8179740,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,accounts banned,All,accounts banned proactively (before any user report),1983760,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Account support,reports received,139,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,All,accounts actioned,520,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,All,reports received,27981,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Ban appeal,accounts actioned,230,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Ban appeal,reports received,16328,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Other support,accounts actioned,288,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Other support,reports received,11198,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Product support,reports received,101,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-01-01,2026-01-31,user grievances,Safety,reports received,215,count,,reports/whatsapp/whatsapp_india_published_2026-03-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,GAC orders,All,orders received,0,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,accounts banned,All,accounts banned,5482423,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,accounts banned,All,accounts banned proactively (before any user report),1386846,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Account support,reports received,124,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,All,accounts actioned,576,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,All,reports received,19496,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Ban appeal,accounts actioned,302,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Ban appeal,reports received,10930,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Other support,accounts actioned,270,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Other support,reports received,8175,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Product support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Product support,reports received,111,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-02-01,2026-02-28,user grievances,Safety,reports received,156,count,,reports/whatsapp/whatsapp_india_published_2026-04-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,GAC orders,All,orders received,0,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,accounts banned,All,accounts banned,5978096,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,accounts banned,All,accounts banned proactively (before any user report),1376357,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Account support,reports received,122,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,All,accounts actioned,402,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,All,reports received,17671,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Ban appeal,accounts actioned,169,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Ban appeal,reports received,8137,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Other support,accounts actioned,233,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Other support,reports received,9151,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Product support,reports received,98,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-03-01,2026-03-31,user grievances,Safety,reports received,163,count,,reports/whatsapp/whatsapp_india_published_2026-05-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,GAC orders,All,orders complied with,25,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,GAC orders,All,orders received,25,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,accounts banned,All,accounts banned,5470958,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,accounts banned,All,accounts banned proactively (before any user report),1347995,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Account support,accounts actioned,10,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Account support,reports received,363,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,All,accounts actioned,486,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,All,reports received,19189,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Ban appeal,accounts actioned,178,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Ban appeal,reports received,9421,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Other support,accounts actioned,298,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Other support,reports received,9103,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Product support,reports received,91,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-04-01,2026-04-30,user grievances,Safety,reports received,211,count,,reports/whatsapp/whatsapp_india_published_2026-06-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,GAC orders,All,orders complied with,15,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,GAC orders,All,orders received,15,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,accounts banned,All,accounts banned,7214702,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,accounts banned,All,accounts banned proactively (before any user report),1379438,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Account support,accounts actioned,3,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Account support,reports received,519,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,All,accounts actioned,399,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,All,reports received,19859,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Ban appeal,accounts actioned,151,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Ban appeal,reports received,10590,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Other support,accounts actioned,244,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Other support,reports received,8378,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Product support,accounts actioned,1,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Product support,reports received,162,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-05-01,2026-05-31,user grievances,Safety,reports received,210,count,,reports/whatsapp/whatsapp_india_published_2026-07-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,GAC orders,All,orders complied with,3,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,GAC orders,All,orders received,3,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,accounts banned,All,accounts banned,5104127,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,accounts banned,All,accounts banned proactively (before any user report),1369080,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Account support,accounts actioned,2,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Account support,reports received,393,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,All,accounts actioned,414,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,All,reports received,15182,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Ban appeal,accounts actioned,92,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Ban appeal,reports received,7873,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Other support,accounts actioned,320,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Other support,reports received,6665,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Product support,reports received,97,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-06-01,2026-06-30,user grievances,Safety,reports received,154,count,,reports/whatsapp/whatsapp_india_published_2026-08-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,GAC orders,All,orders complied with,25,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,GAC orders,All,orders received,25,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,accounts banned,All,accounts banned,5364000,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,accounts banned,All,accounts banned proactively (before any user report),1790800,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Account support,reports received,250,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,All,accounts actioned,476,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,All,reports received,19112,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Ban appeal,accounts actioned,107,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Ban appeal,reports received,9877,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Other support,accounts actioned,369,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Other support,reports received,8704,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Product support,reports received,136,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-07-01,2026-07-31,user grievances,Safety,reports received,145,count,,reports/whatsapp/whatsapp_india_published_2026-09-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,GAC orders,All,orders complied with,148,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,GAC orders,All,orders received,148,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,accounts banned,All,accounts banned,6202400,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,accounts banned,All,accounts banned proactively (before any user report),1690800,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Account support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Account support,reports received,250,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,All,accounts actioned,472,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,All,reports received,27085,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Ban appeal,accounts actioned,129,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Ban appeal,reports received,15106,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Other support,accounts actioned,343,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Other support,reports received,11481,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Product support,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Product support,reports received,123,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Safety,accounts actioned,0,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
+WhatsApp,WhatsApp,2026-08-01,2026-08-31,user grievances,Safety,reports received,125,count,,reports/whatsapp/whatsapp_india_published_2026-10-01.pdf
