@@ -1,0 +1,174 @@
+[
+  {
+    "model": "M1 within-X DiD",
+    "n": 554,
+    "syn_p1": {
+      "coef": 0.538,
+      "se": 0.385,
+      "p": 0.1626,
+      "irr": 1.71
+    },
+    "syn_p2": {
+      "coef": 3.061,
+      "se": 0.46,
+      "p": 0.0,
+      "irr": 21.36
+    }
+  },
+  {
+    "model": "M1 clustered by category",
+    "n": 554,
+    "syn_p1": {
+      "coef": 0.538,
+      "se": 0.117,
+      "p": 0.0,
+      "irr": 1.71
+    },
+    "syn_p2": {
+      "coef": 3.061,
+      "se": 0.073,
+      "p": 0.0,
+      "irr": 21.36
+    }
+  },
+  {
+    "model": "M2 + synthetic x election",
+    "n": 554,
+    "syn_p1": {
+      "coef": 0.231,
+      "se": 0.382,
+      "p": 0.5459,
+      "irr": 1.26
+    },
+    "syn_p2": {
+      "coef": 2.846,
+      "se": 0.284,
+      "p": 0.0,
+      "irr": 17.22
+    },
+    "syn_elec": {
+      "coef": 1.279,
+      "se": 0.355,
+      "p": 0.0003,
+      "irr": 3.59
+    }
+  },
+  {
+    "model": "M4 placebo Grok-1 (Nov 2023)",
+    "n": 463,
+    "syn_g1": {
+      "coef": -0.649,
+      "se": 0.501,
+      "p": 0.1948,
+      "irr": 0.52
+    },
+    "syn_elec": {
+      "coef": 1.385,
+      "se": 0.454,
+      "p": 0.0023,
+      "irr": 3.99
+    }
+  },
+  {
+    "model": "M5 randomisation inference across categories",
+    "n_categories": 13,
+    "rank_p_value": {
+      "b_p1": 0.154,
+      "b_p2": 0.077
+    }
+  },
+  {
+    "model": "M6 placebo event dates 2022-01..2023-12 (pre-period)",
+    "n_dates": 24,
+    "max_b": -0.6,
+    "share_ge_M2_p1": 0.0,
+    "share_ge_M2_p2": 0.0
+  },
+  {
+    "model": "M7 cross-platform triple difference (X vs Facebook/Instagram/Google)",
+    "n": 1670,
+    "x_sexual_p1": {
+      "coef": -0.581,
+      "se": 0.3,
+      "p": 0.0527,
+      "irr": 0.56
+    },
+    "x_sexual_p2": {
+      "coef": -0.398,
+      "se": 0.372,
+      "p": 0.2839,
+      "irr": 0.67
+    },
+    "x_impersonation_p1": {
+      "coef": -0.25,
+      "se": 0.344,
+      "p": 0.4682,
+      "irr": 0.78
+    },
+    "x_impersonation_p2": {
+      "coef": 1.09,
+      "se": 0.465,
+      "p": 0.0191,
+      "irr": 2.97
+    },
+    "x_harassment_p1": {
+      "coef": -0.918,
+      "se": 0.247,
+      "p": 0.0002,
+      "irr": 0.4
+    },
+    "x_harassment_p2": {
+      "coef": -0.865,
+      "se": 0.341,
+      "p": 0.0111,
+      "irr": 0.42
+    }
+  },
+  {
+    "model": "R1 sample to 2025-08 with post-Mar-2025 regime dummy",
+    "n": 627,
+    "syn_p1": {
+      "coef": 0.224,
+      "se": 0.381,
+      "p": 0.5572,
+      "irr": 1.25
+    },
+    "syn_p2": {
+      "coef": 2.839,
+      "se": 0.282,
+      "p": 0.0,
+      "irr": 17.1
+    },
+    "syn_elec": {
+      "coef": 1.275,
+      "se": 0.356,
+      "p": 0.0003,
+      "irr": 3.58
+    },
+    "syn_regime": {
+      "coef": -5.574,
+      "se": 0.932,
+      "p": 0.0,
+      "irr": 0.0
+    }
+  },
+  {
+    "model": "R2 log(1+count) OLS",
+    "n": 554,
+    "syn_p1": {
+      "coef": 1.454,
+      "se": 0.37,
+      "p": 0.0001
+    },
+    "syn_p2": {
+      "coef": 3.279,
+      "se": 0.48,
+      "p": 0.0
+    },
+    "syn_elec": {
+      "coef": 0.35,
+      "se": 0.406,
+      "p": 0.3892
+    }
+  }
+]
