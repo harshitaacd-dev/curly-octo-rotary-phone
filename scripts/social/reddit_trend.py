@@ -17,6 +17,9 @@ Method
      a manipulation term (MANIP: morphed, deepfake, face swap, nudify, edited
      photo...) and a sexual term (SEXUAL: nude, obscene, porn, अश्लील, nangi...).
      `woman_ref` marks texts that also refer to a woman / girl.
+     `offplatform` marks texts that also mention Telegram / WhatsApp / Discord /
+     Signal / Snapchat / Instagram DMs (a count only; no links or channel names
+     are extracted or stored in the summaries).
   3. Denominator: monthly total posts and comments per subreddit
      (Arctic Shift time_series).
 
@@ -60,6 +63,10 @@ SEXUAL = re.compile(
     r"\bnudes?\b|\bnud(e|ity)\w*|naked|\bporn\w*|obscene|\bsexual\w*|explicit|vulgar|lewd|"
     r"\bxxx\b|\bnsfw\b|sextort\w*|indecent|objectionable|semi[\s-]*nude|undress\w*|nudif\w*|"
     r"\bnangi\b|ashleel|अश्लील|न्यूड|नग्न|गंदी", re.I)
+OFFPLATFORM = re.compile(
+    r"telegram|\btg\b|\btele\s*gram|whats\s*app|\bwa\s*group|discord|\bsignal\b|snap\s*chat|"
+    r"insta(gram)?\s*(dm|group|page)|\bdm\b|टेलीग्राम|व्हाट्सएप", re.I)
+
 WOMAN = re.compile(
     r"\b(woman|women|girls?|she|her|wife|sister|girlfriend|gf|daughter|mother|actress\w*|"
     r"female|lady|ladies|ladki\w*|aurat|bhabhi|niece|cousin sister|classmate)\b|महिला|लड़की|बेटी", re.I)
@@ -141,6 +148,7 @@ def main():
     h["sexual"] = h.text.str.contains(SEXUAL).astype(int)
     h["sexual_morph"] = h.manip & h.sexual
     h["woman_ref"] = h.text.str.contains(WOMAN).astype(int)
+    h["offplatform"] = h.text.str.contains(OFFPLATFORM).astype(int)
     h["panel"] = h.subreddit.map(lambda x: "core" if x in CORE else "extended")
 
     (RAW / "reddit").mkdir(parents=True, exist_ok=True)
@@ -154,19 +162,24 @@ def main():
                 den.append({"subreddit": sub, "kind": kind[:-1], "month": m, "total": v})
     den = pd.DataFrame(den)
 
+    h["woman_offplatform"] = h.woman_ref & h.offplatform
     sm = h[h.sexual_morph == 1]
     cnt = sm.groupby(["subreddit", "kind", "month"]).agg(
-        sexual_morph=("id", "size"), sexual_morph_woman=("woman_ref", "sum")).reset_index()
+        sexual_morph=("id", "size"), sexual_morph_woman=("woman_ref", "sum"),
+        sexual_morph_offplatform=("offplatform", "sum"),
+        sexual_morph_woman_offplatform=("woman_offplatform", "sum")).reset_index()
     monthly = den.merge(cnt, on=["subreddit", "kind", "month"], how="left").fillna(
-        {"sexual_morph": 0, "sexual_morph_woman": 0})
+        {"sexual_morph": 0, "sexual_morph_woman": 0, "sexual_morph_offplatform": 0,
+         "sexual_morph_woman_offplatform": 0})
     monthly["panel"] = monthly.subreddit.map(lambda x: "core" if x in CORE else "extended")
     monthly = monthly[(monthly.month >= a.after[:7]) & (monthly.month < a.before[:7])]
     SUMMARY.mkdir(parents=True, exist_ok=True)
     monthly.to_csv(SUMMARY / f"reddit_sexual_morph_monthly_{tag}.csv", index=False)
 
     monthly["year"] = monthly.month.str[:4]
-    yearly = monthly.groupby(["panel", "kind", "year"])[["total", "sexual_morph", "sexual_morph_woman"]].sum().reset_index()
-    for c in ["sexual_morph", "sexual_morph_woman"]:
+    COUNTS = ["sexual_morph", "sexual_morph_woman", "sexual_morph_offplatform", "sexual_morph_woman_offplatform"]
+    yearly = monthly.groupby(["panel", "kind", "year"])[["total"] + COUNTS].sum().reset_index()
+    for c in COUNTS:
         yearly[f"{c}_per_100k"] = (yearly[c] / yearly.total * 1e5).round(2)
     yearly.to_csv(SUMMARY / f"reddit_sexual_morph_yearly_{tag}.csv", index=False)
 
