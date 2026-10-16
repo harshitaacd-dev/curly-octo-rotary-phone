@@ -40,3 +40,17 @@ about sextortion and morphed images, "MMS leak / viral video" clickbait naming r
 celebrity deepfakes, explainers on nudify apps, and harmless matches (food "hot dog", "kiss").
 Deepfakes run: 97 videos (53 from channels declaring India). AI-channels run: 11.
 Nothing was viewed or downloaded; do not open flagged videos without an approved protocol.
+
+## `youtube_ai-channels_2022_2024_targeted_*` (run 2026-10-16, ~1,880 quota units)
+
+Targeted queries for sexualised AI imagery of Indian women: "AI saree model", "AI bhabhi",
+"AI lookbook", "AI girl Indian", "AI influencer India", "AI model Indian beauty", 2022–2024,
+one search page each: 820 videos, 680 channels (312 declare IN, 203 none). Top 50 AI-worded
+channels profiled with the fixed regex (`recent_ai_share` is reliable here).
+
+- `sexual_title_flag`: broad flag (includes generic "AI model / AI influencer" wording).
+- `explicit_title_flag`: narrower — explicitly sexualised title wording (hot, sexy, bhabhi,
+  nude, 18+, see-through, wet saree, cleavage, अश्लील, ...). 78 videos; 31 of them also carry
+  AI wording (13 from channels declaring India). Most "AI bhabhi" results are not AI at all.
+- Channels file adds `expl` / `sexf`: per-channel counts of the two flags.
+- Metadata only. Several channel names are themselves sexualised; review under an approved protocol.

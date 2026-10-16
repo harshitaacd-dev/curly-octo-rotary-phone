@@ -150,13 +150,14 @@ def main():
     ap.add_argument("--comments", type=int, default=0, help="deepfakes: scan this many comments per video")
     ap.add_argument("--profile-channels", type=int, default=0,
                     help="profile the last 50 uploads of this many top candidate channels")
+    ap.add_argument("--tag", default="", help="output name suffix, e.g. targeted (keeps runs apart)")
     a = ap.parse_args()
     if "YOUTUBE_API_KEY" not in os.environ:
         ap.error("set YOUTUBE_API_KEY")
     queries = a.queries or d["ai_content_queries" if a.mode == "ai-channels" else "deepfake_queries"]
 
     s = new_session()
-    tag = f"{a.mode}_{min(a.years)}_{max(a.years)}"
+    tag = f"{a.mode}_{min(a.years)}_{max(a.years)}" + (f"_{a.tag}" if a.tag else "")
     hits, done = [], []
     try:
         for q in queries:
