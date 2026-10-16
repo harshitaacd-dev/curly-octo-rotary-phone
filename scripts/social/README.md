@@ -8,6 +8,17 @@ These scripts collect fresh comments for threat and misogyny text mining. They w
 | YouTube | `youtube_comments.py` | `YOUTUBE_API_KEY` (free; Google Cloud → YouTube Data API v3) | All top-level comments and replies on videos found by search, channel or video ID |
 | Telegram | `telegram_comments.py` | **None** for `--web` (channel posts only). For comments: `TELEGRAM_API_ID` / `TELEGRAM_API_HASH` from my.telegram.org, plus `pip install telethon` | Channel posts, the comments under them, and public group messages |
 
+### AI content and deepfakes (2018–2024)
+
+| Script | Key needed | What it does |
+|---|---|---|
+| `factcheck_deepfakes.py` | **None** by default (WordPress search of Alt News, Factly, Newschecker, Fact Crescendo, DFRAC); optional Google Fact Check Tools API | Fact-checks of deepfakes, AI-generated and manipulated media, with the YouTube videos each one links. Writes `data/deepfakes/factchecks_2018_2024.csv` and `factcheck_youtube_seeds_2018_2024.csv`. Each video's status (available / removed) is checked with YouTube's public oEmbed endpoint. |
+| `youtube_discover.py --mode ai-channels` | `YOUTUBE_API_KEY` | Searches AI-content queries one year at a time and outputs channels with their evidence: creator self-label (`containsSyntheticMedia`), AI wording in titles/descriptions/tags, declared country, and (with `--profile-channels`) the share of recent uploads that are AI-worded. Fill in the `manually_verified` column by hand. |
+| `youtube_discover.py --mode deepfakes` | `YOUTUBE_API_KEY` | The same, for deepfake / "fake video" queries; with `--comments N` it also counts debunking comments ("fake hai", "AI hai", "edited"). |
+| `youtube_comments.py --seed-file ...` | `YOUTUBE_API_KEY` | Collects the comments under seed videos: `seeds/comma_youtube_videos.csv` (the 150 videos ComMA annotated, 77 with sexual-threat comments) or the fact-check seed file. |
+
+Videos are **never downloaded**; only metadata and comments are collected. The discovery and fact-check outputs (public metadata, no comment text or usernames) can be committed. Comment pulls go to the git-ignored `data/social_raw/`.
+
 Default subreddits, keywords and search queries are in `targets.json`. Edit that file, or override any of them on the command line.
 
 ```bash
@@ -18,7 +29,13 @@ python scripts/social/reddit_comments.py --mode keywords --after 2025-01-01 --be
 python scripts/social/reddit_comments.py --mode threads --subreddits india TwoXIndia \
     --queries "woman journalist" "marital rape" --after 2025-01-01 --max-threads 30
 
+# Deepfake fact-checks 2018-2024 (no key)
+python scripts/social/factcheck_deepfakes.py --from 2018-01-01 --to 2024-12-31
+
 # YouTube (10k quota units/day: one search costs 100, one page of 100 comments costs 1)
+python scripts/social/youtube_discover.py --mode ai-channels --profile-channels 100   # ~7.5k units
+python scripts/social/youtube_discover.py --mode deepfakes --comments 100            # next day
+python scripts/social/youtube_comments.py --queries --seed-file scripts/social/seeds/comma_youtube_videos.csv
 export YOUTUBE_API_KEY=...
 python scripts/social/youtube_comments.py --after 2025-01-01 --videos-per-query 20
 python scripts/social/youtube_comments.py --queries --video-ids VIDEOID1 VIDEOID2

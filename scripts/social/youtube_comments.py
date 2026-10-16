@@ -9,6 +9,9 @@ Videos come from (any combination):
   --queries     search.list (regionCode/relevanceLanguage from targets.json)
   --video-ids   explicit video IDs
   --channel-ids every recent upload of a channel
+  --seed-file   a CSV with a video_id column, e.g.
+                scripts/social/seeds/comma_youtube_videos.csv (videos ComMA annotated)
+                data/deepfakes/factcheck_youtube_seeds_2018_2024.csv (fact-checked fakes)
 
 Examples:
   python scripts/social/youtube_comments.py --after 2025-01-01 --videos-per-query 20
@@ -16,6 +19,8 @@ Examples:
 """
 import argparse
 import os
+
+import pandas as pd
 
 from common import get_json, iso, load_targets, new_session, now, pseudonym, save
 
@@ -132,6 +137,7 @@ def main():
     ap.add_argument("--queries", nargs="*", default=t["queries"])
     ap.add_argument("--video-ids", nargs="*", default=t.get("video_ids", []))
     ap.add_argument("--channel-ids", nargs="*", default=t.get("channel_ids", []))
+    ap.add_argument("--seed-file", help="CSV with a video_id column")
     ap.add_argument("--videos-per-query", type=int, default=10)
     ap.add_argument("--max-comments", type=int, default=2000, help="per video")
     ap.add_argument("--after", help="YYYY-MM-DD (video publish date, search only)")
@@ -153,6 +159,12 @@ def main():
     if a.video_ids:
         for vid, (title, ch) in video_meta(s, a.video_ids).items():
             videos.setdefault(vid, (title, ch, "video_id"))
+    if a.seed_file:
+        ids = pd.read_csv(a.seed_file).video_id.dropna().astype(str).unique().tolist()
+        found = video_meta(s, ids)
+        print(f"seed file: {len(found)} of {len(ids)} videos still available")
+        for vid, (title, ch) in found.items():
+            videos.setdefault(vid, (title, ch, f"seed:{os.path.basename(a.seed_file)}"))
 
     rows = []
     for vid, (title, ch, target) in videos.items():
