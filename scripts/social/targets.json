@@ -1,0 +1,91 @@
+{
+  "reddit": {
+    "subreddits": [
+      "india",
+      "IndiaSpeaks",
+      "indiadiscussion",
+      "bakchodi",
+      "TwoXIndia",
+      "AskIndia",
+      "unitedstatesofindia",
+      "indiasocial",
+      "BollyBlindsNGossip",
+      "IndianDankMemes",
+      "librandu",
+      "Chodi"
+    ],
+    "keywords": [
+      "rape",
+      "raped",
+      "rapist",
+      "balatkar",
+      "randi",
+      "nangi",
+      "izzat",
+      "chod denge",
+      "utha lenge",
+      "acid"
+    ],
+    "thread_queries": [
+      "woman journalist",
+      "feminist",
+      "actress",
+      "female cricketer",
+      "wrestlers",
+      "women reservation",
+      "marital rape",
+      "RG Kar"
+    ]
+  },
+  "youtube": {
+    "region_code": "IN",
+    "relevance_language": "hi",
+    "queries": [
+      "feminist roast",
+      "women journalist trolled",
+      "महिला पत्रकार",
+      "marital rape debate",
+      "female influencer exposed",
+      "wrestlers protest",
+      "RG Kar case",
+      "Bigg Boss female contestant",
+      "women cricketer trolled",
+      "nari shakti"
+    ],
+    "video_ids": [],
+    "channel_ids": [],
+    "discovery": {
+      "ai_content_queries": [
+        "AI generated video",
+        "AI video Hindi",
+        "AI कहानी",
+        "AI story Hindi",
+        "AI song Hindi",
+        "AI cartoon Hindi",
+        "AI bhajan",
+        "AI animation Hindi",
+        "AI voice cover",
+        "AI generated images India"
+      ],
+      "deepfake_queries": [
+        "deepfake",
+        "डीपफेक",
+        "deepfake video India",
+        "AI fake video",
+        "deepfake actress",
+        "deepfake politician speech",
+        "voice clone fake",
+        "morphed video viral",
+        "fake viral video sach",
+        "face swap video Hindi"
+      ]
+    },
+    "seed_files": [
+      "scripts/social/seeds/comma_youtube_videos.csv",
+      "data/deepfakes/factcheck_youtube_seeds_2018_2024.csv"
+    ]
+  },
+  "telegram": {
+    "channels": []
+  }
+}

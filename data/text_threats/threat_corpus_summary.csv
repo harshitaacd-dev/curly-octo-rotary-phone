@@ -1,0 +1,13 @@
+source,texts,has_threat_label,threat,has_sexual_threat_label,sexual_threat,gendered,gendered_threat,rape_lexicon,hinglish,hinglish_threat_lexicon,licence
+CAD (Vidgen et al. 2021),24290,True,50,False,0,1107,7,216,110,0,CC-BY-4.0
+Civil Comments (Jigsaw) subset,17411,True,4725,False,0,0,0,12757,2,0,CC0-1.0
+ComMA v0.2,59118,True,2313,True,1065,11975,1271,363,11508,61,CC-BY-NC-SA-4.0
+"DynaHate (Vidgen et al. 2021, synthetic)",41144,True,606,False,0,2965,71,469,4,0,CC-BY-4.0
+EDOS (SemEval-2023 T10),20000,True,443,False,0,4854,443,909,3,0,CC0-1.0
+ETHOS multi-label,433,True,142,False,0,86,27,9,0,0,GPL-3.0
+Guest et al. 2021 Reddit misogyny,6555,True,18,True,3,699,18,126,3,0,CC-BY-4.0 (ACL Anthology attachment)
+HateCheck (synthetic tests),3728,True,273,False,0,509,39,45,0,0,CC-BY-4.0
+Measuring Hate Speech (Berkeley D-Lab),39565,True,6155,False,0,10600,1883,887,45,0,CC-BY-4.0
+TRAC-1 Hindi (Kumar et al. 2018),15000,False,0,False,0,0,0,72,9165,52,Apache-2.0 (repo licence)
+TRAC-2 Hindi (2020),4981,False,0,False,0,813,0,70,3396,21,CC-BY-NC-SA-4.0
+Uli (Tattle) oGBV,23265,False,0,False,0,11331,0,270,1443,6,CC-BY-4.0

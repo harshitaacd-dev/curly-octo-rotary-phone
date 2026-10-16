@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/text_threats/raw/civil_comments/
+data/social_raw/
+.claude/settings.local.json
