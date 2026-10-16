@@ -11,7 +11,7 @@ Indian English and Tamil.
 ## Ethics and retention (as approved)
 - **Retention ends 19 Nov 2026** (submission). After that date `tg_collect.py` and
   `tg_analyse.py` refuse to run. `python scripts/tg_purge.py data/telegram telegram_chats.json`
-  deletes everything; also log the research account out of all devices.
+  deletes everything (collection, search terms, candidates, outputs and session); also log the research account out of all devices.
 - **Media is never downloaded.** Only the type, size and a hashed file id are kept.
 - **Everything is pseudonymised before it is written** (`scripts/tg_privacy.py`):
 
@@ -56,6 +56,27 @@ Raw data, the session and the chat list are git-ignored. Never commit anything f
   CSV and rerun with `--codes`.
 - **Snowball:** check `snowball_leads.csv` for new groups, join them by hand and add them
   to the chat list.
+
+## Finding groups
+`python scripts/tg_find.py data/telegram/search_terms.txt data/telegram --config telegram_chats.json`
+
+- **What it does:** runs Telegram's own public search with the research account. It
+  matches group, channel and bot names. Only metadata is read (title, @username,
+  description, members, type, creation date), never messages or media. Accounts of people
+  found by a search are dropped.
+- **Search terms:** write them in `data/telegram/search_terms.txt`, one per line,
+  optionally followed by a tab and a cohort. Build the list from `lexicon.csv`,
+  news coverage and terms seen inside groups. The file lives in the data folder so it
+  stays out of git (this repository is public) and is deleted with the purge.
+- **Outputs:**
+  - `candidates.csv` (git-ignored): one row per chat or bot, with the terms that found it
+    and whether it is already in your chat list. Fill in the `decision` column as you
+    screen; it is kept on re-runs.
+  - `search_log.csv`: when each term was searched and what came back, for your methods
+    section.
+- **Limits:** only public chats can be found, by name, and Telegram caps results per term.
+  Private groups come from snowballing (`snowball_leads.csv`).
+- **Joining is by hand:** never pay, and never share invite links to get into a group.
 
 ## Measuring morphed media without seeing it
 A message counts as morphed media (`morph = 1` in `messages_coded.csv`; `morph_*` in
