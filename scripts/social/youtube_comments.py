@@ -19,17 +19,31 @@ Examples:
 """
 import argparse
 import os
+import sys
 
 import pandas as pd
+import requests
 
-from common import get_json, iso, load_targets, new_session, now, pseudonym, save
+from common import OUT, get_json, iso, load_targets, new_session, now, pseudonym, save
 
 API = "https://www.googleapis.com/youtube/v3"
+COST = {"search": 100}  # every other read endpoint used here costs 1 unit
+UNITS = {"used": 0}  # approximate units spent by this process
+
+
+class QuotaExceeded(Exception):
+    """The daily quota is spent: stop at once, save what we have, don't retry."""
 
 
 def call(s, endpoint, **params):
     params["key"] = os.environ["YOUTUBE_API_KEY"]
-    return get_json(s, f"{API}/{endpoint}", params)
+    UNITS["used"] += COST.get(endpoint, 1)
+    try:
+        return get_json(s, f"{API}/{endpoint}", params)
+    except requests.HTTPError as e:
+        if "quotaExceeded" in e.response.text or "dailyLimitExceeded" in e.response.text:
+            raise QuotaExceeded(endpoint) from None
+        raise
 
 
 def search_videos(s, query, n, region, lang, after, before):
@@ -100,8 +114,13 @@ def video_comments(s, video_id, title, channel, target, max_comments):
             p["pageToken"] = token
         try:
             res = call(s, "commentThreads", **p)
+        except QuotaExceeded as e:
+            e.partial = rows
+            raise
         except Exception as e:  # comments disabled / private video -> 403
             print(f"  {video_id}: skipped ({e})")
+            if not rows:
+                rows = None  # signals "comments unavailable" to the caller
             break
         for th in res.get("items", []):
             top = th["snippet"]["topLevelComment"]
@@ -109,7 +128,13 @@ def video_comments(s, video_id, title, channel, target, max_comments):
             n_rep = th["snippet"].get("totalReplyCount", 0)
             inline = th.get("replies", {}).get("comments", [])
             if n_rep > len(inline):  # only up to 5 replies come inline
-                inline = all_replies(s, top["id"])
+                try:
+                    inline = all_replies(s, top["id"])
+                except QuotaExceeded as e:
+                    e.partial = rows
+                    raise
+                except Exception as e:
+                    print(f"  {top['id']}: replies skipped ({e})")
             rows += [comment_row(r, video_id, title, channel, target, parent=top["id"])
                      for r in inline]
         token = res.get("nextPageToken")
@@ -159,19 +184,46 @@ def main():
     if a.video_ids:
         for vid, (title, ch) in video_meta(s, a.video_ids).items():
             videos.setdefault(vid, (title, ch, "video_id"))
+    status = []  # per-video outcome: metadata only, no comment text
     if a.seed_file:
         ids = pd.read_csv(a.seed_file).video_id.dropna().astype(str).unique().tolist()
         found = video_meta(s, ids)
         print(f"seed file: {len(found)} of {len(ids)} videos still available")
+        status += [{"video_id": v, "available": 0, "comments_status": "video_unavailable"}
+                   for v in ids if v not in found]
         for vid, (title, ch) in found.items():
             videos.setdefault(vid, (title, ch, f"seed:{os.path.basename(a.seed_file)}"))
 
-    rows = []
-    for vid, (title, ch, target) in videos.items():
-        got = video_comments(s, vid, title, ch, target, a.max_comments)
-        print(f"  {vid} {title[:50]!r}: {len(got)}")
-        rows += got
-    save(rows, "youtube", a.tag or "comments")
+    rows, done, quota_hit = [], set(), False
+    try:
+        for vid, (title, ch, target) in videos.items():
+            got = video_comments(s, vid, title, ch, target, a.max_comments)
+            print(f"  {vid} {title[:50]!r}: {len(got) if got is not None else 'unavailable'}")
+            status.append({"video_id": vid, "available": 1, "title": title, "channel": ch,
+                           "target": target, "comments_status":
+                           "disabled_or_error" if got is None else "ok",
+                           "comments_collected": len(got or [])})
+            rows += got or []
+            done.add(vid)
+    except QuotaExceeded as e:
+        quota_hit = True
+        rows += getattr(e, "partial", [])
+        print(f"QUOTA EXCEEDED on {e} -- stopping, saving partial results")
+    tag = a.tag or "comments"
+    path = save(rows, "youtube", tag)
+    left = [v for v in videos if v not in done]
+    status += [{"video_id": v, "available": 1, "title": videos[v][0], "channel": videos[v][1],
+                "target": videos[v][2], "comments_status": "not_collected_quota"} for v in left]
+    st = pd.DataFrame(status)
+    st_path = OUT / "youtube" / f"youtube_{tag}_video_status.csv"
+    st_path.parent.mkdir(parents=True, exist_ok=True)
+    st.to_csv(st_path, index=False)
+    print(f"~{UNITS['used']} quota units used; per-video status -> {st_path}")
+    if path:
+        print(f"output: {path}")
+    if quota_hit:
+        print(f"{len(left)} videos left for tomorrow (partially collected video included)")
+        sys.exit(3)
 
 
 if __name__ == "__main__":

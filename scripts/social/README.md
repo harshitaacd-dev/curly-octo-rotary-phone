@@ -17,6 +17,10 @@ These scripts collect fresh comments for threat and misogyny text mining. They w
 | `youtube_discover.py --mode deepfakes` | `YOUTUBE_API_KEY` | The same, for deepfake / "fake video" queries; with `--comments N` it also counts debunking comments ("fake hai", "AI hai", "edited"). |
 | `youtube_comments.py --seed-file ...` | `YOUTUBE_API_KEY` | Collects the comments under seed videos: `seeds/comma_youtube_videos.csv` (the 150 videos ComMA annotated, 77 with sexual-threat comments) or the fact-check seed file. |
 
+| `summarise_youtube.py --tag T --seed-file F` | none | Per-video and per-group counts of a seed run (available/removed, comments, keyword flags) into `data/social_summary/`. No comment text or usernames, so it can be committed. |
+
+**Quota.** If the API returns `quotaExceeded`, `youtube_comments.py` and `youtube_discover.py` stop at once without retrying. They save what they have (comments collected so far, or the search hits so far as `*_partial_search_hits.csv`), print what was left undone and exit with code 3. `youtube_comments.py` also writes `data/social_raw/youtube/youtube_<tag>_video_status.csv` with each video's outcome, and both print the approximate units used.
+
 Videos are **never downloaded**; only metadata and comments are collected. The discovery and fact-check outputs (public metadata, no comment text or usernames) can be committed. Comment pulls go to the git-ignored `data/social_raw/`.
 
 Default subreddits, keywords and search queries are in `targets.json`. Edit that file, or override any of them on the command line.
