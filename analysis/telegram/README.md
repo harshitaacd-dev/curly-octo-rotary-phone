@@ -1,59 +1,110 @@
-# Part C: Telegram image-based sexual abuse groups (India)
+# Part C: Telegram image-based sexual abuse groups (India), 2014–2026
 
-Collection and analysis tools for an India study modelled on AI Forensics, *Harassment As
-Infrastructure* (2026), which covered Italy and Spain. Cohorts (e.g. Hindi/Hinglish vs Tamil)
-take the place of that report's two countries.
+Measures how morphed and other non-consensual intimate media have grown on Indian
+Telegram groups since 2014. The aim is to show what NCRB's registered cases miss, since
+most cases go unreported. The method follows AI Forensics, *Harassment As Infrastructure*
+(2026; Italy and Spain). Its practice categories (Table 3), link typology (Table 1),
+bots (3.6) and archives/monetisation (3.6) are reproduced here. The languages are those
+of the threat corpus on the `text_threats` branch: Hindi, Hinglish, Bangla, Meitei,
+Indian English and Tamil.
 
-**Never committed:** `data/telegram/` (messages, login session, state), the chat list
-(`telegram_chats*.json`) and anything derived from message text or URLs. All are in
-`.gitignore`. Only aggregate tables with no names, links or text should be copied here.
+## Ethics and retention (as approved)
+- **Retention ends 19 Nov 2026** (submission). After that date `tg_collect.py` and
+  `tg_analyse.py` refuse to run. `python scripts/tg_purge.py data/telegram telegram_chats.json`
+  deletes everything; also log the research account out of all devices.
+- **Media is never downloaded.** Only the type, size and a hashed file id are kept.
+- **Everything is pseudonymised before it is written** (`scripts/tg_privacy.py`):
 
-## Setup
-- `pip install telethon` (plus `cryptg` for speed).
-- Use a dedicated research account. In its Telegram app settings, turn off **automatic media
-  download** on every network type, so joining a group does not save images to the device.
-- Join each group or channel by hand, then list it in `telegram_chats.json`:
-  ```json
-  {"chats": [{"alias": "HI-01", "cohort": "hindi", "chat": "https://t.me/+AbCdEf"},
-             {"alias": "TA-01", "cohort": "tamil", "chat": "-1001234567890"}]}
-  ```
-- Set `TG_API_ID`, `TG_API_HASH` (my.telegram.org) and `TG_SALT` (a long random string; keep
-  it in a password manager, as every run must use the same one).
-
-## Run
-- **Collect** (repeat daily or so, e.g. from cron, for the whole observation period):
-  `python scripts/tg_collect.py telegram_chats.json data/telegram`
-  Each run adds new messages, re-snapshots messages from the last 7 days that were edited
-  (`--revisit-days`), marks those deleted, and logs each chat's title, size and status
-  (`unavailable` once Telegram bans it).
-- **Analyse:** `python scripts/tg_analyse.py data/telegram data/telegram/out`
-  Code the `uncoded` rows of `domains.csv` by hand into a `domain,category` CSV and rerun
-  with `--codes`. Open `gephi_nodes.csv` / `gephi_edges.csv` in Gephi (Data Laboratory →
-  Import Spreadsheet).
-
-## What is kept
 | Item | Stored as |
 |---|---|
-| Users, bots, forwarded-from chats | salted HMAC (16 hex chars) |
-| Media | type, MIME, size, hashed Telegram file id. **The file is never fetched.** |
-| Text, hidden links, button links | as is (needed for coding); local only |
-| UPI IDs and payment links (`payments.csv`) | salted hash only |
+| Senders, forwarded-from accounts and chats, admin signatures, forwarded-from names | salted hash |
+| Chat titles and @usernames | salted hash (renames are still detected) |
+| Phone numbers, emails, UPI IDs, Aadhaar-style numbers, personal @mentions in text | `[PHONE #…]`, `[EMAIL #…]`, `[UPI #…]`, `[ID #…]`, `[USER #…]` |
+| Non-Telegram links (e.g. a victim's Instagram) | domain plus hashed path: `[URL instagram.com #…]` |
+| Telegram links (`t.me/…`) | **in clear**, approved for finding further groups. Listed in `snowball_leads.csv` |
+| Bot usernames (`@…bot`, via-bot, bot senders) | **in clear**: tools, not people; needed to measure nudify bots |
+| Message text | kept with the replacements above. **Personal names written in free text are not caught**; they go when the text column is deleted |
+| Telethon login session | login only; its cache of user ids, usernames, names and phone numbers is switched off |
 
-A media key matches when a file is forwarded or re-sent, not when the same image is
-uploaded again, so cross-chat media overlap is a lower bound, like the report's
-hash-based 8%.
+Raw data, the session and the chat list are git-ignored. Never commit anything from
+`data/telegram/`.
 
-## Mapping to the report
-| Report | Here |
+## Setup (on your own computer)
+1. `pip install telethon` (plus `cryptg` for speed).
+2. Use a dedicated research account. In its Telegram app settings, turn off **automatic
+   media download** for every network type.
+3. Join each group or channel by hand, then list it in `telegram_chats.json`. `cohort` is
+   your grouping, e.g. by main language:
+   ```json
+   {"chats": [{"alias": "HI-01", "cohort": "hindi", "chat": "https://t.me/+AbCdEf"},
+              {"alias": "TA-01", "cohort": "tamil", "chat": "-1001234567890"}]}
+   ```
+4. Set `TG_API_ID` and `TG_API_HASH` (from my.telegram.org) and `TG_SALT` (a long random
+   string kept in a password manager; every run must use the same one).
+
+## Run
+- **Collect:** `python scripts/tg_collect.py telegram_chats.json data/telegram`
+  - The first run for a chat reads its **whole surviving history**, so messages are dated
+    back to the oldest one Telegram still holds.
+  - Later runs (e.g. daily) add new messages, re-snapshot edits and deletions from the
+    last 7 days, and log each chat's status (`unavailable` once banned), creation date
+    and oldest surviving message.
+- **Analyse:** `python scripts/tg_analyse.py data/telegram data/telegram/out`
+- **Check the keywords:** fill the `correct (1/0)` column of `validation_sample.csv` and
+  report precision per practice. Add or fix patterns in `lexicon.csv`.
+- **Code links:** put the `uncoded` domains from `domains.csv` into a `domain,category`
+  CSV and rerun with `--codes`.
+- **Snowball:** check `snowball_leads.csv` for new groups, join them by hand and add them
+  to the chat list.
+
+## Measuring morphed media without seeing it
+A message counts as morphed media (`morph = 1` in `messages_coded.csv`; `morph_*` in
+`monthly.csv`) when any of these holds:
+1. **Text:** it matches the `deepfake` practice, e.g. *morph*, *deepfake*, *face swap*,
+   *nudify*, *edit karke*, *kapde utaar*, *nangi photo bana*, मॉर्फ, डीपफेक, মর্ফ, மார்ஃப்.
+2. **Nudify bot:** it was sent by, sent through, or mentions or links a bot whose name
+   looks like a nudify, undress or face-swap tool (`bots.csv`).
+3. **AI generator link:** it links to a site in the report's "NCII AI Image & Video
+   Generator" category.
+
+`morph_by_text`, `morph_by_nudify_bot` and `morph_by_ai_generator_link` keep the three
+signals apart.
+
+## The time series and its limits
+`monthly.csv` has one row per month for all chats (`dimension = all`), per cohort and
+per detected language. The columns are messages, active and new senders, media,
+forwards, morphed-media messages and senders, and one count per practice.
+`chats_observable` is how many chats existed in the data by that month.
+
+Read it with these limits in mind:
+- **Survivorship.** Only groups that still exist can be read, and admins and Telegram
+  delete content. Early years are thin because their groups are gone, not necessarily
+  because there was less abuse. Report rates per observable chat as well as counts.
+- **Telegram's own growth.** Telegram's Indian user base grew sharply (notably in 2021),
+  so rising counts partly reflect the platform.
+- **Moderation changes.** Telegram's takedowns rose after August 2024.
+- **Forwards** carry the date the content was first posted (`fwd_date` in
+  `messages_coded.csv`). Use it to date old content resurfacing in newer groups.
+- **Keywords** are drafts. Bangla, Tamil and the Romanised forms of both need a
+  native-speaker check. **Meitei has no terms yet**: Meitei messages are only caught
+  through English or Hinglish words, bots and links.
+
+## Outputs (`data/telegram/out/`, local only)
+| File | Report section |
 |---|---|
-| Active senders, messages, media files (Table 2) | `chat_summary.csv` |
-| Shared senders, links and media across countries (3.1.1–3.1.3) | `cohort_overlap.csv`, `chat_overlap.csv`, `domains.csv` |
-| External platform typology (Table 1) | `links.csv` / `domains.csv` categories |
-| Monetisation (3.6): PayPal, crypto, Bizum | `payments.csv`: UPI IDs, `upi://` links, Razorpay/Instamojo/Cosmofeed pages |
-| Groups closed and reopened under the same name | `chats.jsonl` status and title over time |
+| `monthly.csv` | the time series |
+| `messages_coded.csv` | per-message coding without text (Table 3 practices, 3.3 roles) |
+| `chat_summary.csv` | Table 2: scale per chat; also creation date, bans, renames |
+| `cohort_overlap.csv`, `chat_overlap.csv` | 3.1.1–3.1.3: shared senders and media |
+| `links.csv`, `domains.csv` | Table 1: external platforms |
+| `bots.csv` | 3.6: automation, nudify bots |
+| `payments.csv` | 3.6: monetisation (UPI in place of PayPal/Bizum) |
+| `snowball_leads.csv` | finding further groups |
+| `validation_sample.csv` | keyword precision |
+| `gephi_nodes.csv`, `gephi_edges.csv` | Fig. 27-style sender–chat network |
 
-## Encountering CSAM
-Viewing child sexual abuse material is an offence under IT Act s.67B, and POCSO s.15 requires
-reporting it. Do not open, screenshot or forward it. Note the chat alias and message id and
-follow the reporting route in the approved ethics protocol (cybercrime.gov.in, "Report
-Women/Child Related Crime").
+## Encountering child sexual abuse material
+Viewing it is an offence under IT Act s.67B, and POCSO s.15 requires reporting it.
+Messages matching `csam_marker` are flagged from text alone. Do not open, screenshot or
+forward their media. Note the chat alias and message id and report through
+cybercrime.gov.in ("Report Women/Child Related Crime"), as in the ethics protocol.

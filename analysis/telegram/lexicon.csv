@@ -1,0 +1,68 @@
+practice,lang,pattern,status,note
+deepfake,english,"\bmorph(?:ed|ing|s)?\b|\bmorf(?:ed|ing)?\b",draft,core measure: morphed media
+deepfake,english,"\bdeep ?fakes?\b|\bface ?swap\w*|\bfaceswap\w*",draft,report Table 3: Deepfake
+deepfake,english,"\bnudif\w+|\bundress\w*|\bdenud\w+|\bremove (?:her |the )?(?:cloth|dress)\w*|\bcloth(?:es|ing)? ?remov\w*|\bdress ?remov\w*|\bx-?ray (?:app|bot|photo|pic)",draft,report Table 3: Denudare/desnudar
+deepfake,english,"\bfake (?:nude|nudes|pic|pics|photo|video|mms)\b|\bai (?:nude|nudes|nangi|porn|girl ?friend|gf|photo|pic|video)s?\b|\b(?:photo|pic|dp|image) ?edit(?:ed|ing)?\b|\bedit(?:ed)? (?:photo|pic|dp|image|video)s?\b|\bphotoshop\w*",draft,edits and AI-generated nudes
+deepfake,hinglish,"\bedit (?:kar|kr|karo|krdo|kardo|karke|krke|karwa|krwa|karna|krna|karunga|krunga)\w*|\b(?:photo|pic|dp) (?:edit|morph)\b",draft,
+deepfake,hinglish,"\bkapd[ea]y? (?:utar|utaar|hata|nikal)\w*|\bnang[ia] (?:photo|pic|pics|video|kar|kr|karo|karke|krke|bana|banao|banado)\w*|\bai se (?:nang|nud|kapd)\w*",draft,undress / make naked
+deepfake,hindi,मॉर्फ|मार्फ|डीपफेक|डीप फेक|फेस ?स्वैप|एडिट कर|एडिटेड|फोटो एडिट|कपड़े उतार|कपडे उतार|कपड़े हटा|नंगी फोटो|नंगी तस्वीर|नंगा कर|नंगी कर|फर्जी फोटो|फेक फोटो,draft,
+deepfake,bangla,মর্ফ|ডিপফেক|ডিপ ফেক|ফেস সোয়াপ|এডিট কর|এডিটেড|জামা খুল|কাপড় খুল|ন্যাংটা|ল্যাংটা|নগ্ন ছবি|ফেক ছবি,draft,needs native-speaker check
+deepfake,bangla_roman,"\bedit kor\w*|\bjama khul\w*|\bkapor khul\w*|\bnangta\b|\blangta\b",draft,needs native-speaker check
+deepfake,tamil,மார்ஃப்|மார்பிங்|டீப்ஃபேக்|டீப் ஃபேக்|எடிட் பண்ண|எடிட் செய்|ஆடை இல்லாம|ஆடையில்லா|நிர்வாண|ஃபேக் போட்டோ,draft,needs native-speaker check
+deepfake,tamil_roman,"\bedit panni\w*|\bedit pannu\w*|\bnirvana (?:photo|video|padam)\b",draft,needs native-speaker check
+tribute,english,"\btribut\w*|\bcum ?(?:on|tribute)\b|\bcock ?tribute|\bsemen (?:pic|photo)",draft,report Table 3: Tribute / Pisellare
+tribute,hinglish,"\bmuth (?:maar|mar|mara|maru|marke|marunga)\w*|\b(?:photo|pic|dp) (?:pe|par|pr) (?:muth|nikal|gira)\w*",draft,
+tribute,hindi,मुठ मार|ट्रिब्यूट,draft,
+roleplay,english,"\brole ?play\w*|\brp (?:with|me|karo|kare)\b|\bsext(?:ing|ed)?\b",draft,report Table 3: Roleplay/Morbo
+roleplay,hindi,रोलप्ले|रोल प्ले,draft,
+ncii,english,"\bleak(?:ed|s)?\b|\bmms\b|\bviral (?:video|vid|mms|clip)s?\b|\bscandal\b|\bexpos(?:e|ed|ing)\b|\bprivate (?:video|pic|pics|photo)s?\b|\bnudes? of\b",draft,report Table 3: non-consensual dissemination
+ncii,english,"\bex ?(?:gf|girl ?friend|wife|bf)?\b|\bmy (?:gf|girl ?friend|wife|sister|cousin|classmate|neighbou?r)\b|\b(?:gf|girlfriend|wife) ki\b",draft,report: Ex / Girlfriend / Wife
+ncii,hinglish,"\bbewafa\b|\bmeri (?:gf|girlfriend|ex|biwi|wife|behen|cousin|padosan|classmate)\b|\bcollege (?:girl|ladki|wali)\b|\bdesi (?:leak|mms|scandal)\b|\bchupke se\b",draft,
+ncii,hindi,लीक|एमएमएस|वायरल वीडियो|गर्लफ्रेंड|मेरी बीवी|मेरी पत्नी|मेरी एक्स|बेवफा,draft,
+ncii,bangla,লিক|ফাঁস|ভাইরাল ভিডিও|গার্লফ্রেন্ড|আমার বউ|প্রাক্তন,draft,needs native-speaker check
+ncii,tamil,லீக்|வைரல் வீடியோ|கேர்ள்ஃபிரண்ட்|என் மனைவி|முன்னாள் காதலி,draft,needs native-speaker check
+doxxing,english,"\[PHONE #|\[ID #|\bphone ?(?:no|number|num)\b|\bnumber (?:of|do|de|dedo|chahiye|milega|hai|send)\b|\baddress\b|\b(?:insta|ig|fb|snap) ?id\b|\bwhere (?:she|does she) (?:lives?|stays?)\b",draft,report Table 3: Doxxing (pseudonymised phone and ID tokens count too)
+doxxing,hinglish,"\bghar ka pata\b|\bkaha(?:n)? rehti\b|\bkis college\b|\bkonsa college\b|\bnumber (?:do|de|dedo|bhejo|chahiye|milega)\b|\bid (?:do|de|dedo|bhejo|chahiye)\b",draft,
+doxxing,hindi,नंबर दो|नंबर चाहिए|घर का पता|कहाँ रहती|इंस्टा आईडी|आईडी दो,draft,
+hacking,english,"\bhack(?:ed|er|ers|ing|s)?\b|\bpassword\b|\botp\b|\baccount recover\w*|\bid recover\w*",draft,report Table 3: Hacking
+hacking,hindi,हैक|पासवर्ड,draft,
+spycam,english,"\bspy ?(?:cam|camera|video|vid|pics?)\w*|\bhidden ?(?:cam|camera)\w*|\b(?:changing|trial) room\b|\bbathroom (?:video|vid|cam)\b|\bupskirt\w*|\bvoyeur\w*|\bcreep ?shots?\b|\bsleeping (?:girl|sister|wife|video)\b",draft,report Table 3: Spycams
+spycam,hinglish,"\bnahate hue\b|\bnaha(?:ti|te) (?:video|hui)\b|\bso(?:ti|te) hu(?:i|e)\b|\bchupke (?:se )?(?:video|record|banaya)\b",draft,
+spycam,hindi,छुपे कैमरे|छिपे कैमरे|छुपकर|नहाते हुए|सोते हुए,draft,
+spyware,english,"\bspyware\b|\bstalkerware\b|\bmspy\b|\b(?:whatsapp|wa|insta|gallery|phone) (?:hack|spy|access|track)\w*|\bcall record\w*|\blocation track\w*|\bphone track\w*|\bread (?:her|his) (?:chats|messages)\b",draft,report Table 3: Spywares
+targeted,english,"\binfluencers?\b|\binsta(?:gram)? (?:model|girl|wali)\b|\byoutuber\w*|\btiktoker\w*|\breels? (?:girl|wali)\b|\bactress\w*|\bcelebs?\b|\bcelebrit\w+|\bfamous\b|\bfeminist\w*|\bjournalist\w*|\banchor\b",draft,report Table 3: Coordinated attacks / targeted harassment
+targeted,hindi,इंफ्लुएंसर|अभिनेत्री|हीरोइन|यूट्यूबर|पत्रकार,draft,
+targeted,bangla,অভিনেত্রী|নায়িকা|ইনফ্লুয়েন্সার,draft,needs native-speaker check
+targeted,tamil,நடிகை|இன்ஃப்ளூயன்சர்,draft,needs native-speaker check
+csam_marker,english,"\bteens?\b|\bschool ?girls?\b|\bminors?\b|\bunder ?age\w*|\bclass (?:[6-9]|1[0-2])(?:th)?\b|\b(?:1[0-7]) ?(?:yo|y/o|yrs?|saal|sal)\b|\bloli\w*|\bcp\b|\bpedo\w*|\bbaby girl\b",draft,report Table 3: CSAM. Flag for the reporting protocol; never open media
+csam_marker,hinglish,"\bkamsin\b|\bnabalig\b|\bchhoti (?:ladki|bachi|bacchi)\b|\bschool wali\b",draft,
+csam_marker,hindi,नाबालिग|कमसिन|स्कूल गर्ल|स्कूल की लड़की|छोटी लड़की|छोटी बच्ची,draft,
+csam_marker,bangla,স্কুলের মেয়ে|নাবালিকা|ছোট মেয়ে,draft,needs native-speaker check
+csam_marker,tamil,பள்ளி மாணவி|சிறுமி,draft,needs native-speaker check
+sexist_hate,english,"\bsluts?\b|\bwhores?\b|\bbitch(?:es)?\b|\bhoes?\b",draft,report Table 3: Sexist hate speech
+sexist_hate,hinglish,"\br(?:a|aa)nd(?:i|iya|y)?\b|\bchh?inal\w*|\bkutiya\b|\bkutti\b|\bmaal\b",draft,
+sexist_hate,hindi,रंडी|रांड|छिनाल|कुतिया,draft,
+sexist_hate,bangla,মাগি|মাগী|খানকি|বেশ্যা,draft,needs native-speaker check
+sexist_hate,bangla_roman,"\bmagi\b|\bkhanki\w*|\bbessha\b",draft,needs native-speaker check
+sexist_hate,tamil,தேவடியா|தேவிடியா|வேசி,draft,needs native-speaker check
+sexist_hate,tamil_roman,"\bthev(?:a|di)diya\w*|\bthevdiya\w*",draft,needs native-speaker check
+solicitation,english,"\breal meet\w*|\bhook ?up\b|\bsex chat\b|\bvideo call (?:sex|nude)\b|\bpaid (?:service|meet|vc)\b|\bescort\w*",draft,report Table 3: Sexual solicitation
+solicitation,hinglish,"\bmilna (?:hai|chahti|chahte)\b|\bmeet karo\b|\bvc (?:karo|krna|karna)\b",draft,
+rape,english,"\brap(?:e|ed|es|ing|ist|ists|ey)\b|\bgang\s*-?\s*rap\w*|\bmolest\w*|\bsexual(?:ly)?\s+assault\w*|\bbalatkar\w*|\bdhorshon\w*|\bkarpazh\w*",draft,RAPE_RE from scripts/build_threat_corpus.py (text_threats branch)
+rape,hinglish,"\bbalaa?t?kaa?r\w*|\br[ae]pe?\s*(?:kar|kr|karo|krdo|kardo|kardi|karna|karne|karenge|karunga|krunga|krenge|karwa)\w*|\bizz?at\s*(?:loot|lut)\w*|\bnang[ia]\s*(?:kar|kr|karke|krke|karo|karenge|karunga|ghuma)\w*|\butha\s*(?:lenge|lunga|le\s*jayenge|ke\s*le\s*jayenge)",draft,HINGLISH_THREAT_RE (text_threats branch); stripping/abduction phrases
+rape,hindi,बलात्कार|रेप,draft,RAPE_RE
+rape,bangla,ধর্ষণ|ধর্ষ,draft,RAPE_RE
+rape,tamil,கற்பழி|வன்புணர்,draft,RAPE_RE
+archive,english,"\barchives?\b|\bpacks?\b|\bcollection\b|\bfolders?\b|\bmega (?:link|folder)\b|\bdrive link\b|\bterabox\b|\bzip\b|\b\d+ ?gb\b|\bfull (?:video|vid)s?\b|\b(?:vip|premium|paid|private) (?:channel|group|grp|link)s?\b",draft,report 3.6: archives and packs
+archive,hindi,पैक|कलेक्शन|फोल्डर,draft,
+monetisation,english,"\[UPI #|\bupi\b|\bg ?pay\b|\bphone ?pe\b|\bpaytm\b|\bbhim\b|\bqr\b|\bpayment\b|\bpaid\b|\bprice\b|\bsubscri\w+|\blifetime\b|\bdemo\b|\b(?:rs\.?|inr|₹) ?\d+|\b\d+ ?(?:rs|rupees|inr|₹|/-)|\busdt\b|\bcrypto\b|\bbtc\b",draft,report 3.6: monetisation (UPI in place of Bizum)
+monetisation,hindi,रुपये|रुपए|पेमेंट|कीमत|₹,draft,
+bot,english,"\bbots?\b|@\w+bot\b|/start\b",draft,report 3.6: automation
+bot,hindi,बॉट,draft,
+ai_chatbot,english,"\bgrok\b|\bgemini\b|\bchat ?gpt\b|\bmeta ai\b|\bmidjourney\b|\bstable ?diffusion\b|\bai (?:app|tool|bot|website|site|se)\b|\bprompts?\b",draft,report Fig. 25: prompts for mainstream chatbots
+role_uploader,english,"\bexchange\b|\bswap\b|\btrade\b|\bsell(?:ing)?\b|\bfor sale\b|\bavailable\b|\bdm for\b|\bi have\b",draft,report 3.3: uploaders
+role_uploader,hinglish,"\bbech(?:unga|na|raha|rha|ta)\b|\bde dunga\b|\bshare karunga\b|\bmere paas\b|\bmilega\b",draft,
+role_uploader,hindi,बेच|मेरे पास|मिलेगा,draft,
+role_requester,english,"\bwho has\b|\banyone (?:have|has|got)\b|\blooking for\b|\bneed\b|\bwant\b|\bsend (?:me|pls|please)\b",draft,report 3.3: requesters
+role_requester,hinglish,"\bkis(?:i|ke) ke? paas\b|\bkiske paas\b|\bkoi (?:bhejo|send|do|de)\b|\bbhej(?:o|do|na)\b|\bchahiye\b|\bsend karo\b",draft,
+role_requester,hindi,किसी के पास|किसके पास|भेजो|चाहिए,draft,

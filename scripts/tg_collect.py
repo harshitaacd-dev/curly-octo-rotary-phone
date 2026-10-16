@@ -1,45 +1,45 @@
-"""Collect message metadata from Telegram groups and channels the research account has joined.
+"""Collect pseudonymised message metadata from Telegram groups and channels the research
+account has joined.
 
 Usage: python scripts/tg_collect.py CONFIG.json data/telegram [--revisit-days 7]
 
 Needs TG_API_ID and TG_API_HASH (from my.telegram.org) and TG_SALT (a long random string,
-kept outside the repo and identical on every run, or user hashes will not line up).
+kept outside the repo and identical on every run, or the hashes will not line up).
 The first run asks for the account's phone number and login code and saves a .session
-file in the output folder.
+file in the output folder. The session keeps the login only: its cache of the users and
+chats Telegram sends along (ids, usernames, names, phone numbers) is switched off.
 
 CONFIG.json lists the chats, each already joined by hand in the Telegram app (this
 script never joins anything):
   {"chats": [{"alias": "HI-01", "cohort": "hindi", "chat": "https://t.me/+AbCdEf..."},
              {"alias": "TA-01", "cohort": "tamil", "chat": "-1001234567890"}]}
 
-Media is never downloaded. Only its type, size and a hashed Telegram file id are kept, so
-the same file can be traced when it is forwarded or re-sent between chats (a fresh upload
-of the same image gets a new id and is not matched). User, chat and bot ids are stored as
-salted HMACs. Message text is kept as is: it is the material for the qualitative coding,
-and the output folder must stay out of git and be deleted when the project ends.
+What is kept, and in what form, is set out in scripts/tg_privacy.py and
+analysis/telegram/README.md. In short: media is never downloaded (only its type, size
+and a hashed Telegram file id); people are only ever stored as hashes; message text is
+kept with phone numbers, emails, UPI IDs, @mentions and non-Telegram URLs replaced by
+hashed tokens; Telegram links and bot usernames stay in clear to find further groups.
 
-Each run appends snapshots to <out>/messages.jsonl and <out>/chats.jsonl:
+The first run reads each chat's whole surviving history, so messages are dated back to
+the oldest one Telegram still holds. Each later run appends snapshots to
+<out>/messages.jsonl and <out>/chats.jsonl:
   - every message newer than the last run;
   - messages from the last --revisit-days days again when they were edited since, or
     with "deleted": true when they are gone;
-  - one row per chat with its title, size and status, so renames, bans and re-openings
-    under the same name show up over time.
+  - one row per chat with its (hashed) title, size, status, creation date and oldest
+    surviving message, so renames, bans and re-openings show up over time.
 """
-import argparse, asyncio, hashlib, hmac, json, os, sys
+import argparse, asyncio, json, os, sys
 from datetime import datetime, timedelta, timezone
 
 from telethon import TelegramClient, errors, utils
 from telethon.tl import types
 from telethon.tl.functions.channels import GetFullChannelRequest
 
-SALT = os.environ.get("TG_SALT", "").encode()
+sys.path.insert(0, os.path.dirname(__file__))
+from tg_privacy import URL_RE, anon, check_ready, link_record, pseudonymise  # noqa: E402
 
-
-def anon(value):
-    """Salted HMAC of an id, 16 hex characters; None stays None."""
-    if value is None:
-        return None
-    return hmac.new(SALT, str(value).encode(), hashlib.sha256).hexdigest()[:16]
+CREATED = (types.MessageActionChannelCreate, types.MessageActionChatCreate)
 
 
 def iso(dt):
@@ -47,14 +47,21 @@ def iso(dt):
 
 
 def peer_hash(peer):
-    return anon(utils.get_peer_id(peer)) if peer else None
+    return anon(utils.get_peer_id(peer), "peer") if peer else None
+
+
+def bot_name(entity):
+    """Username of a bot account; None for people (who are never named)."""
+    if isinstance(entity, types.User) and entity.bot:
+        return entity.username or f"bot#{anon(entity.id, 'peer')}"
+    return None
 
 
 def media_info(media):
     """(kind, mime, size, hashed file id) without fetching the file."""
     if isinstance(media, types.MessageMediaPhoto) and media.photo:
         sizes = [s.size for s in getattr(media.photo, "sizes", []) if hasattr(s, "size")]
-        return "photo", "image/jpeg", max(sizes, default=None), anon(f"p{media.photo.id}")
+        return "photo", "image/jpeg", max(sizes, default=None), anon(media.photo.id, "photo")
     if isinstance(media, types.MessageMediaDocument) and media.document:
         doc, kind = media.document, "document"
         for a in getattr(doc, "attributes", []):
@@ -66,7 +73,7 @@ def media_info(media):
                 kind = "voice" if a.voice else "audio"
             elif isinstance(a, types.DocumentAttributeAnimated):
                 kind = "gif"
-        return kind, getattr(doc, "mime_type", None), getattr(doc, "size", None), anon(f"d{doc.id}")
+        return kind, getattr(doc, "mime_type", None), getattr(doc, "size", None), anon(doc.id, "doc")
     if media is None:
         return None, None, None, None
     return type(media).__name__.replace("MessageMedia", "").lower(), None, None, None
@@ -75,23 +82,28 @@ def media_info(media):
 def message_row(alias, cohort, m):
     kind, mime, size, key = media_info(m.media)
     fwd, reply = m.fwd_from, m.reply_to
-    urls = [e.url for e in (m.entities or []) if isinstance(e, types.MessageEntityTextUrl)]
-    markup = m.reply_markup if isinstance(m.reply_markup, types.ReplyInlineMarkup) else None
+    text, pii = pseudonymise(m.message or "")
+    links = [link_record(u.rstrip(".,;:!?"), "text") for u in URL_RE.findall(m.message or "")]
+    links += [link_record(e.url, "hidden") for e in (m.entities or [])
+              if isinstance(e, types.MessageEntityTextUrl)]
     # URL buttons: KeyboardButtonUrl in older Telethon layers, KeyboardButton(type=...Url) in newer
-    buttons = [u for r in (markup.rows if markup else []) for b in r.buttons
-               if (u := getattr(b, "url", None) or getattr(getattr(b, "type", None), "url", None))]
+    markup = m.reply_markup if isinstance(m.reply_markup, types.ReplyInlineMarkup) else None
+    links += [link_record(u, "button") for r in (markup.rows if markup else []) for b in r.buttons
+              if (u := getattr(b, "url", None) or getattr(getattr(b, "type", None), "url", None))]
+    sender_bot = bot_name(m.sender)
     return {
         "chat": alias, "cohort": cohort, "msg_id": m.id, "date": iso(m.date),
         "edit_date": iso(m.edit_date), "deleted": False,
-        "sender": anon(m.sender_id), "via_bot": anon(m.via_bot_id), "post_author": m.post_author,
+        "sender": anon(m.sender_id, "peer"), "sender_bot": sender_bot,
+        "via_bot": bot_name(m.via_bot) or (f"bot#{anon(m.via_bot_id, 'peer')}" if m.via_bot_id else None),
+        "post_author": anon(m.post_author, "name"),
         "fwd_from": peer_hash(fwd.from_id) if fwd else None,
-        "fwd_from_name": fwd.from_name if fwd else None,
+        "fwd_from_name": anon(fwd.from_name, "name") if fwd else None,
         "fwd_date": iso(fwd.date) if fwd else None,
         "reply_to": reply.reply_to_msg_id if isinstance(reply, types.MessageReplyHeader) else None,
         "topic": (reply.reply_to_top_id or reply.reply_to_msg_id)
         if isinstance(reply, types.MessageReplyHeader) and reply.forum_topic else None,
-        "grouped_id": m.grouped_id, "text": m.message or "",
-        "hidden_urls": urls, "button_urls": buttons,
+        "grouped_id": m.grouped_id, "text": text, "pii": pii, "links": links,
         "media_kind": kind, "media_mime": mime, "media_size": size, "media_key": key,
         "views": m.views, "forwards": m.forwards,
         "replies": m.replies.replies if m.replies else None,
@@ -108,7 +120,7 @@ async def chat_row(client, alias, cohort, ref):
         row.update(status="unavailable", error=type(exc).__name__)
         return None, row
     if isinstance(ent, types.ChatInvite):  # an invite link the account has not joined
-        row.update(status="not_joined", title=ent.title)
+        row.update(status="not_joined", title_hash=anon(ent.title, "title"))
         return None, row
     size = getattr(ent, "participants_count", None)
     if isinstance(ent, types.Channel):
@@ -116,13 +128,20 @@ async def chat_row(client, alias, cohort, ref):
             size = (await client(GetFullChannelRequest(ent))).full_chat.participants_count
         except errors.RPCError:
             pass
+    oldest = await client.get_messages(ent, limit=1, reverse=True)
+    oldest = oldest[0] if oldest else None
     row.update(
-        status="ok", chat_hash=anon(utils.get_peer_id(ent)), title=getattr(ent, "title", None),
-        username=getattr(ent, "username", None), members=size,
+        status="ok", chat_hash=anon(utils.get_peer_id(ent), "peer"),
+        title_hash=anon(getattr(ent, "title", None), "title"),
+        username_hash=anon((getattr(ent, "username", None) or "").lower(), "username"),
+        members=size,
         type="channel" if getattr(ent, "broadcast", False)
         else "forum" if getattr(ent, "forum", False) else "group",
         scam=getattr(ent, "scam", False), fake=getattr(ent, "fake", False),
         restricted=getattr(ent, "restricted", False),
+        oldest_message_date=iso(oldest.date) if oldest else None,
+        created_date=iso(oldest.date) if oldest is not None and isinstance(
+            getattr(oldest, "action", None), CREATED) else None,
     )
     return ent, row
 
@@ -170,8 +189,7 @@ async def main():
     ap.add_argument("out")
     ap.add_argument("--revisit-days", type=int, default=7)
     args = ap.parse_args()
-    if len(SALT) < 16:
-        sys.exit("Set TG_SALT to a random string of at least 16 characters (and keep it).")
+    check_ready()
     api_id, api_hash = os.environ.get("TG_API_ID"), os.environ.get("TG_API_HASH")
     if not (api_id and api_hash):
         sys.exit("Set TG_API_ID and TG_API_HASH from https://my.telegram.org.")
@@ -184,6 +202,7 @@ async def main():
 
     client = TelegramClient(os.path.join(args.out, "research"), int(api_id), api_hash,
                             flood_sleep_threshold=600)
+    client.session.save_entities = False  # no cache of user ids, usernames, names or phones
     await client.start()
     with open(os.path.join(args.out, "messages.jsonl"), "a", encoding="utf-8") as msgs, \
          open(os.path.join(args.out, "chats.jsonl"), "a", encoding="utf-8") as chat_log:
