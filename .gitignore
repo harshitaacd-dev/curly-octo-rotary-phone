@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+
+# Telegram study: raw collection, login session and chat list never go in git
+data/telegram/
+*.session
+*.session-journal
+telegram_chats*.json
