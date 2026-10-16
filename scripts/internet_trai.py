@@ -52,7 +52,7 @@ SNAPSHOT = {  # label regex -> column; first match after "Total Internet Subscri
 NAT_COLS = ["total", "broadband", "narrowband", "wired", "wireless", "urban", "rural",
             "per100", "urban_per100", "rural_per100", "wireless_data"]
 STATE_NAME = [  # (regex on TRAI's name, NCRB name); first match wins
-    (r"Andaman", "A&N Islands"), (r"Dad[ar]+ & Nagar|Daman", "D&N Haveli and Daman & Diu"),
+    (r"Andaman|A ?& ?N\b", "A&N Islands"), (r"Dad[ar]+ & Nagar|Daman", "D&N Haveli and Daman & Diu"),
     (r"Andhra", "Andhra Pradesh"), (r"Arunachal", "Arunachal Pradesh"), (r"Assam", "Assam"),
     (r"Bihar", "Bihar"), (r"Chh?att?isgarh", "Chhattisgarh"), (r"Goa", "Goa"),
     (r"Gujarat", "Gujarat"), (r"Haryana", "Haryana"), (r"Himachal", "Himachal Pradesh"),

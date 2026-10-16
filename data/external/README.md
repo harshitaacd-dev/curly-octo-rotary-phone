@@ -9,3 +9,6 @@
 - `trai/`: TRAI quarterly *Performance Indicator Reports*, December quarter 2004–2025 plus
   June 2026 — internet subscribers, national and (from Dec 2021) by State/UT. Sources, series
   breaks and caveats in `trai/README.md`; parsed by `scripts/internet_trai.py`.
+- `surveys/`: page extracts of NSS 2017-18 (Report 585), NFHS-5 2019-21 and CAMS 2022-23
+  (Report 590), plus the CMS: Telecom 2025 press note — internet use by State/UT, age and
+  gender. Details in `surveys/README.md`; parsed by `scripts/internet_surveys.py`.
