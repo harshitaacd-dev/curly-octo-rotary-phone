@@ -27,20 +27,28 @@ Usage:
 import argparse
 import os
 import re
+import sys
 import time
 
 import pandas as pd
 
 from common import REPO, load_targets, new_session
-from youtube_comments import call
+from youtube_comments import UNITS, QuotaExceeded, call
 
 OUT = REPO / "data" / "deepfakes"
 
+# Tool names that are also ordinary words ("audio", Hindi "suno" = listen, "runway") need
+# word boundaries or a qualifier; "#ai..." hashtags are limited to AI stems so #airpods,
+# #aids, #aishwarya... don't match.
 AI_CUE = re.compile(
-    r"\bai\b|a\.i\.|artificial intelligence|ai[\s-]*generated|generative|#ai\w*|deep\s*-?fake|"
-    r"face\s*-?swap|voice\s*clon|midjourney|stable\s*diffusion|dall[\s-]*e|runway|pika\s*labs|"
-    r"\bsora\b|\bveo\s*\d?|kling|hailuo|luma\s*(ai|dream)|elevenlabs|suno|udio|heygen|synthesia|"
-    r"एआई|डीपफेक|कृत्रिम बुद्धि", re.I)
+    r"\bai\b|a\.i\.|artificial intelligence|ai[\s-]*generated|generativ|deep\s*-?fake|"
+    r"#ai(?:\b|_|art|cover|gen|vide|voice|tool|anim|song|sing|music|imag|photo|model|influencer|"
+    r"avatar|filter|girl|story|creat|edit|prompt|short|track|visual|wallpaper|upscal|trailer|"
+    r"technolog|news|tutorial|tip|trick|in[a-z]|for|use|script|journey|enhanc|recreat|colori|human|"
+    r"fake|orreal|orhuman|mosaic|dynamic|research|lien|c\b|faceswap|viral)\w*|"
+    r"face\s*-?swap|voice\s*clon|midjourney|stable\s*diffusion|\bdall[\s-]*e\b|"
+    r"runway\s*(?:ml|gen|ai)|pika\s*labs|\bsora\b|\bveo\s*\d?\b|\bkling\b|hailuo|luma\s*(?:ai|dream)|"
+    r"elevenlabs|\bsuno\s*ai\b|\budio\b|heygen|synthesia|एआई|डीपफेक|कृत्रिम बुद्धि", re.I)
 DEBUNK = re.compile(
     r"\bfake\s*(hai|h|he|video|news)?\b|\bai\s*(hai|h|se|ka|generated|video)\b|deep\s*-?fake|"
     r"edit(ed)?\s*(hai|h|video)?|asli\s*nahi|nakli|morph|फर्जी|नकली|एडिट", re.I)
@@ -108,6 +116,8 @@ def ai_share(s, playlist):
     """Share of the last 50 uploads whose title/description has an AI cue."""
     try:
         res = call(s, "playlistItems", part="snippet", playlistId=playlist, maxResults=50)
+    except QuotaExceeded:
+        raise
     except Exception:
         return None, 0
     items = res.get("items", [])
@@ -120,6 +130,8 @@ def debunk_count(s, vid, n):
     try:
         res = call(s, "commentThreads", part="snippet", videoId=vid, maxResults=min(n, 100),
                    textFormat="plainText", order="relevance")
+    except QuotaExceeded:
+        raise
     except Exception:
         return None, 0
     texts = [i["snippet"]["topLevelComment"]["snippet"].get("textOriginal", "")
@@ -138,29 +150,46 @@ def main():
     ap.add_argument("--comments", type=int, default=0, help="deepfakes: scan this many comments per video")
     ap.add_argument("--profile-channels", type=int, default=0,
                     help="profile the last 50 uploads of this many top candidate channels")
+    ap.add_argument("--tag", default="", help="output name suffix, e.g. targeted (keeps runs apart)")
     a = ap.parse_args()
     if "YOUTUBE_API_KEY" not in os.environ:
         ap.error("set YOUTUBE_API_KEY")
     queries = a.queries or d["ai_content_queries" if a.mode == "ai-channels" else "deepfake_queries"]
 
     s = new_session()
-    hits = []
-    for q in queries:
-        for y, lo, hi in year_windows(a.years):
-            ids = search(s, q, lo, hi, a.pages, t["region_code"], t["relevance_language"])
-            hits += [(v, q, y) for v in ids]
-            print(f"  {q!r} {y}: {len(ids)}")
-            time.sleep(0.2)
-    found = pd.DataFrame(hits, columns=["video_id", "query", "search_year"])
-    found = found.groupby("video_id").agg(queries=("query", lambda x: "; ".join(sorted(set(x))))).reset_index()
-
-    vids = videos(s, found.video_id.tolist()).merge(found, on="video_id")
-    ch = channels(s, vids.channel_id.dropna().unique().tolist())
+    tag = f"{a.mode}_{min(a.years)}_{max(a.years)}" + (f"_{a.tag}" if a.tag else "")
+    hits, done = [], []
+    try:
+        for q in queries:
+            for y, lo, hi in year_windows(a.years):
+                ids = search(s, q, lo, hi, a.pages, t["region_code"], t["relevance_language"])
+                hits += [(v, q, y) for v in ids]
+                done.append((q, y))
+                print(f"  {q!r} {y}: {len(ids)}")
+                time.sleep(0.2)
+        found = pd.DataFrame(hits, columns=["video_id", "query", "search_year"])
+        found = found.groupby("video_id").agg(queries=("query", lambda x: "; ".join(sorted(set(x))))).reset_index()
+        vids = videos(s, found.video_id.tolist()).merge(found, on="video_id")
+        ch = channels(s, vids.channel_id.dropna().unique().tolist())
+    except QuotaExceeded as e:
+        OUT.mkdir(parents=True, exist_ok=True)
+        part = OUT / f"youtube_{tag}_partial_search_hits.csv"
+        pd.DataFrame(hits, columns=["video_id", "query", "search_year"]).to_csv(part, index=False)
+        left = [(q, y) for q in queries for y in a.years if (q, y) not in done]
+        print(f"QUOTA EXCEEDED on {e} after ~{UNITS['used']} units: {len(hits)} search hits -> {part}; "
+              f"{len(left)} query-years not searched: {left}")
+        sys.exit(3)
     vids = vids.merge(ch[["channel_id", "country", "subscribers"]], on="channel_id", how="left")
     vids["country"] = vids.country.fillna("")
 
     if a.mode == "deepfakes" and a.comments:
-        res = [debunk_count(s, v, a.comments) for v in vids.video_id]
+        res = []
+        try:
+            for v in vids.video_id:
+                res.append(debunk_count(s, v, a.comments))
+        except QuotaExceeded:
+            print(f"QUOTA EXCEEDED: debunk comments scanned for {len(res)} of {len(vids)} videos")
+            res += [(None, 0)] * (len(vids) - len(res))
         vids["debunk_comments"] = [r[0] for r in res]
         vids["comments_scanned"] = [r[1] for r in res]
 
@@ -178,7 +207,13 @@ def main():
     if a.profile_channels:
         pl = ch.set_index("channel_id").uploads_playlist
         top = agg[(agg.n_ai_cue > 0) & agg.country.isin(["IN", ""])].head(a.profile_channels)
-        shares = {c: ai_share(s, pl.get(c)) for c in top.channel_id if pl.get(c)}
+        shares = {}
+        try:
+            for c in top.channel_id:
+                if pl.get(c):
+                    shares[c] = ai_share(s, pl.get(c))
+        except QuotaExceeded:
+            print(f"QUOTA EXCEEDED: profiled {len(shares)} of {len(top)} channels")
         agg["recent_ai_share"] = agg.channel_id.map(lambda c: shares.get(c, (None, 0))[0])
         agg["recent_uploads_checked"] = agg.channel_id.map(lambda c: shares.get(c, (None, 0))[1])
 
@@ -196,13 +231,13 @@ def main():
     agg["manually_verified"] = ""  # fill in by hand
 
     OUT.mkdir(parents=True, exist_ok=True)
-    tag = f"{a.mode}_{min(a.years)}_{max(a.years)}"
     vids.sort_values("published_at").to_csv(OUT / f"youtube_{tag}_videos.csv", index=False)
     agg.to_csv(OUT / f"youtube_{tag}_channels.csv", index=False)
     print(f"{len(vids)} videos, {len(agg)} channels ({agg.in_india.sum()} declare India) -> "
           f"data/deepfakes/youtube_{tag}_*.csv")
     print(vids.groupby("year").agg(videos=("video_id", "size"), ai_cue=("ai_cue", "sum")).to_string())
     print("self_labelled field returned:", vids.self_labelled.ne("").any())
+    print(f"~{UNITS['used']} quota units used")
 
 
 if __name__ == "__main__":
