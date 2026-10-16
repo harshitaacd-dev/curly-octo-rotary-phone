@@ -6,3 +6,6 @@
   - Annexure I: all-India cyber crimes by crime head, 2014–2023, parsed into
     `data/clean/national_cyber_crimeheads_2014_2023.csv` by `scripts/parse_ls438.py`.
   - Annexure II: State/UT totals for 2014–2023.
+- `trai/`: TRAI quarterly *Performance Indicator Reports*, December quarter 2004–2025 plus
+  June 2026 — internet subscribers, national and (from Dec 2021) by State/UT. Sources, series
+  breaks and caveats in `trai/README.md`; parsed by `scripts/internet_trai.py`.
