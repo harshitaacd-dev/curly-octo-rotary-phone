@@ -37,11 +37,18 @@ from youtube_comments import UNITS, QuotaExceeded, call
 
 OUT = REPO / "data" / "deepfakes"
 
+# Tool names that are also ordinary words ("audio", Hindi "suno" = listen, "runway") need
+# word boundaries or a qualifier; "#ai..." hashtags are limited to AI stems so #airpods,
+# #aids, #aishwarya... don't match.
 AI_CUE = re.compile(
-    r"\bai\b|a\.i\.|artificial intelligence|ai[\s-]*generated|generative|#ai\w*|deep\s*-?fake|"
-    r"face\s*-?swap|voice\s*clon|midjourney|stable\s*diffusion|dall[\s-]*e|runway|pika\s*labs|"
-    r"\bsora\b|\bveo\s*\d?|kling|hailuo|luma\s*(ai|dream)|elevenlabs|suno|udio|heygen|synthesia|"
-    r"एआई|डीपफेक|कृत्रिम बुद्धि", re.I)
+    r"\bai\b|a\.i\.|artificial intelligence|ai[\s-]*generated|generativ|deep\s*-?fake|"
+    r"#ai(?:\b|_|art|cover|gen|vide|voice|tool|anim|song|sing|music|imag|photo|model|influencer|"
+    r"avatar|filter|girl|story|creat|edit|prompt|short|track|visual|wallpaper|upscal|trailer|"
+    r"technolog|news|tutorial|tip|trick|in[a-z]|for|use|script|journey|enhanc|recreat|colori|human|"
+    r"fake|orreal|orhuman|mosaic|dynamic|research|lien|c\b|faceswap|viral)\w*|"
+    r"face\s*-?swap|voice\s*clon|midjourney|stable\s*diffusion|\bdall[\s-]*e\b|"
+    r"runway\s*(?:ml|gen|ai)|pika\s*labs|\bsora\b|\bveo\s*\d?\b|\bkling\b|hailuo|luma\s*(?:ai|dream)|"
+    r"elevenlabs|\bsuno\s*ai\b|\budio\b|heygen|synthesia|एआई|डीपफेक|कृत्रिम बुद्धि", re.I)
 DEBUNK = re.compile(
     r"\bfake\s*(hai|h|he|video|news)?\b|\bai\s*(hai|h|se|ka|generated|video)\b|deep\s*-?fake|"
     r"edit(ed)?\s*(hai|h|video)?|asli\s*nahi|nakli|morph|फर्जी|नकली|एडिट", re.I)
