@@ -1,0 +1,38 @@
+state_year_panel: 453 rows, 35 units, 2012-2024
+state_category_year_panel: 3360 rows, 35 units, 12 categories
+platform_month_panel: 2365 rows, platforms ['Facebook', 'Google', 'Instagram', 'X'], 2021-04 to 2026-08
+Google Trends merged: NO - data/external/google_trends/state_yearly.csv not found
+
+Units with no NCRB match in access data:
+[]
+Access units with no NCRB match:
+[]
+
+Non-missing values by year (state_year_panel):
+      cyber_vaw_cases  offline_vaw_cases  cyber_total_cases  cyber_fraud  female_pop_lakh  cyber_chargesheet_rate  cyber_motive_sexual_exploitation  trai_subs_per100
+year                                                                                                                                                                 
+2012                0                 34                 34            0                0                       0                                 0                 0
+2013                0                 34                 34            0                0                       0                                 0                 0
+2014                0                 35                 35            0                0                       0                                 0                 0
+2015                0                 35                 35            0                0                       0                                 0                 0
+2016                0                 35                 35            0                0                       0                                 0                 0
+2017               35                 35                 35           35               35                       0                                 0                 0
+2018               35                 35                 35           35               35                       0                                35                 0
+2019               35                 35                 35           35               35                       0                                35                 0
+2020               35                 35                 35           35               35                      32                                35                 0
+2021               35                 35                 35           35               35                      33                                35                 0
+2022               35                 35                 35           35               35                      34                                35                35
+2023               35                 35                 35           35               35                      33                                35                35
+2024               35                 35                 35           35               35                      33                                35                35
+
+Access measures, non-missing units:
+access_nss2017_5plus       22
+access_cams2023_15plus     35
+access_cams2023_15to24     35
+able_cams2023_15plus       35
+access_nfhs5_15to49_avg    35
+trai_subs_per100_2021      35
+trai_subs_per100_2022      35
+trai_subs_per100_2023      35
+trai_subs_per100_2024      35
+trai_subs_per100_2025      35
