@@ -80,7 +80,8 @@ def get_json(session, url, params=None, headers=None, tries=5, wait=2.0):
         if busy:
             time.sleep(wait * 2 ** i)
             continue
-        r.raise_for_status()
+        if r.status_code >= 400:
+            raise requests.HTTPError(f"{r.status_code} {r.text[:300]}", response=r)
         return r.json()
     raise RuntimeError(f"giving up on {url} {params}")
 
