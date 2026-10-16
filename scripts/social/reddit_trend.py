@@ -35,6 +35,8 @@ Usage
   python scripts/social/reddit_trend.py --no-comments         # posts only (much faster)
 """
 import argparse
+import gzip
+import json
 import re
 import time
 
@@ -126,7 +128,17 @@ def main():
                 for y in range(int(a.after[:4]), int(a.before[:4])):
                     ylo = max(lo, int(pd.Timestamp(f"{y}-01-01", tz="UTC").timestamp()))
                     yhi = min(hi, int(pd.Timestamp(f"{y + 1}-01-01", tz="UTC").timestamp()))
-                    for r in search(s, kind, sub, term, ylo, yhi):
+                    # Resumable: each (kind, sub, term, year) result is cached in the git-ignored raw folder.
+                    cache = RAW / "reddit" / "trend_cache" / f"{kind}_{sub}_{term}_{y}.json.gz"
+                    if cache.exists():
+                        found = json.load(gzip.open(cache, "rt"))
+                    else:
+                        found = search(s, kind, sub, term, ylo, yhi)
+                        for r in found:  # never cache raw usernames
+                            r["author"] = pseudonym(r.get("author"))
+                        cache.parent.mkdir(parents=True, exist_ok=True)
+                        json.dump(found, gzip.open(cache, "wt"))
+                    for r in found:
                         text = (r.get("title", "") + "\n" + (r.get("selftext") or "")
                                 if kind == "posts" else r.get("body") or "")
                         hits.append({"kind": kind[:-1], "id": r["id"], "subreddit": r["subreddit"],

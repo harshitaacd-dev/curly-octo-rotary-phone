@@ -73,7 +73,11 @@ def iso(ts):
 def get_json(session, url, params=None, headers=None, tries=5, wait=2.0):
     """GET with retry/back-off on 429, 5xx and API 'slow down' errors."""
     for i in range(tries):
-        r = session.get(url, params=params, headers=headers, timeout=120)
+        try:
+            r = session.get(url, params=params, headers=headers, timeout=120)
+        except requests.exceptions.RequestException:  # dropped connection / proxy reset
+            time.sleep(wait * 2 ** i)
+            continue
         busy = r.status_code in (429, 500, 502, 503, 504)
         if r.status_code == 422 and any(w in r.text.lower() for w in ("timeout", "slow down")):
             busy = True  # Arctic Shift: query timed out server-side
