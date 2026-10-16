@@ -165,6 +165,9 @@ def main():
     ap.add_argument("--boilerplate-min", type=int, default=5,
                     help="drop video IDs linked from at least this many articles of one publisher")
     ap.add_argument("--no-oembed", action="store_true")
+    ap.add_argument("--include-other", action="store_true",
+                    help="also seed videos from fact-checks whose title/lede has no AI/deepfake/"
+                         "manipulation wording (mostly articles that merely mention AI)")
     a = ap.parse_args()
 
     s = new_session("Mozilla/5.0 (research; deepfake fact-check seed list)")
@@ -205,7 +208,7 @@ def main():
     arts = df.drop(columns=["content_html"]).assign(youtube_ids=df.youtube_ids.map(" ".join))
     arts.sort_values("date").to_csv(OUT / f"factchecks_{tag}.csv", index=False)
 
-    seeds = df[df.n_youtube > 0].explode("youtube_ids").rename(columns={"youtube_ids": "video_id"})
+    seeds = df[(df.n_youtube > 0) & (a.include_other | df.kind.ne("other"))].explode("youtube_ids").rename(columns={"youtube_ids": "video_id"})
     seeds = seeds[["video_id", "publisher", "date", "year", "url", "title", "kind",
                    "mentions_woman", "verdict"]].rename(
         columns={"date": "factcheck_date", "url": "factcheck_url", "title": "factcheck_title"})
