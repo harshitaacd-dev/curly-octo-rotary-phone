@@ -192,7 +192,7 @@ def main():
     df["matched_term"] = df.groupby("url").matched_term.transform(lambda x: "; ".join(sorted(set(x))))
     df = df.drop_duplicates("url").reset_index(drop=True)
     df["kind"] = (df.title + " " + df.excerpt).map(classify)
-    df["mentions_woman"] = (df.title + " " + df.excerpt).str.contains(WOMAN).astype(int)
+    df["mentions_woman"] = (df.title + " " + df.excerpt).map(lambda x: bool(WOMAN.search(x))).astype(int)
     df["youtube_ids"] = df.content_html.fillna("").map(lambda h: sorted(set(YT_RE.findall(h))))
 
     # Drop each publisher's boilerplate videos (own channel promos embedded in every article).
@@ -219,6 +219,13 @@ def main():
             time.sleep(0.5)
         seeds[["yt_status", "yt_title", "yt_channel", "yt_channel_url"]] = \
             pd.DataFrame([status[v] for v in seeds.video_id], index=seeds.index)
+    # Fact-checks usually link the authentic original or their own explainer, not the fake.
+    if "yt_status" in seeds:
+        own = seeds.yt_channel.fillna("").str.contains(
+            r"factly|alt news|newschecker|fact ?crescendo|dfrac", case=False)
+        seeds["link_role"] = "unclassified (fake or authentic original - check manually)"
+        seeds.loc[own, "link_role"] = "fact-checker own video"
+        seeds.loc[seeds.yt_status.ne("available"), "link_role"] = "unavailable (possibly the removed fake)"
     seeds.sort_values("factcheck_date").to_csv(OUT / f"factcheck_youtube_seeds_{tag}.csv", index=False)
 
     print(f"\n{len(df)} fact-checks, {df.n_youtube.gt(0).sum()} with YouTube links, "
