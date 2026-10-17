@@ -76,6 +76,11 @@ Raw data, the session and the chat list are git-ignored. Never commit anything f
     section.
 - **Limits:** only public chats can be found, by name, and Telegram caps results per term.
   Private groups come from snowballing (`snowball_leads.csv`).
+- **Screening:** `python scripts/tg_screen.py data/telegram/candidates.csv` shows one
+  candidate at a time with a keyword-based suggestion; press a key to decide (a note can
+  follow the key). Decisions, cohort, note and time are saved straight away. Then
+  `python scripts/tg_screen.py data/telegram/candidates.csv --build telegram_chats.json`
+  adds the included chats to the chat list with aliases (HI-01, TA-01, …).
 - **Joining is by hand:** never pay, and never share invite links to get into a group.
 
 ## Measuring morphed media without seeing it

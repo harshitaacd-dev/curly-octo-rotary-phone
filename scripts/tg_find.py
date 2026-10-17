@@ -34,7 +34,7 @@ from tg_privacy import check_ready  # noqa: E402
 
 FIELDS = ["link", "kind", "title", "description", "members", "created", "verified", "scam",
           "fake", "restricted", "found_by", "cohorts", "first_found", "last_found",
-          "in_chat_list", "decision"]
+          "in_chat_list", "decision", "cohort", "note", "screened_at"]  # last 4: tg_screen.py
 
 
 def now():
