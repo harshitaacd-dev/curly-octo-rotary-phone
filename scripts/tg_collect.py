@@ -120,7 +120,11 @@ async def chat_row(client, alias, cohort, ref):
         row.update(status="unavailable", error=type(exc).__name__)
         return None, row
     if isinstance(ent, types.ChatInvite):  # an invite link the account has not joined
-        row.update(status="not_joined", title_hash=anon(ent.title, "title"))
+        row.update(status="not_joined", title_hash=anon(ent.title, "title"),
+                   members=ent.participants_count,
+                   type="channel" if ent.broadcast else "group",
+                   paid_subscription=bool(ent.subscription_pricing),
+                   request_needed=bool(ent.request_needed))
         return None, row
     size = getattr(ent, "participants_count", None)
     if isinstance(ent, types.Channel):
@@ -128,7 +132,12 @@ async def chat_row(client, alias, cohort, ref):
             size = (await client(GetFullChannelRequest(ent))).full_chat.participants_count
         except errors.RPCError:
             pass
-    oldest = await client.get_messages(ent, limit=1, reverse=True)
+    try:
+        oldest = await client.get_messages(ent, limit=1, reverse=True)
+    except errors.RPCError as exc:  # e.g. a public group that hides history from non-members
+        row.update(status="no_history_access", error=type(exc).__name__, members=size,
+                   title_hash=anon(getattr(ent, "title", None), "title"))
+        return None, row
     oldest = oldest[0] if oldest else None
     row.update(
         status="ok", chat_hash=anon(utils.get_peer_id(ent), "peer"),
