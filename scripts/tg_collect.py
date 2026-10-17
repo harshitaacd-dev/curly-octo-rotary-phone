@@ -157,9 +157,12 @@ async def collect(client, chat, state, revisit_days, out_msgs):
     # msg_id -> [date, edit_date] for earlier messages still inside the revisit window
     recent = {k: v for k, v in st["recent"].items() if v[0] >= iso(since)}
     top, written, seen = st["max_id"], 0, set()
+    print(f"{alias}: reading {'full history' if top == 0 else 'new messages'}...", flush=True)
 
     # Newest first: everything after the last run, then the revisit window again.
     async for m in client.iter_messages(ent):
+        if written and written % 5000 == 0:
+            print(f"  {alias}: {written} messages so far, now at {m.date:%Y-%m}", flush=True)
         if m.id <= top and m.date < since:
             break
         if not isinstance(m, types.Message):  # service messages (joins, pins, ...)
