@@ -1,0 +1,955 @@
+month,concept,label,own_index,common_index,estimated_searches,estimated_low,estimated_high,google_ads_searches,is_partial_month,pulls_averaged
+2018-01,deepfake_apps,Deepfake apps (any),1.0,0.057,1457,1150,1745,,False,1
+2018-02,deepfake_apps,Deepfake apps (any),2.0,0.114,2914,2300,3491,,False,1
+2018-03,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2018-04,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2018-05,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2018-06,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2018-07,deepfake_apps,Deepfake apps (any),2.0,0.114,2914,2300,3491,,False,1
+2018-08,deepfake_apps,Deepfake apps (any),1.0,0.057,1457,1150,1745,,False,1
+2018-09,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2018-10,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2018-11,deepfake_apps,Deepfake apps (any),1.0,0.057,1457,1150,1745,,False,1
+2018-12,deepfake_apps,Deepfake apps (any),1.0,0.057,1457,1150,1745,,False,1
+2019-01,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2019-02,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2019-03,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2019-04,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2019-05,deepfake_apps,Deepfake apps (any),0.0,0.0,0,0,0,,False,1
+2019-06,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2019-07,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,,False,1
+2019-08,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2019-09,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2019-10,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2019-11,deepfake_apps,Deepfake apps (any),3.0,0.172,4371,3450,5236,,False,1
+2019-12,deepfake_apps,Deepfake apps (any),2.0,0.114,2914,2300,3491,,False,1
+2020-01,deepfake_apps,Deepfake apps (any),3.0,0.172,4371,3450,5236,,False,1
+2020-02,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2020-03,deepfake_apps,Deepfake apps (any),3.0,0.172,4371,3450,5236,,False,1
+2020-04,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2020-05,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2020-06,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2020-07,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2020-08,deepfake_apps,Deepfake apps (any),9.0,0.515,13114,10350,15709,,False,1
+2020-09,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,,False,1
+2020-10,deepfake_apps,Deepfake apps (any),9.0,0.515,13114,10350,15709,,False,1
+2020-11,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2020-12,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2021-01,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2021-02,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2021-03,deepfake_apps,Deepfake apps (any),12.0,0.687,17486,13800,20945,,False,1
+2021-04,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,,False,1
+2021-05,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,,False,1
+2021-06,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,,False,1
+2021-07,deepfake_apps,Deepfake apps (any),9.0,0.515,13114,10350,15709,,False,1
+2021-08,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2021-09,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2021-10,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2021-11,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2021-12,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,False,1
+2022-01,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,,False,1
+2022-02,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-03,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-04,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-05,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-06,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-07,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-08,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-09,deepfake_apps,Deepfake apps (any),3.0,0.172,4371,3450,5236,,False,1
+2022-10,deepfake_apps,Deepfake apps (any),4.0,0.229,5829,4600,6982,,False,1
+2022-11,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,7300,False,1
+2022-12,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,9500,False,1
+2023-01,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,10200,False,1
+2023-02,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,9000,False,1
+2023-03,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,12300,False,1
+2023-04,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,12300,False,1
+2023-05,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,14000,False,1
+2023-06,deepfake_apps,Deepfake apps (any),11.0,0.63,16029,12650,19200,19200,False,1
+2023-07,deepfake_apps,Deepfake apps (any),32.0,1.831,46629,36800,55855,34300,False,1
+2023-08,deepfake_apps,Deepfake apps (any),17.0,0.973,24771,19550,29673,23500,False,1
+2023-09,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,11000,False,1
+2023-10,deepfake_apps,Deepfake apps (any),16.0,0.916,23314,18400,27927,18400,False,1
+2023-11,deepfake_apps,Deepfake apps (any),100.0,5.723,145714,115000,174545,134500,False,1
+2023-12,deepfake_apps,Deepfake apps (any),28.0,1.602,40800,32200,48873,40300,False,1
+2024-01,deepfake_apps,Deepfake apps (any),17.0,0.973,24771,19550,29673,26900,False,1
+2024-02,deepfake_apps,Deepfake apps (any),14.0,0.801,20400,16100,24436,18700,False,1
+2024-03,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,15300,False,1
+2024-04,deepfake_apps,Deepfake apps (any),9.0,0.515,13114,10350,15709,18700,False,1
+2024-05,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,18700,False,1
+2024-06,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,17500,False,1
+2024-07,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,16500,False,1
+2024-08,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,14300,False,1
+2024-09,deepfake_apps,Deepfake apps (any),9.0,0.515,13114,10350,15709,15700,False,1
+2024-10,deepfake_apps,Deepfake apps (any),11.0,0.63,16029,12650,19200,19200,False,1
+2024-11,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,17700,False,1
+2024-12,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,16700,False,1
+2025-01,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,14500,False,1
+2025-02,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,13400,False,1
+2025-03,deepfake_apps,Deepfake apps (any),9.0,0.515,13114,10350,15709,13100,False,1
+2025-04,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,10900,False,1
+2025-05,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,10490,False,1
+2025-06,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,13100,False,1
+2025-07,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,7000,False,1
+2025-08,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,10000,False,1
+2025-09,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,15300,False,1
+2025-10,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,7900,False,1
+2025-11,deepfake_apps,Deepfake apps (any),12.0,0.687,17486,13800,20945,6700,False,1
+2025-12,deepfake_apps,Deepfake apps (any),13.0,0.744,18943,14950,22691,7900,False,1
+2026-01,deepfake_apps,Deepfake apps (any),13.0,0.744,18943,14950,22691,10380,False,1
+2026-02,deepfake_apps,Deepfake apps (any),8.0,0.458,11657,9200,13964,6810,False,1
+2026-03,deepfake_apps,Deepfake apps (any),11.0,0.63,16029,12650,19200,7080,False,1
+2026-04,deepfake_apps,Deepfake apps (any),10.0,0.572,14571,11500,17455,6990,False,1
+2026-05,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,7080,False,1
+2026-06,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,7080,False,1
+2026-07,deepfake_apps,Deepfake apps (any),7.0,0.401,10200,8050,12218,7320,False,1
+2026-08,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,7600,False,1
+2026-09,deepfake_apps,Deepfake apps (any),6.0,0.343,8743,6900,10473,7600,False,1
+2026-10,deepfake_apps,Deepfake apps (any),5.0,0.286,7286,5750,8727,,True,1
+2018-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2018-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2019-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2019-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2019-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2019-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,,False,1
+2019-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2019-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,,False,1
+2019-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",21.0,0.171,757,435,914,,False,1
+2019-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2019-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",17.0,0.138,613,352,740,,False,1
+2019-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,,False,1
+2019-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2019-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,,False,1
+2020-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,0.073,324,186,392,,False,1
+2020-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,,False,1
+2020-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",6.0,0.049,216,124,261,,False,1
+2020-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2020-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",6.0,0.049,216,124,261,,False,1
+2020-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,0.114,505,290,609,,False,1
+2020-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2020-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,0.097,433,248,522,,False,1
+2020-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,0.097,433,248,522,,False,1
+2020-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",10.0,0.081,360,207,435,,False,1
+2020-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,0.073,324,186,392,,False,1
+2020-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,0.073,324,186,392,,False,1
+2021-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2021-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",10.0,0.081,360,207,435,,False,1
+2021-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,,False,1
+2021-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,0.114,505,290,609,,False,1
+2021-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,0.097,433,248,522,,False,1
+2021-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,0.114,505,290,609,,False,1
+2021-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,0.122,541,310,653,,False,1
+2021-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,0.106,469,269,566,,False,1
+2021-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",17.0,0.138,613,352,740,,False,1
+2021-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,,False,1
+2021-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,0.106,469,269,566,,False,1
+2021-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,0.106,469,269,566,,False,1
+2022-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",17.0,0.138,613,352,740,,False,1
+2022-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,0.122,541,310,653,,False,1
+2022-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,,False,1
+2022-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,,False,1
+2022-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,,False,1
+2022-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,,False,1
+2022-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",6.0,0.049,216,124,261,,False,1
+2022-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,,False,1
+2022-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,,False,1
+2022-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,0.073,324,186,392,,False,1
+2022-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,410,False,1
+2022-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,0.114,505,290,609,510,False,1
+2023-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,0.114,505,290,609,620,False,1
+2023-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",16.0,0.13,577,331,696,520,False,1
+2023-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",21.0,0.171,757,435,914,950,False,1
+2023-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",22.0,0.179,793,455,958,810,False,1
+2023-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",28.0,0.227,1009,579,1219,1140,False,1
+2023-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",33.0,0.268,1190,683,1436,1440,False,1
+2023-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",52.0,0.422,1874,1076,2263,2070,False,1
+2023-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",37.0,0.3,1334,766,1610,1370,False,1
+2023-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",22.0,0.179,793,455,958,1050,False,1
+2023-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",53.0,0.43,1911,1097,2307,1650,False,1
+2023-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,0.812,3605,2069,4352,3740,False,1
+2023-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",39.0,0.317,1406,807,1697,1390,False,1
+2024-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",30.0,0.244,1081,621,1306,1070,False,1
+2024-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",22.0,0.179,793,455,958,950,False,1
+2024-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",19.0,0.154,685,393,827,770,False,1
+2024-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",20.0,0.162,721,414,870,930,False,1
+2024-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",16.0,0.13,577,331,696,920,False,1
+2024-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,0.114,505,290,609,770,False,1
+2024-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",16.0,0.13,577,331,696,620,False,1
+2024-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,510,False,1
+2024-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,0.122,541,310,653,430,False,1
+2024-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",20.0,0.162,721,414,870,420,False,1
+2024-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,0.122,541,310,653,340,False,1
+2024-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,0.106,469,269,566,420,False,1
+2025-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",17.0,0.138,613,352,740,350,False,1
+2025-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,0.097,433,248,522,290,False,1
+2025-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,0.106,469,269,566,300,False,1
+2025-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,410,False,1
+2025-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,340,False,1
+2025-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",7.0,0.057,252,145,305,350,False,1
+2025-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",6.0,0.049,216,124,261,230,False,1
+2025-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,0.122,541,310,653,200,False,1
+2025-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,0.073,324,186,392,180,False,1
+2025-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,0.097,433,248,522,190,False,1
+2025-11,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,0.122,541,310,653,160,False,1
+2025-12,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",19.0,0.154,685,393,827,150,False,1
+2026-01,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,0.097,433,248,522,240,False,1
+2026-02,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,0.073,324,186,392,160,False,1
+2026-03,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,120,False,1
+2026-04,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,0.089,397,228,479,120,False,1
+2026-05,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,160,False,1
+2026-06,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",8.0,0.065,288,166,348,120,False,1
+2026-07,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",5.0,0.041,180,103,218,110,False,1
+2026-08,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,230,False,1
+2026-09,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",0.0,0.0,0,0,0,330,False,1
+2026-10,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",6.0,0.049,216,124,261,,True,1
+2018-01,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-02,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-03,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-04,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-05,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-06,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-07,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-08,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-09,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-10,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2018-11,deepfake_free,Free deepfake tools,3.0,0.051,122,95,141,,False,1
+2018-12,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-01,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-02,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-03,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-04,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-05,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-06,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-07,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-08,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-09,deepfake_free,Free deepfake tools,3.0,0.051,122,95,141,,False,1
+2019-10,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-11,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2019-12,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2020-01,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2020-02,deepfake_free,Free deepfake tools,3.0,0.051,122,95,141,,False,1
+2020-03,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2020-04,deepfake_free,Free deepfake tools,3.0,0.051,122,95,141,,False,1
+2020-05,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2020-06,deepfake_free,Free deepfake tools,4.0,0.068,163,126,188,,False,1
+2020-07,deepfake_free,Free deepfake tools,7.0,0.12,285,221,329,,False,1
+2020-08,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2020-09,deepfake_free,Free deepfake tools,8.0,0.137,326,253,376,,False,1
+2020-10,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2020-11,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2020-12,deepfake_free,Free deepfake tools,3.0,0.051,122,95,141,,False,1
+2021-01,deepfake_free,Free deepfake tools,0.0,0.0,0,0,0,,False,1
+2021-02,deepfake_free,Free deepfake tools,4.0,0.068,163,126,188,,False,1
+2021-03,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2021-04,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2021-05,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2021-06,deepfake_free,Free deepfake tools,8.0,0.137,326,253,376,,False,1
+2021-07,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2021-08,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2021-09,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2021-10,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2021-11,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2021-12,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2022-01,deepfake_free,Free deepfake tools,13.0,0.222,529,411,612,,False,1
+2022-02,deepfake_free,Free deepfake tools,7.0,0.12,285,221,329,,False,1
+2022-03,deepfake_free,Free deepfake tools,8.0,0.137,326,253,376,,False,1
+2022-04,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2022-05,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2022-06,deepfake_free,Free deepfake tools,5.0,0.085,203,158,235,,False,1
+2022-07,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2022-08,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2022-09,deepfake_free,Free deepfake tools,7.0,0.12,285,221,329,,False,1
+2022-10,deepfake_free,Free deepfake tools,6.0,0.103,244,189,282,,False,1
+2022-11,deepfake_free,Free deepfake tools,9.0,0.154,366,284,424,420,False,1
+2022-12,deepfake_free,Free deepfake tools,8.0,0.137,326,253,376,580,False,1
+2023-01,deepfake_free,Free deepfake tools,13.0,0.222,529,411,612,780,False,1
+2023-02,deepfake_free,Free deepfake tools,14.0,0.239,570,442,659,870,False,1
+2023-03,deepfake_free,Free deepfake tools,16.0,0.273,651,505,753,1070,False,1
+2023-04,deepfake_free,Free deepfake tools,18.0,0.308,732,568,847,1310,False,1
+2023-05,deepfake_free,Free deepfake tools,20.0,0.342,814,632,941,1440,False,1
+2023-06,deepfake_free,Free deepfake tools,33.0,0.564,1343,1042,1553,1880,False,1
+2023-07,deepfake_free,Free deepfake tools,48.0,0.82,1953,1516,2259,2300,False,1
+2023-08,deepfake_free,Free deepfake tools,40.0,0.684,1628,1263,1882,1720,False,1
+2023-09,deepfake_free,Free deepfake tools,24.0,0.41,977,758,1129,1310,False,1
+2023-10,deepfake_free,Free deepfake tools,34.0,0.581,1383,1074,1600,1600,False,1
+2023-11,deepfake_free,Free deepfake tools,100.0,1.709,4069,3158,4706,4300,False,1
+2023-12,deepfake_free,Free deepfake tools,60.0,1.025,2441,1895,2824,2900,False,1
+2024-01,deepfake_free,Free deepfake tools,54.0,0.923,2197,1705,2541,2300,False,1
+2024-02,deepfake_free,Free deepfake tools,54.0,0.923,2197,1705,2541,2300,False,1
+2024-03,deepfake_free,Free deepfake tools,55.0,0.94,2238,1737,2588,1880,False,1
+2024-04,deepfake_free,Free deepfake tools,48.0,0.82,1953,1516,2259,1880,False,1
+2024-05,deepfake_free,Free deepfake tools,38.0,0.649,1546,1200,1788,1880,False,1
+2024-06,deepfake_free,Free deepfake tools,40.0,0.684,1628,1263,1882,1720,False,1
+2024-07,deepfake_free,Free deepfake tools,39.0,0.667,1587,1232,1835,1760,False,1
+2024-08,deepfake_free,Free deepfake tools,36.0,0.615,1465,1137,1694,1470,False,1
+2024-09,deepfake_free,Free deepfake tools,36.0,0.615,1465,1137,1694,1600,False,1
+2024-10,deepfake_free,Free deepfake tools,41.0,0.701,1668,1295,1929,1310,False,1
+2024-11,deepfake_free,Free deepfake tools,43.0,0.735,1750,1358,2024,1200,False,1
+2024-12,deepfake_free,Free deepfake tools,38.0,0.649,1546,1200,1788,1200,False,1
+2025-01,deepfake_free,Free deepfake tools,41.0,0.701,1668,1295,1929,1200,False,1
+2025-02,deepfake_free,Free deepfake tools,42.0,0.718,1709,1326,1976,980,False,1
+2025-03,deepfake_free,Free deepfake tools,36.0,0.615,1465,1137,1694,1200,False,1
+2025-04,deepfake_free,Free deepfake tools,37.0,0.632,1506,1168,1741,1360,False,1
+2025-05,deepfake_free,Free deepfake tools,33.0,0.564,1343,1042,1553,1200,False,1
+2025-06,deepfake_free,Free deepfake tools,35.0,0.598,1424,1105,1647,1110,False,1
+2025-07,deepfake_free,Free deepfake tools,34.0,0.581,1383,1074,1600,1200,False,1
+2025-08,deepfake_free,Free deepfake tools,29.0,0.496,1180,916,1365,980,False,1
+2025-09,deepfake_free,Free deepfake tools,32.0,0.547,1302,1011,1506,1200,False,1
+2025-10,deepfake_free,Free deepfake tools,38.0,0.649,1546,1200,1788,1200,False,1
+2025-11,deepfake_free,Free deepfake tools,53.0,0.906,2157,1674,2494,960,False,1
+2025-12,deepfake_free,Free deepfake tools,58.0,0.991,2360,1832,2729,1200,False,1
+2026-01,deepfake_free,Free deepfake tools,49.0,0.837,1994,1547,2306,1310,False,1
+2026-02,deepfake_free,Free deepfake tools,43.0,0.735,1750,1358,2024,870,False,1
+2026-03,deepfake_free,Free deepfake tools,41.0,0.701,1668,1295,1929,870,False,1
+2026-04,deepfake_free,Free deepfake tools,38.0,0.649,1546,1200,1788,870,False,1
+2026-05,deepfake_free,Free deepfake tools,36.0,0.615,1465,1137,1694,1070,False,1
+2026-06,deepfake_free,Free deepfake tools,29.0,0.496,1180,916,1365,1310,False,1
+2026-07,deepfake_free,Free deepfake tools,29.0,0.496,1180,916,1365,1180,False,1
+2026-08,deepfake_free,Free deepfake tools,29.0,0.496,1180,916,1365,1310,False,1
+2026-09,deepfake_free,Free deepfake tools,34.0,0.581,1383,1074,1600,1180,False,1
+2026-10,deepfake_free,Free deepfake tools,32.0,0.547,1302,1011,1506,,True,1
+2018-01,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-02,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-03,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-04,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-05,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-06,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-07,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-08,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-09,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2018-10,deepfake_makers,Deepfake makers / generators / software,2.0,0.056,495,345,739,,False,1
+2018-11,deepfake_makers,Deepfake makers / generators / software,2.0,0.056,495,345,739,,False,1
+2018-12,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-01,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-02,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-03,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-04,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-05,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-06,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-07,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-08,deepfake_makers,Deepfake makers / generators / software,2.0,0.056,495,345,739,,False,1
+2019-09,deepfake_makers,Deepfake makers / generators / software,2.0,0.056,495,345,739,,False,1
+2019-10,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-11,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2019-12,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2020-01,deepfake_makers,Deepfake makers / generators / software,0.0,0.0,0,0,0,,False,1
+2020-02,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2020-03,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2020-04,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2020-05,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2020-06,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2020-07,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2020-08,deepfake_makers,Deepfake makers / generators / software,8.0,0.223,1981,1380,2955,,False,1
+2020-09,deepfake_makers,Deepfake makers / generators / software,7.0,0.195,1733,1208,2585,,False,1
+2020-10,deepfake_makers,Deepfake makers / generators / software,7.0,0.195,1733,1208,2585,,False,1
+2020-11,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2020-12,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2021-01,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2021-02,deepfake_makers,Deepfake makers / generators / software,5.0,0.139,1238,862,1847,,False,1
+2021-03,deepfake_makers,Deepfake makers / generators / software,9.0,0.25,2228,1552,3324,,False,1
+2021-04,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2021-05,deepfake_makers,Deepfake makers / generators / software,8.0,0.223,1981,1380,2955,,False,1
+2021-06,deepfake_makers,Deepfake makers / generators / software,7.0,0.195,1733,1208,2585,,False,1
+2021-07,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2021-08,deepfake_makers,Deepfake makers / generators / software,5.0,0.139,1238,862,1847,,False,1
+2021-09,deepfake_makers,Deepfake makers / generators / software,5.0,0.139,1238,862,1847,,False,1
+2021-10,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2021-11,deepfake_makers,Deepfake makers / generators / software,5.0,0.139,1238,862,1847,,False,1
+2021-12,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2022-01,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2022-02,deepfake_makers,Deepfake makers / generators / software,6.0,0.167,1486,1035,2216,,False,1
+2022-03,deepfake_makers,Deepfake makers / generators / software,5.0,0.139,1238,862,1847,,False,1
+2022-04,deepfake_makers,Deepfake makers / generators / software,5.0,0.139,1238,862,1847,,False,1
+2022-05,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2022-06,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2022-07,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2022-08,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2022-09,deepfake_makers,Deepfake makers / generators / software,3.0,0.083,743,518,1108,,False,1
+2022-10,deepfake_makers,Deepfake makers / generators / software,4.0,0.111,990,690,1477,,False,1
+2022-11,deepfake_makers,Deepfake makers / generators / software,7.0,0.195,1733,1208,2585,3340,False,1
+2022-12,deepfake_makers,Deepfake makers / generators / software,7.0,0.195,1733,1208,2585,3890,False,1
+2023-01,deepfake_makers,Deepfake makers / generators / software,10.0,0.278,2476,1725,3693,3440,False,1
+2023-02,deepfake_makers,Deepfake makers / generators / software,11.0,0.306,2724,1898,4063,3200,False,1
+2023-03,deepfake_makers,Deepfake makers / generators / software,10.0,0.278,2476,1725,3693,4260,False,1
+2023-04,deepfake_makers,Deepfake makers / generators / software,11.0,0.306,2724,1898,4063,4330,False,1
+2023-05,deepfake_makers,Deepfake makers / generators / software,22.0,0.612,5447,3795,8125,5980,False,1
+2023-06,deepfake_makers,Deepfake makers / generators / software,29.0,0.807,7180,5003,10711,8410,False,1
+2023-07,deepfake_makers,Deepfake makers / generators / software,54.0,1.503,13370,9315,19944,15860,False,1
+2023-08,deepfake_makers,Deepfake makers / generators / software,40.0,1.113,9904,6900,14773,9350,False,1
+2023-09,deepfake_makers,Deepfake makers / generators / software,17.0,0.473,4209,2933,6279,6330,False,1
+2023-10,deepfake_makers,Deepfake makers / generators / software,95.0,2.644,23522,16388,35087,11180,False,1
+2023-11,deepfake_makers,Deepfake makers / generators / software,89.0,2.477,22036,15352,32871,18980,False,1
+2023-12,deepfake_makers,Deepfake makers / generators / software,45.0,1.252,11142,7762,16620,10560,False,1
+2024-01,deepfake_makers,Deepfake makers / generators / software,35.0,0.974,8666,6038,12927,8970,False,1
+2024-02,deepfake_makers,Deepfake makers / generators / software,35.0,0.974,8666,6038,12927,7010,False,1
+2024-03,deepfake_makers,Deepfake makers / generators / software,36.0,1.002,8914,6210,13296,6470,False,1
+2024-04,deepfake_makers,Deepfake makers / generators / software,36.0,1.002,8914,6210,13296,6470,False,1
+2024-05,deepfake_makers,Deepfake makers / generators / software,28.0,0.779,6933,4830,10341,5940,False,1
+2024-06,deepfake_makers,Deepfake makers / generators / software,26.0,0.724,6438,4485,9603,5850,False,1
+2024-07,deepfake_makers,Deepfake makers / generators / software,28.0,0.779,6933,4830,10341,5130,False,1
+2024-08,deepfake_makers,Deepfake makers / generators / software,28.0,0.779,6933,4830,10341,4830,False,1
+2024-09,deepfake_makers,Deepfake makers / generators / software,31.0,0.863,7676,5348,11449,5920,False,1
+2024-10,deepfake_makers,Deepfake makers / generators / software,35.0,0.974,8666,6038,12927,6070,False,1
+2024-11,deepfake_makers,Deepfake makers / generators / software,30.0,0.835,7428,5175,11080,4690,False,1
+2024-12,deepfake_makers,Deepfake makers / generators / software,25.0,0.696,6190,4312,9233,3950,False,1
+2025-01,deepfake_makers,Deepfake makers / generators / software,22.0,0.612,5447,3795,8125,3430,False,1
+2025-02,deepfake_makers,Deepfake makers / generators / software,23.0,0.64,5695,3968,8495,2330,False,1
+2025-03,deepfake_makers,Deepfake makers / generators / software,25.0,0.696,6190,4312,9233,3060,False,1
+2025-04,deepfake_makers,Deepfake makers / generators / software,19.0,0.529,4704,3278,7017,3060,False,1
+2025-05,deepfake_makers,Deepfake makers / generators / software,18.0,0.501,4457,3105,6648,2870,False,1
+2025-06,deepfake_makers,Deepfake makers / generators / software,27.0,0.751,6685,4658,9972,3350,False,1
+2025-07,deepfake_makers,Deepfake makers / generators / software,25.0,0.696,6190,4312,9233,3990,False,1
+2025-08,deepfake_makers,Deepfake makers / generators / software,26.0,0.724,6438,4485,9603,3330,False,1
+2025-09,deepfake_makers,Deepfake makers / generators / software,28.0,0.779,6933,4830,10341,9730,False,1
+2025-10,deepfake_makers,Deepfake makers / generators / software,35.0,0.974,8666,6038,12927,12510,False,1
+2025-11,deepfake_makers,Deepfake makers / generators / software,73.0,2.032,18075,12592,26961,18590,False,1
+2025-12,deepfake_makers,Deepfake makers / generators / software,100.0,2.783,24760,17250,36933,42590,False,1
+2026-01,deepfake_makers,Deepfake makers / generators / software,73.0,2.032,18075,12592,26961,51630,False,1
+2026-02,deepfake_makers,Deepfake makers / generators / software,95.0,2.644,23522,16388,35087,62280,False,1
+2026-03,deepfake_makers,Deepfake makers / generators / software,42.0,1.169,10399,7245,15512,15980,False,1
+2026-04,deepfake_makers,Deepfake makers / generators / software,31.0,0.863,7676,5348,11449,9140,False,1
+2026-05,deepfake_makers,Deepfake makers / generators / software,30.0,0.835,7428,5175,11080,11080,False,1
+2026-06,deepfake_makers,Deepfake makers / generators / software,27.0,0.751,6685,4658,9972,13140,False,1
+2026-07,deepfake_makers,Deepfake makers / generators / software,23.0,0.64,5695,3968,8495,8380,False,1
+2026-08,deepfake_makers,Deepfake makers / generators / software,20.0,0.557,4952,3450,7387,8350,False,1
+2026-09,deepfake_makers,Deepfake makers / generators / software,25.0,0.696,6190,4312,9233,6190,False,1
+2026-10,deepfake_makers,Deepfake makers / generators / software,25.0,0.696,6190,4312,9233,,True,1
+2018-01,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-02,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-03,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-04,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-05,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-06,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-07,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-08,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-09,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-10,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-11,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2018-12,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-01,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-02,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-03,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-04,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-05,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-06,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-07,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-08,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-09,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-10,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-11,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2019-12,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-01,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-02,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-03,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-04,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2020-05,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-06,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2020-07,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2020-08,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2020-09,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2020-10,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-11,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2020-12,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-01,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-02,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-03,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2021-04,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-05,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2021-06,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2021-07,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-08,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-09,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-10,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-11,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2021-12,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2022-01,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-02,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-03,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-04,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-05,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-06,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-07,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-08,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-09,face_swap,Face swap (any),0.0,0.0,0,0,0,,False,1
+2022-10,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,,False,1
+2022-11,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,22200,False,1
+2022-12,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,90500,False,1
+2023-01,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,14800,False,1
+2023-02,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,12100,False,1
+2023-03,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,14800,False,1
+2023-04,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,14800,False,1
+2023-05,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,18100,False,1
+2023-06,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,18100,False,1
+2023-07,face_swap,Face swap (any),1.0,1.985,23207,18100,37625,22200,False,1
+2023-08,face_swap,Face swap (any),2.0,3.971,46414,36200,75250,33100,False,1
+2023-09,face_swap,Face swap (any),2.0,3.971,46414,36200,75250,40500,False,1
+2023-10,face_swap,Face swap (any),3.0,5.956,69621,54300,112875,60500,False,1
+2023-11,face_swap,Face swap (any),4.0,7.941,92828,72400,150500,90500,False,1
+2023-12,face_swap,Face swap (any),4.0,7.941,92828,72400,150500,110000,False,1
+2024-01,face_swap,Face swap (any),23.0,45.663,533759,416300,865375,301000,False,1
+2024-02,face_swap,Face swap (any),100.0,198.535,2320690,1810000,3762500,823000,False,1
+2024-03,face_swap,Face swap (any),78.0,154.858,1810138,1411800,2934750,823000,False,1
+2024-04,face_swap,Face swap (any),61.0,121.107,1415621,1104100,2295125,823000,False,1
+2024-05,face_swap,Face swap (any),59.0,117.136,1369207,1067900,2219875,1000000,False,1
+2024-06,face_swap,Face swap (any),51.0,101.253,1183552,923100,1918875,1000000,False,1
+2024-07,face_swap,Face swap (any),46.0,91.326,1067517,832600,1730750,1000000,False,1
+2024-08,face_swap,Face swap (any),41.0,81.399,951483,742100,1542625,823000,False,1
+2024-09,face_swap,Face swap (any),38.0,75.443,881862,687800,1429750,823000,False,1
+2024-10,face_swap,Face swap (any),41.0,81.399,951483,742100,1542625,823000,False,1
+2024-11,face_swap,Face swap (any),35.0,69.487,812241,633500,1316875,673000,False,1
+2024-12,face_swap,Face swap (any),29.0,57.575,673000,524900,1091125,673000,False,1
+2025-01,face_swap,Face swap (any),26.0,51.619,603379,470600,978250,673000,False,1
+2025-02,face_swap,Face swap (any),22.0,43.678,510552,398200,827750,550000,False,1
+2025-03,face_swap,Face swap (any),21.0,41.692,487345,380100,790125,550000,False,1
+2025-04,face_swap,Face swap (any),18.0,35.736,417724,325800,677250,450000,False,1
+2025-05,face_swap,Face swap (any),15.0,29.78,348103,271500,564375,450000,False,1
+2025-06,face_swap,Face swap (any),32.0,63.531,742621,579200,1204000,1220000,False,1
+2025-07,face_swap,Face swap (any),27.0,53.605,626586,488700,1015875,1220000,False,1
+2025-08,face_swap,Face swap (any),22.0,43.678,510552,398200,827750,823000,False,1
+2025-09,face_swap,Face swap (any),27.0,53.605,626586,488700,1015875,1500000,False,1
+2025-10,face_swap,Face swap (any),20.0,39.707,464138,362000,752500,823000,False,1
+2025-11,face_swap,Face swap (any),18.0,35.736,417724,325800,677250,673000,False,1
+2025-12,face_swap,Face swap (any),18.0,35.736,417724,325800,677250,823000,False,1
+2026-01,face_swap,Face swap (any),18.0,35.736,417724,325800,677250,673000,False,1
+2026-02,face_swap,Face swap (any),15.0,29.78,348103,271500,564375,550000,False,1
+2026-03,face_swap,Face swap (any),13.0,25.81,301690,235300,489125,550000,False,1
+2026-04,face_swap,Face swap (any),11.0,21.839,255276,199100,413875,450000,False,1
+2026-05,face_swap,Face swap (any),11.0,21.839,255276,199100,413875,550000,False,1
+2026-06,face_swap,Face swap (any),10.0,19.854,232069,181000,376250,368000,False,1
+2026-07,face_swap,Face swap (any),8.0,15.883,185655,144800,301000,368000,False,1
+2026-08,face_swap,Face swap (any),8.0,15.883,185655,144800,301000,368000,False,1
+2026-09,face_swap,Face swap (any),8.0,15.883,185655,144800,301000,301000,False,1
+2026-10,face_swap,Face swap (any),7.0,13.897,162448,126700,263375,,True,1
+2018-01,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2018-02,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-03,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-04,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-05,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-06,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-07,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-08,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-09,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-10,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-11,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2018-12,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-01,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-02,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-03,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-04,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-05,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-06,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-07,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-08,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-09,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-10,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2019-11,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2019-12,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2020-01,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2020-02,face_swap_video,Video face swap,0.0,0.0,0,0,0,,False,1
+2020-03,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2020-04,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2020-05,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2020-06,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2020-07,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2020-08,face_swap_video,Video face swap,4.0,0.531,4290,2880,4950,,False,1
+2020-09,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,,False,1
+2020-10,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2020-11,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2020-12,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2021-01,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-02,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-03,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2021-04,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2021-05,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,,False,1
+2021-06,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2021-07,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-08,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-09,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-10,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-11,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2021-12,face_swap_video,Video face swap,1.0,0.133,1072,720,1238,,False,1
+2022-01,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,,False,1
+2022-02,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,,False,1
+2022-03,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-04,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-05,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-06,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-07,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-08,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-09,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-10,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,,False,1
+2022-11,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,720,False,1
+2022-12,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,880,False,1
+2023-01,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,1300,False,1
+2023-02,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,1000,False,1
+2023-03,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,1300,False,1
+2023-04,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,1000,False,1
+2023-05,face_swap_video,Video face swap,2.0,0.266,2145,1440,2475,1000,False,1
+2023-06,face_swap_video,Video face swap,3.0,0.398,3217,2160,3713,1300,False,1
+2023-07,face_swap_video,Video face swap,4.0,0.531,4290,2880,4950,1900,False,1
+2023-08,face_swap_video,Video face swap,5.0,0.664,5362,3600,6188,2400,False,1
+2023-09,face_swap_video,Video face swap,5.0,0.664,5362,3600,6188,3600,False,1
+2023-10,face_swap_video,Video face swap,7.0,0.929,7507,5040,8662,5400,False,1
+2023-11,face_swap_video,Video face swap,13.0,1.726,13942,9360,16088,9900,False,1
+2023-12,face_swap_video,Video face swap,15.0,1.992,16087,10800,18562,14800,False,1
+2024-01,face_swap_video,Video face swap,28.0,3.718,30029,20160,34650,22200,False,1
+2024-02,face_swap_video,Video face swap,71.0,9.427,76145,51120,87862,40500,False,1
+2024-03,face_swap_video,Video face swap,66.0,8.763,70783,47520,81675,60500,False,1
+2024-04,face_swap_video,Video face swap,59.0,7.834,63275,42480,73013,60500,False,1
+2024-05,face_swap_video,Video face swap,67.0,8.896,71855,48240,82913,60500,False,1
+2024-06,face_swap_video,Video face swap,62.0,8.232,66493,44640,76725,74000,False,1
+2024-07,face_swap_video,Video face swap,64.0,8.498,68638,46080,79200,74000,False,1
+2024-08,face_swap_video,Video face swap,69.0,9.162,74000,49680,85388,74000,False,1
+2024-09,face_swap_video,Video face swap,73.0,9.693,78290,52560,90338,90500,False,1
+2024-10,face_swap_video,Video face swap,86.0,11.419,92232,61920,106425,90500,False,1
+2024-11,face_swap_video,Video face swap,100.0,13.278,107246,72000,123750,90500,False,1
+2024-12,face_swap_video,Video face swap,71.0,9.427,76145,51120,87862,74000,False,1
+2025-01,face_swap_video,Video face swap,61.0,8.099,65420,43920,75488,74000,False,1
+2025-02,face_swap_video,Video face swap,57.0,7.568,61130,41040,70538,60500,False,1
+2025-03,face_swap_video,Video face swap,62.0,8.232,66493,44640,76725,74000,False,1
+2025-04,face_swap_video,Video face swap,50.0,6.639,53623,36000,61875,60500,False,1
+2025-05,face_swap_video,Video face swap,47.0,6.241,50406,33840,58162,60500,False,1
+2025-06,face_swap_video,Video face swap,52.0,6.904,55768,37440,64350,60500,False,1
+2025-07,face_swap_video,Video face swap,51.0,6.772,54696,36720,63113,60500,False,1
+2025-08,face_swap_video,Video face swap,49.0,6.506,52551,35280,60638,60500,False,1
+2025-09,face_swap_video,Video face swap,45.0,5.975,48261,32400,55688,60500,False,1
+2025-10,face_swap_video,Video face swap,45.0,5.975,48261,32400,55688,60500,False,1
+2025-11,face_swap_video,Video face swap,46.0,6.108,49333,33120,56925,60500,False,1
+2025-12,face_swap_video,Video face swap,50.0,6.639,53623,36000,61875,60500,False,1
+2026-01,face_swap_video,Video face swap,45.0,5.975,48261,32400,55688,60500,False,1
+2026-02,face_swap_video,Video face swap,41.0,5.444,43971,29520,50738,49500,False,1
+2026-03,face_swap_video,Video face swap,40.0,5.311,42899,28800,49500,49500,False,1
+2026-04,face_swap_video,Video face swap,34.0,4.514,36464,24480,42075,40500,False,1
+2026-05,face_swap_video,Video face swap,31.0,4.116,33246,22320,38362,40500,False,1
+2026-06,face_swap_video,Video face swap,27.0,3.585,28957,19440,33412,40500,False,1
+2026-07,face_swap_video,Video face swap,25.0,3.319,26812,18000,30938,40500,False,1
+2026-08,face_swap_video,Video face swap,22.0,2.921,23594,15840,27225,40500,False,1
+2026-09,face_swap_video,Video face swap,31.0,4.116,33246,22320,38362,40500,False,1
+2026-10,face_swap_video,Video face swap,26.0,3.452,27884,18720,32175,,True,1
+2018-01,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2018-02,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-03,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-04,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-05,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2018-06,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2018-07,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2018-08,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-09,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-10,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-11,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2018-12,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2019-01,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2019-02,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-03,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-04,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-05,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2019-06,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-07,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2019-08,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-09,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2019-10,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-11,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2019-12,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2020-01,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2020-02,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2020-03,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2020-04,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2020-05,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2020-06,reface,Reface (named app),0.0,0.0,0,0,0,,False,1
+2020-07,reface,Reface (named app),1.0,0.11,903,673,1210,,False,1
+2020-08,reface,Reface (named app),100.0,10.981,90333,67273,121000,,False,1
+2020-09,reface,Reface (named app),62.0,6.808,56007,41709,75020,,False,1
+2020-10,reface,Reface (named app),32.0,3.514,28907,21527,38720,,False,1
+2020-11,reface,Reface (named app),22.0,2.416,19873,14800,26620,,False,1
+2020-12,reface,Reface (named app),20.0,2.196,18067,13455,24200,,False,1
+2021-01,reface,Reface (named app),18.0,1.977,16260,12109,21780,,False,1
+2021-02,reface,Reface (named app),14.0,1.537,12647,9418,16940,,False,1
+2021-03,reface,Reface (named app),18.0,1.977,16260,12109,21780,,False,1
+2021-04,reface,Reface (named app),25.0,2.745,22583,16818,30250,,False,1
+2021-05,reface,Reface (named app),36.0,3.953,32520,24218,43560,,False,1
+2021-06,reface,Reface (named app),17.0,1.867,15357,11436,20570,,False,1
+2021-07,reface,Reface (named app),15.0,1.647,13550,10091,18150,,False,1
+2021-08,reface,Reface (named app),12.0,1.318,10840,8073,14520,,False,1
+2021-09,reface,Reface (named app),10.0,1.098,9033,6727,12100,,False,1
+2021-10,reface,Reface (named app),10.0,1.098,9033,6727,12100,,False,1
+2021-11,reface,Reface (named app),10.0,1.098,9033,6727,12100,,False,1
+2021-12,reface,Reface (named app),10.0,1.098,9033,6727,12100,,False,1
+2022-01,reface,Reface (named app),22.0,2.416,19873,14800,26620,,False,1
+2022-02,reface,Reface (named app),15.0,1.647,13550,10091,18150,,False,1
+2022-03,reface,Reface (named app),11.0,1.208,9937,7400,13310,,False,1
+2022-04,reface,Reface (named app),11.0,1.208,9937,7400,13310,,False,1
+2022-05,reface,Reface (named app),11.0,1.208,9937,7400,13310,,False,1
+2022-06,reface,Reface (named app),11.0,1.208,9937,7400,13310,,False,1
+2022-07,reface,Reface (named app),9.0,0.988,8130,6055,10890,,False,1
+2022-08,reface,Reface (named app),8.0,0.879,7227,5382,9680,,False,1
+2022-09,reface,Reface (named app),7.0,0.769,6323,4709,8470,,False,1
+2022-10,reface,Reface (named app),6.0,0.659,5420,4036,7260,,False,1
+2022-11,reface,Reface (named app),7.0,0.769,6323,4709,8470,2900,False,1
+2022-12,reface,Reface (named app),7.0,0.769,6323,4709,8470,2900,False,1
+2023-01,reface,Reface (named app),9.0,0.988,8130,6055,10890,3600,False,1
+2023-02,reface,Reface (named app),11.0,1.208,9937,7400,13310,3600,False,1
+2023-03,reface,Reface (named app),10.0,1.098,9033,6727,12100,4400,False,1
+2023-04,reface,Reface (named app),9.0,0.988,8130,6055,10890,4400,False,1
+2023-05,reface,Reface (named app),9.0,0.988,8130,6055,10890,4400,False,1
+2023-06,reface,Reface (named app),9.0,0.988,8130,6055,10890,6600,False,1
+2023-07,reface,Reface (named app),10.0,1.098,9033,6727,12100,8100,False,1
+2023-08,reface,Reface (named app),30.0,3.294,27100,20182,36300,27100,False,1
+2023-09,reface,Reface (named app),18.0,1.977,16260,12109,21780,12100,False,1
+2023-10,reface,Reface (named app),18.0,1.977,16260,12109,21780,12100,False,1
+2023-11,reface,Reface (named app),28.0,3.075,25293,18836,33880,14800,False,1
+2023-12,reface,Reface (named app),29.0,3.185,26197,19509,35090,18100,False,1
+2024-01,reface,Reface (named app),22.0,2.416,19873,14800,26620,14800,False,1
+2024-02,reface,Reface (named app),21.0,2.306,18970,14127,25410,14800,False,1
+2024-03,reface,Reface (named app),17.0,1.867,15357,11436,20570,12100,False,1
+2024-04,reface,Reface (named app),16.0,1.757,14453,10764,19360,12100,False,1
+2024-05,reface,Reface (named app),15.0,1.647,13550,10091,18150,14800,False,1
+2024-06,reface,Reface (named app),14.0,1.537,12647,9418,16940,12100,False,1
+2024-07,reface,Reface (named app),14.0,1.537,12647,9418,16940,12100,False,1
+2024-08,reface,Reface (named app),12.0,1.318,10840,8073,14520,12100,False,1
+2024-09,reface,Reface (named app),13.0,1.428,11743,8745,15730,12100,False,1
+2024-10,reface,Reface (named app),14.0,1.537,12647,9418,16940,9900,False,1
+2024-11,reface,Reface (named app),12.0,1.318,10840,8073,14520,9900,False,1
+2024-12,reface,Reface (named app),10.0,1.098,9033,6727,12100,9900,False,1
+2025-01,reface,Reface (named app),10.0,1.098,9033,6727,12100,12100,False,1
+2025-02,reface,Reface (named app),7.0,0.769,6323,4709,8470,8100,False,1
+2025-03,reface,Reface (named app),12.0,1.318,10840,8073,14520,9900,False,1
+2025-04,reface,Reface (named app),9.0,0.988,8130,6055,10890,9900,False,1
+2025-05,reface,Reface (named app),6.0,0.659,5420,4036,7260,8100,False,1
+2025-06,reface,Reface (named app),8.0,0.879,7227,5382,9680,12100,False,1
+2025-07,reface,Reface (named app),7.0,0.769,6323,4709,8470,12100,False,1
+2025-08,reface,Reface (named app),6.0,0.659,5420,4036,7260,12100,False,1
+2025-09,reface,Reface (named app),8.0,0.879,7227,5382,9680,14800,False,1
+2025-10,reface,Reface (named app),7.0,0.769,6323,4709,8470,12100,False,1
+2025-11,reface,Reface (named app),9.0,0.988,8130,6055,10890,9900,False,1
+2025-12,reface,Reface (named app),7.0,0.769,6323,4709,8470,8100,False,1
+2026-01,reface,Reface (named app),7.0,0.769,6323,4709,8470,8100,False,1
+2026-02,reface,Reface (named app),6.0,0.659,5420,4036,7260,8100,False,1
+2026-03,reface,Reface (named app),6.0,0.659,5420,4036,7260,8100,False,1
+2026-04,reface,Reface (named app),6.0,0.659,5420,4036,7260,8100,False,1
+2026-05,reface,Reface (named app),5.0,0.549,4517,3364,6050,6600,False,1
+2026-06,reface,Reface (named app),4.0,0.439,3613,2691,4840,4400,False,1
+2026-07,reface,Reface (named app),5.0,0.549,4517,3364,6050,4400,False,1
+2026-08,reface,Reface (named app),3.0,0.329,2710,2018,3630,4400,False,1
+2026-09,reface,Reface (named app),4.0,0.439,3613,2691,4840,4400,False,1
+2026-10,reface,Reface (named app),4.0,0.439,3613,2691,4840,,True,1
+2018-01,deepfake_awareness,Deepfake awareness / general interest,0.0,0.0,0,0,0,,False,1
+2018-02,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-03,deepfake_awareness,Deepfake awareness / general interest,0.0,0.0,0,0,0,,False,1
+2018-04,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-05,deepfake_awareness,Deepfake awareness / general interest,0.0,0.0,0,0,0,,False,1
+2018-06,deepfake_awareness,Deepfake awareness / general interest,0.0,0.0,0,0,0,,False,1
+2018-07,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-08,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-09,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-10,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-11,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2018-12,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2019-01,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2019-02,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2019-03,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2019-04,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2019-05,deepfake_awareness,Deepfake awareness / general interest,1.0,1.0,4936,4335,7860,,False,1
+2019-06,deepfake_awareness,Deepfake awareness / general interest,2.0,2.0,9873,8669,15720,,False,1
+2019-07,deepfake_awareness,Deepfake awareness / general interest,4.0,4.0,19745,17338,31440,,False,1
+2019-08,deepfake_awareness,Deepfake awareness / general interest,2.0,2.0,9873,8669,15720,,False,1
+2019-09,deepfake_awareness,Deepfake awareness / general interest,3.0,3.0,14809,13004,23580,,False,1
+2019-10,deepfake_awareness,Deepfake awareness / general interest,3.0,3.0,14809,13004,23580,,False,1
+2019-11,deepfake_awareness,Deepfake awareness / general interest,3.0,3.0,14809,13004,23580,,False,1
+2019-12,deepfake_awareness,Deepfake awareness / general interest,3.0,3.0,14809,13004,23580,,False,1
+2020-01,deepfake_awareness,Deepfake awareness / general interest,4.0,4.0,19745,17338,31440,,False,1
+2020-02,deepfake_awareness,Deepfake awareness / general interest,5.0,5.0,24682,21673,39300,,False,1
+2020-03,deepfake_awareness,Deepfake awareness / general interest,5.0,5.0,24682,21673,39300,,False,1
+2020-04,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2020-05,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2020-06,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2020-07,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2020-08,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2020-09,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2020-10,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2020-11,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2020-12,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2021-01,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2021-02,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,,False,1
+2021-03,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-04,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-05,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-06,deepfake_awareness,Deepfake awareness / general interest,11.0,11.0,54300,47681,86460,,False,1
+2021-07,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-08,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-09,deepfake_awareness,Deepfake awareness / general interest,11.0,11.0,54300,47681,86460,,False,1
+2021-10,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-11,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2021-12,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,,False,1
+2022-01,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2022-02,deepfake_awareness,Deepfake awareness / general interest,7.0,7.0,34555,30342,55020,,False,1
+2022-03,deepfake_awareness,Deepfake awareness / general interest,7.0,7.0,34555,30342,55020,,False,1
+2022-04,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,,False,1
+2022-05,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,,False,1
+2022-06,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,,False,1
+2022-07,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2022-08,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,,False,1
+2022-09,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,,False,1
+2022-10,deepfake_awareness,Deepfake awareness / general interest,9.0,9.0,44427,39012,70740,,False,1
+2022-11,deepfake_awareness,Deepfake awareness / general interest,8.0,8.0,39491,34677,62880,52600,False,1
+2022-12,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,78600,False,1
+2023-01,deepfake_awareness,Deepfake awareness / general interest,11.0,11.0,54300,47681,86460,96200,False,1
+2023-02,deepfake_awareness,Deepfake awareness / general interest,10.0,10.0,49364,43346,78600,78600,False,1
+2023-03,deepfake_awareness,Deepfake awareness / general interest,13.0,13.0,64173,56350,102180,137100,False,1
+2023-04,deepfake_awareness,Deepfake awareness / general interest,14.0,14.0,69109,60685,110040,168100,False,1
+2023-05,deepfake_awareness,Deepfake awareness / general interest,16.0,16.0,78982,69354,125760,234100,False,1
+2023-06,deepfake_awareness,Deepfake awareness / general interest,19.0,19.0,93791,82358,149340,241500,False,1
+2023-07,deepfake_awareness,Deepfake awareness / general interest,28.0,28.0,138218,121369,220080,350500,False,1
+2023-08,deepfake_awareness,Deepfake awareness / general interest,20.0,20.0,98727,86692,157200,241500,False,1
+2023-09,deepfake_awareness,Deepfake awareness / general interest,14.0,14.0,69109,60685,110040,137100,False,1
+2023-10,deepfake_awareness,Deepfake awareness / general interest,23.0,23.0,113536,99696,180780,286500,False,1
+2023-11,deepfake_awareness,Deepfake awareness / general interest,100.0,100.0,493636,433462,786000,1165000,False,1
+2023-12,deepfake_awareness,Deepfake awareness / general interest,39.0,39.0,192518,169050,306540,306500,False,1
+2024-01,deepfake_awareness,Deepfake awareness / general interest,39.0,39.0,192518,169050,306540,250500,False,1
+2024-02,deepfake_awareness,Deepfake awareness / general interest,37.0,37.0,182645,160381,290820,205500,False,1
+2024-03,deepfake_awareness,Deepfake awareness / general interest,39.0,39.0,192518,169050,306540,175500,False,1
+2024-04,deepfake_awareness,Deepfake awareness / general interest,38.0,38.0,187582,164715,298680,150500,False,1
+2024-05,deepfake_awareness,Deepfake awareness / general interest,35.0,35.0,172773,151712,275100,184500,False,1
+2024-06,deepfake_awareness,Deepfake awareness / general interest,32.0,32.0,157964,138708,251520,150500,False,1
+2024-07,deepfake_awareness,Deepfake awareness / general interest,27.0,27.0,133282,117035,212220,123600,False,1
+2024-08,deepfake_awareness,Deepfake awareness / general interest,28.0,28.0,138218,121369,220080,123600,False,1
+2024-09,deepfake_awareness,Deepfake awareness / general interest,29.0,29.0,143155,125704,227940,123600,False,1
+2024-10,deepfake_awareness,Deepfake awareness / general interest,30.0,30.0,148091,130038,235800,143100,False,1
+2024-11,deepfake_awareness,Deepfake awareness / general interest,31.0,31.0,153027,134373,243660,143100,False,1
+2024-12,deepfake_awareness,Deepfake awareness / general interest,28.0,28.0,138218,121369,220080,143100,False,1
+2025-01,deepfake_awareness,Deepfake awareness / general interest,28.0,28.0,138218,121369,220080,162100,False,1
+2025-02,deepfake_awareness,Deepfake awareness / general interest,25.0,25.0,123409,108365,196500,112700,False,1
+2025-03,deepfake_awareness,Deepfake awareness / general interest,26.0,26.0,128345,112700,204360,112700,False,1
+2025-04,deepfake_awareness,Deepfake awareness / general interest,23.0,23.0,113536,99696,180780,112700,False,1
+2025-05,deepfake_awareness,Deepfake awareness / general interest,22.0,22.0,108600,95362,172920,92100,False,1
+2025-06,deepfake_awareness,Deepfake awareness / general interest,21.0,21.0,103664,91027,165060,92100,False,1
+2025-07,deepfake_awareness,Deepfake awareness / general interest,18.0,18.0,88855,78023,141480,92100,False,1
+2025-08,deepfake_awareness,Deepfake awareness / general interest,18.0,18.0,88855,78023,141480,75300,False,1
+2025-09,deepfake_awareness,Deepfake awareness / general interest,17.0,17.0,83918,73688,133620,92100,False,1
+2025-10,deepfake_awareness,Deepfake awareness / general interest,19.0,19.0,93791,82358,149340,96200,False,1
+2025-11,deepfake_awareness,Deepfake awareness / general interest,21.0,21.0,103664,91027,165060,75300,False,1
+2025-12,deepfake_awareness,Deepfake awareness / general interest,24.0,24.0,118473,104031,188640,108600,False,1
+2026-01,deepfake_awareness,Deepfake awareness / general interest,22.0,22.0,108600,95362,172920,108600,False,1
+2026-02,deepfake_awareness,Deepfake awareness / general interest,20.0,20.0,98727,86692,157200,72600,False,1
+2026-03,deepfake_awareness,Deepfake awareness / general interest,20.0,20.0,98727,86692,157200,72600,False,1
+2026-04,deepfake_awareness,Deepfake awareness / general interest,19.0,19.0,93791,82358,149340,61600,False,1
+2026-05,deepfake_awareness,Deepfake awareness / general interest,17.0,17.0,83918,73688,133620,61600,False,1
+2026-06,deepfake_awareness,Deepfake awareness / general interest,16.0,16.0,78982,69354,125760,61600,False,1
+2026-07,deepfake_awareness,Deepfake awareness / general interest,14.0,14.0,69109,60685,110040,59400,False,1
+2026-08,deepfake_awareness,Deepfake awareness / general interest,15.0,15.0,74045,65019,117900,72600,False,1
+2026-09,deepfake_awareness,Deepfake awareness / general interest,15.0,15.0,74045,65019,117900,75300,False,1
+2026-10,deepfake_awareness,Deepfake awareness / general interest,22.0,22.0,108600,95362,172920,,True,1
+2018-01,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-02,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-03,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-04,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-05,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-06,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-07,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-08,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-09,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-10,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-11,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2018-12,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-01,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-02,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-03,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-04,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-05,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-06,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2019-07,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2019-08,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-09,deepfake_explainer,What is a deepfake (explainer searches),0.0,0.0,0,0,0,,False,1
+2019-10,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2019-11,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2019-12,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-01,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2020-02,deepfake_explainer,What is a deepfake (explainer searches),4.0,0.324,5808,4380,7365,,False,1
+2020-03,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-04,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-05,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-06,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-07,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-08,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-09,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2020-10,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2020-11,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2020-12,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2021-01,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2021-02,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2021-03,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,,False,1
+2021-04,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2021-05,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2021-06,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2021-07,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2021-08,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2021-09,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2021-10,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2021-11,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2021-12,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2022-01,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-02,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-03,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,,False,1
+2022-04,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-05,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-06,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-07,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-08,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-09,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-10,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,,False,1
+2022-11,deepfake_explainer,What is a deepfake (explainer searches),1.0,0.081,1452,1095,1841,1700,False,1
+2022-12,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,2110,False,1
+2023-01,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,7530,False,1
+2023-02,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,4310,False,1
+2023-03,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,3210,False,1
+2023-04,deepfake_explainer,What is a deepfake (explainer searches),2.0,0.162,2904,2190,3682,3150,False,1
+2023-05,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,7370,False,1
+2023-06,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,5250,False,1
+2023-07,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,4590,False,1
+2023-08,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,2990,False,1
+2023-09,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,2520,False,1
+2023-10,deepfake_explainer,What is a deepfake (explainer searches),3.0,0.243,4356,3285,5524,2970,False,1
+2023-11,deepfake_explainer,What is a deepfake (explainer searches),100.0,8.108,145200,109500,184118,189900,False,1
+2023-12,deepfake_explainer,What is a deepfake (explainer searches),15.0,1.216,21780,16425,27618,27080,False,1
+2024-01,deepfake_explainer,What is a deepfake (explainer searches),17.0,1.378,24684,18615,31300,31300,False,1
+2024-02,deepfake_explainer,What is a deepfake (explainer searches),9.0,0.73,13068,9855,16571,12890,False,1
+2024-03,deepfake_explainer,What is a deepfake (explainer searches),9.0,0.73,13068,9855,16571,13760,False,1
+2024-04,deepfake_explainer,What is a deepfake (explainer searches),8.0,0.649,11616,8760,14729,15960,False,1
+2024-05,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,11260,False,1
+2024-06,deepfake_explainer,What is a deepfake (explainer searches),7.0,0.568,10164,7665,12888,13060,False,1
+2024-07,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,10320,False,1
+2024-08,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,7170,False,1
+2024-09,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,7440,False,1
+2024-10,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,7410,False,1
+2024-11,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,6140,False,1
+2024-12,deepfake_explainer,What is a deepfake (explainer searches),4.0,0.324,5808,4380,7365,7210,False,1
+2025-01,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,11390,False,1
+2025-02,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,11260,False,1
+2025-03,deepfake_explainer,What is a deepfake (explainer searches),7.0,0.568,10164,7665,12888,10760,False,1
+2025-04,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,7260,False,1
+2025-05,deepfake_explainer,What is a deepfake (explainer searches),4.0,0.324,5808,4380,7365,7170,False,1
+2025-06,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,7260,False,1
+2025-07,deepfake_explainer,What is a deepfake (explainer searches),4.0,0.324,5808,4380,7365,8370,False,1
+2025-08,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,7140,False,1
+2025-09,deepfake_explainer,What is a deepfake (explainer searches),4.0,0.324,5808,4380,7365,8820,False,1
+2025-10,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,9170,False,1
+2025-11,deepfake_explainer,What is a deepfake (explainer searches),11.0,0.892,15972,12045,20253,10210,False,1
+2025-12,deepfake_explainer,What is a deepfake (explainer searches),17.0,1.378,24684,18615,31300,9820,False,1
+2026-01,deepfake_explainer,What is a deepfake (explainer searches),14.0,1.135,20328,15330,25776,15960,False,1
+2026-02,deepfake_explainer,What is a deepfake (explainer searches),11.0,0.892,15972,12045,20253,11320,False,1
+2026-03,deepfake_explainer,What is a deepfake (explainer searches),9.0,0.73,13068,9855,16571,8710,False,1
+2026-04,deepfake_explainer,What is a deepfake (explainer searches),8.0,0.649,11616,8760,14729,8760,False,1
+2026-05,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,10590,False,1
+2026-06,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,8410,False,1
+2026-07,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,8410,False,1
+2026-08,deepfake_explainer,What is a deepfake (explainer searches),5.0,0.405,7260,5475,9206,10260,False,1
+2026-09,deepfake_explainer,What is a deepfake (explainer searches),7.0,0.568,10164,7665,12888,8710,False,1
+2026-10,deepfake_explainer,What is a deepfake (explainer searches),6.0,0.486,8712,6570,11047,,True,1

@@ -1,0 +1,82 @@
+concept,batch,anchor,anchor_total,factor_to_reference,pulls,reference_batch,note
+deepfake_apps,IN-KL IN-DD IN-DN IN-LD,IN-KL,0.0,,1,False,anchor has no data in this batch; states left blank
+deepfake_apps,IN-KL IN-GA IN-TG IN-HP IN-KA,IN-KL,241.0,2.2365,1,False,
+deepfake_apps,IN-KL IN-MN IN-ML IN-AP IN-AS,IN-KL,187.0,2.8824,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apps,IN-KL IN-NL IN-MZ IN-TR IN-AR,IN-KL,143.0,3.7692,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apps,IN-KL IN-OR IN-TN IN-JK IN-UT,IN-KL,416.0,1.2957,1,False,
+deepfake_apps,IN-KL IN-PB IN-CT IN-DL IN-GJ,IN-KL,363.0,1.4848,1,False,
+deepfake_apps,IN-KL IN-RJ IN-UP IN-MP IN-BR,IN-KL,539.0,1.0,1,True,
+deepfake_apps,IN-KL IN-SK IN-PY IN-CH IN-AN,IN-KL,16.0,33.6875,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apps,IN-KL IN-WB IN-JH IN-MH IN-HR,IN-KL,534.0,1.0094,1,False,
+deepfake_apk,IN-AS IN-BR IN-RJ IN-GA IN-ML,IN-AS,53.0,4.1698,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apk,IN-AS IN-CH IN-AN IN-DD IN-DN,IN-AS,6.0,36.8333,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apk,IN-AS IN-CT IN-MH IN-MP IN-TG,IN-AS,221.0,1.0,1,True,
+deepfake_apk,IN-AS IN-JK IN-HP IN-AP IN-GJ,IN-AS,111.0,1.991,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apk,IN-AS IN-KL IN-TR IN-TN IN-JH,IN-AS,221.0,1.0,1,False,
+deepfake_apk,IN-AS IN-LD IN-PY IN-SK,IN-AS,221.0,1.0,1,False,
+deepfake_apk,IN-AS IN-MZ IN-AR IN-NL IN-MN,IN-AS,22.0,10.0455,1,False,low precision: anchor averages under 2 points a month here
+deepfake_apk,IN-AS IN-PB IN-WB IN-KA IN-OR,IN-AS,221.0,1.0,1,False,
+deepfake_apk,IN-AS IN-UT IN-DL IN-HR IN-UP,IN-AS,221.0,1.0,1,False,
+deepfake_free,IN-KL IN-AP IN-KA IN-JH IN-MH,IN-KL,1029.0,1.1186,1,False,
+deepfake_free,IN-KL IN-CT IN-DL IN-JK IN-PB,IN-KL,1042.0,1.1046,1,False,
+deepfake_free,IN-KL IN-DD IN-CH IN-AN IN-DN,IN-KL,16.0,71.9375,1,False,low precision: anchor averages under 2 points a month here
+deepfake_free,IN-KL IN-GJ IN-OR IN-TN IN-WB,IN-KL,1112.0,1.0351,1,False,
+deepfake_free,IN-KL IN-LD IN-PY IN-SK,IN-KL,1151.0,1.0,1,True,
+deepfake_free,IN-KL IN-MZ IN-NL IN-AR IN-MN,IN-KL,91.0,12.6484,1,False,low precision: anchor averages under 2 points a month here
+deepfake_free,IN-KL IN-RJ IN-MP IN-UP IN-BR,IN-KL,1144.0,1.0061,1,False,
+deepfake_free,IN-KL IN-TG IN-HR IN-ML IN-GA,IN-KL,893.0,1.2889,1,False,
+deepfake_free,IN-KL IN-TR IN-UT IN-HP IN-AS,IN-KL,795.0,1.4478,1,False,
+deepfake_makers,IN-AS IN-CH IN-PY IN-AN IN-DD,IN-AS,659.0,1.0,1,True,
+deepfake_makers,IN-AS IN-DL IN-GJ IN-HP IN-JH,IN-AS,631.0,1.0444,1,False,
+deepfake_makers,IN-AS IN-DN IN-LD IN-SK,IN-AS,659.0,1.0,1,False,
+deepfake_makers,IN-AS IN-ML IN-HR IN-GA IN-MH,IN-AS,139.0,4.741,1,False,low precision: anchor averages under 2 points a month here
+deepfake_makers,IN-AS IN-MZ IN-TR IN-AR IN-NL,IN-AS,80.0,8.2375,1,False,low precision: anchor averages under 2 points a month here
+deepfake_makers,IN-AS IN-OR IN-WB IN-CT IN-PB,IN-AS,525.0,1.2552,1,False,
+deepfake_makers,IN-AS IN-RJ IN-TN IN-KA IN-TG,IN-AS,659.0,1.0,1,False,
+deepfake_makers,IN-AS IN-UP IN-BR IN-AP IN-MP,IN-AS,659.0,1.0,1,False,
+deepfake_makers,IN-AS IN-UT IN-MN IN-JK IN-KL,IN-AS,467.0,1.4111,1,False,
+face_swap,IN-BR IN-AR IN-KL IN-AP IN-TG,IN-BR,586.0,1.0,1,True,
+face_swap,IN-BR IN-CH IN-AN IN-LD,IN-BR,30.0,19.5333,1,False,low precision: anchor averages under 2 points a month here
+face_swap,IN-BR IN-DD IN-DN IN-PY IN-SK,IN-BR,586.0,1.0,1,False,
+face_swap,IN-BR IN-JK IN-HP IN-GA IN-KA,IN-BR,586.0,1.0,1,False,
+face_swap,IN-BR IN-NL IN-WB IN-DL IN-MH,IN-BR,586.0,1.0,1,False,
+face_swap,IN-BR IN-OR IN-CT IN-AS IN-PB,IN-BR,586.0,1.0,1,False,
+face_swap,IN-BR IN-TN IN-HR IN-ML IN-UT,IN-BR,586.0,1.0,1,False,
+face_swap,IN-BR IN-TR IN-MP IN-MZ IN-RJ,IN-BR,586.0,1.0,1,False,
+face_swap,IN-BR IN-UP IN-JH IN-MN IN-GJ,IN-BR,586.0,1.0,1,False,
+face_swap_video,IN-BR IN-AP IN-KA IN-GA IN-HR,IN-BR,1036.0,1.0,1,True,
+face_swap_video,IN-BR IN-CH IN-DD IN-LD,IN-BR,0.0,,1,False,anchor has no data in this batch; states left blank
+face_swap_video,IN-BR IN-HP IN-MH IN-TG IN-DL,IN-BR,1036.0,1.0,1,False,
+face_swap_video,IN-BR IN-JH IN-MN IN-GJ IN-UP,IN-BR,700.0,1.48,1,False,
+face_swap_video,IN-BR IN-MZ IN-TR IN-AR IN-ML,IN-BR,574.0,1.8049,1,False,
+face_swap_video,IN-BR IN-NL IN-UT IN-AS IN-PB,IN-BR,1036.0,1.0,1,False,
+face_swap_video,IN-BR IN-OR IN-WB IN-JK IN-RJ,IN-BR,1036.0,1.0,1,False,
+face_swap_video,IN-BR IN-SK IN-DN IN-AN IN-PY,IN-BR,461.0,2.2473,1,False,
+face_swap_video,IN-BR IN-TN IN-CT IN-KL IN-MP,IN-BR,1036.0,1.0,1,False,
+reface,IN-AS IN-HR IN-BR IN-RJ IN-MP,IN-AS,454.0,1.0,1,True,
+reface,IN-AS IN-JH IN-OR IN-CT IN-HP,IN-AS,454.0,1.0,1,False,
+reface,IN-AS IN-MN IN-MZ IN-TR IN-ML,IN-AS,218.0,2.0826,1,False,
+reface,IN-AS IN-NL IN-AR IN-KL IN-UT,IN-AS,376.0,1.2074,1,False,
+reface,IN-AS IN-PB IN-MH IN-GJ IN-KA,IN-AS,454.0,1.0,1,False,
+reface,IN-AS IN-PY IN-CH IN-LD,IN-AS,454.0,1.0,1,False,
+reface,IN-AS IN-SK IN-DD IN-AN IN-DN,IN-AS,85.0,5.3412,1,False,low precision: anchor averages under 2 points a month here
+reface,IN-AS IN-TN IN-WB IN-AP IN-JK,IN-AS,450.0,1.0089,1,False,
+reface,IN-AS IN-UP IN-TG IN-DL IN-GA,IN-AS,421.0,1.0784,1,False,
+deepfake_awareness,IN-KL IN-AN IN-SK IN-PY IN-DN,IN-KL,1571.0,1.6149,1,False,
+deepfake_awareness,IN-KL IN-DD IN-CH IN-LD,IN-KL,705.0,3.5986,1,False,
+deepfake_awareness,IN-KL IN-GJ IN-UT IN-WB IN-JH,IN-KL,2147.0,1.1816,1,False,
+deepfake_awareness,IN-KL IN-MH IN-DL IN-MP IN-GA,IN-KL,2061.0,1.231,1,False,
+deepfake_awareness,IN-KL IN-MZ IN-NL IN-AR IN-MN,IN-KL,1390.0,1.8252,1,False,
+deepfake_awareness,IN-KL IN-OR IN-KA IN-CT IN-HP,IN-KL,2209.0,1.1485,1,False,
+deepfake_awareness,IN-KL IN-RJ IN-HR IN-UP IN-BR,IN-KL,2537.0,1.0,1,True,
+deepfake_awareness,IN-KL IN-TG IN-TN IN-JK IN-PB,IN-KL,1700.0,1.4924,1,False,
+deepfake_awareness,IN-KL IN-TR IN-AP IN-ML IN-AS,IN-KL,1676.0,1.5137,1,False,
+deepfake_explainer,IN-DL IN-AR IN-NL IN-TR IN-ML,IN-DL,100.0,2.93,1,False,low precision: anchor averages under 2 points a month here
+deepfake_explainer,IN-DL IN-CT IN-TG IN-UP IN-GJ,IN-DL,293.0,1.0,1,True,
+deepfake_explainer,IN-DL IN-DN IN-LD IN-SK,IN-DL,0.0,,1,False,anchor has no data in this batch; states left blank
+deepfake_explainer,IN-DL IN-HR IN-JK IN-MH IN-JH,IN-DL,293.0,1.0,1,False,
+deepfake_explainer,IN-DL IN-KA IN-PB IN-WB IN-AS,IN-DL,293.0,1.0,1,False,
+deepfake_explainer,IN-DL IN-KL IN-OR IN-HP IN-TN,IN-DL,293.0,1.0,1,False,
+deepfake_explainer,IN-DL IN-MZ IN-MN IN-UT IN-GA,IN-DL,42.0,6.9762,1,False,low precision: anchor averages under 2 points a month here
+deepfake_explainer,IN-DL IN-PY IN-CH IN-AN IN-DD,IN-DL,35.0,8.3714,1,False,low precision: anchor averages under 2 points a month here
+deepfake_explainer,IN-DL IN-RJ IN-AP IN-BR IN-MP,IN-DL,293.0,1.0,1,False,

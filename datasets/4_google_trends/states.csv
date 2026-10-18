@@ -1,0 +1,1869 @@
+period,geo_code,state,concept,label,index,pulls_averaged
+2018,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),23.0,1
+2018,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),27.0,1
+2018,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),21.0,1
+2018,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),100.0,1
+2018,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),18.0,1
+2018,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),35.0,1
+2018,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2018,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2018,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2018,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2018,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,41.0,1
+2018,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,42.0,1
+2018,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2018,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2018,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,52.0,1
+2018,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,49.0,1
+2018,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,99.0,1
+2018,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2018,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2018,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2018,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2018,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2018,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+2018,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2018,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2018,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+2018,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,54.0,1
+2018,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2018,IN-LD,Lakshadweep,deepfake_free,Free deepfake tools,100.0,1
+2018,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2018,IN-AP,Andhra Pradesh,face_swap,Face swap (any),27.0,1
+2018,IN-AS,Assam,face_swap,Face swap (any),57.0,1
+2018,IN-BR,Bihar,face_swap,Face swap (any),22.0,1
+2018,IN-CH,Chandigarh,face_swap,Face swap (any),86.0,1
+2018,IN-DL,Delhi,face_swap,Face swap (any),66.0,1
+2018,IN-GJ,Gujarat,face_swap,Face swap (any),58.0,1
+2018,IN-HR,Haryana,face_swap,Face swap (any),62.0,1
+2018,IN-KA,Karnataka,face_swap,Face swap (any),82.0,1
+2018,IN-KL,Kerala,face_swap,Face swap (any),100.0,1
+2018,IN-MH,Maharashtra,face_swap,Face swap (any),65.0,1
+2018,IN-MP,Madhya Pradesh,face_swap,Face swap (any),41.0,1
+2018,IN-OR,Odisha,face_swap,Face swap (any),96.0,1
+2018,IN-PB,Punjab,face_swap,Face swap (any),62.0,1
+2018,IN-RJ,Rajasthan,face_swap,Face swap (any),45.0,1
+2018,IN-TG,Telangana,face_swap,Face swap (any),62.0,1
+2018,IN-TN,Tamil Nadu,face_swap,Face swap (any),65.0,1
+2018,IN-UP,Uttar Pradesh,face_swap,Face swap (any),37.0,1
+2018,IN-WB,West Bengal,face_swap,Face swap (any),60.0,1
+2018,IN-KA,Karnataka,face_swap_video,Video face swap,100.0,1
+2018,IN-MH,Maharashtra,face_swap_video,Video face swap,36.0,1
+2018,IN-GJ,Gujarat,reface,Reface (named app),74.0,1
+2018,IN-KA,Karnataka,reface,Reface (named app),80.0,1
+2018,IN-KL,Kerala,reface,Reface (named app),100.0,1
+2018,IN-MH,Maharashtra,reface,Reface (named app),59.0,1
+2018,IN-TN,Tamil Nadu,reface,Reface (named app),88.0,1
+2018,IN-WB,West Bengal,reface,Reface (named app),63.0,1
+2019,IN-BR,Bihar,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",58.0,1
+2019,IN-DL,Delhi,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",55.0,1
+2019,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",53.0,1
+2019,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2019,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2019,IN-TG,Telangana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",70.0,1
+2019,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",85.0,1
+2019,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",31.0,1
+2019,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),7.0,1
+2019,IN-AS,Assam,deepfake_apps,Deepfake apps (any),5.0,1
+2019,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),2.0,1
+2019,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),5.0,1
+2019,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),5.0,1
+2019,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),3.0,1
+2019,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),6.0,1
+2019,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),10.0,1
+2019,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),4.0,1
+2019,IN-ML,Meghalaya,deepfake_apps,Deepfake apps (any),100.0,1
+2019,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),1.0,1
+2019,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),6.0,1
+2019,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),2.0,1
+2019,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),4.0,1
+2019,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),7.0,1
+2019,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),3.0,1
+2019,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),5.0,1
+2019,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+2019,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,55.0,1
+2019,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2019,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,7.0,1
+2019,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2019,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2019,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+2019,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2019,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2019,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2019,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,10.0,1
+2019,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2019,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+2019,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2019,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,14.0,1
+2019,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2019,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,52.0,1
+2019,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2019,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2019,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,47.0,1
+2019,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2019,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2019,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,8.0,1
+2019,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+2019,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+2019,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2019,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2019,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2019,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),73.0,1
+2019,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),61.0,1
+2019,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2019,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),57.0,1
+2019,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),77.0,1
+2019,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),27.0,1
+2019,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,100.0,1
+2019,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,42.0,1
+2019,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2019,IN-AP,Andhra Pradesh,face_swap,Face swap (any),36.0,1
+2019,IN-AS,Assam,face_swap,Face swap (any),51.0,1
+2019,IN-BR,Bihar,face_swap,Face swap (any),13.0,1
+2019,IN-DL,Delhi,face_swap,Face swap (any),40.0,1
+2019,IN-GJ,Gujarat,face_swap,Face swap (any),29.0,1
+2019,IN-HP,Himachal Pradesh,face_swap,Face swap (any),41.0,1
+2019,IN-HR,Haryana,face_swap,Face swap (any),36.0,1
+2019,IN-KA,Karnataka,face_swap,Face swap (any),44.0,1
+2019,IN-KL,Kerala,face_swap,Face swap (any),64.0,1
+2019,IN-MH,Maharashtra,face_swap,Face swap (any),37.0,1
+2019,IN-MN,Manipur,face_swap,Face swap (any),100.0,1
+2019,IN-MP,Madhya Pradesh,face_swap,Face swap (any),17.0,1
+2019,IN-OR,Odisha,face_swap,Face swap (any),40.0,1
+2019,IN-PB,Punjab,face_swap,Face swap (any),31.0,1
+2019,IN-RJ,Rajasthan,face_swap,Face swap (any),19.0,1
+2019,IN-TG,Telangana,face_swap,Face swap (any),35.0,1
+2019,IN-TN,Tamil Nadu,face_swap,Face swap (any),39.0,1
+2019,IN-UP,Uttar Pradesh,face_swap,Face swap (any),18.0,1
+2019,IN-UT,Uttarakhand,face_swap,Face swap (any),52.0,1
+2019,IN-WB,West Bengal,face_swap,Face swap (any),26.0,1
+2019,IN-HR,Haryana,face_swap_video,Video face swap,67.0,1
+2019,IN-KA,Karnataka,face_swap_video,Video face swap,36.0,1
+2019,IN-KL,Kerala,face_swap_video,Video face swap,100.0,1
+2019,IN-MH,Maharashtra,face_swap_video,Video face swap,27.0,1
+2019,IN-RJ,Rajasthan,face_swap_video,Video face swap,41.0,1
+2019,IN-TN,Tamil Nadu,face_swap_video,Video face swap,41.0,1
+2019,IN-DL,Delhi,reface,Reface (named app),82.0,1
+2019,IN-KA,Karnataka,reface,Reface (named app),69.0,1
+2019,IN-MH,Maharashtra,reface,Reface (named app),92.0,1
+2019,IN-TN,Tamil Nadu,reface,Reface (named app),100.0,1
+2019,IN-UP,Uttar Pradesh,reface,Reface (named app),42.0,1
+2020,IN-AP,Andhra Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",59.0,1
+2020,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",40.0,1
+2020,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2020,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",30.0,1
+2020,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",63.0,1
+2020,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",17.0,1
+2020,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),44.0,1
+2020,IN-AS,Assam,deepfake_apps,Deepfake apps (any),36.0,1
+2020,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),19.0,1
+2020,IN-CT,Chhattisgarh,deepfake_apps,Deepfake apps (any),44.0,1
+2020,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),35.0,1
+2020,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),23.0,1
+2020,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),16.0,1
+2020,IN-JH,Jharkhand,deepfake_apps,Deepfake apps (any),28.0,1
+2020,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),43.0,1
+2020,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),70.0,1
+2020,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),32.0,1
+2020,IN-MN,Manipur,deepfake_apps,Deepfake apps (any),100.0,1
+2020,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),17.0,1
+2020,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),29.0,1
+2020,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),12.0,1
+2020,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),39.0,1
+2020,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),61.0,1
+2020,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),22.0,1
+2020,IN-UT,Uttarakhand,deepfake_apps,Deepfake apps (any),52.0,1
+2020,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),28.0,1
+2020,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,48.0,1
+2020,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,68.0,1
+2020,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2020,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+2020,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2020,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2020,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2020,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,13.0,1
+2020,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2020,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2020,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,14.0,1
+2020,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+2020,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+2020,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2020,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,43.0,1
+2020,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2020,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,36.0,1
+2020,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,75.0,1
+2020,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+2020,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2020,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,75.0,1
+2020,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2020,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2020,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,38.0,1
+2020,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,14.0,1
+2020,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2020,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,46.0,1
+2020,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,45.0,1
+2020,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,31.0,1
+2020,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,14.0,1
+2020,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2020,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+2020,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),51.0,1
+2020,IN-AS,Assam,deepfake_explainer,What is a deepfake (explainer searches),92.0,1
+2020,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2020,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),45.0,1
+2020,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),72.0,1
+2020,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),61.0,1
+2020,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),54.0,1
+2020,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),34.0,1
+2020,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),77.0,1
+2020,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),55.0,1
+2020,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),41.0,1
+2020,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),45.0,1
+2020,IN-HP,Himachal Pradesh,deepfake_free,Free deepfake tools,100.0,1
+2020,IN-KA,Karnataka,deepfake_free,Free deepfake tools,19.0,1
+2020,IN-KL,Kerala,deepfake_free,Free deepfake tools,30.0,1
+2020,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,12.0,1
+2020,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,15.0,1
+2020,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,23.0,1
+2020,IN-UT,Uttarakhand,deepfake_free,Free deepfake tools,97.0,1
+2020,IN-WB,West Bengal,deepfake_free,Free deepfake tools,12.0,1
+2020,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,42.0,1
+2020,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,36.0,1
+2020,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,24.0,1
+2020,IN-JK,Jammu and Kashmir,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2020,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,34.0,1
+2020,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,54.0,1
+2020,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,25.0,1
+2020,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,12.0,1
+2020,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,26.0,1
+2020,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,53.0,1
+2020,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,20.0,1
+2020,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,40.0,1
+2020,IN-AP,Andhra Pradesh,face_swap,Face swap (any),47.0,1
+2020,IN-AS,Assam,face_swap,Face swap (any),49.0,1
+2020,IN-BR,Bihar,face_swap,Face swap (any),21.0,1
+2020,IN-CT,Chhattisgarh,face_swap,Face swap (any),43.0,1
+2020,IN-DL,Delhi,face_swap,Face swap (any),53.0,1
+2020,IN-GJ,Gujarat,face_swap,Face swap (any),40.0,1
+2020,IN-HP,Himachal Pradesh,face_swap,Face swap (any),45.0,1
+2020,IN-HR,Haryana,face_swap,Face swap (any),35.0,1
+2020,IN-JH,Jharkhand,face_swap,Face swap (any),40.0,1
+2020,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),56.0,1
+2020,IN-KA,Karnataka,face_swap,Face swap (any),58.0,1
+2020,IN-KL,Kerala,face_swap,Face swap (any),99.0,1
+2020,IN-MH,Maharashtra,face_swap,Face swap (any),54.0,1
+2020,IN-MN,Manipur,face_swap,Face swap (any),100.0,1
+2020,IN-MP,Madhya Pradesh,face_swap,Face swap (any),29.0,1
+2020,IN-OR,Odisha,face_swap,Face swap (any),35.0,1
+2020,IN-PB,Punjab,face_swap,Face swap (any),33.0,1
+2020,IN-RJ,Rajasthan,face_swap,Face swap (any),33.0,1
+2020,IN-TG,Telangana,face_swap,Face swap (any),48.0,1
+2020,IN-TN,Tamil Nadu,face_swap,Face swap (any),67.0,1
+2020,IN-UP,Uttar Pradesh,face_swap,Face swap (any),30.0,1
+2020,IN-UT,Uttarakhand,face_swap,Face swap (any),53.0,1
+2020,IN-WB,West Bengal,face_swap,Face swap (any),46.0,1
+2020,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,33.0,1
+2020,IN-AS,Assam,face_swap_video,Video face swap,46.0,1
+2020,IN-DL,Delhi,face_swap_video,Video face swap,42.0,1
+2020,IN-GJ,Gujarat,face_swap_video,Video face swap,32.0,1
+2020,IN-KA,Karnataka,face_swap_video,Video face swap,43.0,1
+2020,IN-KL,Kerala,face_swap_video,Video face swap,100.0,1
+2020,IN-MH,Maharashtra,face_swap_video,Video face swap,38.0,1
+2020,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,22.0,1
+2020,IN-PB,Punjab,face_swap_video,Video face swap,34.0,1
+2020,IN-RJ,Rajasthan,face_swap_video,Video face swap,38.0,1
+2020,IN-TG,Telangana,face_swap_video,Video face swap,33.0,1
+2020,IN-TN,Tamil Nadu,face_swap_video,Video face swap,62.0,1
+2020,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,21.0,1
+2020,IN-WB,West Bengal,face_swap_video,Video face swap,39.0,1
+2020,IN-AP,Andhra Pradesh,reface,Reface (named app),24.0,1
+2020,IN-AR,Arunachal Pradesh,reface,Reface (named app),48.0,1
+2020,IN-AS,Assam,reface,Reface (named app),22.0,1
+2020,IN-BR,Bihar,reface,Reface (named app),7.0,1
+2020,IN-CT,Chhattisgarh,reface,Reface (named app),15.0,1
+2020,IN-DL,Delhi,reface,Reface (named app),16.0,1
+2020,IN-GA,Goa,reface,Reface (named app),13.0,1
+2020,IN-GJ,Gujarat,reface,Reface (named app),14.0,1
+2020,IN-HP,Himachal Pradesh,reface,Reface (named app),15.0,1
+2020,IN-HR,Haryana,reface,Reface (named app),9.0,1
+2020,IN-JH,Jharkhand,reface,Reface (named app),13.0,1
+2020,IN-JK,Jammu and Kashmir,reface,Reface (named app),11.0,1
+2020,IN-KA,Karnataka,reface,Reface (named app),16.0,1
+2020,IN-KL,Kerala,reface,Reface (named app),29.0,1
+2020,IN-MH,Maharashtra,reface,Reface (named app),14.0,1
+2020,IN-ML,Meghalaya,reface,Reface (named app),44.0,1
+2020,IN-MN,Manipur,reface,Reface (named app),40.0,1
+2020,IN-MP,Madhya Pradesh,reface,Reface (named app),9.0,1
+2020,IN-MZ,Mizoram,reface,Reface (named app),42.0,1
+2020,IN-NL,Nagaland,reface,Reface (named app),32.0,1
+2020,IN-OR,Odisha,reface,Reface (named app),14.0,1
+2020,IN-PB,Punjab,reface,Reface (named app),13.0,1
+2020,IN-PY,Puducherry,reface,Reface (named app),26.0,1
+2020,IN-RJ,Rajasthan,reface,Reface (named app),10.0,1
+2020,IN-SK,Sikkim,reface,Reface (named app),100.0,1
+2020,IN-TG,Telangana,reface,Reface (named app),18.0,1
+2020,IN-TN,Tamil Nadu,reface,Reface (named app),21.0,1
+2020,IN-TR,Tripura,reface,Reface (named app),24.0,1
+2020,IN-UP,Uttar Pradesh,reface,Reface (named app),9.0,1
+2020,IN-UT,Uttarakhand,reface,Reface (named app),25.0,1
+2020,IN-WB,West Bengal,reface,Reface (named app),22.0,1
+2021,IN-GJ,Gujarat,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2021,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",45.0,1
+2021,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2021,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",37.0,1
+2021,IN-TG,Telangana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",33.0,1
+2021,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",89.0,1
+2021,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",24.0,1
+2021,IN-WB,West Bengal,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",34.0,1
+2021,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),37.0,1
+2021,IN-AS,Assam,deepfake_apps,Deepfake apps (any),41.0,1
+2021,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),18.0,1
+2021,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),27.0,1
+2021,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),28.0,1
+2021,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),23.0,1
+2021,IN-JK,Jammu and Kashmir,deepfake_apps,Deepfake apps (any),63.0,1
+2021,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),32.0,1
+2021,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),45.0,1
+2021,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),28.0,1
+2021,IN-MN,Manipur,deepfake_apps,Deepfake apps (any),100.0,1
+2021,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),21.0,1
+2021,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),22.0,1
+2021,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),25.0,1
+2021,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),16.0,1
+2021,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),28.0,1
+2021,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),62.0,1
+2021,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),19.0,1
+2021,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),23.0,1
+2021,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2021,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2021,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,52.0,1
+2021,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2021,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,10.0,1
+2021,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2021,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,13.0,1
+2021,IN-DD,Daman and Diu,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2021,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2021,IN-DN,Dadra and Nagar Haveli,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2021,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,13.0,1
+2021,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2021,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+2021,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,8.0,1
+2021,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2021,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+2021,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2021,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2021,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,14.0,1
+2021,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+2021,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,63.0,1
+2021,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2021,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2021,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,49.0,1
+2021,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,14.0,1
+2021,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2021,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,13.0,1
+2021,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,10.0,1
+2021,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+2021,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2021,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2021,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2021,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2021,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2021,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2021,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),58.0,1
+2021,IN-BR,Bihar,deepfake_explainer,What is a deepfake (explainer searches),46.0,1
+2021,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2021,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),40.0,1
+2021,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),79.0,1
+2021,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),86.0,1
+2021,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),82.0,1
+2021,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),64.0,1
+2021,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),38.0,1
+2021,IN-OR,Odisha,deepfake_explainer,What is a deepfake (explainer searches),93.0,1
+2021,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),43.0,1
+2021,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),58.0,1
+2021,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),38.0,1
+2021,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),41.0,1
+2021,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),45.0,1
+2021,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,69.0,1
+2021,IN-DL,Delhi,deepfake_free,Free deepfake tools,40.0,1
+2021,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,63.0,1
+2021,IN-KA,Karnataka,deepfake_free,Free deepfake tools,46.0,1
+2021,IN-KL,Kerala,deepfake_free,Free deepfake tools,100.0,1
+2021,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,61.0,1
+2021,IN-TG,Telangana,deepfake_free,Free deepfake tools,45.0,1
+2021,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,69.0,1
+2021,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,28.0,1
+2021,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,65.0,1
+2021,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,77.0,1
+2021,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,36.0,1
+2021,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,60.0,1
+2021,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,52.0,1
+2021,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,65.0,1
+2021,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2021,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,55.0,1
+2021,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,24.0,1
+2021,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,67.0,1
+2021,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,57.0,1
+2021,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,73.0,1
+2021,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,30.0,1
+2021,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,38.0,1
+2021,IN-AP,Andhra Pradesh,face_swap,Face swap (any),25.0,1
+2021,IN-AS,Assam,face_swap,Face swap (any),27.0,1
+2021,IN-BR,Bihar,face_swap,Face swap (any),9.0,1
+2021,IN-CH,Chandigarh,face_swap,Face swap (any),28.0,1
+2021,IN-CT,Chhattisgarh,face_swap,Face swap (any),26.0,1
+2021,IN-DL,Delhi,face_swap,Face swap (any),32.0,1
+2021,IN-GA,Goa,face_swap,Face swap (any),37.0,1
+2021,IN-GJ,Gujarat,face_swap,Face swap (any),21.0,1
+2021,IN-HP,Himachal Pradesh,face_swap,Face swap (any),19.0,1
+2021,IN-HR,Haryana,face_swap,Face swap (any),15.0,1
+2021,IN-JH,Jharkhand,face_swap,Face swap (any),22.0,1
+2021,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),19.0,1
+2021,IN-KA,Karnataka,face_swap,Face swap (any),30.0,1
+2021,IN-KL,Kerala,face_swap,Face swap (any),35.0,1
+2021,IN-MH,Maharashtra,face_swap,Face swap (any),25.0,1
+2021,IN-MN,Manipur,face_swap,Face swap (any),40.0,1
+2021,IN-MP,Madhya Pradesh,face_swap,Face swap (any),18.0,1
+2021,IN-NL,Nagaland,face_swap,Face swap (any),100.0,1
+2021,IN-OR,Odisha,face_swap,Face swap (any),27.0,1
+2021,IN-PB,Punjab,face_swap,Face swap (any),22.0,1
+2021,IN-RJ,Rajasthan,face_swap,Face swap (any),20.0,1
+2021,IN-TG,Telangana,face_swap,Face swap (any),21.0,1
+2021,IN-TN,Tamil Nadu,face_swap,Face swap (any),30.0,1
+2021,IN-UP,Uttar Pradesh,face_swap,Face swap (any),16.0,1
+2021,IN-UT,Uttarakhand,face_swap,Face swap (any),19.0,1
+2021,IN-WB,West Bengal,face_swap,Face swap (any),24.0,1
+2021,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,46.0,1
+2021,IN-DL,Delhi,face_swap_video,Video face swap,61.0,1
+2021,IN-GJ,Gujarat,face_swap_video,Video face swap,53.0,1
+2021,IN-HR,Haryana,face_swap_video,Video face swap,39.0,1
+2021,IN-KA,Karnataka,face_swap_video,Video face swap,66.0,1
+2021,IN-KL,Kerala,face_swap_video,Video face swap,86.0,1
+2021,IN-MH,Maharashtra,face_swap_video,Video face swap,65.0,1
+2021,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,33.0,1
+2021,IN-OR,Odisha,face_swap_video,Video face swap,81.0,1
+2021,IN-PB,Punjab,face_swap_video,Video face swap,52.0,1
+2021,IN-RJ,Rajasthan,face_swap_video,Video face swap,50.0,1
+2021,IN-TG,Telangana,face_swap_video,Video face swap,40.0,1
+2021,IN-TN,Tamil Nadu,face_swap_video,Video face swap,100.0,1
+2021,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,38.0,1
+2021,IN-WB,West Bengal,face_swap_video,Video face swap,68.0,1
+2021,IN-AP,Andhra Pradesh,reface,Reface (named app),61.0,1
+2021,IN-AS,Assam,reface,Reface (named app),55.0,1
+2021,IN-BR,Bihar,reface,Reface (named app),25.0,1
+2021,IN-CH,Chandigarh,reface,Reface (named app),38.0,1
+2021,IN-CT,Chhattisgarh,reface,Reface (named app),50.0,1
+2021,IN-DL,Delhi,reface,Reface (named app),44.0,1
+2021,IN-GA,Goa,reface,Reface (named app),41.0,1
+2021,IN-GJ,Gujarat,reface,Reface (named app),42.0,1
+2021,IN-HP,Himachal Pradesh,reface,Reface (named app),39.0,1
+2021,IN-HR,Haryana,reface,Reface (named app),37.0,1
+2021,IN-JH,Jharkhand,reface,Reface (named app),46.0,1
+2021,IN-JK,Jammu and Kashmir,reface,Reface (named app),53.0,1
+2021,IN-KA,Karnataka,reface,Reface (named app),46.0,1
+2021,IN-KL,Kerala,reface,Reface (named app),69.0,1
+2021,IN-MH,Maharashtra,reface,Reface (named app),46.0,1
+2021,IN-ML,Meghalaya,reface,Reface (named app),96.0,1
+2021,IN-MN,Manipur,reface,Reface (named app),100.0,1
+2021,IN-MP,Madhya Pradesh,reface,Reface (named app),31.0,1
+2021,IN-NL,Nagaland,reface,Reface (named app),88.0,1
+2021,IN-OR,Odisha,reface,Reface (named app),44.0,1
+2021,IN-PB,Punjab,reface,Reface (named app),43.0,1
+2021,IN-RJ,Rajasthan,reface,Reface (named app),32.0,1
+2021,IN-TG,Telangana,reface,Reface (named app),42.0,1
+2021,IN-TN,Tamil Nadu,reface,Reface (named app),57.0,1
+2021,IN-UP,Uttar Pradesh,reface,Reface (named app),35.0,1
+2021,IN-UT,Uttarakhand,reface,Reface (named app),61.0,1
+2021,IN-WB,West Bengal,reface,Reface (named app),39.0,1
+2022,IN-AP,Andhra Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",80.0,1
+2022,IN-DL,Delhi,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",51.0,1
+2022,IN-GJ,Gujarat,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",77.0,1
+2022,IN-HR,Haryana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",62.0,1
+2022,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2022,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",99.0,1
+2022,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",51.0,1
+2022,IN-TG,Telangana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",63.0,1
+2022,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2022,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",32.0,1
+2022,IN-WB,West Bengal,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",82.0,1
+2022,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),53.0,1
+2022,IN-AS,Assam,deepfake_apps,Deepfake apps (any),66.0,1
+2022,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),21.0,1
+2022,IN-CT,Chhattisgarh,deepfake_apps,Deepfake apps (any),52.0,1
+2022,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),39.0,1
+2022,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),43.0,1
+2022,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),30.0,1
+2022,IN-JK,Jammu and Kashmir,deepfake_apps,Deepfake apps (any),57.0,1
+2022,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),48.0,1
+2022,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),84.0,1
+2022,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),43.0,1
+2022,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),35.0,1
+2022,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),50.0,1
+2022,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),38.0,1
+2022,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),30.0,1
+2022,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),46.0,1
+2022,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),100.0,1
+2022,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),26.0,1
+2022,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),50.0,1
+2022,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2022,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+2022,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,33.0,1
+2022,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2022,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,6.0,1
+2022,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2022,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2022,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,7.0,1
+2022,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2022,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,8.0,1
+2022,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2022,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,6.0,1
+2022,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,8.0,1
+2022,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,12.0,1
+2022,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2022,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+2022,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,10.0,1
+2022,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,31.0,1
+2022,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,56.0,1
+2022,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,7.0,1
+2022,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2022,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,43.0,1
+2022,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,11.0,1
+2022,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,10.0,1
+2022,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2022,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,7.0,1
+2022,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,13.0,1
+2022,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+2022,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+2022,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+2022,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,6.0,1
+2022,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,9.0,1
+2022,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,10.0,1
+2022,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),39.0,1
+2022,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),90.0,1
+2022,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),50.0,1
+2022,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),54.0,1
+2022,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),45.0,1
+2022,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),81.0,1
+2022,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),57.0,1
+2022,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),38.0,1
+2022,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),32.0,1
+2022,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),61.0,1
+2022,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2022,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),47.0,1
+2022,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),43.0,1
+2022,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,92.0,1
+2022,IN-DL,Delhi,deepfake_free,Free deepfake tools,66.0,1
+2022,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,63.0,1
+2022,IN-HR,Haryana,deepfake_free,Free deepfake tools,47.0,1
+2022,IN-KA,Karnataka,deepfake_free,Free deepfake tools,68.0,1
+2022,IN-KL,Kerala,deepfake_free,Free deepfake tools,100.0,1
+2022,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,50.0,1
+2022,IN-MP,Madhya Pradesh,deepfake_free,Free deepfake tools,74.0,1
+2022,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,32.0,1
+2022,IN-TG,Telangana,deepfake_free,Free deepfake tools,56.0,1
+2022,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,85.0,1
+2022,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,35.0,1
+2022,IN-WB,West Bengal,deepfake_free,Free deepfake tools,51.0,1
+2022,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,57.0,1
+2022,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,83.0,1
+2022,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,31.0,1
+2022,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,42.0,1
+2022,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,71.0,1
+2022,IN-HR,Haryana,deepfake_makers,Deepfake makers / generators / software,56.0,1
+2022,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,68.0,1
+2022,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,89.0,1
+2022,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,48.0,1
+2022,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,32.0,1
+2022,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,54.0,1
+2022,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,38.0,1
+2022,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2022,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,25.0,1
+2022,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,57.0,1
+2022,IN-AP,Andhra Pradesh,face_swap,Face swap (any),24.0,1
+2022,IN-AR,Arunachal Pradesh,face_swap,Face swap (any),71.0,1
+2022,IN-AS,Assam,face_swap,Face swap (any),29.0,1
+2022,IN-BR,Bihar,face_swap,Face swap (any),19.0,1
+2022,IN-CH,Chandigarh,face_swap,Face swap (any),49.0,1
+2022,IN-CT,Chhattisgarh,face_swap,Face swap (any),29.0,1
+2022,IN-DL,Delhi,face_swap,Face swap (any),30.0,1
+2022,IN-GA,Goa,face_swap,Face swap (any),25.0,1
+2022,IN-GJ,Gujarat,face_swap,Face swap (any),27.0,1
+2022,IN-HP,Himachal Pradesh,face_swap,Face swap (any),28.0,1
+2022,IN-HR,Haryana,face_swap,Face swap (any),24.0,1
+2022,IN-JH,Jharkhand,face_swap,Face swap (any),27.0,1
+2022,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),35.0,1
+2022,IN-KA,Karnataka,face_swap,Face swap (any),25.0,1
+2022,IN-KL,Kerala,face_swap,Face swap (any),36.0,1
+2022,IN-MH,Maharashtra,face_swap,Face swap (any),28.0,1
+2022,IN-ML,Meghalaya,face_swap,Face swap (any),44.0,1
+2022,IN-MN,Manipur,face_swap,Face swap (any),67.0,1
+2022,IN-MP,Madhya Pradesh,face_swap,Face swap (any),21.0,1
+2022,IN-MZ,Mizoram,face_swap,Face swap (any),100.0,1
+2022,IN-NL,Nagaland,face_swap,Face swap (any),55.0,1
+2022,IN-OR,Odisha,face_swap,Face swap (any),33.0,1
+2022,IN-PB,Punjab,face_swap,Face swap (any),29.0,1
+2022,IN-RJ,Rajasthan,face_swap,Face swap (any),23.0,1
+2022,IN-TG,Telangana,face_swap,Face swap (any),25.0,1
+2022,IN-TN,Tamil Nadu,face_swap,Face swap (any),31.0,1
+2022,IN-TR,Tripura,face_swap,Face swap (any),39.0,1
+2022,IN-UP,Uttar Pradesh,face_swap,Face swap (any),21.0,1
+2022,IN-UT,Uttarakhand,face_swap,Face swap (any),29.0,1
+2022,IN-WB,West Bengal,face_swap,Face swap (any),27.0,1
+2022,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,44.0,1
+2022,IN-AS,Assam,face_swap_video,Video face swap,89.0,1
+2022,IN-BR,Bihar,face_swap_video,Video face swap,42.0,1
+2022,IN-CT,Chhattisgarh,face_swap_video,Video face swap,89.0,1
+2022,IN-DL,Delhi,face_swap_video,Video face swap,65.0,1
+2022,IN-GJ,Gujarat,face_swap_video,Video face swap,64.0,1
+2022,IN-HP,Himachal Pradesh,face_swap_video,Video face swap,77.0,1
+2022,IN-HR,Haryana,face_swap_video,Video face swap,55.0,1
+2022,IN-JH,Jharkhand,face_swap_video,Video face swap,53.0,1
+2022,IN-JK,Jammu and Kashmir,face_swap_video,Video face swap,66.0,1
+2022,IN-KA,Karnataka,face_swap_video,Video face swap,63.0,1
+2022,IN-KL,Kerala,face_swap_video,Video face swap,73.0,1
+2022,IN-MH,Maharashtra,face_swap_video,Video face swap,53.0,1
+2022,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,59.0,1
+2022,IN-OR,Odisha,face_swap_video,Video face swap,100.0,1
+2022,IN-PB,Punjab,face_swap_video,Video face swap,55.0,1
+2022,IN-RJ,Rajasthan,face_swap_video,Video face swap,59.0,1
+2022,IN-TG,Telangana,face_swap_video,Video face swap,56.0,1
+2022,IN-TN,Tamil Nadu,face_swap_video,Video face swap,74.0,1
+2022,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,42.0,1
+2022,IN-UT,Uttarakhand,face_swap_video,Video face swap,70.0,1
+2022,IN-WB,West Bengal,face_swap_video,Video face swap,63.0,1
+2022,IN-AP,Andhra Pradesh,reface,Reface (named app),50.0,1
+2022,IN-AS,Assam,reface,Reface (named app),67.0,1
+2022,IN-BR,Bihar,reface,Reface (named app),48.0,1
+2022,IN-CH,Chandigarh,reface,Reface (named app),51.0,1
+2022,IN-CT,Chhattisgarh,reface,Reface (named app),52.0,1
+2022,IN-DL,Delhi,reface,Reface (named app),49.0,1
+2022,IN-GJ,Gujarat,reface,Reface (named app),56.0,1
+2022,IN-HP,Himachal Pradesh,reface,Reface (named app),48.0,1
+2022,IN-HR,Haryana,reface,Reface (named app),40.0,1
+2022,IN-JH,Jharkhand,reface,Reface (named app),49.0,1
+2022,IN-JK,Jammu and Kashmir,reface,Reface (named app),70.0,1
+2022,IN-KA,Karnataka,reface,Reface (named app),49.0,1
+2022,IN-KL,Kerala,reface,Reface (named app),66.0,1
+2022,IN-MH,Maharashtra,reface,Reface (named app),52.0,1
+2022,IN-ML,Meghalaya,reface,Reface (named app),76.0,1
+2022,IN-MN,Manipur,reface,Reface (named app),49.0,1
+2022,IN-MP,Madhya Pradesh,reface,Reface (named app),47.0,1
+2022,IN-OR,Odisha,reface,Reface (named app),75.0,1
+2022,IN-PB,Punjab,reface,Reface (named app),55.0,1
+2022,IN-RJ,Rajasthan,reface,Reface (named app),41.0,1
+2022,IN-TG,Telangana,reface,Reface (named app),50.0,1
+2022,IN-TN,Tamil Nadu,reface,Reface (named app),56.0,1
+2022,IN-TR,Tripura,reface,Reface (named app),100.0,1
+2022,IN-UP,Uttar Pradesh,reface,Reface (named app),42.0,1
+2022,IN-UT,Uttarakhand,reface,Reface (named app),66.0,1
+2022,IN-WB,West Bengal,reface,Reface (named app),61.0,1
+2023,IN-AP,Andhra Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",35.0,1
+2023,IN-AS,Assam,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2023,IN-BR,Bihar,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",26.0,1
+2023,IN-CT,Chhattisgarh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",32.0,1
+2023,IN-DL,Delhi,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",36.0,1
+2023,IN-GJ,Gujarat,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",44.0,1
+2023,IN-HR,Haryana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",25.0,1
+2023,IN-JH,Jharkhand,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",50.0,1
+2023,IN-JK,Jammu and Kashmir,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",37.0,1
+2023,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",38.0,1
+2023,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",58.0,1
+2023,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",35.0,1
+2023,IN-MP,Madhya Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2023,IN-OR,Odisha,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",52.0,1
+2023,IN-PB,Punjab,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",37.0,1
+2023,IN-RJ,Rajasthan,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",25.0,1
+2023,IN-TG,Telangana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",35.0,1
+2023,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2023,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",28.0,1
+2023,IN-WB,West Bengal,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",40.0,1
+2023,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),65.0,1
+2023,IN-AS,Assam,deepfake_apps,Deepfake apps (any),59.0,1
+2023,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),27.0,1
+2023,IN-CH,Chandigarh,deepfake_apps,Deepfake apps (any),40.0,1
+2023,IN-CT,Chhattisgarh,deepfake_apps,Deepfake apps (any),38.0,1
+2023,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),34.0,1
+2023,IN-GA,Goa,deepfake_apps,Deepfake apps (any),31.0,1
+2023,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),39.0,1
+2023,IN-HP,Himachal Pradesh,deepfake_apps,Deepfake apps (any),44.0,1
+2023,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),28.0,1
+2023,IN-JH,Jharkhand,deepfake_apps,Deepfake apps (any),37.0,1
+2023,IN-JK,Jammu and Kashmir,deepfake_apps,Deepfake apps (any),34.0,1
+2023,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),41.0,1
+2023,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),52.0,1
+2023,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),31.0,1
+2023,IN-MN,Manipur,deepfake_apps,Deepfake apps (any),95.0,1
+2023,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),31.0,1
+2023,IN-NL,Nagaland,deepfake_apps,Deepfake apps (any),95.0,1
+2023,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),66.0,1
+2023,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),36.0,1
+2023,IN-PY,Puducherry,deepfake_apps,Deepfake apps (any),100.0,1
+2023,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),28.0,1
+2023,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),55.0,1
+2023,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),49.0,1
+2023,IN-TR,Tripura,deepfake_apps,Deepfake apps (any),55.0,1
+2023,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),31.0,1
+2023,IN-UT,Uttarakhand,deepfake_apps,Deepfake apps (any),48.0,1
+2023,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),36.0,1
+2023,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,49.0,1
+2023,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,37.0,1
+2023,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,60.0,1
+2023,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,40.0,1
+2023,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2023,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,34.0,1
+2023,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2023,IN-DD,Daman and Diu,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2023,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2023,IN-DN,Dadra and Nagar Haveli,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+2023,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2023,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+2023,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2023,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2023,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2023,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2023,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+2023,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,42.0,1
+2023,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2023,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,41.0,1
+2023,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,86.0,1
+2023,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2023,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2023,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,69.0,1
+2023,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2023,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2023,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2023,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2023,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2023,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,38.0,1
+2023,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,36.0,1
+2023,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,59.0,1
+2023,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2023,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2023,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2023,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),21.0,1
+2023,IN-AS,Assam,deepfake_explainer,What is a deepfake (explainer searches),44.0,1
+2023,IN-BR,Bihar,deepfake_explainer,What is a deepfake (explainer searches),36.0,1
+2023,IN-CH,Chandigarh,deepfake_explainer,What is a deepfake (explainer searches),46.0,1
+2023,IN-CT,Chhattisgarh,deepfake_explainer,What is a deepfake (explainer searches),27.0,1
+2023,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),59.0,1
+2023,IN-GA,Goa,deepfake_explainer,What is a deepfake (explainer searches),59.0,1
+2023,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+2023,IN-HP,Himachal Pradesh,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+2023,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),43.0,1
+2023,IN-JH,Jharkhand,deepfake_explainer,What is a deepfake (explainer searches),44.0,1
+2023,IN-JK,Jammu and Kashmir,deepfake_explainer,What is a deepfake (explainer searches),39.0,1
+2023,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),42.0,1
+2023,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),25.0,1
+2023,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),48.0,1
+2023,IN-ML,Meghalaya,deepfake_explainer,What is a deepfake (explainer searches),53.0,1
+2023,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),32.0,1
+2023,IN-NL,Nagaland,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2023,IN-OR,Odisha,deepfake_explainer,What is a deepfake (explainer searches),46.0,1
+2023,IN-PB,Punjab,deepfake_explainer,What is a deepfake (explainer searches),34.0,1
+2023,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),34.0,1
+2023,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+2023,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),25.0,1
+2023,IN-TR,Tripura,deepfake_explainer,What is a deepfake (explainer searches),44.0,1
+2023,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),36.0,1
+2023,IN-UT,Uttarakhand,deepfake_explainer,What is a deepfake (explainer searches),50.0,1
+2023,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),37.0,1
+2023,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,67.0,1
+2023,IN-AS,Assam,deepfake_free,Free deepfake tools,90.0,1
+2023,IN-BR,Bihar,deepfake_free,Free deepfake tools,48.0,1
+2023,IN-CT,Chhattisgarh,deepfake_free,Free deepfake tools,66.0,1
+2023,IN-DL,Delhi,deepfake_free,Free deepfake tools,74.0,1
+2023,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,74.0,1
+2023,IN-HP,Himachal Pradesh,deepfake_free,Free deepfake tools,81.0,1
+2023,IN-HR,Haryana,deepfake_free,Free deepfake tools,47.0,1
+2023,IN-JH,Jharkhand,deepfake_free,Free deepfake tools,58.0,1
+2023,IN-JK,Jammu and Kashmir,deepfake_free,Free deepfake tools,59.0,1
+2023,IN-KA,Karnataka,deepfake_free,Free deepfake tools,62.0,1
+2023,IN-KL,Kerala,deepfake_free,Free deepfake tools,99.0,1
+2023,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,68.0,1
+2023,IN-MP,Madhya Pradesh,deepfake_free,Free deepfake tools,58.0,1
+2023,IN-OR,Odisha,deepfake_free,Free deepfake tools,99.0,1
+2023,IN-PB,Punjab,deepfake_free,Free deepfake tools,59.0,1
+2023,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,47.0,1
+2023,IN-TG,Telangana,deepfake_free,Free deepfake tools,70.0,1
+2023,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,72.0,1
+2023,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,47.0,1
+2023,IN-UT,Uttarakhand,deepfake_free,Free deepfake tools,100.0,1
+2023,IN-WB,West Bengal,deepfake_free,Free deepfake tools,76.0,1
+2023,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,29.0,1
+2023,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,49.0,1
+2023,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,34.0,1
+2023,IN-CT,Chhattisgarh,deepfake_makers,Deepfake makers / generators / software,34.0,1
+2023,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,49.0,1
+2023,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,44.0,1
+2023,IN-HP,Himachal Pradesh,deepfake_makers,Deepfake makers / generators / software,40.0,1
+2023,IN-HR,Haryana,deepfake_makers,Deepfake makers / generators / software,37.0,1
+2023,IN-JH,Jharkhand,deepfake_makers,Deepfake makers / generators / software,37.0,1
+2023,IN-JK,Jammu and Kashmir,deepfake_makers,Deepfake makers / generators / software,57.0,1
+2023,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,28.0,1
+2023,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,44.0,1
+2023,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,35.0,1
+2023,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,31.0,1
+2023,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,43.0,1
+2023,IN-PB,Punjab,deepfake_makers,Deepfake makers / generators / software,49.0,1
+2023,IN-RJ,Rajasthan,deepfake_makers,Deepfake makers / generators / software,38.0,1
+2023,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,34.0,1
+2023,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,27.0,1
+2023,IN-TR,Tripura,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2023,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,37.0,1
+2023,IN-UT,Uttarakhand,deepfake_makers,Deepfake makers / generators / software,63.0,1
+2023,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,49.0,1
+2023,IN-AP,Andhra Pradesh,face_swap,Face swap (any),30.0,1
+2023,IN-AR,Arunachal Pradesh,face_swap,Face swap (any),54.0,1
+2023,IN-AS,Assam,face_swap,Face swap (any),42.0,1
+2023,IN-BR,Bihar,face_swap,Face swap (any),23.0,1
+2023,IN-CH,Chandigarh,face_swap,Face swap (any),34.0,1
+2023,IN-CT,Chhattisgarh,face_swap,Face swap (any),30.0,1
+2023,IN-DL,Delhi,face_swap,Face swap (any),35.0,1
+2023,IN-GA,Goa,face_swap,Face swap (any),37.0,1
+2023,IN-GJ,Gujarat,face_swap,Face swap (any),36.0,1
+2023,IN-HP,Himachal Pradesh,face_swap,Face swap (any),30.0,1
+2023,IN-HR,Haryana,face_swap,Face swap (any),25.0,1
+2023,IN-JH,Jharkhand,face_swap,Face swap (any),32.0,1
+2023,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),35.0,1
+2023,IN-KA,Karnataka,face_swap,Face swap (any),30.0,1
+2023,IN-KL,Kerala,face_swap,Face swap (any),53.0,1
+2023,IN-MH,Maharashtra,face_swap,Face swap (any),31.0,1
+2023,IN-ML,Meghalaya,face_swap,Face swap (any),28.0,1
+2023,IN-MN,Manipur,face_swap,Face swap (any),71.0,1
+2023,IN-MP,Madhya Pradesh,face_swap,Face swap (any),25.0,1
+2023,IN-MZ,Mizoram,face_swap,Face swap (any),100.0,1
+2023,IN-NL,Nagaland,face_swap,Face swap (any),79.0,1
+2023,IN-OR,Odisha,face_swap,Face swap (any),47.0,1
+2023,IN-PB,Punjab,face_swap,Face swap (any),32.0,1
+2023,IN-PY,Puducherry,face_swap,Face swap (any),39.0,1
+2023,IN-RJ,Rajasthan,face_swap,Face swap (any),24.0,1
+2023,IN-TG,Telangana,face_swap,Face swap (any),30.0,1
+2023,IN-TN,Tamil Nadu,face_swap,Face swap (any),37.0,1
+2023,IN-TR,Tripura,face_swap,Face swap (any),56.0,1
+2023,IN-UP,Uttar Pradesh,face_swap,Face swap (any),22.0,1
+2023,IN-UT,Uttarakhand,face_swap,Face swap (any),38.0,1
+2023,IN-WB,West Bengal,face_swap,Face swap (any),40.0,1
+2023,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,35.0,1
+2023,IN-AS,Assam,face_swap_video,Video face swap,49.0,1
+2023,IN-BR,Bihar,face_swap_video,Video face swap,27.0,1
+2023,IN-CH,Chandigarh,face_swap_video,Video face swap,39.0,1
+2023,IN-CT,Chhattisgarh,face_swap_video,Video face swap,35.0,1
+2023,IN-DL,Delhi,face_swap_video,Video face swap,31.0,1
+2023,IN-GJ,Gujarat,face_swap_video,Video face swap,46.0,1
+2023,IN-HP,Himachal Pradesh,face_swap_video,Video face swap,35.0,1
+2023,IN-HR,Haryana,face_swap_video,Video face swap,26.0,1
+2023,IN-JH,Jharkhand,face_swap_video,Video face swap,36.0,1
+2023,IN-JK,Jammu and Kashmir,face_swap_video,Video face swap,46.0,1
+2023,IN-KA,Karnataka,face_swap_video,Video face swap,34.0,1
+2023,IN-KL,Kerala,face_swap_video,Video face swap,65.0,1
+2023,IN-MH,Maharashtra,face_swap_video,Video face swap,37.0,1
+2023,IN-MN,Manipur,face_swap_video,Video face swap,100.0,1
+2023,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,31.0,1
+2023,IN-OR,Odisha,face_swap_video,Video face swap,52.0,1
+2023,IN-PB,Punjab,face_swap_video,Video face swap,43.0,1
+2023,IN-RJ,Rajasthan,face_swap_video,Video face swap,27.0,1
+2023,IN-TG,Telangana,face_swap_video,Video face swap,30.0,1
+2023,IN-TN,Tamil Nadu,face_swap_video,Video face swap,44.0,1
+2023,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,27.0,1
+2023,IN-UT,Uttarakhand,face_swap_video,Video face swap,50.0,1
+2023,IN-WB,West Bengal,face_swap_video,Video face swap,48.0,1
+2023,IN-AP,Andhra Pradesh,reface,Reface (named app),50.0,1
+2023,IN-AS,Assam,reface,Reface (named app),100.0,1
+2023,IN-BR,Bihar,reface,Reface (named app),60.0,1
+2023,IN-CH,Chandigarh,reface,Reface (named app),59.0,1
+2023,IN-CT,Chhattisgarh,reface,Reface (named app),61.0,1
+2023,IN-DL,Delhi,reface,Reface (named app),50.0,1
+2023,IN-GA,Goa,reface,Reface (named app),25.0,1
+2023,IN-GJ,Gujarat,reface,Reface (named app),67.0,1
+2023,IN-HP,Himachal Pradesh,reface,Reface (named app),53.0,1
+2023,IN-HR,Haryana,reface,Reface (named app),48.0,1
+2023,IN-JH,Jharkhand,reface,Reface (named app),66.0,1
+2023,IN-JK,Jammu and Kashmir,reface,Reface (named app),70.0,1
+2023,IN-KA,Karnataka,reface,Reface (named app),42.0,1
+2023,IN-KL,Kerala,reface,Reface (named app),53.0,1
+2023,IN-MH,Maharashtra,reface,Reface (named app),48.0,1
+2023,IN-ML,Meghalaya,reface,Reface (named app),58.0,1
+2023,IN-MN,Manipur,reface,Reface (named app),76.0,1
+2023,IN-MP,Madhya Pradesh,reface,Reface (named app),61.0,1
+2023,IN-OR,Odisha,reface,Reface (named app),75.0,1
+2023,IN-PB,Punjab,reface,Reface (named app),62.0,1
+2023,IN-RJ,Rajasthan,reface,Reface (named app),60.0,1
+2023,IN-TG,Telangana,reface,Reface (named app),42.0,1
+2023,IN-TN,Tamil Nadu,reface,Reface (named app),45.0,1
+2023,IN-TR,Tripura,reface,Reface (named app),95.0,1
+2023,IN-UP,Uttar Pradesh,reface,Reface (named app),59.0,1
+2023,IN-UT,Uttarakhand,reface,Reface (named app),60.0,1
+2023,IN-WB,West Bengal,reface,Reface (named app),79.0,1
+2024,IN-AP,Andhra Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2024,IN-AS,Assam,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",84.0,1
+2024,IN-DL,Delhi,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",48.0,1
+2024,IN-GJ,Gujarat,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",70.0,1
+2024,IN-HR,Haryana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",39.0,1
+2024,IN-JH,Jharkhand,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2024,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",42.0,1
+2024,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",85.0,1
+2024,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",52.0,1
+2024,IN-MP,Madhya Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",54.0,1
+2024,IN-PB,Punjab,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",62.0,1
+2024,IN-RJ,Rajasthan,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",43.0,1
+2024,IN-TG,Telangana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",41.0,1
+2024,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",67.0,1
+2024,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",36.0,1
+2024,IN-WB,West Bengal,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",61.0,1
+2024,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),60.0,1
+2024,IN-AS,Assam,deepfake_apps,Deepfake apps (any),56.0,1
+2024,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),35.0,1
+2024,IN-CH,Chandigarh,deepfake_apps,Deepfake apps (any),100.0,1
+2024,IN-CT,Chhattisgarh,deepfake_apps,Deepfake apps (any),32.0,1
+2024,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),35.0,1
+2024,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),46.0,1
+2024,IN-HP,Himachal Pradesh,deepfake_apps,Deepfake apps (any),50.0,1
+2024,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),31.0,1
+2024,IN-JH,Jharkhand,deepfake_apps,Deepfake apps (any),48.0,1
+2024,IN-JK,Jammu and Kashmir,deepfake_apps,Deepfake apps (any),71.0,1
+2024,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),43.0,1
+2024,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),66.0,1
+2024,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),36.0,1
+2024,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),32.0,1
+2024,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),56.0,1
+2024,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),40.0,1
+2024,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),34.0,1
+2024,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),48.0,1
+2024,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),65.0,1
+2024,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),35.0,1
+2024,IN-UT,Uttarakhand,deepfake_apps,Deepfake apps (any),40.0,1
+2024,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),55.0,1
+2024,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,54.0,1
+2024,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,49.0,1
+2024,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,78.0,1
+2024,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,47.0,1
+2024,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2024,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2024,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2024,IN-DD,Daman and Diu,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2024,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2024,IN-DN,Dadra and Nagar Haveli,deepfake_awareness,Deepfake awareness / general interest,27.0,1
+2024,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2024,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,33.0,1
+2024,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,34.0,1
+2024,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2024,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+2024,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2024,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2024,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,45.0,1
+2024,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2024,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,45.0,1
+2024,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,88.0,1
+2024,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2024,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2024,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,75.0,1
+2024,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2024,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,40.0,1
+2024,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,41.0,1
+2024,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2024,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2024,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,40.0,1
+2024,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,42.0,1
+2024,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,75.0,1
+2024,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,23.0,1
+2024,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,27.0,1
+2024,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+2024,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),20.0,1
+2024,IN-AS,Assam,deepfake_explainer,What is a deepfake (explainer searches),19.0,1
+2024,IN-BR,Bihar,deepfake_explainer,What is a deepfake (explainer searches),20.0,1
+2024,IN-CT,Chhattisgarh,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+2024,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),39.0,1
+2024,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),27.0,1
+2024,IN-HP,Himachal Pradesh,deepfake_explainer,What is a deepfake (explainer searches),26.0,1
+2024,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),30.0,1
+2024,IN-JH,Jharkhand,deepfake_explainer,What is a deepfake (explainer searches),25.0,1
+2024,IN-JK,Jammu and Kashmir,deepfake_explainer,What is a deepfake (explainer searches),17.0,1
+2024,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),27.0,1
+2024,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),25.0,1
+2024,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),34.0,1
+2024,IN-MN,Manipur,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2024,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),21.0,1
+2024,IN-OR,Odisha,deepfake_explainer,What is a deepfake (explainer searches),23.0,1
+2024,IN-PB,Punjab,deepfake_explainer,What is a deepfake (explainer searches),17.0,1
+2024,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),26.0,1
+2024,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),20.0,1
+2024,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),24.0,1
+2024,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),25.0,1
+2024,IN-UT,Uttarakhand,deepfake_explainer,What is a deepfake (explainer searches),42.0,1
+2024,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),23.0,1
+2024,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,9.0,1
+2024,IN-AS,Assam,deepfake_free,Free deepfake tools,14.0,1
+2024,IN-BR,Bihar,deepfake_free,Free deepfake tools,8.0,1
+2024,IN-CT,Chhattisgarh,deepfake_free,Free deepfake tools,11.0,1
+2024,IN-DL,Delhi,deepfake_free,Free deepfake tools,10.0,1
+2024,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,13.0,1
+2024,IN-HP,Himachal Pradesh,deepfake_free,Free deepfake tools,17.0,1
+2024,IN-HR,Haryana,deepfake_free,Free deepfake tools,9.0,1
+2024,IN-JH,Jharkhand,deepfake_free,Free deepfake tools,10.0,1
+2024,IN-JK,Jammu and Kashmir,deepfake_free,Free deepfake tools,13.0,1
+2024,IN-KA,Karnataka,deepfake_free,Free deepfake tools,9.0,1
+2024,IN-KL,Kerala,deepfake_free,Free deepfake tools,14.0,1
+2024,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,10.0,1
+2024,IN-MP,Madhya Pradesh,deepfake_free,Free deepfake tools,9.0,1
+2024,IN-OR,Odisha,deepfake_free,Free deepfake tools,12.0,1
+2024,IN-PB,Punjab,deepfake_free,Free deepfake tools,10.0,1
+2024,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,8.0,1
+2024,IN-SK,Sikkim,deepfake_free,Free deepfake tools,100.0,1
+2024,IN-TG,Telangana,deepfake_free,Free deepfake tools,9.0,1
+2024,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,12.0,1
+2024,IN-TR,Tripura,deepfake_free,Free deepfake tools,25.0,1
+2024,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,7.0,1
+2024,IN-UT,Uttarakhand,deepfake_free,Free deepfake tools,14.0,1
+2024,IN-WB,West Bengal,deepfake_free,Free deepfake tools,13.0,1
+2024,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,27.0,1
+2024,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,38.0,1
+2024,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,20.0,1
+2024,IN-CH,Chandigarh,deepfake_makers,Deepfake makers / generators / software,36.0,1
+2024,IN-CT,Chhattisgarh,deepfake_makers,Deepfake makers / generators / software,33.0,1
+2024,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,34.0,1
+2024,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,34.0,1
+2024,IN-HP,Himachal Pradesh,deepfake_makers,Deepfake makers / generators / software,28.0,1
+2024,IN-HR,Haryana,deepfake_makers,Deepfake makers / generators / software,27.0,1
+2024,IN-JH,Jharkhand,deepfake_makers,Deepfake makers / generators / software,27.0,1
+2024,IN-JK,Jammu and Kashmir,deepfake_makers,Deepfake makers / generators / software,28.0,1
+2024,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,25.0,1
+2024,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,35.0,1
+2024,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,27.0,1
+2024,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,24.0,1
+2024,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,35.0,1
+2024,IN-PB,Punjab,deepfake_makers,Deepfake makers / generators / software,31.0,1
+2024,IN-PY,Puducherry,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2024,IN-RJ,Rajasthan,deepfake_makers,Deepfake makers / generators / software,24.0,1
+2024,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,28.0,1
+2024,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,29.0,1
+2024,IN-TR,Tripura,deepfake_makers,Deepfake makers / generators / software,55.0,1
+2024,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,25.0,1
+2024,IN-UT,Uttarakhand,deepfake_makers,Deepfake makers / generators / software,32.0,1
+2024,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,39.0,1
+2024,IN-AN,Andaman and Nicobar Islands,face_swap,Face swap (any),5.0,1
+2024,IN-AP,Andhra Pradesh,face_swap,Face swap (any),10.0,1
+2024,IN-AR,Arunachal Pradesh,face_swap,Face swap (any),6.0,1
+2024,IN-AS,Assam,face_swap,Face swap (any),9.0,1
+2024,IN-BR,Bihar,face_swap,Face swap (any),100.0,1
+2024,IN-CH,Chandigarh,face_swap,Face swap (any),12.0,1
+2024,IN-CT,Chhattisgarh,face_swap,Face swap (any),10.0,1
+2024,IN-DD,Daman and Diu,face_swap,Face swap (any),30.0,1
+2024,IN-DL,Delhi,face_swap,Face swap (any),7.0,1
+2024,IN-DN,Dadra and Nagar Haveli,face_swap,Face swap (any),24.0,1
+2024,IN-GA,Goa,face_swap,Face swap (any),6.0,1
+2024,IN-GJ,Gujarat,face_swap,Face swap (any),23.0,1
+2024,IN-HP,Himachal Pradesh,face_swap,Face swap (any),8.0,1
+2024,IN-HR,Haryana,face_swap,Face swap (any),8.0,1
+2024,IN-JH,Jharkhand,face_swap,Face swap (any),26.0,1
+2024,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),6.0,1
+2024,IN-KA,Karnataka,face_swap,Face swap (any),5.0,1
+2024,IN-KL,Kerala,face_swap,Face swap (any),5.0,1
+2024,IN-MH,Maharashtra,face_swap,Face swap (any),7.0,1
+2024,IN-ML,Meghalaya,face_swap,Face swap (any),5.0,1
+2024,IN-MN,Manipur,face_swap,Face swap (any),38.0,1
+2024,IN-MP,Madhya Pradesh,face_swap,Face swap (any),26.0,1
+2024,IN-MZ,Mizoram,face_swap,Face swap (any),6.0,1
+2024,IN-NL,Nagaland,face_swap,Face swap (any),5.0,1
+2024,IN-OR,Odisha,face_swap,Face swap (any),9.0,1
+2024,IN-PB,Punjab,face_swap,Face swap (any),12.0,1
+2024,IN-PY,Puducherry,face_swap,Face swap (any),6.0,1
+2024,IN-RJ,Rajasthan,face_swap,Face swap (any),18.0,1
+2024,IN-SK,Sikkim,face_swap,Face swap (any),6.0,1
+2024,IN-TG,Telangana,face_swap,Face swap (any),11.0,1
+2024,IN-TN,Tamil Nadu,face_swap,Face swap (any),8.0,1
+2024,IN-TR,Tripura,face_swap,Face swap (any),12.0,1
+2024,IN-UP,Uttar Pradesh,face_swap,Face swap (any),40.0,1
+2024,IN-UT,Uttarakhand,face_swap,Face swap (any),6.0,1
+2024,IN-WB,West Bengal,face_swap,Face swap (any),7.0,1
+2024,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,23.0,1
+2024,IN-AR,Arunachal Pradesh,face_swap_video,Video face swap,18.0,1
+2024,IN-AS,Assam,face_swap_video,Video face swap,30.0,1
+2024,IN-BR,Bihar,face_swap_video,Video face swap,100.0,1
+2024,IN-CH,Chandigarh,face_swap_video,Video face swap,29.0,1
+2024,IN-CT,Chhattisgarh,face_swap_video,Video face swap,25.0,1
+2024,IN-DD,Daman and Diu,face_swap_video,Video face swap,36.0,1
+2024,IN-DL,Delhi,face_swap_video,Video face swap,20.0,1
+2024,IN-DN,Dadra and Nagar Haveli,face_swap_video,Video face swap,45.0,1
+2024,IN-GA,Goa,face_swap_video,Video face swap,11.0,1
+2024,IN-GJ,Gujarat,face_swap_video,Video face swap,37.0,1
+2024,IN-HP,Himachal Pradesh,face_swap_video,Video face swap,20.0,1
+2024,IN-HR,Haryana,face_swap_video,Video face swap,21.0,1
+2024,IN-JH,Jharkhand,face_swap_video,Video face swap,44.0,1
+2024,IN-JK,Jammu and Kashmir,face_swap_video,Video face swap,22.0,1
+2024,IN-KA,Karnataka,face_swap_video,Video face swap,15.0,1
+2024,IN-KL,Kerala,face_swap_video,Video face swap,20.0,1
+2024,IN-MH,Maharashtra,face_swap_video,Video face swap,22.0,1
+2024,IN-ML,Meghalaya,face_swap_video,Video face swap,25.0,1
+2024,IN-MN,Manipur,face_swap_video,Video face swap,59.0,1
+2024,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,35.0,1
+2024,IN-MZ,Mizoram,face_swap_video,Video face swap,35.0,1
+2024,IN-NL,Nagaland,face_swap_video,Video face swap,18.0,1
+2024,IN-OR,Odisha,face_swap_video,Video face swap,27.0,1
+2024,IN-PB,Punjab,face_swap_video,Video face swap,32.0,1
+2024,IN-PY,Puducherry,face_swap_video,Video face swap,23.0,1
+2024,IN-RJ,Rajasthan,face_swap_video,Video face swap,28.0,1
+2024,IN-SK,Sikkim,face_swap_video,Video face swap,34.0,1
+2024,IN-TG,Telangana,face_swap_video,Video face swap,21.0,1
+2024,IN-TN,Tamil Nadu,face_swap_video,Video face swap,24.0,1
+2024,IN-TR,Tripura,face_swap_video,Video face swap,31.0,1
+2024,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,47.0,1
+2024,IN-UT,Uttarakhand,face_swap_video,Video face swap,26.0,1
+2024,IN-WB,West Bengal,face_swap_video,Video face swap,23.0,1
+2024,IN-AP,Andhra Pradesh,reface,Reface (named app),41.0,1
+2024,IN-AS,Assam,reface,Reface (named app),52.0,1
+2024,IN-BR,Bihar,reface,Reface (named app),53.0,1
+2024,IN-CH,Chandigarh,reface,Reface (named app),51.0,1
+2024,IN-CT,Chhattisgarh,reface,Reface (named app),30.0,1
+2024,IN-DL,Delhi,reface,Reface (named app),28.0,1
+2024,IN-GJ,Gujarat,reface,Reface (named app),41.0,1
+2024,IN-HP,Himachal Pradesh,reface,Reface (named app),36.0,1
+2024,IN-HR,Haryana,reface,Reface (named app),32.0,1
+2024,IN-JH,Jharkhand,reface,Reface (named app),57.0,1
+2024,IN-JK,Jammu and Kashmir,reface,Reface (named app),30.0,1
+2024,IN-KA,Karnataka,reface,Reface (named app),23.0,1
+2024,IN-KL,Kerala,reface,Reface (named app),32.0,1
+2024,IN-MH,Maharashtra,reface,Reface (named app),32.0,1
+2024,IN-ML,Meghalaya,reface,Reface (named app),40.0,1
+2024,IN-MN,Manipur,reface,Reface (named app),100.0,1
+2024,IN-MP,Madhya Pradesh,reface,Reface (named app),38.0,1
+2024,IN-OR,Odisha,reface,Reface (named app),42.0,1
+2024,IN-PB,Punjab,reface,Reface (named app),42.0,1
+2024,IN-RJ,Rajasthan,reface,Reface (named app),42.0,1
+2024,IN-TG,Telangana,reface,Reface (named app),32.0,1
+2024,IN-TN,Tamil Nadu,reface,Reface (named app),37.0,1
+2024,IN-TR,Tripura,reface,Reface (named app),57.0,1
+2024,IN-UP,Uttar Pradesh,reface,Reface (named app),41.0,1
+2024,IN-UT,Uttarakhand,reface,Reface (named app),34.0,1
+2024,IN-WB,West Bengal,reface,Reface (named app),39.0,1
+2025,IN-AS,Assam,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2025,IN-GJ,Gujarat,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",48.0,1
+2025,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",29.0,1
+2025,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",56.0,1
+2025,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",19.0,1
+2025,IN-MP,Madhya Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",34.0,1
+2025,IN-RJ,Rajasthan,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",30.0,1
+2025,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",39.0,1
+2025,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",25.0,1
+2025,IN-WB,West Bengal,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",51.0,1
+2025,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),12.0,1
+2025,IN-AS,Assam,deepfake_apps,Deepfake apps (any),24.0,1
+2025,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),14.0,1
+2025,IN-CT,Chhattisgarh,deepfake_apps,Deepfake apps (any),15.0,1
+2025,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),24.0,1
+2025,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),20.0,1
+2025,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),17.0,1
+2025,IN-JH,Jharkhand,deepfake_apps,Deepfake apps (any),14.0,1
+2025,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),22.0,1
+2025,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),23.0,1
+2025,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),20.0,1
+2025,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),14.0,1
+2025,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),25.0,1
+2025,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),16.0,1
+2025,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),18.0,1
+2025,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),23.0,1
+2025,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),24.0,1
+2025,IN-TR,Tripura,deepfake_apps,Deepfake apps (any),100.0,1
+2025,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),17.0,1
+2025,IN-UT,Uttarakhand,deepfake_apps,Deepfake apps (any),22.0,1
+2025,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),23.0,1
+2025,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,54.0,1
+2025,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,44.0,1
+2025,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,63.0,1
+2025,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,31.0,1
+2025,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,15.0,1
+2025,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2025,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2025,IN-DD,Daman and Diu,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2025,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+2025,IN-DN,Dadra and Nagar Haveli,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2025,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2025,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,27.0,1
+2025,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2025,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+2025,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2025,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2025,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2025,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,37.0,1
+2025,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2025,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,42.0,1
+2025,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,73.0,1
+2025,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2025,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2025,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,75.0,1
+2025,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2025,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2025,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+2025,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+2025,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2025,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,35.0,1
+2025,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,34.0,1
+2025,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,57.0,1
+2025,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+2025,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+2025,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2025,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),30.0,1
+2025,IN-AS,Assam,deepfake_explainer,What is a deepfake (explainer searches),38.0,1
+2025,IN-BR,Bihar,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+2025,IN-CH,Chandigarh,deepfake_explainer,What is a deepfake (explainer searches),80.0,1
+2025,IN-CT,Chhattisgarh,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+2025,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),71.0,1
+2025,IN-GA,Goa,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2025,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+2025,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),67.0,1
+2025,IN-JH,Jharkhand,deepfake_explainer,What is a deepfake (explainer searches),38.0,1
+2025,IN-JK,Jammu and Kashmir,deepfake_explainer,What is a deepfake (explainer searches),43.0,1
+2025,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),52.0,1
+2025,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),37.0,1
+2025,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),49.0,1
+2025,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),25.0,1
+2025,IN-OR,Odisha,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+2025,IN-PB,Punjab,deepfake_explainer,What is a deepfake (explainer searches),49.0,1
+2025,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),32.0,1
+2025,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),50.0,1
+2025,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),49.0,1
+2025,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),35.0,1
+2025,IN-UT,Uttarakhand,deepfake_explainer,What is a deepfake (explainer searches),31.0,1
+2025,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),41.0,1
+2025,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,51.0,1
+2025,IN-AS,Assam,deepfake_free,Free deepfake tools,96.0,1
+2025,IN-BR,Bihar,deepfake_free,Free deepfake tools,38.0,1
+2025,IN-CT,Chhattisgarh,deepfake_free,Free deepfake tools,56.0,1
+2025,IN-DL,Delhi,deepfake_free,Free deepfake tools,84.0,1
+2025,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,77.0,1
+2025,IN-HP,Himachal Pradesh,deepfake_free,Free deepfake tools,87.0,1
+2025,IN-HR,Haryana,deepfake_free,Free deepfake tools,68.0,1
+2025,IN-JH,Jharkhand,deepfake_free,Free deepfake tools,46.0,1
+2025,IN-JK,Jammu and Kashmir,deepfake_free,Free deepfake tools,65.0,1
+2025,IN-KA,Karnataka,deepfake_free,Free deepfake tools,67.0,1
+2025,IN-KL,Kerala,deepfake_free,Free deepfake tools,100.0,1
+2025,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,69.0,1
+2025,IN-MP,Madhya Pradesh,deepfake_free,Free deepfake tools,49.0,1
+2025,IN-OR,Odisha,deepfake_free,Free deepfake tools,66.0,1
+2025,IN-PB,Punjab,deepfake_free,Free deepfake tools,67.0,1
+2025,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,47.0,1
+2025,IN-TG,Telangana,deepfake_free,Free deepfake tools,74.0,1
+2025,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,72.0,1
+2025,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,52.0,1
+2025,IN-UT,Uttarakhand,deepfake_free,Free deepfake tools,89.0,1
+2025,IN-WB,West Bengal,deepfake_free,Free deepfake tools,78.0,1
+2025,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,37.0,1
+2025,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2025,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,61.0,1
+2025,IN-CH,Chandigarh,deepfake_makers,Deepfake makers / generators / software,64.0,1
+2025,IN-CT,Chhattisgarh,deepfake_makers,Deepfake makers / generators / software,46.0,1
+2025,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,63.0,1
+2025,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,65.0,1
+2025,IN-HP,Himachal Pradesh,deepfake_makers,Deepfake makers / generators / software,56.0,1
+2025,IN-HR,Haryana,deepfake_makers,Deepfake makers / generators / software,67.0,1
+2025,IN-JH,Jharkhand,deepfake_makers,Deepfake makers / generators / software,43.0,1
+2025,IN-JK,Jammu and Kashmir,deepfake_makers,Deepfake makers / generators / software,47.0,1
+2025,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,46.0,1
+2025,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,56.0,1
+2025,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,62.0,1
+2025,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,60.0,1
+2025,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,81.0,1
+2025,IN-PB,Punjab,deepfake_makers,Deepfake makers / generators / software,72.0,1
+2025,IN-RJ,Rajasthan,deepfake_makers,Deepfake makers / generators / software,67.0,1
+2025,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,50.0,1
+2025,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,44.0,1
+2025,IN-TR,Tripura,deepfake_makers,Deepfake makers / generators / software,95.0,1
+2025,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,60.0,1
+2025,IN-UT,Uttarakhand,deepfake_makers,Deepfake makers / generators / software,69.0,1
+2025,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,69.0,1
+2025,IN-AN,Andaman and Nicobar Islands,face_swap,Face swap (any),23.0,1
+2025,IN-AP,Andhra Pradesh,face_swap,Face swap (any),35.0,1
+2025,IN-AR,Arunachal Pradesh,face_swap,Face swap (any),43.0,1
+2025,IN-AS,Assam,face_swap,Face swap (any),44.0,1
+2025,IN-BR,Bihar,face_swap,Face swap (any),100.0,1
+2025,IN-CH,Chandigarh,face_swap,Face swap (any),45.0,1
+2025,IN-CT,Chhattisgarh,face_swap,Face swap (any),40.0,1
+2025,IN-DD,Daman and Diu,face_swap,Face swap (any),35.0,1
+2025,IN-DL,Delhi,face_swap,Face swap (any),33.0,1
+2025,IN-DN,Dadra and Nagar Haveli,face_swap,Face swap (any),49.0,1
+2025,IN-GA,Goa,face_swap,Face swap (any),23.0,1
+2025,IN-GJ,Gujarat,face_swap,Face swap (any),54.0,1
+2025,IN-HP,Himachal Pradesh,face_swap,Face swap (any),28.0,1
+2025,IN-HR,Haryana,face_swap,Face swap (any),32.0,1
+2025,IN-JH,Jharkhand,face_swap,Face swap (any),59.0,1
+2025,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),27.0,1
+2025,IN-KA,Karnataka,face_swap,Face swap (any),28.0,1
+2025,IN-KL,Kerala,face_swap,Face swap (any),55.0,1
+2025,IN-MH,Maharashtra,face_swap,Face swap (any),32.0,1
+2025,IN-ML,Meghalaya,face_swap,Face swap (any),38.0,1
+2025,IN-MN,Manipur,face_swap,Face swap (any),66.0,1
+2025,IN-MP,Madhya Pradesh,face_swap,Face swap (any),49.0,1
+2025,IN-MZ,Mizoram,face_swap,Face swap (any),57.0,1
+2025,IN-NL,Nagaland,face_swap,Face swap (any),36.0,1
+2025,IN-OR,Odisha,face_swap,Face swap (any),59.0,1
+2025,IN-PB,Punjab,face_swap,Face swap (any),50.0,1
+2025,IN-PY,Puducherry,face_swap,Face swap (any),44.0,1
+2025,IN-RJ,Rajasthan,face_swap,Face swap (any),36.0,1
+2025,IN-SK,Sikkim,face_swap,Face swap (any),34.0,1
+2025,IN-TG,Telangana,face_swap,Face swap (any),33.0,1
+2025,IN-TN,Tamil Nadu,face_swap,Face swap (any),44.0,1
+2025,IN-TR,Tripura,face_swap,Face swap (any),60.0,1
+2025,IN-UP,Uttar Pradesh,face_swap,Face swap (any),58.0,1
+2025,IN-UT,Uttarakhand,face_swap,Face swap (any),33.0,1
+2025,IN-WB,West Bengal,face_swap,Face swap (any),46.0,1
+2025,IN-AN,Andaman and Nicobar Islands,face_swap_video,Video face swap,93.0,1
+2025,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,30.0,1
+2025,IN-AR,Arunachal Pradesh,face_swap_video,Video face swap,55.0,1
+2025,IN-AS,Assam,face_swap_video,Video face swap,50.0,1
+2025,IN-BR,Bihar,face_swap_video,Video face swap,50.0,1
+2025,IN-CH,Chandigarh,face_swap_video,Video face swap,45.0,1
+2025,IN-CT,Chhattisgarh,face_swap_video,Video face swap,35.0,1
+2025,IN-DL,Delhi,face_swap_video,Video face swap,32.0,1
+2025,IN-GA,Goa,face_swap_video,Video face swap,27.0,1
+2025,IN-GJ,Gujarat,face_swap_video,Video face swap,40.0,1
+2025,IN-HP,Himachal Pradesh,face_swap_video,Video face swap,32.0,1
+2025,IN-HR,Haryana,face_swap_video,Video face swap,28.0,1
+2025,IN-JH,Jharkhand,face_swap_video,Video face swap,47.0,1
+2025,IN-JK,Jammu and Kashmir,face_swap_video,Video face swap,35.0,1
+2025,IN-KA,Karnataka,face_swap_video,Video face swap,27.0,1
+2025,IN-KL,Kerala,face_swap_video,Video face swap,47.0,1
+2025,IN-MH,Maharashtra,face_swap_video,Video face swap,27.0,1
+2025,IN-ML,Meghalaya,face_swap_video,Video face swap,61.0,1
+2025,IN-MN,Manipur,face_swap_video,Video face swap,50.0,1
+2025,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,36.0,1
+2025,IN-MZ,Mizoram,face_swap_video,Video face swap,100.0,1
+2025,IN-NL,Nagaland,face_swap_video,Video face swap,39.0,1
+2025,IN-OR,Odisha,face_swap_video,Video face swap,44.0,1
+2025,IN-PB,Punjab,face_swap_video,Video face swap,54.0,1
+2025,IN-PY,Puducherry,face_swap_video,Video face swap,46.0,1
+2025,IN-RJ,Rajasthan,face_swap_video,Video face swap,33.0,1
+2025,IN-SK,Sikkim,face_swap_video,Video face swap,54.0,1
+2025,IN-TG,Telangana,face_swap_video,Video face swap,28.0,1
+2025,IN-TN,Tamil Nadu,face_swap_video,Video face swap,37.0,1
+2025,IN-TR,Tripura,face_swap_video,Video face swap,62.0,1
+2025,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,38.0,1
+2025,IN-UT,Uttarakhand,face_swap_video,Video face swap,46.0,1
+2025,IN-WB,West Bengal,face_swap_video,Video face swap,40.0,1
+2025,IN-AP,Andhra Pradesh,reface,Reface (named app),26.0,1
+2025,IN-AS,Assam,reface,Reface (named app),37.0,1
+2025,IN-BR,Bihar,reface,Reface (named app),26.0,1
+2025,IN-CT,Chhattisgarh,reface,Reface (named app),31.0,1
+2025,IN-DL,Delhi,reface,Reface (named app),25.0,1
+2025,IN-GJ,Gujarat,reface,Reface (named app),30.0,1
+2025,IN-HP,Himachal Pradesh,reface,Reface (named app),24.0,1
+2025,IN-HR,Haryana,reface,Reface (named app),20.0,1
+2025,IN-JH,Jharkhand,reface,Reface (named app),26.0,1
+2025,IN-JK,Jammu and Kashmir,reface,Reface (named app),26.0,1
+2025,IN-KA,Karnataka,reface,Reface (named app),21.0,1
+2025,IN-KL,Kerala,reface,Reface (named app),31.0,1
+2025,IN-MH,Maharashtra,reface,Reface (named app),27.0,1
+2025,IN-MP,Madhya Pradesh,reface,Reface (named app),22.0,1
+2025,IN-OR,Odisha,reface,Reface (named app),26.0,1
+2025,IN-PB,Punjab,reface,Reface (named app),28.0,1
+2025,IN-PY,Puducherry,reface,Reface (named app),100.0,1
+2025,IN-RJ,Rajasthan,reface,Reface (named app),27.0,1
+2025,IN-TG,Telangana,reface,Reface (named app),24.0,1
+2025,IN-TN,Tamil Nadu,reface,Reface (named app),34.0,1
+2025,IN-UP,Uttar Pradesh,reface,Reface (named app),25.0,1
+2025,IN-UT,Uttarakhand,reface,Reface (named app),26.0,1
+2025,IN-WB,West Bengal,reface,Reface (named app),29.0,1
+2026,IN-BR,Bihar,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",59.0,1
+2026,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",47.0,1
+2026,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",38.0,1
+2026,IN-PB,Punjab,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+2026,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),66.0,1
+2026,IN-AS,Assam,deepfake_apps,Deepfake apps (any),63.0,1
+2026,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),49.0,1
+2026,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),93.0,1
+2026,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),55.0,1
+2026,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),52.0,1
+2026,IN-JK,Jammu and Kashmir,deepfake_apps,Deepfake apps (any),95.0,1
+2026,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),67.0,1
+2026,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),84.0,1
+2026,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),57.0,1
+2026,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),44.0,1
+2026,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),80.0,1
+2026,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),100.0,1
+2026,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),42.0,1
+2026,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),71.0,1
+2026,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),67.0,1
+2026,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),36.0,1
+2026,IN-UT,Uttarakhand,deepfake_apps,Deepfake apps (any),62.0,1
+2026,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),60.0,1
+2026,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,74.0,1
+2026,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,49.0,1
+2026,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,67.0,1
+2026,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2026,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+2026,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+2026,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,27.0,1
+2026,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,27.0,1
+2026,IN-DN,Dadra and Nagar Haveli,deepfake_awareness,Deepfake awareness / general interest,2.0,1
+2026,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2026,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+2026,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,34.0,1
+2026,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+2026,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+2026,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,33.0,1
+2026,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,33.0,1
+2026,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+2026,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,31.0,1
+2026,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,40.0,1
+2026,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,76.0,1
+2026,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2026,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+2026,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,79.0,1
+2026,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+2026,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,33.0,1
+2026,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,37.0,1
+2026,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+2026,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,31.0,1
+2026,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,42.0,1
+2026,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,40.0,1
+2026,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,57.0,1
+2026,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+2026,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+2026,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+2026,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-AS,Assam,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-BR,Bihar,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),7.0,1
+2026,IN-DN,Dadra and Nagar Haveli,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+2026,IN-GA,Goa,deepfake_explainer,What is a deepfake (explainer searches),1.0,1
+2026,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-HP,Himachal Pradesh,deepfake_explainer,What is a deepfake (explainer searches),5.0,1
+2026,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),6.0,1
+2026,IN-JH,Jharkhand,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-JK,Jammu and Kashmir,deepfake_explainer,What is a deepfake (explainer searches),6.0,1
+2026,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),5.0,1
+2026,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),4.0,1
+2026,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),5.0,1
+2026,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-OR,Odisha,deepfake_explainer,What is a deepfake (explainer searches),4.0,1
+2026,IN-PB,Punjab,deepfake_explainer,What is a deepfake (explainer searches),7.0,1
+2026,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),5.0,1
+2026,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),5.0,1
+2026,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),3.0,1
+2026,IN-UT,Uttarakhand,deepfake_explainer,What is a deepfake (explainer searches),6.0,1
+2026,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),5.0,1
+2026,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,61.0,1
+2026,IN-AS,Assam,deepfake_free,Free deepfake tools,97.0,1
+2026,IN-BR,Bihar,deepfake_free,Free deepfake tools,41.0,1
+2026,IN-CT,Chhattisgarh,deepfake_free,Free deepfake tools,43.0,1
+2026,IN-DL,Delhi,deepfake_free,Free deepfake tools,95.0,1
+2026,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,69.0,1
+2026,IN-HP,Himachal Pradesh,deepfake_free,Free deepfake tools,100.0,1
+2026,IN-HR,Haryana,deepfake_free,Free deepfake tools,67.0,1
+2026,IN-JH,Jharkhand,deepfake_free,Free deepfake tools,45.0,1
+2026,IN-JK,Jammu and Kashmir,deepfake_free,Free deepfake tools,62.0,1
+2026,IN-KA,Karnataka,deepfake_free,Free deepfake tools,58.0,1
+2026,IN-KL,Kerala,deepfake_free,Free deepfake tools,91.0,1
+2026,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,66.0,1
+2026,IN-MP,Madhya Pradesh,deepfake_free,Free deepfake tools,56.0,1
+2026,IN-OR,Odisha,deepfake_free,Free deepfake tools,68.0,1
+2026,IN-PB,Punjab,deepfake_free,Free deepfake tools,81.0,1
+2026,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,58.0,1
+2026,IN-TG,Telangana,deepfake_free,Free deepfake tools,68.0,1
+2026,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,73.0,1
+2026,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,47.0,1
+2026,IN-UT,Uttarakhand,deepfake_free,Free deepfake tools,66.0,1
+2026,IN-WB,West Bengal,deepfake_free,Free deepfake tools,61.0,1
+2026,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,30.0,1
+2026,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,93.0,1
+2026,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,76.0,1
+2026,IN-CH,Chandigarh,deepfake_makers,Deepfake makers / generators / software,100.0,1
+2026,IN-CT,Chhattisgarh,deepfake_makers,Deepfake makers / generators / software,68.0,1
+2026,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,60.0,1
+2026,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,61.0,1
+2026,IN-HP,Himachal Pradesh,deepfake_makers,Deepfake makers / generators / software,54.0,1
+2026,IN-HR,Haryana,deepfake_makers,Deepfake makers / generators / software,56.0,1
+2026,IN-JH,Jharkhand,deepfake_makers,Deepfake makers / generators / software,53.0,1
+2026,IN-JK,Jammu and Kashmir,deepfake_makers,Deepfake makers / generators / software,77.0,1
+2026,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,50.0,1
+2026,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,48.0,1
+2026,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,55.0,1
+2026,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,52.0,1
+2026,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,71.0,1
+2026,IN-PB,Punjab,deepfake_makers,Deepfake makers / generators / software,64.0,1
+2026,IN-RJ,Rajasthan,deepfake_makers,Deepfake makers / generators / software,57.0,1
+2026,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,43.0,1
+2026,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,38.0,1
+2026,IN-TR,Tripura,deepfake_makers,Deepfake makers / generators / software,8.0,1
+2026,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,62.0,1
+2026,IN-UT,Uttarakhand,deepfake_makers,Deepfake makers / generators / software,59.0,1
+2026,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,65.0,1
+2026,IN-AN,Andaman and Nicobar Islands,face_swap,Face swap (any),27.0,1
+2026,IN-AP,Andhra Pradesh,face_swap,Face swap (any),30.0,1
+2026,IN-AR,Arunachal Pradesh,face_swap,Face swap (any),51.0,1
+2026,IN-AS,Assam,face_swap,Face swap (any),46.0,1
+2026,IN-BR,Bihar,face_swap,Face swap (any),57.0,1
+2026,IN-CH,Chandigarh,face_swap,Face swap (any),33.0,1
+2026,IN-CT,Chhattisgarh,face_swap,Face swap (any),39.0,1
+2026,IN-DD,Daman and Diu,face_swap,Face swap (any),29.0,1
+2026,IN-DL,Delhi,face_swap,Face swap (any),32.0,1
+2026,IN-DN,Dadra and Nagar Haveli,face_swap,Face swap (any),33.0,1
+2026,IN-GA,Goa,face_swap,Face swap (any),26.0,1
+2026,IN-GJ,Gujarat,face_swap,Face swap (any),43.0,1
+2026,IN-HP,Himachal Pradesh,face_swap,Face swap (any),34.0,1
+2026,IN-HR,Haryana,face_swap,Face swap (any),29.0,1
+2026,IN-JH,Jharkhand,face_swap,Face swap (any),47.0,1
+2026,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),33.0,1
+2026,IN-KA,Karnataka,face_swap,Face swap (any),26.0,1
+2026,IN-KL,Kerala,face_swap,Face swap (any),50.0,1
+2026,IN-MH,Maharashtra,face_swap,Face swap (any),29.0,1
+2026,IN-ML,Meghalaya,face_swap,Face swap (any),45.0,1
+2026,IN-MN,Manipur,face_swap,Face swap (any),100.0,1
+2026,IN-MP,Madhya Pradesh,face_swap,Face swap (any),36.0,1
+2026,IN-MZ,Mizoram,face_swap,Face swap (any),81.0,1
+2026,IN-NL,Nagaland,face_swap,Face swap (any),40.0,1
+2026,IN-OR,Odisha,face_swap,Face swap (any),51.0,1
+2026,IN-PB,Punjab,face_swap,Face swap (any),41.0,1
+2026,IN-PY,Puducherry,face_swap,Face swap (any),52.0,1
+2026,IN-RJ,Rajasthan,face_swap,Face swap (any),28.0,1
+2026,IN-SK,Sikkim,face_swap,Face swap (any),31.0,1
+2026,IN-TG,Telangana,face_swap,Face swap (any),27.0,1
+2026,IN-TN,Tamil Nadu,face_swap,Face swap (any),42.0,1
+2026,IN-TR,Tripura,face_swap,Face swap (any),65.0,1
+2026,IN-UP,Uttar Pradesh,face_swap,Face swap (any),38.0,1
+2026,IN-UT,Uttarakhand,face_swap,Face swap (any),35.0,1
+2026,IN-WB,West Bengal,face_swap,Face swap (any),40.0,1
+2026,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,39.0,1
+2026,IN-AR,Arunachal Pradesh,face_swap_video,Video face swap,92.0,1
+2026,IN-AS,Assam,face_swap_video,Video face swap,59.0,1
+2026,IN-BR,Bihar,face_swap_video,Video face swap,42.0,1
+2026,IN-CH,Chandigarh,face_swap_video,Video face swap,32.0,1
+2026,IN-CT,Chhattisgarh,face_swap_video,Video face swap,52.0,1
+2026,IN-DL,Delhi,face_swap_video,Video face swap,37.0,1
+2026,IN-GA,Goa,face_swap_video,Video face swap,29.0,1
+2026,IN-GJ,Gujarat,face_swap_video,Video face swap,53.0,1
+2026,IN-HP,Himachal Pradesh,face_swap_video,Video face swap,45.0,1
+2026,IN-HR,Haryana,face_swap_video,Video face swap,36.0,1
+2026,IN-JH,Jharkhand,face_swap_video,Video face swap,58.0,1
+2026,IN-JK,Jammu and Kashmir,face_swap_video,Video face swap,46.0,1
+2026,IN-KA,Karnataka,face_swap_video,Video face swap,36.0,1
+2026,IN-KL,Kerala,face_swap_video,Video face swap,58.0,1
+2026,IN-MH,Maharashtra,face_swap_video,Video face swap,36.0,1
+2026,IN-ML,Meghalaya,face_swap_video,Video face swap,47.0,1
+2026,IN-MN,Manipur,face_swap_video,Video face swap,97.0,1
+2026,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,38.0,1
+2026,IN-MZ,Mizoram,face_swap_video,Video face swap,100.0,1
+2026,IN-NL,Nagaland,face_swap_video,Video face swap,89.0,1
+2026,IN-OR,Odisha,face_swap_video,Video face swap,61.0,1
+2026,IN-PB,Punjab,face_swap_video,Video face swap,52.0,1
+2026,IN-PY,Puducherry,face_swap_video,Video face swap,62.0,1
+2026,IN-RJ,Rajasthan,face_swap_video,Video face swap,32.0,1
+2026,IN-TG,Telangana,face_swap_video,Video face swap,35.0,1
+2026,IN-TN,Tamil Nadu,face_swap_video,Video face swap,47.0,1
+2026,IN-TR,Tripura,face_swap_video,Video face swap,69.0,1
+2026,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,33.0,1
+2026,IN-UT,Uttarakhand,face_swap_video,Video face swap,50.0,1
+2026,IN-WB,West Bengal,face_swap_video,Video face swap,48.0,1
+2026,IN-AP,Andhra Pradesh,reface,Reface (named app),57.0,1
+2026,IN-AS,Assam,reface,Reface (named app),72.0,1
+2026,IN-BR,Bihar,reface,Reface (named app),47.0,1
+2026,IN-CT,Chhattisgarh,reface,Reface (named app),61.0,1
+2026,IN-DL,Delhi,reface,Reface (named app),52.0,1
+2026,IN-GJ,Gujarat,reface,Reface (named app),55.0,1
+2026,IN-HP,Himachal Pradesh,reface,Reface (named app),77.0,1
+2026,IN-HR,Haryana,reface,Reface (named app),62.0,1
+2026,IN-JH,Jharkhand,reface,Reface (named app),47.0,1
+2026,IN-JK,Jammu and Kashmir,reface,Reface (named app),68.0,1
+2026,IN-KA,Karnataka,reface,Reface (named app),45.0,1
+2026,IN-KL,Kerala,reface,Reface (named app),84.0,1
+2026,IN-MH,Maharashtra,reface,Reface (named app),57.0,1
+2026,IN-MP,Madhya Pradesh,reface,Reface (named app),42.0,1
+2026,IN-OR,Odisha,reface,Reface (named app),41.0,1
+2026,IN-PB,Punjab,reface,Reface (named app),78.0,1
+2026,IN-RJ,Rajasthan,reface,Reface (named app),43.0,1
+2026,IN-TG,Telangana,reface,Reface (named app),60.0,1
+2026,IN-TN,Tamil Nadu,reface,Reface (named app),100.0,1
+2026,IN-UP,Uttar Pradesh,reface,Reface (named app),49.0,1
+2026,IN-UT,Uttarakhand,reface,Reface (named app),55.0,1
+2026,IN-WB,West Bengal,reface,Reface (named app),58.0,1
+full,IN-AP,Andhra Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,1
+full,IN-AR,Arunachal Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",91.0,1
+full,IN-AS,Assam,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",29.0,1
+full,IN-BR,Bihar,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,1
+full,IN-CH,Chandigarh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,1
+full,IN-CT,Chhattisgarh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,1
+full,IN-DL,Delhi,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",11.0,1
+full,IN-GJ,Gujarat,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,1
+full,IN-HP,Himachal Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",16.0,1
+full,IN-HR,Haryana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",10.0,1
+full,IN-JH,Jharkhand,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",18.0,1
+full,IN-JK,Jammu and Kashmir,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",17.0,1
+full,IN-KA,Karnataka,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,1
+full,IN-KL,Kerala,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",25.0,1
+full,IN-MH,Maharashtra,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,1
+full,IN-MN,Manipur,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",47.0,1
+full,IN-MP,Madhya Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,1
+full,IN-MZ,Mizoram,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",100.0,1
+full,IN-NL,Nagaland,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",71.0,1
+full,IN-OR,Odisha,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",13.0,1
+full,IN-PB,Punjab,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",15.0,1
+full,IN-RJ,Rajasthan,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",9.0,1
+full,IN-TG,Telangana,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,1
+full,IN-TN,Tamil Nadu,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",19.0,1
+full,IN-TR,Tripura,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",25.0,1
+full,IN-UP,Uttar Pradesh,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",10.0,1
+full,IN-UT,Uttarakhand,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",12.0,1
+full,IN-WB,West Bengal,deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",14.0,1
+full,IN-AP,Andhra Pradesh,deepfake_apps,Deepfake apps (any),44.0,1
+full,IN-AR,Arunachal Pradesh,deepfake_apps,Deepfake apps (any),79.0,1
+full,IN-AS,Assam,deepfake_apps,Deepfake apps (any),44.0,1
+full,IN-BR,Bihar,deepfake_apps,Deepfake apps (any),20.0,1
+full,IN-CH,Chandigarh,deepfake_apps,Deepfake apps (any),26.0,1
+full,IN-CT,Chhattisgarh,deepfake_apps,Deepfake apps (any),32.0,1
+full,IN-DL,Delhi,deepfake_apps,Deepfake apps (any),32.0,1
+full,IN-GA,Goa,deepfake_apps,Deepfake apps (any),38.0,1
+full,IN-GJ,Gujarat,deepfake_apps,Deepfake apps (any),32.0,1
+full,IN-HP,Himachal Pradesh,deepfake_apps,Deepfake apps (any),34.0,1
+full,IN-HR,Haryana,deepfake_apps,Deepfake apps (any),26.0,1
+full,IN-JH,Jharkhand,deepfake_apps,Deepfake apps (any),30.0,1
+full,IN-JK,Jammu and Kashmir,deepfake_apps,Deepfake apps (any),41.0,1
+full,IN-KA,Karnataka,deepfake_apps,Deepfake apps (any),34.0,1
+full,IN-KL,Kerala,deepfake_apps,Deepfake apps (any),51.0,1
+full,IN-MH,Maharashtra,deepfake_apps,Deepfake apps (any),27.0,1
+full,IN-ML,Meghalaya,deepfake_apps,Deepfake apps (any),49.0,1
+full,IN-MN,Manipur,deepfake_apps,Deepfake apps (any),74.0,1
+full,IN-MP,Madhya Pradesh,deepfake_apps,Deepfake apps (any),22.0,1
+full,IN-MZ,Mizoram,deepfake_apps,Deepfake apps (any),88.0,1
+full,IN-NL,Nagaland,deepfake_apps,Deepfake apps (any),100.0,1
+full,IN-OR,Odisha,deepfake_apps,Deepfake apps (any),43.0,1
+full,IN-PB,Punjab,deepfake_apps,Deepfake apps (any),33.0,1
+full,IN-PY,Puducherry,deepfake_apps,Deepfake apps (any),32.0,1
+full,IN-RJ,Rajasthan,deepfake_apps,Deepfake apps (any),23.0,1
+full,IN-SK,Sikkim,deepfake_apps,Deepfake apps (any),64.0,1
+full,IN-TG,Telangana,deepfake_apps,Deepfake apps (any),38.0,1
+full,IN-TN,Tamil Nadu,deepfake_apps,Deepfake apps (any),43.0,1
+full,IN-TR,Tripura,deepfake_apps,Deepfake apps (any),85.0,1
+full,IN-UP,Uttar Pradesh,deepfake_apps,Deepfake apps (any),23.0,1
+full,IN-UT,Uttarakhand,deepfake_apps,Deepfake apps (any),39.0,1
+full,IN-WB,West Bengal,deepfake_apps,Deepfake apps (any),32.0,1
+full,IN-AN,Andaman and Nicobar Islands,deepfake_awareness,Deepfake awareness / general interest,49.0,1
+full,IN-AP,Andhra Pradesh,deepfake_awareness,Deepfake awareness / general interest,41.0,1
+full,IN-AR,Arunachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,63.0,1
+full,IN-AS,Assam,deepfake_awareness,Deepfake awareness / general interest,33.0,1
+full,IN-BR,Bihar,deepfake_awareness,Deepfake awareness / general interest,16.0,1
+full,IN-CH,Chandigarh,deepfake_awareness,Deepfake awareness / general interest,18.0,1
+full,IN-CT,Chhattisgarh,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+full,IN-DD,Daman and Diu,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+full,IN-DL,Delhi,deepfake_awareness,Deepfake awareness / general interest,21.0,1
+full,IN-DN,Dadra and Nagar Haveli,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+full,IN-GA,Goa,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+full,IN-GJ,Gujarat,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+full,IN-HP,Himachal Pradesh,deepfake_awareness,Deepfake awareness / general interest,25.0,1
+full,IN-HR,Haryana,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+full,IN-JH,Jharkhand,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+full,IN-JK,Jammu and Kashmir,deepfake_awareness,Deepfake awareness / general interest,29.0,1
+full,IN-KA,Karnataka,deepfake_awareness,Deepfake awareness / general interest,26.0,1
+full,IN-KL,Kerala,deepfake_awareness,Deepfake awareness / general interest,45.0,1
+full,IN-MH,Maharashtra,deepfake_awareness,Deepfake awareness / general interest,22.0,1
+full,IN-ML,Meghalaya,deepfake_awareness,Deepfake awareness / general interest,39.0,1
+full,IN-MN,Manipur,deepfake_awareness,Deepfake awareness / general interest,60.0,1
+full,IN-MP,Madhya Pradesh,deepfake_awareness,Deepfake awareness / general interest,20.0,1
+full,IN-MZ,Mizoram,deepfake_awareness,Deepfake awareness / general interest,100.0,1
+full,IN-NL,Nagaland,deepfake_awareness,Deepfake awareness / general interest,67.0,1
+full,IN-OR,Odisha,deepfake_awareness,Deepfake awareness / general interest,27.0,1
+full,IN-PB,Punjab,deepfake_awareness,Deepfake awareness / general interest,28.0,1
+full,IN-PY,Puducherry,deepfake_awareness,Deepfake awareness / general interest,30.0,1
+full,IN-RJ,Rajasthan,deepfake_awareness,Deepfake awareness / general interest,19.0,1
+full,IN-SK,Sikkim,deepfake_awareness,Deepfake awareness / general interest,34.0,1
+full,IN-TG,Telangana,deepfake_awareness,Deepfake awareness / general interest,32.0,1
+full,IN-TN,Tamil Nadu,deepfake_awareness,Deepfake awareness / general interest,31.0,1
+full,IN-TR,Tripura,deepfake_awareness,Deepfake awareness / general interest,57.0,1
+full,IN-UP,Uttar Pradesh,deepfake_awareness,Deepfake awareness / general interest,17.0,1
+full,IN-UT,Uttarakhand,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+full,IN-WB,West Bengal,deepfake_awareness,Deepfake awareness / general interest,24.0,1
+full,IN-AP,Andhra Pradesh,deepfake_explainer,What is a deepfake (explainer searches),24.0,1
+full,IN-AR,Arunachal Pradesh,deepfake_explainer,What is a deepfake (explainer searches),100.0,1
+full,IN-AS,Assam,deepfake_explainer,What is a deepfake (explainer searches),32.0,1
+full,IN-BR,Bihar,deepfake_explainer,What is a deepfake (explainer searches),24.0,1
+full,IN-CH,Chandigarh,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+full,IN-CT,Chhattisgarh,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+full,IN-DL,Delhi,deepfake_explainer,What is a deepfake (explainer searches),49.0,1
+full,IN-GA,Goa,deepfake_explainer,What is a deepfake (explainer searches),44.0,1
+full,IN-GJ,Gujarat,deepfake_explainer,What is a deepfake (explainer searches),27.0,1
+full,IN-HP,Himachal Pradesh,deepfake_explainer,What is a deepfake (explainer searches),31.0,1
+full,IN-HR,Haryana,deepfake_explainer,What is a deepfake (explainer searches),43.0,1
+full,IN-JH,Jharkhand,deepfake_explainer,What is a deepfake (explainer searches),37.0,1
+full,IN-JK,Jammu and Kashmir,deepfake_explainer,What is a deepfake (explainer searches),43.0,1
+full,IN-KA,Karnataka,deepfake_explainer,What is a deepfake (explainer searches),37.0,1
+full,IN-KL,Kerala,deepfake_explainer,What is a deepfake (explainer searches),32.0,1
+full,IN-MH,Maharashtra,deepfake_explainer,What is a deepfake (explainer searches),38.0,1
+full,IN-ML,Meghalaya,deepfake_explainer,What is a deepfake (explainer searches),55.0,1
+full,IN-MN,Manipur,deepfake_explainer,What is a deepfake (explainer searches),48.0,1
+full,IN-MP,Madhya Pradesh,deepfake_explainer,What is a deepfake (explainer searches),22.0,1
+full,IN-MZ,Mizoram,deepfake_explainer,What is a deepfake (explainer searches),52.0,1
+full,IN-NL,Nagaland,deepfake_explainer,What is a deepfake (explainer searches),77.0,1
+full,IN-OR,Odisha,deepfake_explainer,What is a deepfake (explainer searches),32.0,1
+full,IN-PB,Punjab,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+full,IN-PY,Puducherry,deepfake_explainer,What is a deepfake (explainer searches),37.0,1
+full,IN-RJ,Rajasthan,deepfake_explainer,What is a deepfake (explainer searches),27.0,1
+full,IN-TG,Telangana,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+full,IN-TN,Tamil Nadu,deepfake_explainer,What is a deepfake (explainer searches),31.0,1
+full,IN-TR,Tripura,deepfake_explainer,What is a deepfake (explainer searches),57.0,1
+full,IN-UP,Uttar Pradesh,deepfake_explainer,What is a deepfake (explainer searches),29.0,1
+full,IN-UT,Uttarakhand,deepfake_explainer,What is a deepfake (explainer searches),48.0,1
+full,IN-WB,West Bengal,deepfake_explainer,What is a deepfake (explainer searches),33.0,1
+full,IN-AP,Andhra Pradesh,deepfake_free,Free deepfake tools,17.0,1
+full,IN-AR,Arunachal Pradesh,deepfake_free,Free deepfake tools,45.0,1
+full,IN-AS,Assam,deepfake_free,Free deepfake tools,23.0,1
+full,IN-BR,Bihar,deepfake_free,Free deepfake tools,11.0,1
+full,IN-CH,Chandigarh,deepfake_free,Free deepfake tools,14.0,1
+full,IN-CT,Chhattisgarh,deepfake_free,Free deepfake tools,18.0,1
+full,IN-DD,Daman and Diu,deepfake_free,Free deepfake tools,100.0,1
+full,IN-DL,Delhi,deepfake_free,Free deepfake tools,18.0,1
+full,IN-GA,Goa,deepfake_free,Free deepfake tools,14.0,1
+full,IN-GJ,Gujarat,deepfake_free,Free deepfake tools,20.0,1
+full,IN-HP,Himachal Pradesh,deepfake_free,Free deepfake tools,25.0,1
+full,IN-HR,Haryana,deepfake_free,Free deepfake tools,15.0,1
+full,IN-JH,Jharkhand,deepfake_free,Free deepfake tools,16.0,1
+full,IN-JK,Jammu and Kashmir,deepfake_free,Free deepfake tools,18.0,1
+full,IN-KA,Karnataka,deepfake_free,Free deepfake tools,17.0,1
+full,IN-KL,Kerala,deepfake_free,Free deepfake tools,26.0,1
+full,IN-MH,Maharashtra,deepfake_free,Free deepfake tools,16.0,1
+full,IN-ML,Meghalaya,deepfake_free,Free deepfake tools,15.0,1
+full,IN-MN,Manipur,deepfake_free,Free deepfake tools,36.0,1
+full,IN-MP,Madhya Pradesh,deepfake_free,Free deepfake tools,12.0,1
+full,IN-MZ,Mizoram,deepfake_free,Free deepfake tools,57.0,1
+full,IN-NL,Nagaland,deepfake_free,Free deepfake tools,56.0,1
+full,IN-OR,Odisha,deepfake_free,Free deepfake tools,20.0,1
+full,IN-PB,Punjab,deepfake_free,Free deepfake tools,18.0,1
+full,IN-RJ,Rajasthan,deepfake_free,Free deepfake tools,13.0,1
+full,IN-TG,Telangana,deepfake_free,Free deepfake tools,16.0,1
+full,IN-TN,Tamil Nadu,deepfake_free,Free deepfake tools,20.0,1
+full,IN-TR,Tripura,deepfake_free,Free deepfake tools,36.0,1
+full,IN-UP,Uttar Pradesh,deepfake_free,Free deepfake tools,12.0,1
+full,IN-UT,Uttarakhand,deepfake_free,Free deepfake tools,26.0,1
+full,IN-WB,West Bengal,deepfake_free,Free deepfake tools,19.0,1
+full,IN-AP,Andhra Pradesh,deepfake_makers,Deepfake makers / generators / software,26.0,1
+full,IN-AR,Arunachal Pradesh,deepfake_makers,Deepfake makers / generators / software,63.0,1
+full,IN-AS,Assam,deepfake_makers,Deepfake makers / generators / software,49.0,1
+full,IN-BR,Bihar,deepfake_makers,Deepfake makers / generators / software,27.0,1
+full,IN-CH,Chandigarh,deepfake_makers,Deepfake makers / generators / software,32.0,1
+full,IN-CT,Chhattisgarh,deepfake_makers,Deepfake makers / generators / software,37.0,1
+full,IN-DL,Delhi,deepfake_makers,Deepfake makers / generators / software,36.0,1
+full,IN-GA,Goa,deepfake_makers,Deepfake makers / generators / software,31.0,1
+full,IN-GJ,Gujarat,deepfake_makers,Deepfake makers / generators / software,35.0,1
+full,IN-HP,Himachal Pradesh,deepfake_makers,Deepfake makers / generators / software,34.0,1
+full,IN-HR,Haryana,deepfake_makers,Deepfake makers / generators / software,33.0,1
+full,IN-JH,Jharkhand,deepfake_makers,Deepfake makers / generators / software,34.0,1
+full,IN-JK,Jammu and Kashmir,deepfake_makers,Deepfake makers / generators / software,42.0,1
+full,IN-KA,Karnataka,deepfake_makers,Deepfake makers / generators / software,28.0,1
+full,IN-KL,Kerala,deepfake_makers,Deepfake makers / generators / software,41.0,1
+full,IN-MH,Maharashtra,deepfake_makers,Deepfake makers / generators / software,30.0,1
+full,IN-ML,Meghalaya,deepfake_makers,Deepfake makers / generators / software,34.0,1
+full,IN-MN,Manipur,deepfake_makers,Deepfake makers / generators / software,45.0,1
+full,IN-MP,Madhya Pradesh,deepfake_makers,Deepfake makers / generators / software,23.0,1
+full,IN-MZ,Mizoram,deepfake_makers,Deepfake makers / generators / software,100.0,1
+full,IN-NL,Nagaland,deepfake_makers,Deepfake makers / generators / software,52.0,1
+full,IN-OR,Odisha,deepfake_makers,Deepfake makers / generators / software,38.0,1
+full,IN-PB,Punjab,deepfake_makers,Deepfake makers / generators / software,37.0,1
+full,IN-PY,Puducherry,deepfake_makers,Deepfake makers / generators / software,24.0,1
+full,IN-RJ,Rajasthan,deepfake_makers,Deepfake makers / generators / software,30.0,1
+full,IN-TG,Telangana,deepfake_makers,Deepfake makers / generators / software,28.0,1
+full,IN-TN,Tamil Nadu,deepfake_makers,Deepfake makers / generators / software,29.0,1
+full,IN-TR,Tripura,deepfake_makers,Deepfake makers / generators / software,73.0,1
+full,IN-UP,Uttar Pradesh,deepfake_makers,Deepfake makers / generators / software,28.0,1
+full,IN-UT,Uttarakhand,deepfake_makers,Deepfake makers / generators / software,49.0,1
+full,IN-WB,West Bengal,deepfake_makers,Deepfake makers / generators / software,38.0,1
+full,IN-AN,Andaman and Nicobar Islands,face_swap,Face swap (any),13.0,1
+full,IN-AP,Andhra Pradesh,face_swap,Face swap (any),18.0,1
+full,IN-AR,Arunachal Pradesh,face_swap,Face swap (any),19.0,1
+full,IN-AS,Assam,face_swap,Face swap (any),21.0,1
+full,IN-BR,Bihar,face_swap,Face swap (any),100.0,1
+full,IN-CH,Chandigarh,face_swap,Face swap (any),14.0,1
+full,IN-CT,Chhattisgarh,face_swap,Face swap (any),22.0,1
+full,IN-DD,Daman and Diu,face_swap,Face swap (any),38.0,1
+full,IN-DL,Delhi,face_swap,Face swap (any),15.0,1
+full,IN-DN,Dadra and Nagar Haveli,face_swap,Face swap (any),30.0,1
+full,IN-GA,Goa,face_swap,Face swap (any),12.0,1
+full,IN-GJ,Gujarat,face_swap,Face swap (any),32.0,1
+full,IN-HP,Himachal Pradesh,face_swap,Face swap (any),13.0,1
+full,IN-HR,Haryana,face_swap,Face swap (any),17.0,1
+full,IN-JH,Jharkhand,face_swap,Face swap (any),40.0,1
+full,IN-JK,Jammu and Kashmir,face_swap,Face swap (any),14.0,1
+full,IN-KA,Karnataka,face_swap,Face swap (any),12.0,1
+full,IN-KL,Kerala,face_swap,Face swap (any),19.0,1
+full,IN-MH,Maharashtra,face_swap,Face swap (any),15.0,1
+full,IN-ML,Meghalaya,face_swap,Face swap (any),17.0,1
+full,IN-MN,Manipur,face_swap,Face swap (any),33.0,1
+full,IN-MP,Madhya Pradesh,face_swap,Face swap (any),30.0,1
+full,IN-MZ,Mizoram,face_swap,Face swap (any),26.0,1
+full,IN-NL,Nagaland,face_swap,Face swap (any),16.0,1
+full,IN-OR,Odisha,face_swap,Face swap (any),23.0,1
+full,IN-PB,Punjab,face_swap,Face swap (any),20.0,1
+full,IN-PY,Puducherry,face_swap,Face swap (any),17.0,1
+full,IN-RJ,Rajasthan,face_swap,Face swap (any),26.0,1
+full,IN-SK,Sikkim,face_swap,Face swap (any),16.0,1
+full,IN-TG,Telangana,face_swap,Face swap (any),18.0,1
+full,IN-TN,Tamil Nadu,face_swap,Face swap (any),18.0,1
+full,IN-TR,Tripura,face_swap,Face swap (any),32.0,1
+full,IN-UP,Uttar Pradesh,face_swap,Face swap (any),47.0,1
+full,IN-UT,Uttarakhand,face_swap,Face swap (any),17.0,1
+full,IN-WB,West Bengal,face_swap,Face swap (any),16.0,1
+full,IN-AN,Andaman and Nicobar Islands,face_swap_video,Video face swap,55.0,1
+full,IN-AP,Andhra Pradesh,face_swap_video,Video face swap,33.0,1
+full,IN-AR,Arunachal Pradesh,face_swap_video,Video face swap,70.0,1
+full,IN-AS,Assam,face_swap_video,Video face swap,52.0,1
+full,IN-BR,Bihar,face_swap_video,Video face swap,90.0,1
+full,IN-CH,Chandigarh,face_swap_video,Video face swap,38.0,1
+full,IN-CT,Chhattisgarh,face_swap_video,Video face swap,47.0,1
+full,IN-DD,Daman and Diu,face_swap_video,Video face swap,37.0,1
+full,IN-DL,Delhi,face_swap_video,Video face swap,34.0,1
+full,IN-DN,Dadra and Nagar Haveli,face_swap_video,Video face swap,59.0,1
+full,IN-GA,Goa,face_swap_video,Video face swap,32.0,1
+full,IN-GJ,Gujarat,face_swap_video,Video face swap,58.0,1
+full,IN-HP,Himachal Pradesh,face_swap_video,Video face swap,37.0,1
+full,IN-HR,Haryana,face_swap_video,Video face swap,32.0,1
+full,IN-JH,Jharkhand,face_swap_video,Video face swap,61.0,1
+full,IN-JK,Jammu and Kashmir,face_swap_video,Video face swap,44.0,1
+full,IN-KA,Karnataka,face_swap_video,Video face swap,33.0,1
+full,IN-KL,Kerala,face_swap_video,Video face swap,47.0,1
+full,IN-MH,Maharashtra,face_swap_video,Video face swap,37.0,1
+full,IN-ML,Meghalaya,face_swap_video,Video face swap,67.0,1
+full,IN-MN,Manipur,face_swap_video,Video face swap,60.0,1
+full,IN-MP,Madhya Pradesh,face_swap_video,Video face swap,47.0,1
+full,IN-MZ,Mizoram,face_swap_video,Video face swap,100.0,1
+full,IN-NL,Nagaland,face_swap_video,Video face swap,56.0,1
+full,IN-OR,Odisha,face_swap_video,Video face swap,47.0,1
+full,IN-PB,Punjab,face_swap_video,Video face swap,51.0,1
+full,IN-PY,Puducherry,face_swap_video,Video face swap,44.0,1
+full,IN-RJ,Rajasthan,face_swap_video,Video face swap,42.0,1
+full,IN-SK,Sikkim,face_swap_video,Video face swap,62.0,1
+full,IN-TG,Telangana,face_swap_video,Video face swap,35.0,1
+full,IN-TN,Tamil Nadu,face_swap_video,Video face swap,51.0,1
+full,IN-TR,Tripura,face_swap_video,Video face swap,87.0,1
+full,IN-UP,Uttar Pradesh,face_swap_video,Video face swap,57.0,1
+full,IN-UT,Uttarakhand,face_swap_video,Video face swap,54.0,1
+full,IN-WB,West Bengal,face_swap_video,Video face swap,46.0,1
+full,IN-AN,Andaman and Nicobar Islands,reface,Reface (named app),86.0,1
+full,IN-AP,Andhra Pradesh,reface,Reface (named app),55.0,1
+full,IN-AR,Arunachal Pradesh,reface,Reface (named app),59.0,1
+full,IN-AS,Assam,reface,Reface (named app),66.0,1
+full,IN-BR,Bihar,reface,Reface (named app),37.0,1
+full,IN-CH,Chandigarh,reface,Reface (named app),36.0,1
+full,IN-CT,Chhattisgarh,reface,Reface (named app),51.0,1
+full,IN-DD,Daman and Diu,reface,Reface (named app),90.0,1
+full,IN-DL,Delhi,reface,Reface (named app),39.0,1
+full,IN-DN,Dadra and Nagar Haveli,reface,Reface (named app),81.0,1
+full,IN-GA,Goa,reface,Reface (named app),39.0,1
+full,IN-GJ,Gujarat,reface,Reface (named app),46.0,1
+full,IN-HP,Himachal Pradesh,reface,Reface (named app),48.0,1
+full,IN-HR,Haryana,reface,Reface (named app),38.0,1
+full,IN-JH,Jharkhand,reface,Reface (named app),54.0,1
+full,IN-JK,Jammu and Kashmir,reface,Reface (named app),55.0,1
+full,IN-KA,Karnataka,reface,Reface (named app),41.0,1
+full,IN-KL,Kerala,reface,Reface (named app),59.0,1
+full,IN-MH,Maharashtra,reface,Reface (named app),47.0,1
+full,IN-ML,Meghalaya,reface,Reface (named app),77.0,1
+full,IN-MN,Manipur,reface,Reface (named app),94.0,1
+full,IN-MP,Madhya Pradesh,reface,Reface (named app),35.0,1
+full,IN-MZ,Mizoram,reface,Reface (named app),87.0,1
+full,IN-NL,Nagaland,reface,Reface (named app),75.0,1
+full,IN-OR,Odisha,reface,Reface (named app),53.0,1
+full,IN-PB,Punjab,reface,Reface (named app),48.0,1
+full,IN-PY,Puducherry,reface,Reface (named app),57.0,1
+full,IN-RJ,Rajasthan,reface,Reface (named app),36.0,1
+full,IN-SK,Sikkim,reface,Reface (named app),100.0,1
+full,IN-TG,Telangana,reface,Reface (named app),40.0,1
+full,IN-TN,Tamil Nadu,reface,Reface (named app),56.0,1
+full,IN-TR,Tripura,reface,Reface (named app),78.0,1
+full,IN-UP,Uttar Pradesh,reface,Reface (named app),41.0,1
+full,IN-UT,Uttarakhand,reface,Reface (named app),59.0,1
+full,IN-WB,West Bengal,reface,Reface (named app),56.0,1

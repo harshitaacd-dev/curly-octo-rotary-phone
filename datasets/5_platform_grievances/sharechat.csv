@@ -1,0 +1,879 @@
+platform,service,period_start,period_end,section,category,metric,value,unit,notes,source_file
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Comment ban (1 day),accounts banned,20127,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Comment ban (30 days),accounts banned,664,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Comment ban (360 days),accounts banned,41027,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Comment ban (7 days),accounts banned,3192,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Edit Profile ban (1 day),accounts banned,16541,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Edit Profile ban (30 days),accounts banned,610,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Edit Profile ban (360 days),accounts banned,41009,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Edit Profile ban (7 days),accounts banned,2943,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,Permanent termination,accounts terminated,42911,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,UGC ban (1 day),accounts banned,6244,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,UGC ban (30 days),accounts banned,510,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,UGC ban (360 days),accounts banned,41090,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,account bans,UGC ban (7 days),accounts banned,1746,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,law enforcement requests,All,law enforcement requests received,14,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,law enforcement requests,All,requests where takedown/ban action was taken,10,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,law enforcement requests,All,requests where user data was provided,12,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,takedowns,Chatrooms deleted,content taken down,1883240,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,takedowns,Comments deleted,content taken down,210970,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,takedowns,Copyright takedown,content taken down,81669,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,takedowns,Sexual UGC discard,content taken down,314379,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,takedowns,UGC discard,content taken down,6074743,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Abusive language,share of user reports,25.37,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,All,user reports received,6428297,count,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Fake news,share of user reports,0.54,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Fake profile,share of user reports,6.28,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Hate speech,share of user reports,0.37,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Illegal activities,share of user reports,1.12,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Impersonation,share of user reports,0,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Inappropriate chatroom name,share of user reports,0.15,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Inappropriate chatroom picture,share of user reports,0.07,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Inappropriate comments,share of user reports,1.33,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Inappropriate profile picture,share of user reports,3.43,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Inappropriate username/handle/status,share of user reports,0.65,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,No category,share of user reports,2.88,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Non-agreement,share of user reports,0.29,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Offensive,share of user reports,0.95,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Others,share of user reports,37.57,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Sexually explicit content,share of user reports,9.21,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Sharing personal information,share of user reports,0.69,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Spam,share of user reports,6.8,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Suicide/Dangerous Acts,share of user reports,0.06,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Terrorism,share of user reports,0.05,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Violence,share of user reports,1.26,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-06-01,2021-06-30,user reports,Wrong group/tag,share of user reports,0.9,percent,,reports/sharechat/sharechat_india_2021-06.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Comment ban (1 day),accounts banned,24474,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Comment ban (30 days),accounts banned,877,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Comment ban (360 days),accounts banned,65511,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Comment ban (7 days),accounts banned,5641,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Edit Profile ban (1 day),accounts banned,20768,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Edit Profile ban (30 days),accounts banned,601,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Edit Profile ban (360 days),accounts banned,65493,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Edit Profile ban (7 days),accounts banned,2488,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,Permanent termination,accounts terminated,67103,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,UGC ban (1 day),accounts banned,9224,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,UGC ban (30 days),accounts banned,571,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,UGC ban (360 days),accounts banned,65472,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,account bans,UGC ban (7 days),accounts banned,2250,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,law enforcement requests,All,law enforcement requests received,10,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,law enforcement requests,All,requests where takedown/ban action was taken,4,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,law enforcement requests,All,requests where user data was provided,6,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,takedowns,Chatrooms deleted,content taken down,9808,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,takedowns,Comments deleted,content taken down,119569,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,takedowns,Copyright takedown,content taken down,71122,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,takedowns,Sexual UGC discard,content taken down,266465,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,takedowns,UGC discard,content taken down,8437048,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Abusive language,share of user reports,20.58,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,All,user reports received,6251122,count,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Fake news,share of user reports,2,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Fake profile,share of user reports,3.89,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Hate speech,share of user reports,0.45,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Illegal activities,share of user reports,2.65,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Inappropriate chatroom name,share of user reports,0.75,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Inappropriate chatroom picture,share of user reports,0.14,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Inappropriate comments,share of user reports,1.19,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Inappropriate profile picture,share of user reports,1.78,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Inappropriate username/handle/status,share of user reports,1.06,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,No category,share of user reports,9.71,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Non-agreement,share of user reports,0.35,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Offensive,share of user reports,1.38,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Others,share of user reports,34.11,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Sexually explicit content,share of user reports,7.72,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Sharing personal information,share of user reports,1.28,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Spam,share of user reports,7.18,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Suicide/Dangerous Acts,share of user reports,0.14,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Terrorism,share of user reports,0.04,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Violence,share of user reports,2.4,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-07-01,2021-07-31,user reports,Wrong group/tag,share of user reports,1.18,percent,,reports/sharechat/sharechat_india_2021-07.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Comment ban (1 day),accounts banned,19890,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Comment ban (30 days),accounts banned,641,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Comment ban (360 days),accounts banned,40095,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Comment ban (7 days),accounts banned,3126,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Edit Profile ban (1 day),accounts banned,16043,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Edit Profile ban (30 days),accounts banned,582,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Edit Profile ban (360 days),accounts banned,40078,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Edit Profile ban (7 days),accounts banned,2829,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,Permanent termination,accounts terminated,41887,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,UGC ban (1 day),accounts banned,5985,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,UGC ban (30 days),accounts banned,467,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,UGC ban (360 days),accounts banned,40159,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,account bans,UGC ban (7 days),accounts banned,1674,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,law enforcement requests,All,law enforcement requests received,9,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,law enforcement requests,All,requests where takedown/ban action was taken,3,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,law enforcement requests,All,requests where user data was provided,7,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,takedowns,Chatrooms deleted,content taken down,12127,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,takedowns,Comments deleted,content taken down,207791,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,takedowns,Copyright takedown,content taken down,59269,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,takedowns,Sexual UGC discard,content taken down,306042,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,takedowns,UGC discard,content taken down,5942853,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Abusive language,share of user reports,21.31,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,All,user reports received,11755916,count,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Fake news,share of user reports,1.26,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Fake profile,share of user reports,5.21,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Hate speech,share of user reports,0.38,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Illegal activities,share of user reports,2.19,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Inappropriate chatroom name,share of user reports,0.38,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Inappropriate chatroom picture,share of user reports,0.11,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Inappropriate comments,share of user reports,0.04,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Inappropriate profile picture,share of user reports,2.24,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Inappropriate username/handle/status,share of user reports,1.46,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,No category,share of user reports,8.55,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Non-agreement,share of user reports,0.22,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Offensive,share of user reports,1.28,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Others,share of user reports,37.51,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Sexually explicit content,share of user reports,7.01,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Sharing personal information,share of user reports,1.33,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Spam,share of user reports,6.4,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Suicide/Dangerous Acts,share of user reports,0.13,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Terrorism,share of user reports,0.08,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Violence,share of user reports,2.13,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-08-01,2021-08-31,user reports,Wrong group/tag,share of user reports,0.76,percent,,reports/sharechat/sharechat_india_2021-08.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Comment ban (1 day),accounts banned,237,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Comment ban (30 days),accounts banned,1523,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Comment ban (360 days),accounts banned,87605,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Comment ban (7 days),accounts banned,64002,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Edit Profile ban (1 day),accounts banned,137,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Edit Profile ban (30 days),accounts banned,884,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Edit Profile ban (360 days),accounts banned,87498,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Edit Profile ban (7 days),accounts banned,24743,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,Permanent termination,accounts terminated,89159,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,UGC ban (1 day),accounts banned,49,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,UGC ban (30 days),accounts banned,593,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,UGC ban (360 days),accounts banned,87480,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,account bans,UGC ban (7 days),accounts banned,5786,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,law enforcement requests,All,law enforcement requests received,5,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,law enforcement requests,All,requests where takedown/ban action was taken,0,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,law enforcement requests,All,requests where user data was provided,4,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,takedowns,Chatrooms deleted,content taken down,2783,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,takedowns,Comments deleted,content taken down,149331,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,takedowns,Copyright takedown,content taken down,51973,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,takedowns,Sexual UGC discard,content taken down,270107,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,takedowns,UGC discard,content taken down,2824150,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Abusive language,share of user reports,24.35,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,All,user reports received,9539000,count,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Fake news,share of user reports,1.42,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Fake profile,share of user reports,5.73,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Hate speech,share of user reports,0.43,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Illegal activities,share of user reports,2.14,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Impersonation,share of user reports,0.03,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Inappropriate chatroom name,share of user reports,0.32,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Inappropriate chatroom picture,share of user reports,0.12,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Inappropriate comments,share of user reports,0.02,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Inappropriate profile picture,share of user reports,2.21,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Inappropriate username/handle/status,share of user reports,1.78,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,No category,share of user reports,8.5,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Non-agreement,share of user reports,0.23,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Offensive,share of user reports,1.38,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Others,share of user reports,33.49,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Sexually explicit content,share of user reports,6.82,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Sharing personal information,share of user reports,1.42,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Spam,share of user reports,6.33,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Suicide/Dangerous Acts,share of user reports,0.16,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Terrorism,share of user reports,0.08,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Violence,share of user reports,2.14,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-09-01,2021-09-30,user reports,Wrong group/tag,share of user reports,0.9,percent,,reports/sharechat/sharechat_india_2021-09.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Comment ban (1 day),accounts banned,80,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Comment ban (30 days),accounts banned,1694,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Comment ban (360 days),accounts banned,65332,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Comment ban (7 days),accounts banned,83576,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Edit Profile ban (1 day),accounts banned,36,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Edit Profile ban (30 days),accounts banned,799,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Edit Profile ban (360 days),accounts banned,65363,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Edit Profile ban (7 days),accounts banned,26790,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,Permanent termination,accounts terminated,67396,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,UGC ban (1 day),accounts banned,15,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,UGC ban (30 days),accounts banned,904,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,UGC ban (360 days),accounts banned,65462,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,account bans,UGC ban (7 days),accounts banned,9735,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,law enforcement requests,All,law enforcement requests received,12,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,law enforcement requests,All,requests where takedown/ban action was taken,5,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,law enforcement requests,All,requests where user data was provided,11,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,takedowns,Chatrooms deleted,content taken down,1889,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,takedowns,Comments deleted,content taken down,163411,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,takedowns,Copyright takedown,content taken down,88663,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,takedowns,Sexual UGC discard,content taken down,250602,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,takedowns,UGC discard,content taken down,8578254,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Abusive language,share of user reports,26.68,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,All,user reports received,8196895,count,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Fake news,share of user reports,1.59,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Fake profile,share of user reports,5.13,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Hate speech,share of user reports,0.43,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Illegal activities,share of user reports,2.29,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Inappropriate chatroom name,share of user reports,0.33,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Inappropriate chatroom picture,share of user reports,0.14,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Inappropriate comments,share of user reports,0.13,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Inappropriate profile picture,share of user reports,2.05,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Inappropriate username/handle/status,share of user reports,1.95,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,No category,share of user reports,9.24,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Non-agreement,share of user reports,0.21,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Offensive,share of user reports,1.66,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Others,share of user reports,30.74,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Sexually explicit content,share of user reports,6.17,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Sharing personal information,share of user reports,1.48,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Spam,share of user reports,5.95,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Suicide/Dangerous Acts,share of user reports,0.18,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Terrorism,share of user reports,0.08,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Violence,share of user reports,2.11,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-10-01,2021-10-31,user reports,Wrong group/tag,share of user reports,1.45,percent,,reports/sharechat/sharechat_india_2021-10.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Comment ban (1 day),accounts banned,33,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Comment ban (30 days),accounts banned,1321,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Comment ban (360 days),accounts banned,50495,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Comment ban (7 days),accounts banned,74162,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Edit Profile ban (1 day),accounts banned,22,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Edit Profile ban (30 days),accounts banned,632,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Edit Profile ban (360 days),accounts banned,50475,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Edit Profile ban (7 days),accounts banned,20476,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,Permanent termination,accounts terminated,53832,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,UGC ban (1 day),accounts banned,14,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,UGC ban (30 days),accounts banned,1198,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,UGC ban (360 days),accounts banned,50472,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,account bans,UGC ban (7 days),accounts banned,16569,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,law enforcement requests,All,law enforcement requests received,11,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,law enforcement requests,All,requests where user data was provided,11,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,takedowns,Chatrooms deleted,content taken down,1126,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,takedowns,Comments deleted,content taken down,141436,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,takedowns,Copyright takedown,content taken down,62711,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,takedowns,Sexual UGC discard,content taken down,206538,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,takedowns,UGC discard,content taken down,7037688,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,All,user reports received,6472386,count,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Fake news,share of user reports,1.38,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Fake profile,share of user reports,4.84,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Hate speech,share of user reports,0.48,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Illegal activities,share of user reports,2.39,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Inappropriate chatroom name,share of user reports,0.36,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Inappropriate chatroom picture,share of user reports,0.09,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Inappropriate comments,share of user reports,0.16,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Inappropriate profile picture,share of user reports,1.86,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Inappropriate username/handle/status,share of user reports,1.46,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,No category,share of user reports,10.6,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Non-agreement,share of user reports,0.26,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Offensive,share of user reports,1.63,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Sexually explicit content,share of user reports,6.65,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Sharing personal information,share of user reports,1.53,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Spam,share of user reports,5.88,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Suicide/Dangerous Acts,share of user reports,0.17,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Terrorism,share of user reports,0.09,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Violence,share of user reports,2.31,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-11-01,2021-11-30,user reports,Wrong group/tag,share of user reports,1.47,percent,,reports/sharechat/sharechat_india_2021-11.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Comment ban (1 day),accounts banned,36,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Comment ban (30 days),accounts banned,978,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Comment ban (360 days),accounts banned,16172,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Comment ban (7 days),accounts banned,69432,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Edit Profile ban (1 day),accounts banned,23,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Edit Profile ban (30 days),accounts banned,454,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Edit Profile ban (360 days),accounts banned,16165,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Edit Profile ban (7 days),accounts banned,19212,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,Permanent termination,accounts terminated,16920,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,UGC ban (1 day),accounts banned,22,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,UGC ban (30 days),accounts banned,842,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,UGC ban (360 days),accounts banned,16176,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,account bans,UGC ban (7 days),accounts banned,17216,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,law enforcement requests,All,law enforcement requests received,12,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,law enforcement requests,All,requests where takedown/ban action was taken,3,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,law enforcement requests,All,requests where user data was provided,9,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,takedowns,Chatrooms deleted,content taken down,1162,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,takedowns,Comments deleted,content taken down,130259,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,takedowns,Copyright takedown,content taken down,77941,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,takedowns,Sexual UGC discard,content taken down,241939,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,takedowns,UGC discard,content taken down,4718374,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Abusive language,share of user reports,28.46,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,All,user reports received,5618870,count,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Fake news,share of user reports,1.52,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Fake profile,share of user reports,3.52,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Hate speech,share of user reports,0.56,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Illegal activities,share of user reports,2.48,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Impersonation,share of user reports,0.03,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Inappropriate chatroom name,share of user reports,0.39,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Inappropriate chatroom picture,share of user reports,0.09,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Inappropriate comments,share of user reports,0.25,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Inappropriate profile picture,share of user reports,1.64,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Inappropriate username/handle/status,share of user reports,1.27,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,No category,share of user reports,12.18,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Non-agreement,share of user reports,0.26,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Offensive,share of user reports,1.86,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Others,share of user reports,26.49,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Sexually explicit content,share of user reports,6.91,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Sharing personal information,share of user reports,1.43,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Spam,share of user reports,5.92,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Suicide/Dangerous Acts,share of user reports,0.19,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Terrorism,share of user reports,0.12,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Violence,share of user reports,2.46,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2021-12-01,2021-12-31,user reports,Wrong group/tag,share of user reports,1.94,percent,,reports/sharechat/sharechat_india_2021-12.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Comment ban (1 day),accounts banned,35,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Comment ban (30 days),accounts banned,975,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Comment ban (360 days),accounts banned,13032,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Comment ban (7 days),accounts banned,64464,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Edit Profile ban (1 day),accounts banned,23,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Edit Profile ban (30 days),accounts banned,604,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Edit Profile ban (360 days),accounts banned,13007,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Edit Profile ban (7 days),accounts banned,22513,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,Permanent termination,accounts terminated,13863,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,UGC ban (1 day),accounts banned,21,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,UGC ban (30 days),accounts banned,1048,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,UGC ban (360 days),accounts banned,13028,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,account bans,UGC ban (7 days),accounts banned,19279,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,law enforcement requests,All,law enforcement requests received,19,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,law enforcement requests,All,requests where takedown/ban action was taken,5,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,law enforcement requests,All,requests where user data was provided,17,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,takedowns,Chatrooms deleted,content taken down,1363,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,takedowns,Comments deleted,content taken down,97878,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,takedowns,Copyright takedown,content taken down,78034,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,takedowns,Sexual UGC discard,content taken down,232792,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,takedowns,UGC discard,content taken down,3846272,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Abusive language,share of user reports,27.64,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,All,user reports received,6188644,count,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Fake news,share of user reports,1.5,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Fake profile,share of user reports,3.54,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Hate speech,share of user reports,0.46,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Illegal activities,share of user reports,2.62,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Impersonation,share of user reports,0.02,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Inappropriate chatroom name,share of user reports,0.37,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Inappropriate chatroom picture,share of user reports,0.09,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Inappropriate comments,share of user reports,0.14,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Inappropriate profile picture,share of user reports,1.59,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Inappropriate username/handle/status,share of user reports,1.27,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,No category,share of user reports,10.66,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Non-agreement,share of user reports,0.22,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Offensive,share of user reports,2.14,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Others,share of user reports,28.64,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Sexually explicit content,share of user reports,6.89,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Sharing personal information,share of user reports,1.48,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Spam,share of user reports,6.16,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Suicide/Dangerous Acts,share of user reports,0.2,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Terrorism,share of user reports,0.1,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Violence,share of user reports,2.37,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-01-01,2022-01-31,user reports,Wrong group/tag,share of user reports,1.88,percent,,reports/sharechat/sharechat_india_2022-01.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Comment ban (1 day),accounts banned,84,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Comment ban (30 days),accounts banned,1102,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Comment ban (360 days),accounts banned,8943,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Comment ban (7 days),accounts banned,57348,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Edit Profile ban (1 day),accounts banned,22,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Edit Profile ban (30 days),accounts banned,612,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Edit Profile ban (360 days),accounts banned,8936,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Edit Profile ban (7 days),accounts banned,20247,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,Permanent termination,accounts terminated,9391,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,UGC ban (1 day),accounts banned,20,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,UGC ban (30 days),accounts banned,1218,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,UGC ban (360 days),accounts banned,9019,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,account bans,UGC ban (7 days),accounts banned,16789,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,law enforcement requests,All,law enforcement requests received,11,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,law enforcement requests,All,requests where user data was provided,8,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,takedowns,Chatrooms deleted,content taken down,771,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,takedowns,Comments deleted,content taken down,87076,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,takedowns,Copyright takedown,content taken down,58865,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,takedowns,Sexual UGC discard,content taken down,188290,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,takedowns,UGC discard,content taken down,2515315,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Abusive language,share of user reports,27.59,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,All,user reports received,5681213,count,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Fake news,share of user reports,1.57,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Fake profile,share of user reports,3.43,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Hate speech,share of user reports,0.51,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Illegal activities,share of user reports,2.68,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Inappropriate chatroom name,share of user reports,0.34,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Inappropriate chatroom picture,share of user reports,0.09,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Inappropriate comments,share of user reports,0.2,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Inappropriate profile picture,share of user reports,1.57,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Inappropriate username/handle/status,share of user reports,1.2,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,No category,share of user reports,8.88,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Non-agreement,share of user reports,0.23,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Offensive,share of user reports,2.26,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Others,share of user reports,30.1,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Sexually explicit content,share of user reports,6.81,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Sharing personal information,share of user reports,1.53,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Spam,share of user reports,6.35,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Suicide/Dangerous Acts,share of user reports,0.2,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Terrorism,share of user reports,0.12,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Violence,share of user reports,2.46,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-02-01,2022-02-28,user reports,Wrong group/tag,share of user reports,1.88,percent,,reports/sharechat/sharechat_india_2022-02.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Comment ban (1 day),accounts banned,71,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Comment ban (30 days),accounts banned,1658,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Comment ban (360 days),accounts banned,7193,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Comment ban (7 days),accounts banned,72624,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Edit Profile ban (1 day),accounts banned,16,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Edit Profile ban (30 days),accounts banned,558,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Edit Profile ban (360 days),accounts banned,7156,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Edit Profile ban (7 days),accounts banned,17288,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,Permanent termination,accounts terminated,7816,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,UGC ban (1 day),accounts banned,9,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,UGC ban (30 days),accounts banned,952,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,UGC ban (360 days),accounts banned,7196,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,account bans,UGC ban (7 days),accounts banned,10800,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,law enforcement requests,All,law enforcement requests received,9,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,law enforcement requests,All,requests where user data was provided,8,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,takedowns,Chatrooms deleted,content taken down,811,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,takedowns,Comments deleted,content taken down,99166,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,takedowns,Copyright takedown,content taken down,55903,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,takedowns,Sexual UGC discard,content taken down,179896,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,takedowns,UGC discard,content taken down,2576506,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Abusive language,share of user reports,40.06,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,All,user reports received,7000911,count,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Fake news,share of user reports,1.68,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Fake profile,share of user reports,2.59,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Hate speech,share of user reports,0.48,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Illegal activities,share of user reports,2.42,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Impersonation,share of user reports,0.02,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Inappropriate chatroom name,share of user reports,0.31,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Inappropriate chatroom picture,share of user reports,0.06,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Inappropriate comments,share of user reports,0.14,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Inappropriate profile picture,share of user reports,1.11,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Inappropriate username/handle/status,share of user reports,0.85,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,No category,share of user reports,6.63,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Non-agreement,share of user reports,0.22,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Offensive,share of user reports,2.05,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Others,share of user reports,23.79,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Sexually explicit content,share of user reports,6.67,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Sharing personal information,share of user reports,1.21,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Spam,share of user reports,5.57,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Suicide/Dangerous Acts,share of user reports,0.17,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Terrorism,share of user reports,0.1,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Violence,share of user reports,1.94,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-03-01,2022-03-31,user reports,Wrong group/tag,share of user reports,1.92,percent,,reports/sharechat/sharechat_india_2022-03.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Comment ban (1 day),accounts banned,8,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Comment ban (30 days),accounts banned,1107,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Comment ban (360 days),accounts banned,10272,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Comment ban (7 days),accounts banned,11789,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Edit Profile ban (1 day),accounts banned,7,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Edit Profile ban (30 days),accounts banned,880,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Edit Profile ban (360 days),accounts banned,10225,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Edit Profile ban (7 days),accounts banned,19870,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,Permanent termination,accounts terminated,10930,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,UGC ban (1 day),accounts banned,7,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,UGC ban (30 days),accounts banned,1638,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,UGC ban (360 days),accounts banned,10344,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,account bans,UGC ban (7 days),accounts banned,15896,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,law enforcement requests,All,law enforcement requests received,8,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,law enforcement requests,All,requests where user data was provided,7,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,takedowns,Chatrooms deleted,content taken down,723,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,takedowns,Comments deleted,content taken down,122169,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,takedowns,Copyright takedown,content taken down,35434,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,takedowns,Sexual UGC discard,content taken down,136611,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,takedowns,UGC discard,content taken down,2649141,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Abusive language,share of user reports,24.07,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,All,user reports received,5011076,count,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Fake news,share of user reports,2.14,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Fake profile,share of user reports,3.06,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Hate speech,share of user reports,0.68,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Illegal activities,share of user reports,2.99,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Impersonation,share of user reports,0.02,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Inappropriate chatroom name,share of user reports,0.35,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Inappropriate chatroom picture,share of user reports,0.07,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Inappropriate comments,share of user reports,0.23,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Inappropriate profile picture,share of user reports,1.36,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Inappropriate username/handle/status,share of user reports,1.02,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,No category,share of user reports,10.23,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Non-agreement,share of user reports,0.26,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Offensive,share of user reports,2.56,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Others,share of user reports,27.86,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Sexually explicit content,share of user reports,8.85,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Sharing personal information,share of user reports,1.56,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Spam,share of user reports,7.04,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Suicide/Dangerous Acts,share of user reports,0.24,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Terrorism,share of user reports,0.2,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Violence,share of user reports,2.52,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-04-01,2022-04-30,user reports,Wrong group/tag,share of user reports,2.68,percent,,reports/sharechat/sharechat_india_2022-04.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Comment ban (1 day),accounts banned,4,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Comment ban (30 days),accounts banned,948,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Comment ban (360 days),accounts banned,10573,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Comment ban (7 days),accounts banned,10682,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Edit Profile ban (1 day),accounts banned,9,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Edit Profile ban (30 days),accounts banned,1050,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Edit Profile ban (360 days),accounts banned,10517,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Edit Profile ban (7 days),accounts banned,19588,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,Permanent termination,accounts terminated,11370,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,UGC ban (1 day),accounts banned,3,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,UGC ban (30 days),accounts banned,1977,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,UGC ban (360 days),accounts banned,10699,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,account bans,UGC ban (7 days),accounts banned,19465,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,law enforcement requests,All,law enforcement requests received,8,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,law enforcement requests,All,requests where user data was provided,7,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,takedowns,Chatrooms,content taken down,681,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,takedowns,Comments,content taken down,126860,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,takedowns,Copyright violations,content taken down,68410,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,takedowns,Sexually explicit,content taken down,150603,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,takedowns,UGC- violation of community standards,content taken down,2510308,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Abusive language,content and accounts reported,1283199,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Abusive language,share of user reports,23.53,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,All,user reports received,5452798,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Fake profile,content and accounts reported,161363,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Fake profile,share of user reports,2.96,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Hate speech,content and accounts reported,35494,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Hate speech,share of user reports,0.65,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Illegal activities,content and accounts reported,172368,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Illegal activities,share of user reports,3.16,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Impersonation,content and accounts reported,1260,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Impersonation,share of user reports,0.02,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate chatroom name,content and accounts reported,17489,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate chatroom name,share of user reports,0.32,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate chatroom picture,content and accounts reported,3774,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate chatroom picture,share of user reports,0.07,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate comments,content and accounts reported,8740,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate comments,share of user reports,0.16,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate profile picture,content and accounts reported,71967,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate profile picture,share of user reports,1.32,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate username/handle/status,content and accounts reported,55222,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Inappropriate username/handle/status,share of user reports,1.01,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Miscellaneous,content and accounts reported,550778,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Miscellaneous,share of user reports,10.1,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Misinformation,content and accounts reported,134805,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Misinformation,share of user reports,2.47,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Non-agreement,content and accounts reported,14057,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Non-agreement,share of user reports,0.26,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Offensive,content and accounts reported,145408,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Offensive,share of user reports,2.67,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Others,content and accounts reported,1440798,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Others,share of user reports,26.42,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Sexually explicit content,content and accounts reported,557557,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Sexually explicit content,share of user reports,10.23,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Sharing personal information,content and accounts reported,85534,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Sharing personal information,share of user reports,1.57,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Spam,content and accounts reported,408661,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Spam,share of user reports,7.49,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Suicide/Dangerous Acts,content and accounts reported,12878,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Suicide/Dangerous Acts,share of user reports,0.24,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Terrorism,content and accounts reported,10926,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Terrorism,share of user reports,0.2,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Violence,content and accounts reported,135169,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Violence,share of user reports,2.48,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Wrong group/tag,content and accounts reported,145351,count,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-05-01,2022-05-31,user reports,Wrong group/tag,share of user reports,2.67,percent,,reports/sharechat/sharechat_india_2022-05.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Comment ban (1 day),accounts banned,3,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Comment ban (30 days),accounts banned,851,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Comment ban (360 days),accounts banned,11239,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Comment ban (7 days),accounts banned,11414,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Edit Profile ban (1 day),accounts banned,6,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Edit Profile ban (30 days),accounts banned,872,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Edit Profile ban (360 days),accounts banned,11191,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Edit Profile ban (7 days),accounts banned,19200,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,Permanent termination,accounts terminated,11856,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,UGC ban (1 day),accounts banned,6,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,UGC ban (30 days),accounts banned,1712,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,UGC ban (360 days),accounts banned,11339,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,account bans,UGC ban (7 days),accounts banned,20637,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,law enforcement requests,All,law enforcement requests received,12,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,law enforcement requests,All,requests where takedown/ban action was taken,3,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,law enforcement requests,All,requests where user data was provided,11,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,takedowns,Chatrooms,content taken down,559,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,takedowns,Comments,content taken down,133672,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,takedowns,Copyright violations,content taken down,38433,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,takedowns,Sexually explicit,content taken down,193204,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,takedowns,UGC- violation of community standards,content taken down,2250440,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Abusive language,content and accounts reported,1282400,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Abusive language,share of user reports,24.53,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,All,user reports received,5227860,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Fake profile,content and accounts reported,156032,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Fake profile,share of user reports,2.98,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Hate speech,content and accounts reported,35862,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Hate speech,share of user reports,0.69,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Illegal activities,content and accounts reported,173415,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Illegal activities,share of user reports,3.32,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Impersonation,content and accounts reported,709,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate chatroom name,content and accounts reported,18250,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate chatroom name,share of user reports,0.35,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate chatroom picture,content and accounts reported,3645,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate chatroom picture,share of user reports,0.07,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate comments,content and accounts reported,6356,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate comments,share of user reports,0.12,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate profile picture,content and accounts reported,69765,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate profile picture,share of user reports,1.33,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate username/handle/status,content and accounts reported,56639,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Inappropriate username/handle/status,share of user reports,1.08,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Miscellaneous,content and accounts reported,515950,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Miscellaneous,share of user reports,9.87,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Misinformation,content and accounts reported,106603,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Misinformation,share of user reports,2.04,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Non-agreement,content and accounts reported,14279,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Non-agreement,share of user reports,0.27,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Offensive,content and accounts reported,123537,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Offensive,share of user reports,2.36,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Others,content and accounts reported,1394238,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Others,share of user reports,26.67,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Sexually explicit content,content and accounts reported,484202,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Sexually explicit content,share of user reports,9.26,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Sharing personal information,content and accounts reported,84564,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Sharing personal information,share of user reports,1.62,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Spam,content and accounts reported,412560,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Spam,share of user reports,7.89,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Suicide/Dangerous Acts,content and accounts reported,12735,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Suicide/Dangerous Acts,share of user reports,0.24,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Terrorism,content and accounts reported,8628,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Terrorism,share of user reports,0.17,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Violence,content and accounts reported,143155,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Violence,share of user reports,2.74,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Wrong group/tag,content and accounts reported,124336,count,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-06-01,2022-06-30,user reports,Wrong group/tag,share of user reports,2.38,percent,,reports/sharechat/sharechat_india_2022-06.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Comment ban (1 day),accounts banned,11,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Comment ban (30 days),accounts banned,1291,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Comment ban (360 days),accounts banned,2232,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Comment ban (7 days),accounts banned,13834,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Edit Profile ban (1 day),accounts banned,9,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Edit Profile ban (30 days),accounts banned,1611,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Edit Profile ban (360 days),accounts banned,2667,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Edit Profile ban (7 days),accounts banned,20649,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,Permanent termination,accounts terminated,2271,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,UGC ban (1 day),accounts banned,5,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,UGC ban (30 days),accounts banned,3345,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,UGC ban (360 days),accounts banned,3986,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,account bans,UGC ban (7 days),accounts banned,14673,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,law enforcement requests,All,law enforcement requests received,17,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,law enforcement requests,All,requests where takedown/ban action was taken,5,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,law enforcement requests,All,requests where user data was provided,11,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,takedowns,Chatrooms,content taken down,646,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,takedowns,Comments,content taken down,104643,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,takedowns,Copyright violations,content taken down,44270,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,takedowns,Sexually explicit,content taken down,270955,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,takedowns,UGC- violation of community standards,content taken down,3501814,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Abusive language,content and accounts reported,1366925,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Abusive language,share of user reports,24.93,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,All,user reports received,5482705,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Fake profile,content and accounts reported,164815,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Fake profile,share of user reports,3.01,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Hate speech,content and accounts reported,32309,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Hate speech,share of user reports,0.59,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Illegal activities,content and accounts reported,176211,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Illegal activities,share of user reports,3.21,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Impersonation,content and accounts reported,1401,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Impersonation,share of user reports,0.03,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate chatroom name,content and accounts reported,17779,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate chatroom name,share of user reports,0.32,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate chatroom picture,content and accounts reported,3429,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate chatroom picture,share of user reports,0.06,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate comments,content and accounts reported,5750,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate comments,share of user reports,0.1,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate profile picture,content and accounts reported,70691,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate profile picture,share of user reports,1.29,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate username/handle/status,content and accounts reported,56758,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Inappropriate username/handle/status,share of user reports,1.04,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Miscellaneous,content and accounts reported,494043,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Miscellaneous,share of user reports,9.01,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Misinformation,content and accounts reported,100248,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Misinformation,share of user reports,1.83,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Non-agreement,content and accounts reported,10986,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Non-agreement,share of user reports,0.2,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Offensive,content and accounts reported,142686,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Offensive,share of user reports,2.6,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Others,content and accounts reported,1487037,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Others,share of user reports,27.12,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Sexually explicit content,content and accounts reported,512972,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Sexually explicit content,share of user reports,9.36,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Sharing personal information,content and accounts reported,83992,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Sharing personal information,share of user reports,1.53,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Spam,content and accounts reported,458158,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Spam,share of user reports,8.36,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Suicide/Dangerous Acts,content and accounts reported,13137,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Suicide/Dangerous Acts,share of user reports,0.24,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Terrorism,content and accounts reported,8046,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Terrorism,share of user reports,0.15,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Violence,content and accounts reported,140196,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Violence,share of user reports,2.56,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Wrong group/tag,content and accounts reported,135136,count,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-07-01,2022-07-31,user reports,Wrong group/tag,share of user reports,2.46,percent,,reports/sharechat/sharechat_india_2022-07.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Comment ban (1 day),accounts banned,10,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Comment ban (30 days),accounts banned,1167,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Comment ban (360 days),accounts banned,2175,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Comment ban (7 days),accounts banned,7391,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Edit Profile ban (1 day),accounts banned,16,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Edit Profile ban (30 days),accounts banned,1747,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Edit Profile ban (360 days),accounts banned,2632,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Edit Profile ban (7 days),accounts banned,21789,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,Permanent termination,accounts terminated,2254,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,UGC ban (1 day),accounts banned,9,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,UGC ban (30 days),accounts banned,3012,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,UGC ban (360 days),accounts banned,3875,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,account bans,UGC ban (7 days),accounts banned,11606,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,law enforcement requests,All,law enforcement requests received,7,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,law enforcement requests,All,requests where takedown/ban action was taken,3,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,law enforcement requests,All,requests where user data was provided,6,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,takedowns,Chatrooms,content taken down,490,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,takedowns,Comments,content taken down,68293,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,takedowns,Copyright violations,content taken down,28207,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,takedowns,Sexually explicit,content taken down,245358,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,takedowns,UGC- violation of community standards,content taken down,3361845,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Abusive language,content and accounts reported,1259342,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Abusive language,share of user reports,25.29,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,All,user reports received,4979832,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Fake profile,content and accounts reported,149458,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Fake profile,share of user reports,3.0,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Hate speech,content and accounts reported,29705,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Hate speech,share of user reports,0.6,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Illegal activities,content and accounts reported,148598,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Illegal activities,share of user reports,2.98,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Impersonation,content and accounts reported,530,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate chatroom name,content and accounts reported,18014,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate chatroom name,share of user reports,0.36,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate chatroom picture,content and accounts reported,2571,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate chatroom picture,share of user reports,0.05,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate comments,content and accounts reported,6334,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate comments,share of user reports,0.13,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate profile picture,content and accounts reported,61935,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate profile picture,share of user reports,1.24,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate username/handle/status,content and accounts reported,53663,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Inappropriate username/handle/status,share of user reports,1.08,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Miscellaneous,content and accounts reported,475503,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Miscellaneous,share of user reports,9.55,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Misinformation,content and accounts reported,84981,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Misinformation,share of user reports,1.71,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Non-agreement,content and accounts reported,9592,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Non-agreement,share of user reports,0.19,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Offensive,content and accounts reported,124886,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Offensive,share of user reports,2.51,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Others,content and accounts reported,1329618,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Others,share of user reports,26.7,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Sexually explicit content,content and accounts reported,476098,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Sexually explicit content,share of user reports,9.56,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Sharing personal information,content and accounts reported,78361,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Sharing personal information,share of user reports,1.57,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Spam,content and accounts reported,414127,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Spam,share of user reports,8.32,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Suicide/Dangerous Acts,content and accounts reported,13012,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Suicide/Dangerous Acts,share of user reports,0.26,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Terrorism,content and accounts reported,7612,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Terrorism,share of user reports,0.15,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Violence,content and accounts reported,124418,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Violence,share of user reports,2.5,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Wrong group/tag,content and accounts reported,111474,count,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-08-01,2022-08-31,user reports,Wrong group/tag,share of user reports,2.24,percent,,reports/sharechat/sharechat_india_2022-08.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Comment ban (1 day),accounts banned,4,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Comment ban (30 days),accounts banned,753,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Comment ban (360 days),accounts banned,2526,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Comment ban (7 days),accounts banned,3919,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Edit Profile ban (1 day),accounts banned,5,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Edit Profile ban (30 days),accounts banned,2682,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Edit Profile ban (360 days),accounts banned,3057,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Edit Profile ban (7 days),accounts banned,39249,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,Permanent termination,accounts terminated,2497,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,UGC ban (1 day),accounts banned,3,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,UGC ban (30 days),accounts banned,3001,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,UGC ban (360 days),accounts banned,3912,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,account bans,UGC ban (7 days),accounts banned,9394,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,law enforcement requests,All,law enforcement requests received,6,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,law enforcement requests,All,requests where takedown/ban action was taken,0,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,law enforcement requests,All,requests where user data was provided,5,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,takedowns,Chatrooms,content taken down,452,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,takedowns,Comments,content taken down,46732,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,takedowns,Copyright violations,content taken down,51979,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,takedowns,Sexually explicit,content taken down,224598,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,takedowns,UGC- violation of community standards,content taken down,4938142,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Abusive language,content and accounts reported,1195121,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Abusive language,share of user reports,25.49,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,All,user reports received,4688505,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Fake profile,content and accounts reported,145091,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Fake profile,share of user reports,3.09,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Hate speech,content and accounts reported,27151,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Hate speech,share of user reports,0.58,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Illegal activities,content and accounts reported,142180,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Illegal activities,share of user reports,3.03,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Impersonation,content and accounts reported,393,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Impersonation,share of user reports,0.01,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate chatroom name,content and accounts reported,17429,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate chatroom name,share of user reports,0.37,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate chatroom picture,content and accounts reported,2192,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate chatroom picture,share of user reports,0.05,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate comments,content and accounts reported,4600,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate comments,share of user reports,0.1,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate profile picture,content and accounts reported,56741,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate profile picture,share of user reports,1.21,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate username/handle/status,content and accounts reported,48008,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Inappropriate username/handle/status,share of user reports,1.02,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Miscellaneous,content and accounts reported,489323,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Miscellaneous,share of user reports,10.44,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Misinformation,content and accounts reported,72496,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Misinformation,share of user reports,1.55,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Non-agreement,content and accounts reported,6859,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Non-agreement,share of user reports,0.15,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Offensive,content and accounts reported,118003,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Offensive,share of user reports,2.52,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Others,content and accounts reported,1262848,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Others,share of user reports,26.93,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Sexually explicit content,content and accounts reported,417151,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Sexually explicit content,share of user reports,8.9,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Sharing personal information,content and accounts reported,74254,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Sharing personal information,share of user reports,1.58,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Spam,content and accounts reported,381827,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Spam,share of user reports,8.14,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Suicide/Dangerous Acts,content and accounts reported,11532,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Suicide/Dangerous Acts,share of user reports,0.25,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Terrorism,content and accounts reported,7992,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Terrorism,share of user reports,0.17,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Violence,content and accounts reported,117217,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Violence,share of user reports,2.5,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Wrong group/tag,content and accounts reported,90097,count,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-09-01,2022-09-30,user reports,Wrong group/tag,share of user reports,1.92,percent,,reports/sharechat/sharechat_india_2022-09.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Comment ban (1 day),accounts banned,4,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Comment ban (30 days),accounts banned,730,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Comment ban (360 days),accounts banned,3057,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Comment ban (7 days),accounts banned,3236,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Edit Profile ban (1 day),accounts banned,9,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Edit Profile ban (30 days),accounts banned,3111,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Edit Profile ban (360 days),accounts banned,3332,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Edit Profile ban (7 days),accounts banned,28968,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,Permanent termination,accounts terminated,3174,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,UGC ban (1 day),accounts banned,5,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,UGC ban (30 days),accounts banned,2351,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,UGC ban (360 days),accounts banned,4857,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,account bans,UGC ban (7 days),accounts banned,3677,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,law enforcement requests,All,law enforcement requests received,10,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,law enforcement requests,All,requests where user data was provided,6,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,takedowns,Chatrooms,content taken down,290,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,takedowns,Comments,content taken down,78777,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,takedowns,Copyright violations,content taken down,24187,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,takedowns,Sexually explicit,content taken down,24404,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,takedowns,UGC- violation of community standards,content taken down,1972611,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Abusive language,content and accounts reported,1058961,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Abusive language,share of user reports,26.51,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,All,user reports received,3994260,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Fake profile,content and accounts reported,129918,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Fake profile,share of user reports,3.25,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Hate speech,content and accounts reported,28198,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Hate speech,share of user reports,0.71,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Illegal activities,content and accounts reported,125636,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Illegal activities,share of user reports,3.15,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Impersonation,content and accounts reported,136,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Impersonation,share of user reports,0.0,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate chatroom name,content and accounts reported,15669,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate chatroom name,share of user reports,0.39,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate chatroom picture,content and accounts reported,1780,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate chatroom picture,share of user reports,0.04,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate comments,content and accounts reported,4862,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate comments,share of user reports,0.12,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate profile picture,content and accounts reported,50325,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate profile picture,share of user reports,1.26,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate username/handle/status,content and accounts reported,43547,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Inappropriate username/handle/status,share of user reports,1.09,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Miscellaneous,content and accounts reported,194576,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Miscellaneous,share of user reports,4.87,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Misinformation,content and accounts reported,64634,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Misinformation,share of user reports,1.62,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Non-agreement,content and accounts reported,7480,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Non-agreement,share of user reports,0.19,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Offensive,content and accounts reported,95981,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Offensive,share of user reports,2.4,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Others,content and accounts reported,1156651,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Others,share of user reports,28.96,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Sexually explicit content,content and accounts reported,383377,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Sexually explicit content,share of user reports,9.6,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Sharing personal information,content and accounts reported,66890,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Sharing personal information,share of user reports,1.67,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Spam,content and accounts reported,343050,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Spam,share of user reports,8.59,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Suicide/Dangerous Acts,content and accounts reported,10443,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Suicide/Dangerous Acts,share of user reports,0.26,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Terrorism,content and accounts reported,7633,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Terrorism,share of user reports,0.19,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Violence,content and accounts reported,114992,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Violence,share of user reports,2.88,percent,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Wrong group/tag,content and accounts reported,89521,count,,reports/sharechat/sharechat_india_2022-10.pdf
+ShareChat,ShareChat,2022-10-01,2022-10-31,user reports,Wrong group/tag,share of user reports,2.24,percent,,reports/sharechat/sharechat_india_2022-10.pdf

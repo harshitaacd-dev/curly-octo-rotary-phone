@@ -1,0 +1,758 @@
+platform,service,period_start,period_end,section,category,metric,value,unit,notes,source_file
+Moj,Moj,2021-06-01,2021-06-30,account bans,Comment ban (1 day),accounts banned,2209,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Comment ban (30 days),accounts banned,54,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Comment ban (360 days),accounts banned,157,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Comment ban (7 days),accounts banned,424,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Edit Profile ban (1 day),accounts banned,428,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Edit Profile ban (30 days),accounts banned,12,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Edit Profile ban (360 days),accounts banned,150,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Edit Profile ban (7 days),accounts banned,36,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,Permanent termination,accounts terminated,146,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,UGC ban (1 day),accounts banned,1322,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,UGC ban (30 days),accounts banned,42,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,UGC ban (360 days),accounts banned,152,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,account bans,UGC ban (7 days),accounts banned,317,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,law enforcement requests,All,law enforcement requests received,2,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,law enforcement requests,All,requests where user data was provided,2,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,takedowns,Comments deleted,content taken down,540306,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,takedowns,Copyright takedown,content taken down,76,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,takedowns,Sexual UGC discard,content taken down,29963,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,takedowns,UGC discard,content taken down,385398,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Abusive language,share of user reports,9.64,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,All,user reports received,1958124,count,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Fake news,share of user reports,4.25,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Fake profile,share of user reports,3.61,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Hate speech,share of user reports,5.21,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Illegal activities,share of user reports,3.21,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Inappropriate comments,share of user reports,4.63,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Inappropriate profile picture,share of user reports,0.7,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Inappropriate username/handle/status,share of user reports,0.31,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Offensive,share of user reports,0.59,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Others,share of user reports,10.5,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Sexually explicit content,share of user reports,9.13,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Sharing personal information,share of user reports,0.52,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Spam,share of user reports,36.74,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Suicide/Dangerous Acts,share of user reports,2.4,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Terrorism,share of user reports,0.25,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-06-01,2021-06-30,user reports,Violence,share of user reports,8.32,percent,,reports/moj/moj_india_2021-06.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Comment ban (1 day),accounts banned,1276,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Comment ban (30 days),accounts banned,23,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Comment ban (360 days),accounts banned,115,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Comment ban (7 days),accounts banned,211,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Edit Profile ban (1 day),accounts banned,187,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Edit Profile ban (30 days),accounts banned,4,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Edit Profile ban (360 days),accounts banned,114,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Edit Profile ban (7 days),accounts banned,11,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,Permanent termination,accounts terminated,113,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,UGC ban (1 day),accounts banned,457,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,UGC ban (30 days),accounts banned,33,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,UGC ban (360 days),accounts banned,115,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,account bans,UGC ban (7 days),accounts banned,124,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,law enforcement requests,All,law enforcement requests received,3,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,law enforcement requests,All,requests where user data was provided,3,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,takedowns,Comments deleted,content taken down,296917,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,takedowns,Copyright takedown,content taken down,3,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,takedowns,Sexual UGC discard,content taken down,32897,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,takedowns,UGC discard,content taken down,382149,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Abusive language,share of user reports,10.73,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,All,user reports received,4220540,count,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Fake news,share of user reports,5.53,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Fake profile,share of user reports,1.87,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Hate speech,share of user reports,5.37,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Illegal activities,share of user reports,3.72,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Inappropriate comments,share of user reports,1.85,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Inappropriate profile picture,share of user reports,0.81,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Inappropriate username/handle/status,share of user reports,0.37,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,No category,share of user reports,2.79,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Offensive,share of user reports,0.57,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Others,share of user reports,6.31,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Sexually explicit content,share of user reports,12.41,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Sharing personal information,share of user reports,0.6,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Spam,share of user reports,36.6,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Suicide/Dangerous Acts,share of user reports,2.05,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Terrorism,share of user reports,0.28,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-07-01,2021-07-31,user reports,Violence,share of user reports,8.16,percent,,reports/moj/moj_india_2021-07.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Comment ban (1 day),accounts banned,2172,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Comment ban (30 days),accounts banned,53,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Comment ban (360 days),accounts banned,156,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Comment ban (7 days),accounts banned,418,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Edit Profile ban (1 day),accounts banned,419,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Edit Profile ban (30 days),accounts banned,12,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Edit Profile ban (360 days),accounts banned,149,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Edit Profile ban (7 days),accounts banned,36,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,Permanent termination,accounts terminated,145,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,UGC ban (1 day),accounts banned,1311,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,UGC ban (30 days),accounts banned,41,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,UGC ban (360 days),accounts banned,151,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,account bans,UGC ban (7 days),accounts banned,315,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,law enforcement requests,All,law enforcement requests received,3,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,law enforcement requests,All,requests where takedown/ban action was taken,3,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,law enforcement requests,All,requests where user data was provided,3,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,takedowns,Comments deleted,content taken down,265284,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,takedowns,Copyright takedown,content taken down,1,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,takedowns,Sexual UGC discard,content taken down,29153,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,takedowns,UGC discard,content taken down,357452,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Abusive language,share of user reports,11.26,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,All,user reports received,4136184,count,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Fake news,share of user reports,6.15,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Fake profile,share of user reports,1.62,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Hate speech,share of user reports,5.33,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Illegal activities,share of user reports,3.77,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Inappropriate comments,share of user reports,1.56,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Inappropriate profile picture,share of user reports,0.89,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Inappropriate username/handle/status,share of user reports,0.4,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,No category,share of user reports,0.67,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Offensive,share of user reports,0.68,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Others,share of user reports,6.62,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Sexually explicit content,share of user reports,12.8,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Sharing personal information,share of user reports,0.69,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Spam,share of user reports,37.4,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Suicide/Dangerous Acts,share of user reports,1.67,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Terrorism,share of user reports,0.29,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-08-01,2021-08-31,user reports,Violence,share of user reports,8.2,percent,,reports/moj/moj_india_2021-08.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Comment ban (1 day),accounts banned,90,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Comment ban (30 days),accounts banned,177,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Comment ban (360 days),accounts banned,357,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Comment ban (7 days),accounts banned,2575,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Edit Profile ban (1 day),accounts banned,14,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Edit Profile ban (30 days),accounts banned,187,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Edit Profile ban (360 days),accounts banned,388,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Edit Profile ban (7 days),accounts banned,435,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,Permanent termination,accounts terminated,357,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,UGC ban (1 day),accounts banned,74,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,UGC ban (30 days),accounts banned,2520,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,UGC ban (360 days),accounts banned,360,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,account bans,UGC ban (7 days),accounts banned,6997,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,law enforcement requests,All,law enforcement requests received,5,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,law enforcement requests,All,requests where user data was provided,4,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,takedowns,Comments deleted,content taken down,704193,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,takedowns,Copyright takedown,content taken down,9,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,takedowns,Sexual UGC discard,content taken down,198904,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,takedowns,UGC discard,content taken down,412004,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Abusive language,share of user reports,12.5,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,All,user reports received,4119836,count,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Fake news,share of user reports,6.59,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Fake profile,share of user reports,1.21,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Hate speech,share of user reports,5.47,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Illegal activities,share of user reports,4.01,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Inappropriate comments,share of user reports,1.42,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Inappropriate profile picture,share of user reports,0.82,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Inappropriate username/handle/status,share of user reports,0.37,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,No category,share of user reports,0.46,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Offensive,share of user reports,0.68,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Others,share of user reports,5.03,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Sexually explicit content,share of user reports,15.15,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Sharing personal information,share of user reports,0.64,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Spam,share of user reports,36.15,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Suicide/Dangerous Acts,share of user reports,1.47,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Terrorism,share of user reports,0.28,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-09-01,2021-09-30,user reports,Violence,share of user reports,7.76,percent,,reports/moj/moj_india_2021-09.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Comment ban (1 day),accounts banned,31,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Comment ban (30 days),accounts banned,393,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Comment ban (360 days),accounts banned,966,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Comment ban (7 days),accounts banned,20063,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Edit Profile ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Edit Profile ban (30 days),accounts banned,159,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Edit Profile ban (360 days),accounts banned,964,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Edit Profile ban (7 days),accounts banned,706,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,Permanent termination,accounts terminated,936,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,UGC ban (1 day),accounts banned,14,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,UGC ban (30 days),accounts banned,4425,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,UGC ban (360 days),accounts banned,977,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,account bans,UGC ban (7 days),accounts banned,20584,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,law enforcement requests,All,law enforcement requests received,3,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,law enforcement requests,All,requests where user data was provided,3,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,takedowns,Comments deleted,content taken down,259276,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,takedowns,Copyright takedown,content taken down,45,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,takedowns,Sexual UGC discard,content taken down,100658,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,takedowns,UGC discard,content taken down,514324,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Abusive language,share of user reports,15.15,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,All,user reports received,3712193,count,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Fake news,share of user reports,7.27,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Fake profile,share of user reports,0.87,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Hate speech,share of user reports,5.7,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Illegal activities,share of user reports,4.1,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Inappropriate comments,share of user reports,1.45,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Inappropriate profile picture,share of user reports,0.69,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Inappropriate username/handle/status,share of user reports,0.32,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,No category,share of user reports,0.37,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Offensive,share of user reports,0.64,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Others,share of user reports,6.08,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Sexually explicit content,share of user reports,10.58,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Sharing personal information,share of user reports,0.61,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Spam,share of user reports,36.71,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Suicide/Dangerous Acts,share of user reports,1.29,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Terrorism,share of user reports,0.3,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-10-01,2021-10-31,user reports,Violence,share of user reports,7.87,percent,,reports/moj/moj_india_2021-10.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Comment ban (1 day),accounts banned,32,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Comment ban (30 days),accounts banned,669,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Comment ban (360 days),accounts banned,1652,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Comment ban (7 days),accounts banned,94663,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Edit Profile ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Edit Profile ban (30 days),accounts banned,16,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Edit Profile ban (360 days),accounts banned,1646,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Edit Profile ban (7 days),accounts banned,433,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,Permanent termination,accounts terminated,1761,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,UGC ban (1 day),accounts banned,3,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,UGC ban (30 days),accounts banned,3152,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,UGC ban (360 days),accounts banned,1657,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,account bans,UGC ban (7 days),accounts banned,10524,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,law enforcement requests,All,law enforcement requests received,1,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,law enforcement requests,All,requests where takedown/ban action was taken,0,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,law enforcement requests,All,requests where user data was provided,1,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,takedowns,Comments deleted,content taken down,232529,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,takedowns,Copyright takedown,content taken down,67,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,takedowns,Sexual UGC discard,content taken down,92664,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,takedowns,UGC discard,content taken down,282770,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,All,user reports received,3485616,count,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Fake news,share of user reports,7.31,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Hate speech,share of user reports,5.45,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Illegal activities,share of user reports,4.25,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Inappropriate username/handle/status,share of user reports,0.3,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Offensive,share of user reports,0.57,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Sharing personal information,share of user reports,0.61,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Suicide/Dangerous Acts,share of user reports,1.25,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Terrorism,share of user reports,0.28,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-11-01,2021-11-30,user reports,Violence,share of user reports,7.8,percent,,reports/moj/moj_india_2021-11.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Comment ban (1 day),accounts banned,62,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Comment ban (30 days),accounts banned,928,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Comment ban (360 days),accounts banned,1331,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Comment ban (7 days),accounts banned,104427,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Edit Profile ban (1 day),accounts banned,6,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Edit Profile ban (30 days),accounts banned,13,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Edit Profile ban (360 days),accounts banned,1304,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Edit Profile ban (7 days),accounts banned,341,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,Permanent termination,accounts terminated,1327,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,UGC ban (1 day),accounts banned,11,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,UGC ban (30 days),accounts banned,1513,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,UGC ban (360 days),accounts banned,1299,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,account bans,UGC ban (7 days),accounts banned,12193,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,law enforcement requests,All,law enforcement requests received,0,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,takedowns,Comments deleted,content taken down,213741,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,takedowns,Copyright takedown,content taken down,66,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,takedowns,Sexual UGC discard,content taken down,100027,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,takedowns,UGC discard,content taken down,292352,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Abusive language,share of user reports,16.82,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,All,user reports received,3232903,count,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Fake news,share of user reports,7.02,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Fake profile,share of user reports,0.69,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Hate speech,share of user reports,5.7,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Illegal activities,share of user reports,4.24,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Inappropriate comments,share of user reports,0.83,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Inappropriate profile picture,share of user reports,0.65,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Inappropriate username/handle/status,share of user reports,0.32,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,No category,share of user reports,0.2,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Offensive,share of user reports,0.61,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Others,share of user reports,7.56,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Sexually explicit content,share of user reports,9.51,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Sharing personal information,share of user reports,0.57,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Spam,share of user reports,35.98,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Suicide/Dangerous Acts,share of user reports,1.15,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Terrorism,share of user reports,0.3,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2021-12-01,2021-12-31,user reports,Violence,share of user reports,7.84,percent,,reports/moj/moj_india_2021-12.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Comment ban (1 day),accounts banned,37,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Comment ban (30 days),accounts banned,845,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Comment ban (360 days),accounts banned,1942,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Comment ban (7 days),accounts banned,84101,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Edit Profile ban (1 day),accounts banned,1,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Edit Profile ban (30 days),accounts banned,29,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Edit Profile ban (360 days),accounts banned,1924,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Edit Profile ban (7 days),accounts banned,343,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,Permanent termination,accounts terminated,2007,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,UGC ban (1 day),accounts banned,7,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,UGC ban (30 days),accounts banned,1541,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,UGC ban (360 days),accounts banned,1937,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,account bans,UGC ban (7 days),accounts banned,11561,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,law enforcement requests,All,law enforcement requests received,1,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,law enforcement requests,All,requests where takedown/ban action was taken,0,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,law enforcement requests,All,requests where user data was provided,1,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,takedowns,Comments deleted,content taken down,237853,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,takedowns,Copyright takedown,content taken down,112,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,takedowns,Sexual UGC discard,content taken down,72982,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,takedowns,UGC discard,content taken down,299498,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Abusive language,share of user reports,17.35,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,All,user reports received,3281812,count,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Fake news,share of user reports,7.31,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Fake profile,share of user reports,0.74,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Hate speech,share of user reports,5.71,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Illegal activities,share of user reports,4.31,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Inappropriate comments,share of user reports,0.96,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Inappropriate profile picture,share of user reports,0.7,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Inappropriate username/handle/status,share of user reports,0.32,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,No category,share of user reports,0.17,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Offensive,share of user reports,0.7,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Others,share of user reports,6.71,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Sexually explicit content,share of user reports,8.89,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Sharing personal information,share of user reports,0.62,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Spam,share of user reports,36.04,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Suicide/Dangerous Acts,share of user reports,1.13,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Terrorism,share of user reports,0.31,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-01-01,2022-01-31,user reports,Violence,share of user reports,8.01,percent,,reports/moj/moj_india_2022-01.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Comment ban (1 day),accounts banned,21,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Comment ban (30 days),accounts banned,525,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Comment ban (360 days),accounts banned,803,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Comment ban (7 days),accounts banned,35774,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Edit Profile ban (1 day),accounts banned,0,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Edit Profile ban (30 days),accounts banned,18,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Edit Profile ban (360 days),accounts banned,801,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Edit Profile ban (7 days),accounts banned,228,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,Permanent termination,accounts terminated,826,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,UGC ban (1 day),accounts banned,7,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,UGC ban (30 days),accounts banned,690,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,UGC ban (360 days),accounts banned,806,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,account bans,UGC ban (7 days),accounts banned,5513,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,law enforcement requests,All,law enforcement requests received,2,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,law enforcement requests,All,requests where takedown/ban action was taken,0,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,law enforcement requests,All,requests where user data was provided,2,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,takedowns,Comments deleted,content taken down,177069,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,takedowns,Copyright takedown,content taken down,1,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,takedowns,Sexual UGC discard,content taken down,56756,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,takedowns,UGC discard,content taken down,199440,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Abusive language,share of user reports,17.68,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,All,user reports received,2813200,count,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Fake news,share of user reports,7.44,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Fake profile,share of user reports,0.73,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Hate speech,share of user reports,5.75,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Illegal activities,share of user reports,4.3,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Inappropriate comments,share of user reports,0.96,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Inappropriate profile picture,share of user reports,0.68,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Inappropriate username/handle/status,share of user reports,0.33,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,No category,share of user reports,0.18,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Offensive,share of user reports,0.59,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Others,share of user reports,6.35,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Sexually explicit content,share of user reports,9.03,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Sharing personal information,share of user reports,0.64,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Spam,share of user reports,35.79,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Suicide/Dangerous Acts,share of user reports,1.12,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Terrorism,share of user reports,0.35,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-02-01,2022-02-28,user reports,Violence,share of user reports,8.1,percent,,reports/moj/moj_india_2022-02.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Comment ban (1 day),accounts banned,15,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Comment ban (30 days),accounts banned,612,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Comment ban (360 days),accounts banned,686,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Comment ban (7 days),accounts banned,41753,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Edit Profile ban (1 day),accounts banned,1,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Edit Profile ban (30 days),accounts banned,44,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Edit Profile ban (360 days),accounts banned,683,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Edit Profile ban (7 days),accounts banned,286,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,Permanent termination,accounts terminated,797,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,UGC ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,UGC ban (30 days),accounts banned,901,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,UGC ban (360 days),accounts banned,698,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,account bans,UGC ban (7 days),accounts banned,5472,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,law enforcement requests,All,law enforcement requests received,4,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,law enforcement requests,All,requests where user data was provided,4,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,takedowns,Comments deleted,content taken down,222461,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,takedowns,Copyright takedown,content taken down,48,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,takedowns,Sexual UGC discard,content taken down,80868,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,takedowns,UGC discard,content taken down,275835,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Abusive language,share of user reports,17.67,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,All,user reports received,3319397,count,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Fake news,share of user reports,7.88,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Fake profile,share of user reports,0.66,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Hate speech,share of user reports,6.13,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Illegal activities,share of user reports,4.26,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Inappropriate comments,share of user reports,0.91,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Inappropriate profile picture,share of user reports,0.59,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Inappropriate username/handle/status,share of user reports,0.29,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,No category,share of user reports,0.14,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Offensive,share of user reports,0.56,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Others,share of user reports,5.72,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Sexually explicit content,share of user reports,9.59,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Sharing personal information,share of user reports,0.62,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Spam,share of user reports,35.42,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Suicide/Dangerous Acts,share of user reports,1.17,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Terrorism,share of user reports,0.35,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-03-01,2022-03-31,user reports,Violence,share of user reports,8.06,percent,,reports/moj/moj_india_2022-03.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Comment ban (1 day),accounts banned,14,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Comment ban (30 days),accounts banned,849,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Comment ban (360 days),accounts banned,458,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Comment ban (7 days),accounts banned,29984,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Edit Profile ban (1 day),accounts banned,1,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Edit Profile ban (30 days),accounts banned,29,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Edit Profile ban (360 days),accounts banned,447,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Edit Profile ban (7 days),accounts banned,333,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,Permanent termination,accounts terminated,496,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,UGC ban (1 day),accounts banned,4,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,UGC ban (30 days),accounts banned,794,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,UGC ban (360 days),accounts banned,457,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,account bans,UGC ban (7 days),accounts banned,5379,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,law enforcement requests,All,law enforcement requests received,3,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,law enforcement requests,All,requests where user data was provided,3,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,takedowns,Comments deleted,content taken down,209549,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,takedowns,Copyright takedown,content taken down,68,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,takedowns,Sexual UGC discard,content taken down,88166,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,takedowns,UGC discard,content taken down,227495,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Abusive language,share of user reports,17.69,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,All,user reports received,2851946,count,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Fake news,share of user reports,8.21,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Fake profile,share of user reports,0.79,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Hate speech,share of user reports,6.18,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Illegal activities,share of user reports,4.3,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Inappropriate comments,share of user reports,0.91,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Inappropriate profile picture,share of user reports,0.67,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Inappropriate username/handle/status,share of user reports,0.33,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,No category,share of user reports,0.14,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Non-agreement,share of user reports,0,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Offensive,share of user reports,0.48,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Others,share of user reports,6.39,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Sexually explicit content,share of user reports,9.08,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Sharing personal information,share of user reports,0.61,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Spam,share of user reports,34.65,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Suicide/Dangerous Acts,share of user reports,1.22,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Terrorism,share of user reports,0.35,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-04-01,2022-04-30,user reports,Violence,share of user reports,8,percent,,reports/moj/moj_india_2022-04.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Comment ban (1 day),accounts banned,22,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Comment ban (30 days),accounts banned,1106,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Comment ban (360 days),accounts banned,1372,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Comment ban (7 days),accounts banned,33446,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Edit Profile ban (1 day),accounts banned,8,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Edit Profile ban (30 days),accounts banned,47,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Edit Profile ban (360 days),accounts banned,1322,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Edit Profile ban (7 days),accounts banned,345,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,Permanent termination,accounts terminated,1405,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,UGC ban (1 day),accounts banned,12,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,UGC ban (30 days),accounts banned,1331,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,UGC ban (360 days),accounts banned,1352,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,account bans,UGC ban (7 days),accounts banned,10304,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,law enforcement requests,All,law enforcement requests received,2,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,law enforcement requests,All,requests where user data was provided,2,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,takedowns,Comments,content taken down,331598,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,takedowns,Copyright violations,content taken down,129,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,takedowns,Sexually explicit,content taken down,113523,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,takedowns,UGC- violation of community standards,content taken down,364722,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Abusive language,content and accounts reported,577285,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Abusive language,share of user reports,17.75,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,All,user reports received,3252137,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Fake profile,content and accounts reported,21439,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Fake profile,share of user reports,0.66,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Hate speech,content and accounts reported,201146,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Hate speech,share of user reports,6.19,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Illegal activities,content and accounts reported,146025,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Illegal activities,share of user reports,4.49,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Inappropriate comments,content and accounts reported,23919,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Inappropriate comments,share of user reports,0.74,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Inappropriate profile picture,content and accounts reported,17800,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Inappropriate profile picture,share of user reports,0.55,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Inappropriate username/handle/status,content and accounts reported,8730,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Inappropriate username/handle/status,share of user reports,0.27,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Miscellaneous,content and accounts reported,3700,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Miscellaneous,share of user reports,0.11,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Misinformation,content and accounts reported,270248,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Misinformation,share of user reports,8.31,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Non-agreement,content and accounts reported,15,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Non-agreement,share of user reports,0.0,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Offensive,content and accounts reported,16292,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Offensive,share of user reports,0.5,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Others,content and accounts reported,241188,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Others,share of user reports,7.42,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Sexually explicit content,content and accounts reported,299390,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Sexually explicit content,share of user reports,9.21,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Sharing personal information,content and accounts reported,18395,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Sharing personal information,share of user reports,0.57,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Spam,content and accounts reported,1100678,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Spam,share of user reports,33.84,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Suicide/Dangerous Acts,content and accounts reported,40796,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Suicide/Dangerous Acts,share of user reports,1.25,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Terrorism,content and accounts reported,10966,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Terrorism,share of user reports,0.34,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Violence,content and accounts reported,254125,count,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-05-01,2022-05-31,user reports,Violence,share of user reports,7.81,percent,,reports/moj/moj_india_2022-05.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Comment ban (1 day),accounts banned,5,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Comment ban (30 days),accounts banned,980,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Comment ban (360 days),accounts banned,762,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Comment ban (7 days),accounts banned,26077,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Edit Profile ban (1 day),accounts banned,3,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Edit Profile ban (30 days),accounts banned,42,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Edit Profile ban (360 days),accounts banned,732,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Edit Profile ban (7 days),accounts banned,288,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,Permanent termination,accounts terminated,498,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,UGC ban (1 day),accounts banned,0,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,UGC ban (30 days),accounts banned,1070,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,UGC ban (360 days),accounts banned,748,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,account bans,UGC ban (7 days),accounts banned,10037,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,law enforcement requests,All,law enforcement requests received,3,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,law enforcement requests,All,requests where takedown/ban action was taken,2,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,law enforcement requests,All,requests where user data was provided,3,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,takedowns,Comments,content taken down,567643,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,takedowns,Copyright violations,content taken down,183,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,takedowns,Sexually explicit,content taken down,143060,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,takedowns,UGC- violation of community standards,content taken down,344896,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Abusive language,content and accounts reported,567281,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Abusive language,share of user reports,18.03,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,All,user reports received,3147021,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Fake profile,content and accounts reported,24506,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Fake profile,share of user reports,0.78,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Hate speech,content and accounts reported,196256,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Hate speech,share of user reports,6.24,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Illegal activities,content and accounts reported,159216,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Illegal activities,share of user reports,5.06,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Inappropriate comments,content and accounts reported,21187,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Inappropriate comments,share of user reports,0.67,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Inappropriate profile picture,content and accounts reported,20603,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Inappropriate profile picture,share of user reports,0.65,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Inappropriate username/handle/status,content and accounts reported,10217,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Inappropriate username/handle/status,share of user reports,0.32,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Miscellaneous,content and accounts reported,3902,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Miscellaneous,share of user reports,0.12,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Misinformation,content and accounts reported,258789,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Misinformation,share of user reports,8.22,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Non-agreement,content and accounts reported,6,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Non-agreement,share of user reports,0.0,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Offensive,content and accounts reported,15642,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Offensive,share of user reports,0.5,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Others,content and accounts reported,232647,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Others,share of user reports,7.39,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Sexually explicit content,content and accounts reported,283566,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Sexually explicit content,share of user reports,9.01,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Sharing personal information,content and accounts reported,18712,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Sharing personal information,share of user reports,0.59,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Spam,content and accounts reported,1039026,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Spam,share of user reports,33.02,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Suicide/Dangerous Acts,content and accounts reported,36601,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Suicide/Dangerous Acts,share of user reports,1.16,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Terrorism,content and accounts reported,11243,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Terrorism,share of user reports,0.36,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Violence,content and accounts reported,247621,count,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-06-01,2022-06-30,user reports,Violence,share of user reports,7.87,percent,,reports/moj/moj_india_2022-06.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Comment ban (1 day),accounts banned,29,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Comment ban (30 days),accounts banned,1873,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Comment ban (360 days),accounts banned,162,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Comment ban (7 days),accounts banned,43281,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Edit Profile ban (1 day),accounts banned,19,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Edit Profile ban (30 days),accounts banned,34,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Edit Profile ban (360 days),accounts banned,110,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Edit Profile ban (7 days),accounts banned,349,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,Permanent termination,accounts terminated,117,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,UGC ban (1 day),accounts banned,26,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,UGC ban (30 days),accounts banned,4204,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,UGC ban (360 days),accounts banned,1508,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,account bans,UGC ban (7 days),accounts banned,8647,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,law enforcement requests,All,law enforcement requests received,2,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,law enforcement requests,All,requests where user data was provided,2,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,takedowns,Comments,content taken down,320227,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,takedowns,Copyright violations,content taken down,495,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,takedowns,Sexually explicit,content taken down,199871,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,takedowns,UGC- violation of community standards,content taken down,513469,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Abusive language,content and accounts reported,599739,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Abusive language,share of user reports,18.11,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,All,user reports received,3311651,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Fake profile,content and accounts reported,26163,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Fake profile,share of user reports,0.79,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Hate speech,content and accounts reported,209101,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Hate speech,share of user reports,6.31,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Illegal activities,content and accounts reported,161385,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Illegal activities,share of user reports,4.87,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Inappropriate comments,content and accounts reported,23444,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Inappropriate comments,share of user reports,0.71,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Inappropriate profile picture,content and accounts reported,24269,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Inappropriate profile picture,share of user reports,0.79,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Inappropriate username/handle/status,content and accounts reported,12031,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Inappropriate username/handle/status,share of user reports,0.36,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Miscellaneous,content and accounts reported,3076,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Miscellaneous,share of user reports,0.09,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Misinformation,content and accounts reported,273792,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Misinformation,share of user reports,8.27,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Non-agreement,content and accounts reported,2,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Non-agreement,share of user reports,0.0,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Offensive,content and accounts reported,18430,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Offensive,share of user reports,0.56,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Others,content and accounts reported,206152,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Others,share of user reports,6.23,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Sexually explicit content,content and accounts reported,307157,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Sexually explicit content,share of user reports,9.28,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Sharing personal information,content and accounts reported,22019,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Sharing personal information,share of user reports,0.66,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Spam,content and accounts reported,1101898,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Spam,share of user reports,33.27,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Suicide/Dangerous Acts,content and accounts reported,38629,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Suicide/Dangerous Acts,share of user reports,1.17,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Terrorism,content and accounts reported,12952,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Terrorism,share of user reports,0.39,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Violence,content and accounts reported,271412,count,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-07-01,2022-07-31,user reports,Violence,share of user reports,8.2,percent,,reports/moj/moj_india_2022-07.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Comment ban (1 day),accounts banned,12,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Comment ban (30 days),accounts banned,2966,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Comment ban (360 days),accounts banned,153,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Comment ban (7 days),accounts banned,32191,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Edit Profile ban (1 day),accounts banned,0,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Edit Profile ban (30 days),accounts banned,11,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Edit Profile ban (360 days),accounts banned,62,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Edit Profile ban (7 days),accounts banned,495,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,Permanent termination,accounts terminated,60,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,UGC ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,UGC ban (30 days),accounts banned,5646,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,UGC ban (360 days),accounts banned,2563,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,account bans,UGC ban (7 days),accounts banned,9717,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,law enforcement requests,All,law enforcement requests received,0,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,law enforcement requests,All,requests where takedown/ban action was taken,0,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,law enforcement requests,All,requests where user data was provided,0,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,takedowns,Comments,content taken down,270438,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,takedowns,Copyright violations,content taken down,32,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,takedowns,Sexually explicit,content taken down,368712,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,takedowns,UGC- violation of community standards,content taken down,949401,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Abusive language,content and accounts reported,545018,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Abusive language,share of user reports,18.05,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,All,user reports received,3019622,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Fake profile,content and accounts reported,22294,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Fake profile,share of user reports,0.74,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Hate speech,content and accounts reported,183227,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Hate speech,share of user reports,6.07,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Illegal activities,content and accounts reported,145960,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Illegal activities,share of user reports,4.83,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Inappropriate comments,content and accounts reported,18133,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Inappropriate comments,share of user reports,0.6,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Inappropriate profile picture,content and accounts reported,19877,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Inappropriate profile picture,share of user reports,0.66,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Inappropriate username/handle/status,content and accounts reported,10014,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Inappropriate username/handle/status,share of user reports,0.33,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Miscellaneous,content and accounts reported,2644,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Miscellaneous,share of user reports,0.09,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Misinformation,content and accounts reported,239280,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Misinformation,share of user reports,7.92,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Non-agreement,content and accounts reported,3,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Non-agreement,share of user reports,0.0,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Offensive,content and accounts reported,15450,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Offensive,share of user reports,0.51,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Others,content and accounts reported,251035,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Others,share of user reports,8.31,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Sexually explicit content,content and accounts reported,279938,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Sexually explicit content,share of user reports,9.27,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Sharing personal information,content and accounts reported,18859,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Sharing personal information,share of user reports,0.62,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Spam,content and accounts reported,986338,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Spam,share of user reports,32.66,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Suicide/Dangerous Acts,content and accounts reported,34019,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Suicide/Dangerous Acts,share of user reports,1.13,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Terrorism,content and accounts reported,9880,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Terrorism,share of user reports,0.33,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Violence,content and accounts reported,237653,count,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-08-01,2022-08-31,user reports,Violence,share of user reports,7.87,percent,,reports/moj/moj_india_2022-08.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Comment ban (1 day),accounts banned,5,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Comment ban (30 days),accounts banned,2099,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Comment ban (360 days),accounts banned,137,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Comment ban (7 days),accounts banned,16808,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Edit Profile ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Edit Profile ban (30 days),accounts banned,21,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Edit Profile ban (360 days),accounts banned,41,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Edit Profile ban (7 days),accounts banned,892,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,Permanent termination,accounts terminated,37,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,UGC ban (1 day),accounts banned,3,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,UGC ban (30 days),accounts banned,5058,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,UGC ban (360 days),accounts banned,2005,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,account bans,UGC ban (7 days),accounts banned,7959,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,law enforcement requests,All,law enforcement requests received,3,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,law enforcement requests,All,requests where user data was provided,1,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,takedowns,Comments,content taken down,241884,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,takedowns,Copyright violations,content taken down,2,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,takedowns,Sexually explicit,content taken down,366545,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,takedowns,UGC- violation of community standards,content taken down,1122485,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Abusive language,content and accounts reported,486510,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Abusive language,share of user reports,18.44,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,All,user reports received,2637632,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Fake profile,content and accounts reported,20667,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Fake profile,share of user reports,0.78,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Hate speech,content and accounts reported,153478,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Hate speech,share of user reports,5.82,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Illegal activities,content and accounts reported,123691,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Illegal activities,share of user reports,4.69,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Inappropriate comments,content and accounts reported,16031,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Inappropriate comments,share of user reports,0.61,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Inappropriate profile picture,content and accounts reported,19129,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Inappropriate profile picture,share of user reports,0.73,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Inappropriate username/handle/status,content and accounts reported,9586,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Inappropriate username/handle/status,share of user reports,0.36,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Miscellaneous,content and accounts reported,2063,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Miscellaneous,share of user reports,0.08,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Misinformation,content and accounts reported,202389,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Misinformation,share of user reports,7.67,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Non-agreement,content and accounts reported,3,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Non-agreement,share of user reports,0.0,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Offensive,content and accounts reported,13536,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Offensive,share of user reports,0.51,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Others,content and accounts reported,213655,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Others,share of user reports,8.1,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Sexually explicit content,content and accounts reported,248844,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Sexually explicit content,share of user reports,9.43,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Sharing personal information,content and accounts reported,17093,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Sharing personal information,share of user reports,0.65,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Spam,content and accounts reported,861600,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Spam,share of user reports,32.67,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Suicide/Dangerous Acts,content and accounts reported,34000,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Suicide/Dangerous Acts,share of user reports,1.29,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Terrorism,content and accounts reported,8672,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Terrorism,share of user reports,0.33,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Violence,content and accounts reported,206685,count,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-09-01,2022-09-30,user reports,Violence,share of user reports,7.84,percent,,reports/moj/moj_india_2022-09.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Comment ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Comment ban (30 days),accounts banned,1531,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Comment ban (360 days),accounts banned,124,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Comment ban (7 days),accounts banned,9958,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Edit Profile ban (1 day),accounts banned,2,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Edit Profile ban (30 days),accounts banned,29,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Edit Profile ban (360 days),accounts banned,45,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Edit Profile ban (7 days),accounts banned,565,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,Permanent termination,accounts terminated,37,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,UGC ban (1 day),accounts banned,1,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,UGC ban (30 days),accounts banned,3895,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,UGC ban (360 days),accounts banned,1409,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,account bans,UGC ban (7 days),accounts banned,4484,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,law enforcement requests,All,law enforcement requests received,4,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,law enforcement requests,All,requests where takedown/ban action was taken,1,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,law enforcement requests,All,requests where user data was provided,4,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,takedowns,Comments,content taken down,178696,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,takedowns,Copyright violations,content taken down,30,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,takedowns,Sexually explicit,content taken down,59772,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,takedowns,UGC- violation of community standards,content taken down,652802,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Abusive language,content and accounts reported,461103,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Abusive language,share of user reports,19.38,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,All,user reports received,2379740,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Fake profile,content and accounts reported,18750,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Fake profile,share of user reports,0.79,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Hate speech,content and accounts reported,131150,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Hate speech,share of user reports,5.51,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Illegal activities,content and accounts reported,108326,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Illegal activities,share of user reports,4.55,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Inappropriate comments,content and accounts reported,13803,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Inappropriate comments,share of user reports,0.58,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Inappropriate profile picture,content and accounts reported,17370,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Inappropriate profile picture,share of user reports,0.73,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Inappropriate username/handle/status,content and accounts reported,8459,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Inappropriate username/handle/status,share of user reports,0.36,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Miscellaneous,content and accounts reported,1529,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Miscellaneous,share of user reports,0.06,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Misinformation,content and accounts reported,167623,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Misinformation,share of user reports,7.04,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Non-agreement,content and accounts reported,5,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Non-agreement,share of user reports,0.0,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Offensive,content and accounts reported,12894,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Offensive,share of user reports,0.54,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Others,content and accounts reported,176184,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Others,share of user reports,7.4,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Sexually explicit content,content and accounts reported,230041,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Sexually explicit content,share of user reports,9.67,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Sharing personal information,content and accounts reported,15674,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Sharing personal information,share of user reports,0.66,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Spam,content and accounts reported,798389,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Spam,share of user reports,33.55,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Suicide/Dangerous Acts,content and accounts reported,28493,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Suicide/Dangerous Acts,share of user reports,1.2,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Terrorism,content and accounts reported,8281,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Terrorism,share of user reports,0.35,percent,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Violence,content and accounts reported,181666,count,,reports/moj/moj_india_2022-10.pdf
+Moj,Moj,2022-10-01,2022-10-31,user reports,Violence,share of user reports,7.63,percent,,reports/moj/moj_india_2022-10.pdf
