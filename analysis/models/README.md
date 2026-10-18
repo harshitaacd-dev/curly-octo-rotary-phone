@@ -60,6 +60,31 @@ morphing has small counts (293–505 a year nationally), so its large negative e
 *An earlier version treated only the AI-susceptible heads (obscene material, morphing, blackmail); it was also
 null but failed its pre-trend test (p = 0.002).*
 
+## Controlling for NCRB labelling changes
+
+A labelling break = a State-year where the IT Act share of cyber cases, or the "other" share of cyber crimes
+against women, jumps by more than 30 points (years with at least 20 cases). **17 of 35 States have at least
+one break.** Three controls, on each model's main specification:
+
+| Control | Model 1 RR (p) | Model 2 RR (p) |
+|---|---|---|
+| None (main) | 0.97 (0.38) | 1.07 (0.72) |
+| Drop the 17 States with breaks (18 left) | 0.94 (0.22) | **1.43 (0.035)** |
+| State × category × recording-regime fixed effects | 0.95 (0.25) | 1.11 (0.61) |
+| Control for the "other" share | 0.96 (0.29) | 1.04 (0.85) |
+| Regime fixed effects + "other" and IT Act shares | 0.94 (0.13) | 1.02 (0.92) |
+
+**The one significant result (Model 2, 18 States without breaks) is suggestive, not established.**
+- For it: randomisation-inference p = 0.017; leaving out any one State keeps RR between 1.22 and 1.57
+  (only dropping Kerala pushes p above 0.10); the event study rises after the boom (2021: +0.10, 2023: +0.27,
+  2024: +0.49, p = 0.002) with pre-2021 terms near zero (−0.07 to +0.01).
+- Against it: the joint pre-trend test rejects (p < 0.001, though Wald tests over-reject with 18 clusters);
+  other exposure measures in the same 18 States are not significant (CAMS access 0.83, p = 0.37; nudify ratio
+  1.36, p = 0.37); and the sample was chosen after seeing the data, one of four labelling controls.
+- How to report it: as an exploratory finding: where NCRB recording is stable, there is some sign that
+  better-connected States saw cyber crime against women rise more after 2022, which fits the argument that
+  recording practice hides the signal elsewhere.
+
 ## Reading
 
 The panel cannot detect an AI-boom signal in police-recorded data: estimates are null under every exposure

@@ -253,6 +253,63 @@ def run_model2(p, perms):
             "fake_shock_years": fake, "by_head": heads, "pretrend_joint_p": pre_p, "robustness": rob}, evs
 
 
+# ---------------------------------------------------------------- labelling controls
+def labelling_breaks(threshold=0.30, min_cases=20):
+    """State-years where NCRB recording practice jumps: |change| in the IT Act share of cyber cases or in the
+    'other' share of cyber crimes against women above `threshold`, in years with >= min_cases cases.
+    Returns State x year with it_share, other_share, brk (1 in a break year) and regime (breaks so far)."""
+    import sys
+    sys.path.insert(0, os.path.dirname(__file__))
+    from build_analysis_panels import norm_state
+    w = pd.read_csv("data/clean/state_women_cyber_panel.csv")
+    w = w[(w.row_type == "state_ut") & w.year.between(2017, 2024)].copy()
+    w["state"] = w.state.map(norm_state)
+    g = w.groupby(["state", "year"])[["cyber_it_act_total", "cyber_total_cases"]].sum(min_count=1).reset_index()
+    sy = pd.read_csv("data/analysis/state_year_panel.csv")[["state", "year", "cyber_vaw_other", "cyber_vaw_cases"]]
+    g = g.merge(sy, on=["state", "year"]).sort_values(["state", "year"])
+    g["it_share"] = g.cyber_it_act_total / g.cyber_total_cases
+    g["other_share"] = g.cyber_vaw_other / g.cyber_vaw_cases
+    big = (g.cyber_total_cases >= min_cases) & (g.cyber_vaw_cases >= min_cases)
+    jump = (g.groupby("state").it_share.diff().abs() > threshold) | (g.groupby("state").other_share.diff().abs() > threshold)
+    g["brk"] = (big & jump).astype(int)
+    g["regime"] = g.groupby("state").brk.cumsum()
+    return g[["state", "year", "it_share", "other_share", "brk", "regime"]]
+
+
+def run_labelling(p, model):
+    """Main specification of Model 1 or 2 under three labelling controls."""
+    br = labelling_breaks()
+    break_states = set(br[br.brk == 1].state)
+    x = ACCESS_M1[0] if model == 1 else EXPOSURE_M2[0]
+
+    def sample():
+        d = model1_sample(p, "total")
+        d = d.merge(br, on=["state", "year"], how="left")
+        d["regime"] = d.regime.fillna(0).astype(int)
+        d["other_share"] = d.other_share.fillna(d.other_share.mean())
+        d = d[d[x].notna()].copy()
+        return d
+
+    def treat(d):
+        return d.cyber * d.z * ((d.year - 2017) if model == 1 else (d.year >= 2023).astype(int))
+
+    out = {"break_states": sorted(break_states), "n_break_states": len(break_states)}
+    d = sample()
+    d = d[~d.state.isin(break_states)].copy()
+    d["z"] = standardise(d, x); d["treat"] = treat(d)
+    out["drop_break_states"] = coef(fit(d, "treat"), "treat")
+    out["drop_break_states"]["states"] = int(d.state.nunique())
+    d = sample()
+    d["z"] = standardise(d, x); d["treat"] = treat(d)
+    d["scr"] = d.sc.astype(str) + "|r" + d.regime.astype(str)  # State x category x recording regime
+    out["regime_fixed_effects"] = coef(fit(d, "treat", fe="scr + st + ct"), "treat")
+    d["cyber_other_share"] = d.cyber * d.other_share
+    out["control_other_share"] = coef(fit(d, "treat + cyber_other_share"), "treat")
+    d["cyber_it_share"] = d.cyber * d.it_share.fillna(d.it_share.mean())
+    out["all_controls"] = coef(fit(d, "treat + cyber_other_share + cyber_it_share", fe="scr + st + ct"), "treat")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--panel", default=PANEL)
@@ -267,6 +324,8 @@ def main():
     ev1.to_csv(os.path.join(a.out, "model1_event_study.csv"), index_label="year")
     for x, ev in ev2.items():
         ev.to_csv(os.path.join(a.out, f"model2_event_study_{x}.csv"), index_label="year")
+    m1["labelling_controls"] = run_labelling(p, 1)
+    m2["labelling_controls"] = run_labelling(p, 2)
     res = {"model1": m1, "model2": m2, "ri_permutations": a.perms}
     with open(os.path.join(a.out, "results.json"), "w") as f:
         json.dump(res, f, indent=2)

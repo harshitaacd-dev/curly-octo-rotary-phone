@@ -118,6 +118,60 @@
         "n": 1560,
         "states": 33
       }
+    },
+    "labelling_controls": {
+      "break_states": [
+        "A&N Islands",
+        "Andhra Pradesh",
+        "Bihar",
+        "Chandigarh",
+        "Chhattisgarh",
+        "Delhi",
+        "Goa",
+        "Haryana",
+        "Jammu & Kashmir",
+        "Jharkhand",
+        "Manipur",
+        "Meghalaya",
+        "Odisha",
+        "Puducherry",
+        "Telangana",
+        "Uttarakhand",
+        "West Bengal"
+      ],
+      "n_break_states": 17,
+      "drop_break_states": {
+        "coef": -0.0612,
+        "se": 0.0496,
+        "p": 0.217,
+        "rate_ratio": 0.941,
+        "n": 840,
+        "states": 18
+      },
+      "regime_fixed_effects": {
+        "coef": -0.0473,
+        "se": 0.0409,
+        "p": 0.2472,
+        "rate_ratio": 0.954,
+        "n": 1587,
+        "states": 35
+      },
+      "control_other_share": {
+        "coef": -0.0412,
+        "se": 0.0387,
+        "p": 0.2876,
+        "rate_ratio": 0.96,
+        "n": 1656,
+        "states": 35
+      },
+      "all_controls": {
+        "coef": -0.0628,
+        "se": 0.0414,
+        "p": 0.1295,
+        "rate_ratio": 0.939,
+        "n": 1587,
+        "states": 35
+      }
     }
   },
   "model2": {
@@ -285,6 +339,60 @@
         "rate_ratio": 1.078,
         "n": 1560,
         "states": 33
+      }
+    },
+    "labelling_controls": {
+      "break_states": [
+        "A&N Islands",
+        "Andhra Pradesh",
+        "Bihar",
+        "Chandigarh",
+        "Chhattisgarh",
+        "Delhi",
+        "Goa",
+        "Haryana",
+        "Jammu & Kashmir",
+        "Jharkhand",
+        "Manipur",
+        "Meghalaya",
+        "Odisha",
+        "Puducherry",
+        "Telangana",
+        "Uttarakhand",
+        "West Bengal"
+      ],
+      "n_break_states": 17,
+      "drop_break_states": {
+        "coef": 0.3605,
+        "se": 0.1707,
+        "p": 0.0347,
+        "rate_ratio": 1.434,
+        "n": 840,
+        "states": 18
+      },
+      "regime_fixed_effects": {
+        "coef": 0.105,
+        "se": 0.2039,
+        "p": 0.6065,
+        "rate_ratio": 1.111,
+        "n": 1587,
+        "states": 35
+      },
+      "control_other_share": {
+        "coef": 0.0375,
+        "se": 0.1939,
+        "p": 0.8466,
+        "rate_ratio": 1.038,
+        "n": 1656,
+        "states": 35
+      },
+      "all_controls": {
+        "coef": 0.0218,
+        "se": 0.2037,
+        "p": 0.9147,
+        "rate_ratio": 1.022,
+        "n": 1587,
+        "states": 35
       }
     }
   },
