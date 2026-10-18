@@ -1,0 +1,276 @@
+{
+  "model1": {
+    "by_exposure": {
+      "access_cams2023_15plus": {
+        "coef": -0.0336,
+        "se": 0.0379,
+        "p": 0.3746,
+        "rate_ratio": 0.967,
+        "n": 1656,
+        "states": 35,
+        "ri_p": 0.28
+      },
+      "access_nss2017_5plus": {
+        "coef": -0.0207,
+        "se": 0.0341,
+        "p": 0.5433,
+        "rate_ratio": 0.979,
+        "n": 1056,
+        "states": 22
+      },
+      "access_nfhs5_15to49_avg": {
+        "coef": 0.0221,
+        "se": 0.0411,
+        "p": 0.591,
+        "rate_ratio": 1.022,
+        "n": 1656,
+        "states": 35
+      },
+      "access_cams2023_15to24": {
+        "coef": -0.0251,
+        "se": 0.027,
+        "p": 0.3516,
+        "rate_ratio": 0.975,
+        "n": 1656,
+        "states": 35
+      }
+    },
+    "by_head": {
+      "blackmail/threatening": {
+        "coef": 0.0071,
+        "se": 0.0783,
+        "p": 0.9273,
+        "rate_ratio": 1.007,
+        "n": 1584,
+        "states": 35
+      },
+      "defamation/morphing": {
+        "coef": -0.1215,
+        "se": 0.0778,
+        "p": 0.1184,
+        "rate_ratio": 0.886,
+        "n": 1544,
+        "states": 35
+      },
+      "fake profile": {
+        "coef": -0.0896,
+        "se": 0.1112,
+        "p": 0.4205,
+        "rate_ratio": 0.914,
+        "n": 1592,
+        "states": 35
+      },
+      "obscene material": {
+        "coef": 0.0091,
+        "se": 0.0314,
+        "p": 0.7719,
+        "rate_ratio": 1.009,
+        "n": 1656,
+        "states": 35
+      },
+      "other cyber vs women": {
+        "coef": -0.0299,
+        "se": 0.0499,
+        "p": 0.5483,
+        "rate_ratio": 0.971,
+        "n": 1656,
+        "states": 35
+      },
+      "stalking/bullying": {
+        "coef": -0.073,
+        "se": 0.0547,
+        "p": 0.1817,
+        "rate_ratio": 0.93,
+        "n": 1608,
+        "states": 35
+      }
+    },
+    "placebo_cyber_fraud": {
+      "coef": 0.0617,
+      "se": 0.1194,
+      "p": 0.6056,
+      "rate_ratio": 1.064,
+      "n": 1616,
+      "states": 35
+    },
+    "robustness": {
+      "drop_2020": {
+        "coef": -0.0363,
+        "se": 0.0371,
+        "p": 0.3284,
+        "rate_ratio": 0.964,
+        "n": 1442,
+        "states": 35
+      },
+      "drop_2024": {
+        "coef": -0.0292,
+        "se": 0.0366,
+        "p": 0.4257,
+        "rate_ratio": 0.971,
+        "n": 1449,
+        "states": 35
+      },
+      "drop_KA_TG": {
+        "coef": -0.0385,
+        "se": 0.037,
+        "p": 0.2981,
+        "rate_ratio": 0.962,
+        "n": 1560,
+        "states": 33
+      }
+    }
+  },
+  "model2": {
+    "by_exposure": {
+      "access_nfhs5_15to49_avg": {
+        "coef": -0.0574,
+        "se": 0.0931,
+        "p": 0.5378,
+        "rate_ratio": 0.944,
+        "n": 2032,
+        "states": 35,
+        "ri_p": 0.5167
+      },
+      "access_cams2023_15plus": {
+        "coef": -0.0289,
+        "se": 0.0892,
+        "p": 0.7461,
+        "rate_ratio": 0.972,
+        "n": 2032,
+        "states": 35
+      },
+      "ads_nudify_to_genai_post": {
+        "coef": -0.2486,
+        "se": 0.1636,
+        "p": 0.1287,
+        "rate_ratio": 0.78,
+        "n": 2032,
+        "states": 35,
+        "ri_p": 0.03
+      },
+      "ads_nudify_per_lakh_post": {
+        "coef": -0.1744,
+        "se": 0.1226,
+        "p": 0.1549,
+        "rate_ratio": 0.84,
+        "n": 2032,
+        "states": 35
+      },
+      "trends_deepfake_awareness_pre": {
+        "coef": -0.1775,
+        "se": 0.1574,
+        "p": 0.2594,
+        "rate_ratio": 0.837,
+        "n": 2032,
+        "states": 35
+      },
+      "trends_face_swap_pre": {
+        "coef": -0.1351,
+        "se": 0.0193,
+        "p": 0.0,
+        "rate_ratio": 0.874,
+        "n": 2032,
+        "states": 35
+      }
+    },
+    "within_cyber": {
+      "coef": -0.359,
+      "se": 0.2026,
+      "p": 0.0765,
+      "rate_ratio": 0.698,
+      "n": 1339,
+      "states": 35
+    },
+    "placebo_cyber_fraud": {
+      "coef": -0.3362,
+      "se": 0.3264,
+      "p": 0.303,
+      "rate_ratio": 0.714,
+      "n": 1616,
+      "states": 35
+    },
+    "fake_shock_years": {
+      "2019": {
+        "coef": 0.2248,
+        "se": 0.1391,
+        "p": 0.1059,
+        "rate_ratio": 1.252,
+        "n": 1524,
+        "states": 35
+      },
+      "2020": {
+        "coef": 0.3246,
+        "se": 0.1076,
+        "p": 0.0026,
+        "rate_ratio": 1.383,
+        "n": 1524,
+        "states": 35
+      },
+      "2021": {
+        "coef": 0.2093,
+        "se": 0.1458,
+        "p": 0.1512,
+        "rate_ratio": 1.233,
+        "n": 1524,
+        "states": 35
+      }
+    },
+    "by_head": {
+      "blackmail/threatening": {
+        "coef": -0.0983,
+        "se": 0.3222,
+        "p": 0.7604,
+        "rate_ratio": 0.906,
+        "n": 1584,
+        "states": 35
+      },
+      "defamation/morphing": {
+        "coef": -1.6991,
+        "se": 0.7564,
+        "p": 0.0247,
+        "rate_ratio": 0.183,
+        "n": 1544,
+        "states": 35
+      },
+      "obscene material": {
+        "coef": 0.015,
+        "se": 0.1007,
+        "p": 0.8816,
+        "rate_ratio": 1.015,
+        "n": 1656,
+        "states": 35
+      }
+    },
+    "pretrend_joint_p": {
+      "access_nfhs5_15to49_avg": 0.0016,
+      "ads_nudify_to_genai_post": 0.0
+    },
+    "robustness": {
+      "drop_2020": {
+        "coef": -0.0431,
+        "se": 0.0959,
+        "p": 0.653,
+        "rate_ratio": 0.958,
+        "n": 1764,
+        "states": 35
+      },
+      "drop_2024": {
+        "coef": -0.011,
+        "se": 0.1347,
+        "p": 0.9348,
+        "rate_ratio": 0.989,
+        "n": 1778,
+        "states": 35
+      },
+      "drop_KA_TG": {
+        "coef": -0.0476,
+        "se": 0.0994,
+        "p": 0.6318,
+        "rate_ratio": 0.953,
+        "n": 1904,
+        "states": 33
+      }
+    }
+  },
+  "ri_permutations": 300
+}
