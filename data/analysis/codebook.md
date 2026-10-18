@@ -1,9 +1,9 @@
 # Analysis panels: codebook
 
-Built by `python scripts/build_analysis_panels.py` from `data/clean/` (NCRB, platform reports) and
-`data/external/internet_access/` (access workbook). Re-run after adding Google Trends files to
-`data/external/google_trends/`; they are merged automatically if `state_yearly.csv` and
-`national_monthly.csv` are present. `build_report.txt` lists row counts and coverage.
+Built by `python scripts/build_analysis_panels.py` from `data/clean/` (NCRB, platform reports),
+`data/external/internet_access/` (access workbook) and `data/external/google_trends/` (Google Trends
+panels and Google Ads keyword volumes; see `datasets/README.md`, section 4). `build_report.txt` lists
+row counts and coverage.
 
 **Units.** 35 State/UT units. Boundary changes are merged for all years: Jammu & Kashmir + Ladakh,
 and Dadra & Nagar Haveli + Daman & Diu. Counts are summed; rates are recomputed from the sums.
@@ -41,12 +41,26 @@ and Dadra & Nagar Haveli + Daman & Diu. Counts are summed; rates are recomputed 
 | `able_cams2023_15plus` | % of persons 15+ able to use the internet, 2022-23 | 35 units | CAMS |
 | `access_nfhs5_15to49_avg` | Simple average of men's and women's % ever used internet, age 15–49, 2019-21 | 35 units | NFHS-5 |
 | `trai_subs_per100` | Internet subscriptions (connections, not people) per 100 people, December of the year; Dec 2021 set to missing because TRAI misallocated several States | 2022–2024 | TRAI |
-| `trends_<group>` | Google Trends interest by search-term group (nudify, deepfake_tools, genai_general, harm_help, harm_help_hi), yearly | **not yet merged** | Google Trends |
+| `trends_<concept>` | Google Trends index, yearly mean, linked to be comparable across States within a concept. Concepts: `deepfake_awareness`, `deepfake_explainer`, `deepfake_apps`, `deepfake_apk`, `deepfake_free`, `deepfake_makers`, `face_swap`, `face_swap_video`, `reface`. Not comparable across concepts | 2018–2024 | Google Trends |
+| `trends_low_precision_n` | Number of the 9 concepts flagged low precision for that State and year (anchor State averaged under 2 points a month) | 2018–2024 | Google Trends |
+| `ads_<group>_searches` | Google Ads monthly search volumes summed over the year for a keyword group (Google's rounded buckets). Groups: `nudify` (20 keywords, e.g. clothoff, undress app, nudify app, deepnude, kapde utarne wala app, telegram nude bot), `grok_sexual` (grok bikini, grok spicy mode), `help_seeking` (cyber crime complaint, deepfake complaint, how to report deepfake, StopNCII, deepfake law india), `genai` (AI image/video generators, AI photo editor, Grok) | 2023–2024 | Google Ads |
+| `ads_<group>_per_lakh` | The same per lakh population | 2023–2024 | Built |
 | `post_jio` | 1 from 2017 (Jio launched Sep 2016) | | Built |
 | `post_portal` | 1 from 2019 (National Cyber Crime Reporting Portal, Aug 2019) | | Built |
 | `covid` | 1 in 2020 | | Built |
 | `post_ai` | 1 from 2023 (generative-AI image tools widely available from late 2022) | | Built |
 | `bns` | 1 in 2024 (new criminal code replaces the IPC from July 2024) | | Built |
+
+**Fixed State exposure from search data** (in both panels and `state_access.csv`):
+
+| Column | Meaning |
+|---|---|
+| `trends_deepfake_awareness_pre`, `trends_face_swap_pre`, `trends_deepfake_apps_pre`, `trends_reface_pre` | Mean Trends index 2018–2022, before the generative-AI boom. Noisy for small States |
+| `ads_<group>_per_lakh_post` | Mean yearly Ads searches per lakh population, 2023–2024, for `nudify`, `grok_sexual`, `help_seeking`, `genai` |
+| `ads_nudify_to_genai_post` | Nudify searches ÷ general AI-tool searches, 2023–2024. Interest in abuse tools relative to AI interest generally; unrelated to connectivity (Spearman −0.02 with `ads_genai_per_lakh_post`) |
+
+Ads data starts in Nov 2022, so there is no pre-boom nudify measure. Trends regions are averaged into merged
+units (population-weighted where known); Ads volumes are summed.
 
 Survey access measures for merged units are weighted by 2022 NCRB population. Survey definitions
 differ (age range, recall period), so each survey stays in its own column.
@@ -78,7 +92,8 @@ The 2024-only BNS s.69 offence is not a category here (one year only).
 | `grok2_images` | 1 in Aug–Nov 2024 (Grok-2 image generation for X Premium) |
 | `grok_free` | 1 in Dec 2024–Feb 2025 (Grok and the Aurora image model free for all X users) |
 | `post_grok_free` | 1 from Dec 2024 |
-| `trends_national_<group>` | National monthly Google Trends: **not yet merged** |
+| `trends_national_<concept>` | India estimated monthly searches for each of the 9 Trends concepts, Jan 2018 onwards |
+| `ads_national_<group>_searches` | India Google Ads monthly searches for the keyword groups above, Nov 2022 onwards |
 
 X changed its reporting format from Mar 2025 (category counts fall to about zero) and reports shares from
 Sep 2025; see `analysis/partA/README.md`.

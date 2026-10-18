@@ -11,7 +11,8 @@ Inputs
     data/clean/platform_grievances_monthly.csv      IT Rules grievance reports, platform x category x month
     data/external/internet_access/india_internet_access_by_state_age_gender.xlsx
                                                     NSS 2017-18, NFHS-5, CAMS 2022-23, TRAI subscriptions
-    data/external/google_trends/{state_yearly,national_monthly}.csv   optional; merged if present
+    data/external/google_trends/{panel_state_yearly,keyword_volumes,national_monthly}.csv
+                                                    Google Trends and Google Ads search data; merged if present
 
 Outputs (data/analysis/)
     state_year_panel.csv            1. one row per State/UT x year, 2012-2024
@@ -183,17 +184,86 @@ def trai_long(acc):
     return t.drop(columns="v")
 
 
-# ---------------------------------------------------------------- Google Trends (optional)
+# ---------------------------------------------------------------- Google Trends and Google Ads search volumes
+# Inputs in data/external/google_trends/ (see datasets/README.md, section 4):
+#   panel_state_yearly.csv   State x year x concept, Trends index linked across States (2018-2026)
+#   keyword_volumes.csv      State (and India) x keyword x month, Google Ads volumes (Nov 2022 - Sep 2026)
+#   national_monthly.csv     India x month x concept, estimated searches (2018-2026)
+CONCEPTS = ["deepfake_awareness", "deepfake_explainer", "deepfake_apps", "deepfake_apk", "deepfake_free",
+            "deepfake_makers", "face_swap", "face_swap_video", "reface"]
+# Google Ads keyword groups. Volumes are Google's rounded monthly buckets; summed within group.
+KEYWORD_GROUPS = {
+    "nudify": ["cloth remover app", "clothoff", "clothoff app", "deepnude", "deepnude app", "dress remover app",
+               "kapde utarne wala app", "nakedly", "nakedly ai", "nangi photo app", "nudeai", "nudeai fun",
+               "nudify app", "nudify bot", "nudify online", "photo se kapde hatane wala app", "telegram nude bot",
+               "undress app", "undress bot telegram", "grok undress"],
+    "grok_sexual": ["grok bikini", "grok spicy mode"],
+    "help_seeking": ["cyber crime complaint", "deepfake complaint", "how to report deepfake", "stopncii",
+                     "deepfake law india"],
+    "genai": ["ai image generator", "ai video generator", "ai photo editor", "grok", "grok ai", "grok image",
+              "grok imagine"],
+}
+PRE_AI_YEARS = (2018, 2022)   # Trends exposure measured before the generative-AI boom
+POST_AI_YEARS = (2023, 2024)  # Ads volumes: first full years with data, inside the crime panel
+
+
+def _weighted_unit_mean(df, value_cols, pop):
+    """Average original Trends regions into merged units, weighted by 2022 population where known."""
+    df = df.copy()
+    df["unit"] = df.state.map(norm_state)
+    df["w"] = df.state.map(lambda s: pop.get(clean_state(s.replace(" and ", " & ")), np.nan)).fillna(1.0)
+    keys = [c for c in df.columns if c not in value_cols + ["state", "w", "unit"]]
+    out = df.groupby(["unit"] + keys).apply(
+        lambda g: pd.Series({c: np.average(g[c].dropna(), weights=g.loc[g[c].notna(), "w"]) if g[c].notna().any() else np.nan
+                             for c in value_cols}), include_groups=False).reset_index()
+    return out.rename(columns={"unit": "state"})
+
+
 def trends_state_year(trends_dir):
-    f = os.path.join(trends_dir, "state_yearly.csv")
+    f = os.path.join(trends_dir, "panel_state_yearly.csv")
     if not os.path.exists(f):
         return None
     t = pd.read_csv(f)
-    t["state"] = t.state.map(norm_state)
-    t = t.groupby(["state", "year", "group"], as_index=False)["value"].mean()
-    t = t.pivot_table(index=["state", "year"], columns="group", values="value").reset_index()
-    t.columns = ["state", "year"] + [f"trends_{c}" for c in t.columns[2:]]
-    return t
+    t = t[t.months == 12]  # full years only (2026 is partial)
+    wide = t.pivot_table(index=["state", "year"], columns="concept", values="panel_index_mean").reset_index()
+    low = t.pivot_table(index=["state", "year"], columns="concept", values="low_precision", aggfunc="max")
+    wide["trends_low_precision_n"] = low.sum(axis=1).values
+    wide = wide.rename(columns={c: f"trends_{c}" for c in CONCEPTS})
+    vals = [c for c in wide.columns if c.startswith("trends_")]
+    return _weighted_unit_mean(wide, vals, load_population()).round(3)
+
+
+def ads_state_year(trends_dir):
+    f = os.path.join(trends_dir, "keyword_volumes.csv")
+    if not os.path.exists(f):
+        return None
+    k = pd.read_csv(f)
+    k = k[k.location != "India"]
+    group_of = {kw: g for g, kws in KEYWORD_GROUPS.items() for kw in kws}
+    k["group"] = k.keyword.map(group_of)
+    k = k.dropna(subset=["group"])
+    k["year"] = k.month.str[:4].astype(int)
+    months = k.groupby("year").month.nunique()
+    k = k[k.year.isin(months[months == 12].index)]  # full years only
+    k["state"] = k.location.map(norm_state)
+    a = k.groupby(["state", "year", "group"], as_index=False)["google_ads_monthly_searches"].sum()
+    a = a.pivot_table(index=["state", "year"], columns="group", values="google_ads_monthly_searches").reset_index()
+    a.columns = ["state", "year"] + [f"ads_{c}_searches" for c in a.columns[2:]]
+    return a
+
+
+def ads_national_month(trends_dir):
+    f = os.path.join(trends_dir, "keyword_volumes.csv")
+    if not os.path.exists(f):
+        return None
+    k = pd.read_csv(f)
+    k = k[k.location == "India"]
+    group_of = {kw: g for g, kws in KEYWORD_GROUPS.items() for kw in kws}
+    k["group"] = k.keyword.map(group_of)
+    a = k.dropna(subset=["group"]).groupby(["month", "group"], as_index=False)["google_ads_monthly_searches"].sum()
+    a = a.pivot(index="month", columns="group", values="google_ads_monthly_searches").reset_index()
+    a.columns = ["month"] + [f"ads_national_{c}_searches" for c in a.columns[1:]]
+    return a
 
 
 def trends_national_month(trends_dir):
@@ -201,16 +271,38 @@ def trends_national_month(trends_dir):
     if not os.path.exists(f):
         return None
     t = pd.read_csv(f)
-    date_col = "month" if "month" in t.columns else "date"
-    t["month"] = pd.to_datetime(t[date_col]).dt.strftime("%Y-%m")
-    t = t.groupby(["month", "group"], as_index=False)["value"].mean()
-    t = t.pivot(index="month", columns="group", values="value").reset_index()
+    t = t.pivot(index="month", columns="concept", values="estimated_searches").reset_index()
     t.columns = ["month"] + [f"trends_national_{c}" for c in t.columns[1:]]
-    return t
+    nat_ads = ads_national_month(trends_dir)
+    if nat_ads is not None:
+        t = t.merge(nat_ads, on="month", how="outer")
+    return t.sort_values("month")
+
+
+def search_exposure(trends_sy, ads_sy, pop_sy):
+    """Fixed, one-per-State exposure measures from search data."""
+    e = pd.DataFrame()
+    if trends_sy is not None:
+        pre = trends_sy[trends_sy.year.between(*PRE_AI_YEARS)]
+        for c in ["trends_deepfake_awareness", "trends_face_swap", "trends_deepfake_apps", "trends_reface"]:
+            e[f"{c}_pre"] = pre.groupby("state")[c].mean()
+    if ads_sy is not None:
+        post = ads_sy[ads_sy.year.between(*POST_AI_YEARS)].merge(pop_sy, on=["state", "year"], how="left")
+        for g in KEYWORD_GROUPS:
+            col = f"ads_{g}_searches"
+            if col in post:
+                post[f"r_{g}"] = post[col] / post.population_lakh
+                e[f"ads_{g}_per_lakh_post"] = post.groupby("state")[f"r_{g}"].mean()
+        if {"ads_nudify_searches", "ads_genai_searches"} <= set(post.columns):
+            tot = post.groupby("state")[["ads_nudify_searches", "ads_genai_searches"]].sum()
+            # Interest in abuse tools relative to general AI-tool interest (separates abuse demand from connectivity).
+            e["ads_nudify_to_genai_post"] = tot.ads_nudify_searches / tot.ads_genai_searches
+    e.index.name = "state"
+    return e.round(3)
 
 
 # ---------------------------------------------------------------- 1. state x year
-def state_year(clean, acc, trends):
+def state_year(clean, acc, trends, ads):
     w = pd.read_csv(os.path.join(clean, "state_women_cyber_panel.csv"))
     c = pd.read_csv(os.path.join(clean, "state_cyber_sexual_abusive.csv"))
     w, c = w[w.row_type == "state_ut"], c[c.row_type == "state_ut"]
@@ -253,12 +345,17 @@ def state_year(clean, acc, trends):
     p = p.merge(trai_long(acc), on=["state", "year"], how="left")
     if trends is not None:
         p = p.merge(trends, on=["state", "year"], how="left")
+    if ads is not None:
+        p = p.merge(ads, on=["state", "year"], how="left")
+        for c in [c for c in ads.columns if c.endswith("_searches")]:
+            p[c.replace("_searches", "_per_lakh")] = (p[c] / p.population_lakh).round(3)
     p = add_periods(p)
     return p.sort_values(["state", "year"]).reset_index(drop=True)
 
 
 # ---------------------------------------------------------------- 2. state x category x year
 def state_category_year(clean, acc, trends):
+    """Search data enters this panel only as fixed State exposure (via acc); yearly Trends columns are merged too."""
     w = pd.read_csv(os.path.join(clean, "state_women_cyber_panel.csv"))
     c = pd.read_csv(os.path.join(clean, "state_cyber_sexual_abusive.csv"))
     w, c = w[w.row_type == "state_ut"], c[c.row_type == "state_ut"]
@@ -321,8 +418,11 @@ def main():
     os.makedirs(a.out, exist_ok=True)
 
     acc = access_measures(a.access)
-    trends, trends_nat = trends_state_year(a.trends), trends_national_month(a.trends)
-    sy = state_year(a.clean, acc, trends)
+    trends, ads, trends_nat = trends_state_year(a.trends), ads_state_year(a.trends), trends_national_month(a.trends)
+    w = pd.read_csv(os.path.join(a.clean, "state_women_cyber_panel.csv"))
+    pop_sy = merge_units(w[w.row_type == "state_ut"], ["population_lakh"])
+    acc = acc.join(search_exposure(trends, ads, pop_sy), how="left")
+    sy = state_year(a.clean, acc, trends, ads)
     scy = state_category_year(a.clean, acc, trends)
     pm = platform_month(a.clean, trends_nat)
 
@@ -335,8 +435,12 @@ def main():
         f"state_year_panel: {len(sy)} rows, {sy.state.nunique()} units, {sy.year.min()}-{sy.year.max()}",
         f"state_category_year_panel: {len(scy)} rows, {scy.state.nunique()} units, {scy.category.nunique()} categories",
         f"platform_month_panel: {len(pm)} rows, platforms {sorted(pm.platform.unique())}, {pm.month.min()} to {pm.month.max()}",
-        f"Google Trends merged: {'yes' if trends is not None else 'NO - data/external/google_trends/state_yearly.csv not found'}",
+        f"Google Trends State panel merged: {'yes' if trends is not None else 'NO (panel_state_yearly.csv not found)'}",
+        f"Google Ads keyword volumes merged: {'yes' if ads is not None else 'NO (keyword_volumes.csv not found)'}",
         "", "Units with no NCRB match in access data:", str(sorted(set(sy.state) - set(acc.index))),
+        "NCRB units with no Trends data:", str(sorted(set(sy.state) - set(trends.state))) if trends is not None else "",
+        "Trends units with no NCRB match:", str(sorted(set(trends.state) - set(sy.state))) if trends is not None else "",
+        "NCRB units with no Ads data:", str(sorted(set(sy.state) - set(ads.state))) if ads is not None else "",
         "Access units with no NCRB match:", str(sorted(set(acc.index) - set(sy.state))),
         "", "Non-missing values by year (state_year_panel):",
         coverage(sy, ["cyber_vaw_cases", "offline_vaw_cases", "cyber_total_cases", "cyber_fraud", "female_pop_lakh",

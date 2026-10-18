@@ -7,7 +7,7 @@ or not available, not zero.
 
 ## 1. Analysis panels (`1_analysis_panels/`)
 Ready for regression; built by `scripts/build_analysis_panels.py`. Column definitions in `codebook.md`.
-Google Trends data is **not yet merged** into these panels.
+Google Trends and Google Ads search measures are merged in (State × year and fixed State exposure).
 
 | File | Rows | What it is |
 |---|---|---|

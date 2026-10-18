@@ -63,14 +63,23 @@ E[Y_sct] = exp( α_sc + δ_st + λ_ct + β · AI_c × Post_t × Exposure_s + ln(
 
 - `Post_t` = 1 for 2023–2024 (`post_ai`). Main effects of `Post_t` and `AI_c × Post_t` are absorbed by the fixed effects.
 - **Exposure options:**
-  1. `access_nfhs5_15to49_avg`: measured before the boom (2019-21). **Preferred**, because the AI shock cannot have caused it.
-  2. `access_cams2023_15plus`: measured as the boom began.
-  3. `trends_nudify`, `trends_deepfake_tools` (2023–2024 average): closest to the mechanism, but search
-     interest may move with abuse itself, so read it as an association. **Needs the Google Trends files.**
+  1. `access_nfhs5_15to49_avg`: internet access measured before the boom (2019-21). **Preferred for the
+     connectivity question**, because the AI shock cannot have caused it.
+  2. `access_cams2023_15plus`: internet access measured as the boom began.
+  3. `ads_nudify_to_genai_post`: nudify-tool searches relative to general AI-tool searches, 2023–2024
+     (Google Ads). **Closest to the mechanism**, and unrelated to connectivity. Measured after the boom
+     began (Ads data starts Nov 2022), and abuse itself may drive searches, so read it as an association.
+  4. `ads_nudify_per_lakh_post`: nudify searches per lakh people. Mixes abuse-tool demand with
+     connectivity (Spearman 0.82 with general AI searches); report alongside option 3.
+  5. `trends_deepfake_awareness_pre`, `trends_face_swap_pre` (Trends, 2018–2022): measured before the
+     boom, but noisy for small States. Robustness only.
 - **β > 0:** after 2022, image-based cyber crime against women rose more in more-exposed States.
 
 **Event study:** `Σ_{k≠2022} β_k · AI_c × Exposure_s × 1[t = k]`. Coefficients for 2017–2021 near zero
 indicate no earlier divergence; report a joint test of the pre-2022 terms.
+
+**Time-varying search intensity (2023–2024):** replace `Post_t × Exposure_s` with `ads_nudify_per_lakh_st`
+in the State × year panel. Two years only; a check, not a main result.
 
 **Within-cyber variant:** compare AI-susceptible heads with the other cyber heads (stalking, fake profile,
 other) instead of offline crimes. This removes anything common to all online crime against women.
@@ -90,6 +99,8 @@ E[G_cm] = exp( α_c + μ_m + β_1 · Synthetic_c × Grok2_m + β_2 · Synthetic_
 - Already estimated in `analysis/partA/`; this specification re-runs it on the analysis panel.
 - **Extension:** add Facebook and Instagram sexual-content categories as an outside comparison, with
   platform × category and platform × month fixed effects.
+- **Search check:** add national monthly nudify searches (`ads_national_nudify_searches`, Nov 2022 onwards)
+  to show whether demand for abuse tools moved with the Grok releases.
 
 ## 6. Descriptive analysis: Jio (2016)
 
@@ -143,6 +154,7 @@ E[G_cm] = exp( α_c + μ_m + β_1 · Synthetic_c × Grok2_m + β_2 · Synthetic_
 
 ## 10. Open items
 
-- Google Trends files are not in the repo; Model 2 option 3 and the Trends columns wait for them.
+- Google Ads data (nudify measures) starts in Nov 2022, so there is no State nudify measure before the
+  AI boom; the pre-boom search measures come from Trends and are noisy for small States.
 - `pyfixest` (PPML with high-dimensional fixed effects) is not installed in this environment; install it
   with `pip install pyfixest` before running estimates.

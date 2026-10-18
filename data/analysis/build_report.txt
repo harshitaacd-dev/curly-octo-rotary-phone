@@ -1,9 +1,16 @@
 state_year_panel: 453 rows, 35 units, 2012-2024
 state_category_year_panel: 3360 rows, 35 units, 12 categories
 platform_month_panel: 2365 rows, platforms ['Facebook', 'Google', 'Instagram', 'X'], 2021-04 to 2026-08
-Google Trends merged: NO - data/external/google_trends/state_yearly.csv not found
+Google Trends State panel merged: yes
+Google Ads keyword volumes merged: yes
 
 Units with no NCRB match in access data:
+[]
+NCRB units with no Trends data:
+[]
+Trends units with no NCRB match:
+[]
+NCRB units with no Ads data:
 []
 Access units with no NCRB match:
 []
@@ -26,13 +33,22 @@ year
 2024               35                 35                 35           35               35                      33                                35                35
 
 Access measures, non-missing units:
-access_nss2017_5plus       22
-access_cams2023_15plus     35
-access_cams2023_15to24     35
-able_cams2023_15plus       35
-access_nfhs5_15to49_avg    35
-trai_subs_per100_2021      35
-trai_subs_per100_2022      35
-trai_subs_per100_2023      35
-trai_subs_per100_2024      35
-trai_subs_per100_2025      35
+access_nss2017_5plus              22
+access_cams2023_15plus            35
+access_cams2023_15to24            35
+able_cams2023_15plus              35
+access_nfhs5_15to49_avg           35
+trai_subs_per100_2021             35
+trai_subs_per100_2022             35
+trai_subs_per100_2023             35
+trai_subs_per100_2024             35
+trai_subs_per100_2025             35
+trends_deepfake_awareness_pre     35
+trends_face_swap_pre              35
+trends_deepfake_apps_pre          33
+trends_reface_pre                 35
+ads_nudify_per_lakh_post          35
+ads_grok_sexual_per_lakh_post     35
+ads_help_seeking_per_lakh_post    35
+ads_genai_per_lakh_post           35
+ads_nudify_to_genai_post          35

@@ -1,0 +1,10 @@
+concept,label,calibrated_with,months_compared,searches_per_index_point,range_low,range_high,vs_deepfake_awareness
+deepfake_apps,Deepfake apps (any),own Google Ads volumes,47,25461.8,20094.8,30499.6,5.16
+deepfake_apk,"Deepfake APK / mod downloads (sideloading, outside app stores)",own Google Ads volumes,44,4439.1,2548.0,5359.6,0.9
+deepfake_free,Free deepfake tools,own Google Ads volumes,47,2380.9,1847.8,2753.6,0.48
+deepfake_makers,Deepfake makers / generators / software,own Google Ads volumes,47,8895.8,6197.6,13269.5,1.8
+face_swap,Face swap (any),own Google Ads volumes,47,11689.1,9116.8,18951.3,2.37
+face_swap_video,Video face swap,own Google Ads volumes,47,8077.1,5422.6,9320.0,1.64
+reface,Reface (named app),own Google Ads volumes,47,8226.0,6126.1,11018.6,1.67
+deepfake_awareness,Deepfake awareness / general interest,own Google Ads volumes,47,4936.4,4334.6,7860.0,1.0
+deepfake_explainer,What is a deepfake (explainer searches),own Google Ads volumes,47,17907.7,13504.8,22707.4,3.63

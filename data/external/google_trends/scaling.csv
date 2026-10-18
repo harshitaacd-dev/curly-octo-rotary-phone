@@ -1,0 +1,10 @@
+concept,linked_via,ratio_to_partner,pair_pulls,note
+deepfake_awareness,,1.0,0,reference: its peak month = 100
+face_swap,deepfake_awareness,1.35553,1,
+face_swap_video,face_swap,0.12377,1,
+reface,face_swap_video,0.47718,1,
+deepfake_makers,reface,0.42134,1,
+deepfake_free,deepfake_makers,0.66906,1,
+deepfake_apps,deepfake_free,1.34694,1,
+deepfake_explainer,deepfake_apps,0.8068,1,
+deepfake_apk,deepfake_explainer,0.29268,1,
