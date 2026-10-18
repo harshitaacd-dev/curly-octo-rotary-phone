@@ -85,6 +85,16 @@ one break.** Three controls, on each model's main specification:
   better-connected States saw cyber crime against women rise more after 2022, which fits the argument that
   recording practice hides the signal elsewhere.
 
+**All 35 States, effect allowed to differ by recording stability** (one model; stable States also get their
+own post-2022 shift):
+
+| Exposure | Stable States (18) | States with breaks (17) | Difference p |
+|---|---|---|---|
+| NFHS-5 access (main) | 1.54 (p = 0.031) | 0.85 (p = 0.47) | 0.048 |
+| CAMS 2022-23 access | 0.82 (p = 0.34) | 0.90 (p = 0.59) | 0.73 |
+
+The split appears with the main exposure, only just significant, and not with the alternative one.
+
 ## Reading
 
 The panel cannot detect an AI-boom signal in police-recorded data: estimates are null under every exposure
