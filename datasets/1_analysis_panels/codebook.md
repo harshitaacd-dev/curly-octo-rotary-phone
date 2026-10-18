@@ -80,13 +80,14 @@ differ (age range, recall period), so each survey stays in its own column.
 
 The 2024-only BNS s.69 offence is not a category here (one year only).
 
-## 3. `platform_month_panel.csv`: one row per platform × grievance category × month (2,365 rows)
+## 3. `platform_month_panel.csv`: one row per platform × grievance category × month (2,533 rows)
 
 | Column | Meaning |
 |---|---|
-| `platform` | X, Facebook, Instagram, Google |
+| `platform` | X, Facebook, Instagram, Google, Snapchat |
 | `category`, `category_group` | Grievance category as the platform names it; group = `synthetic`, `sexual`, `harassment`, `impersonation`, `child` or `placebo` |
-| `month`, `count` | Month (YYYY-MM), user grievances received in India |
+| `month`, `count` | Month (YYYY-MM), user grievances received in India. For Snapchat: user content & account reports, joined across three report formats (Dec 2021 onwards; Jan–Feb 2022 missing); "All other reasons" = all reports minus sexual content and harassment |
+| `suspect_duplicate` | 1 = Snapchat Nov 2025, which repeats Oct 2025 exactly in every category (a duplicated report in the source); exclude from analysis |
 | `derived_from_share` | 1 = count computed from a published % share |
 | `is_synthetic_media`, `is_sexual_content`, `is_placebo` | Group flags |
 | `grok2_images` | 1 in Aug–Nov 2024 (Grok-2 image generation for X Premium) |
@@ -101,3 +102,6 @@ Sep 2025; see `analysis/partA/README.md`.
 ## `state_access.csv`
 
 One row per unit: every access measure above, plus TRAI per 100 for each December 2021–2025.
+
+**Facebook and Instagram "sexual" category** is Meta's "Content showing me in nudity/partial nudity or in a sexual act":
+complaints by people about intimate images of themselves, which platforms must act on within 24 hours under the IT Rules.

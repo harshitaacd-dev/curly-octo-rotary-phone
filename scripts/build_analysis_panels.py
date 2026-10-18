@@ -390,9 +390,47 @@ EVENTS = {  # month ranges, inclusive
 }
 
 
+SNAP = "data/external/platform_reports/snap.csv"
+
+
+def snap_month(path=SNAP):
+    """Snapchat user reports (content & account reports) by month: sexual content, harassment, other.
+
+    Joins three report formats: 'Sexually Explicit Content' (Dec 2021 - Dec 2022), 'Sexual Content'
+    (Jan 2023 - Nov 2024), and the 'reported to safety teams' section (Dec 2024 onwards).
+    Nov 2025 repeats Oct 2025 exactly in every category (a duplicated report in the source), so it is
+    flagged suspect_duplicate = 1.
+    """
+    if not os.path.exists(path):
+        return None
+    d = pd.read_csv(path)
+    d = d[(d.metric == "content & account reports") & d.unit.str.startswith("count")
+          & d.section.isin(["reports and enforcement", "reported to safety teams"])]
+    d["cat"] = d.category.replace({"Sexually Explicit Content": "sexual", "Sexual Content": "sexual",
+                                   "Harassment and Bullying": "harassment", "All": "all"})
+    d = d[d.cat.isin(["sexual", "harassment", "all"])]
+    w = d.pivot_table(index="period_start", columns="cat", values="value", aggfunc="sum")
+    w.index = w.index.str[:7]
+    w["other"] = w["all"] - w[["sexual", "harassment"]].sum(axis=1, min_count=2)
+    rows = []
+    for col, label, group in (("sexual", "Sexual content", "sexual"), ("harassment", "Harassment and bullying", "harassment"),
+                              ("other", "All other reasons", "placebo")):
+        r = w[[col]].dropna().reset_index().rename(columns={"period_start": "month", col: "count"})
+        r["platform"], r["category"], r["category_group"], r["derived_from_share"] = "Snapchat", label, group, False
+        rows.append(r)
+    out = pd.concat(rows, ignore_index=True)
+    dup = w[["all", "sexual", "harassment"]].diff().abs().sum(axis=1) == 0
+    out["suspect_duplicate"] = out.month.isin(w.index[dup]).astype(int)
+    return out
+
+
 def platform_month(clean, trends_nat):
     g = pd.read_csv(os.path.join(clean, "platform_grievances_monthly.csv"))
     g = g.rename(columns={"group": "category_group"})
+    g["suspect_duplicate"] = 0
+    snap = snap_month()
+    if snap is not None:
+        g = pd.concat([g, snap[g.columns]], ignore_index=True)
     g["is_synthetic_media"] = (g.category_group == "synthetic").astype(int)
     g["is_sexual_content"] = (g.category_group == "sexual").astype(int)
     g["is_placebo"] = (g.category_group == "placebo").astype(int)
@@ -435,6 +473,7 @@ def main():
         f"state_year_panel: {len(sy)} rows, {sy.state.nunique()} units, {sy.year.min()}-{sy.year.max()}",
         f"state_category_year_panel: {len(scy)} rows, {scy.state.nunique()} units, {scy.category.nunique()} categories",
         f"platform_month_panel: {len(pm)} rows, platforms {sorted(pm.platform.unique())}, {pm.month.min()} to {pm.month.max()}",
+        f"  Snapchat months flagged suspect_duplicate: {sorted(pm[pm.suspect_duplicate == 1].month.unique())}",
         f"Google Trends State panel merged: {'yes' if trends is not None else 'NO (panel_state_yearly.csv not found)'}",
         f"Google Ads keyword volumes merged: {'yes' if ads is not None else 'NO (keyword_volumes.csv not found)'}",
         "", "Units with no NCRB match in access data:", str(sorted(set(sy.state) - set(acc.index))),

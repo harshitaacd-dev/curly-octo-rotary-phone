@@ -22,7 +22,7 @@ def series():
     pm["year"] = pm.month.str[:4].astype(int)
 
     def total(platforms, group):
-        d = pm[pm.platform.isin(platforms) & (pm.category_group == group)]
+        d = pm[pm.platform.isin(platforms) & (pm.category_group == group) & (pm.suspect_duplicate == 0)]
         return d.groupby("year")["count"].sum()
 
     nud = pm.groupby("month").ads_national_nudify_searches.first()
@@ -32,8 +32,9 @@ def series():
         ("Searches for nudify tools", "Google Ads, India", "online", nud),
         ("Complaints to X: synthetic or manipulated media", "IT Rules reports", "online", total(["X"], "synthetic")),
         ("Complaints to X: sexual content", "IT Rules reports", "online", total(["X"], "sexual")),
-        ("Complaints to Facebook and Instagram: sexual content", "IT Rules reports", "online",
+        ("Complaints to Facebook, Instagram: own intimate images", "IT Rules reports", "online",
          total(["Facebook", "Instagram"], "sexual")),
+        ("Reports to Snapchat: sexual content", "IT Rules reports", "online", total(["Snapchat"], "sexual")),
         ("Complaints to the national cyber crime portal", "no category data published", "missing", None),
         ("Police-recorded cyber crime against women", "NCRB", "recorded", s.cyber_vaw_cases),
         ("   of which obscene or sexual material", "NCRB", "recorded", s.cyber_vaw_obscene_material),
@@ -49,7 +50,7 @@ def series():
 
 def draw(df, path):
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9.5})
-    fig, ax = plt.subplots(figsize=(8.6, 4.6), dpi=200)
+    fig, ax = plt.subplots(figsize=(8.6, 5.0), dpi=200)
     fig.patch.set_facecolor(SURFACE)
     ax.set_facecolor(SURFACE)
     ys = list(range(len(df)))[::-1]
