@@ -18,9 +18,9 @@ Model 1  internet access and the growth of cyber crime against women, 2017-2024
     Main outcome: all cyber crimes against women summed into one category (robust to how States
     split cases across heads). Comparison: five offline crimes against women.
 Model 2  the generative-AI boom
-    cases ~ AI_c x Post_t x Exposure_s | same fixed effects;  Post = 2023-2024
-    Treated: AI-susceptible heads (obscene material, defamation/morphing, blackmail/threatening).
-    Comparison: offline crimes against women (main) or the other cyber heads (within-cyber variant).
+    cases ~ Cyber_c x Post_t x Exposure_s | same fixed effects;  Post = 2023-2024
+    Treated: all cyber crimes against women summed into one category (as in Model 1).
+    Comparison: offline crimes against women. Each cyber head is also run separately.
 Placebo: cyber fraud in place of the cyber-crime-against-women outcome.
 Randomisation inference: exposure reassigned across States --perms times; p = share of permuted
 |coef| >= actual |coef|.
@@ -168,19 +168,13 @@ def run_model1(p, perms):
 
 
 # ---------------------------------------------------------------- Model 2
-def model2_sample(p, comparison="offline", treated="ai"):
-    if treated == "placebo":
-        t = p[p.category_group == "cyber_placebo"].copy()
-    else:
-        t = p[(p.category_group == "cyber_women") & (p.is_ai_susceptible == 1)].copy()
-    if comparison == "offline":
-        c = p[p.category_group == "offline_women"]
-    else:  # other cyber heads
-        c = p[(p.category_group == "cyber_women") & (p.is_ai_susceptible == 0)]
-    d = pd.concat([t, c], ignore_index=True)
-    d["ai"] = np.r_[np.ones(len(t), int), np.zeros(len(c), int)]
+def model2_sample(p, comparison="offline", treated="all"):
+    """Treated: all cyber crimes against women summed into one category (or cyber fraud for the placebo).
+    Comparison: offline crimes against women."""
+    d = model1_sample(p, "placebo" if treated == "placebo" else "total")
+    d["ai"] = d.cyber
     d["post"] = (d.year >= 2023).astype(int)
-    return prep(d)
+    return d
 
 
 def run_model2(p, perms):
@@ -198,7 +192,7 @@ def run_model2(p, perms):
     main = EXPOSURE_M2[0]
     # Within-cyber comparison and placebo
     extra = {}
-    for name, kw in {"within_cyber": dict(comparison="cyber"), "placebo_cyber_fraud": dict(treated="placebo")}.items():
+    for name, kw in {"placebo_cyber_fraud": dict(treated="placebo")}.items():
         d = model2_sample(p, **kw)
         d = d[d[main].notna()].copy()
         d["z"] = standardise(d, main)
@@ -214,7 +208,8 @@ def run_model2(p, perms):
         fake[str(fy)] = coef(fit(d, "treat"), "treat")
     # By head
     heads = {}
-    d = model2_sample(p)
+    d = model1_sample(p, "heads")
+    d["ai"], d["post"] = d.cyber, (d.year >= 2023).astype(int)
     d = d[d[main].notna()].copy()
     d["z"] = standardise(d, main)
     for h in sorted(d[d.ai == 1].category.unique()):
@@ -254,7 +249,7 @@ def run_model2(p, perms):
         dd["z"] = standardise(dd, main)
         dd["treat"] = dd.ai * dd.post * dd.z
         rob[name] = coef(fit(dd, "treat"), "treat")
-    return {"by_exposure": out, "within_cyber": extra["within_cyber"], "placebo_cyber_fraud": extra["placebo_cyber_fraud"],
+    return {"by_exposure": out, "placebo_cyber_fraud": extra["placebo_cyber_fraud"],
             "fake_shock_years": fake, "by_head": heads, "pretrend_joint_p": pre_p, "robustness": rob}, evs
 
 

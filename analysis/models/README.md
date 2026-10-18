@@ -9,9 +9,9 @@ Exposure standardised across States, so **rate ratio (RR) = proportional change 
 ## Headline
 
 **No evidence of a positive association.** Recorded cyber crime against women did not grow faster in
-more-connected States (Model 1), and AI-susceptible cyber crime against women did not rise more after 2022
-in more-exposed States (Model 2). Estimates are small, mostly negative and not significant. Model 2 also
-fails its pre-trend test, so it cannot be read as a clean before/after comparison.
+more-connected States (Model 1), and did not rise more after 2022 in more-exposed States (Model 2). With
+pre-boom internet access as the exposure, Model 2 passes its pre-trend test, so this null comes from a valid
+before/after comparison.
 
 ## Model 1: internet access and growth of cyber crime against women
 
@@ -33,36 +33,36 @@ women. Coefficient = extra yearly growth per SD of access.
 
 ## Model 2: the generative-AI boom (2023–2024)
 
-Treated: AI-susceptible heads (obscene material, morphing, blackmail); comparison: offline crimes against women.
+Treated: all cyber crimes against women, summed into one category (as in Model 1); comparison: offline crimes
+against women. Coefficient = extra change after 2022 per SD of exposure.
 
-| Exposure measure | RR after 2022 | p (clustered) | p (RI) |
-|---|---|---|---|
-| NFHS-5 internet access (main) | 0.94 | 0.54 | 0.52 |
-| CAMS 2022-23 internet access | 0.97 | 0.75 | |
-| Nudify-to-general-AI search ratio | 0.78 | 0.13 | 0.03 |
-| Nudify searches per lakh | 0.84 | 0.16 | |
-| Trends deepfake awareness, 2018–22 | 0.84 | 0.26 | |
-| Trends face swap, 2018–22 | 0.87 | <0.001 | |
+| Exposure measure | RR after 2022 | p (clustered) | p (RI) | Pre-trend test p |
+|---|---|---|---|---|
+| NFHS-5 internet access, 2019-21 (main) | 1.07 | 0.72 | 0.58 | 0.74 (passes) |
+| CAMS 2022-23 internet access | 0.86 | 0.35 | | |
+| Nudify-to-general-AI search ratio | 0.99 | 0.98 | 0.96 | <0.001 (fails) |
+| Nudify searches per lakh | 1.00 | 0.98 | | |
+| Trends deepfake awareness, 2018–22 | 1.13 | 0.57 | | |
+| Trends face swap, 2018–22 | 0.74 | <0.001 | | |
 
-- **Within cyber** (AI-susceptible vs other cyber heads): 0.70, p = 0.08.
+- **Event study** (main exposure, base 2022): all years 2017–2024 between −0.08 and +0.06, none significant;
+  joint pre-trend test p = 0.74.
+- **Fake shock years** (2019, 2020, 2021, using 2017–2022 only): RR 1.06–1.10, all p > 0.16.
 - **Placebo, cyber fraud:** 0.71, p = 0.30.
-- **By crime type:** obscene material 1.01 (p = 0.88); blackmail 0.91 (p = 0.76); morphing 0.18 (p = 0.02, small counts).
-- **Robustness:** dropping 2020, 2024, or Karnataka and Telangana: RR 0.95–0.99, p 0.63–0.94.
+- **By crime type** (each head vs offline crimes): obscene material 1.02 (p = 0.88); blackmail 0.91 (p = 0.76);
+  stalking 0.71 (p = 0.17); fake profile 0.49 (p = 0.41); other 1.22 (p = 0.46); morphing 0.18 (p = 0.02, small counts).
+- **Robustness:** dropping 2020, 2024, or Karnataka and Telangana: RR 1.05–1.08, p 0.73–0.76.
 
-**Pre-trends fail.** Joint test of the pre-2022 event-study terms: p = 0.002 (NFHS-5 access) and p < 0.001
-(nudify ratio). Fake shock years give positive "effects" (2020: RR 1.38, p = 0.003). With the nudify ratio,
-the event-study terms fall steadily from 2017 to 2022 and stay near zero after: AI-susceptible crime was
-relatively high in these States early on and has been converging since, a trend that began before the AI
-boom. The negative post-2022 estimates, including the one with RI p = 0.03, continue that convergence; they
-are not an effect of the boom.
+**Cautions:** the nudify-ratio version fails its pre-trend test, so read only its main estimate (null) and not
+its event study; the Trends face-swap estimate has an implausibly small standard error (0.026) for 35 clusters;
+morphing has small counts (293–505 a year nationally), so its large negative estimate is fragile.
 
-**Two estimates to treat with caution:** the Trends face-swap estimate has an implausibly small standard
-error (0.019) for 35 clusters; and morphing has small counts (293–505 a year nationally), so its large
-negative estimate is fragile.
+*An earlier version treated only the AI-susceptible heads (obscene material, morphing, blackmail); it was also
+null but failed its pre-trend test (p = 0.002).*
 
 ## Reading
 
 The panel cannot detect an AI-boom signal in police-recorded data: estimates are null under every exposure
-measure, and the comparison States were already on different paths before 2023. Read together with
+measure, including the main specification, which passes its pre-trend test. Read together with
 `analysis/funnel/` (online complaints rise 18–21× from 2023 to 2024 while NCRB counts fall), the result is
 consistent with the signal being lost between online abuse and police records, not with the absence of abuse.

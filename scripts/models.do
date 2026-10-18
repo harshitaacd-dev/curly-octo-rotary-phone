@@ -128,14 +128,12 @@ foreach r in drop2020 drop2024 dropKATG {
 
 * =============================================================================
 * MODEL 2: the generative-AI boom (Post = 2023-2024)
-*   Treated: AI-susceptible heads (obscene material, morphing, blackmail).
+*   Treated: all cyber crimes against women summed into one category (as in Model 1).
 *   Comparison: offline crimes against women.
 * =============================================================================
-use `panel', clear
-keep if (category_group == "cyber_women" & is_ai_susceptible == 1) | category_group == "offline_women"
-generate ai = category_group == "cyber_women"
+use `m1', clear
+generate ai = cyber
 generate post = year >= 2023
-makefe
 tempfile m2
 save `m2'
 
@@ -176,18 +174,6 @@ foreach x in access_nfhs5_15to49_avg ads_nudify_to_genai_post {
         export delimited using "analysis/models/stata_model2_event_study_`x'.csv", replace
     restore
 }
-
-* Within-cyber comparison: AI-susceptible vs other cyber heads
-use `panel', clear
-keep if category_group == "cyber_women"
-generate ai = is_ai_susceptible == 1
-generate post = year >= 2023
-makefe
-keep if !missing(access_nfhs5_15to49_avg)
-zstate access_nfhs5_15to49_avg
-generate double treat = ai * post * z
-display _n "--- Model 2 within cyber"
-ppmlhdfe cases treat, absorb(sc st ct) vce(cluster state)
 
 * Placebo: cyber fraud as the treated category
 use `panel', clear
