@@ -79,3 +79,12 @@ Monthly compliance reports under India's IT Rules 2021; one row per published nu
 | `threat_corpus_summary.csv` | 12 | One row per source dataset, with licence |
 
 Some threat-corpus sources are licensed for non-commercial use only (e.g. ComMA, CC BY-NC-SA); see the summary file.
+
+## Stata versions
+
+Every CSV here has a Stata `.dta` copy beside it (format 118, Stata 14+), written by
+`python scripts/export_stata.py`. Stata variable names are limited to 32 characters, so longer column
+names are shortened (e.g. `assault_outrage_modesty_354_incl_354a_d` becomes
+`assault_outrage_modesty_354_incl`), and year columns such as `2014` become `v2014`; each variable's
+label holds the original column name. `threat_corpus_full.csv.gz` has no `.dta` copy: it is a text corpus
+and would exceed GitHub's 100 MB file limit.
