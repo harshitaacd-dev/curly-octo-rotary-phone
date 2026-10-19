@@ -1,6 +1,6 @@
 state_year_panel: 453 rows, 35 units, 2012-2024
 state_category_year_panel: 3360 rows, 35 units, 12 categories
-platform_month_panel: 2533 rows, platforms ['Facebook', 'Google', 'Instagram', 'Snapchat', 'X'], 2021-04 to 2026-09
+platform_month_panel: 2663 rows, platforms ['Facebook', 'Google', 'Instagram', 'Moj', 'ShareChat', 'Snapchat', 'X'], 2021-04 to 2026-09
   Snapchat months flagged suspect_duplicate: ['2025-11']
 Google Trends State panel merged: yes
 Google Ads keyword volumes merged: yes

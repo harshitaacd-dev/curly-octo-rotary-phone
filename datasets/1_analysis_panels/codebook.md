@@ -84,9 +84,9 @@ The 2024-only BNS s.69 offence is not a category here (one year only).
 
 | Column | Meaning |
 |---|---|
-| `platform` | X, Facebook, Instagram, Google, Snapchat |
+| `platform` | X, Facebook, Instagram, Google, Snapchat, ShareChat, Moj |
 | `category`, `category_group` | Grievance category as the platform names it; group = `synthetic`, `sexual`, `harassment`, `impersonation`, `child` or `placebo` |
-| `month`, `count` | Month (YYYY-MM), user grievances received in India. For Snapchat: user content & account reports, joined across three report formats (Dec 2021 onwards; Jan–Feb 2022 missing); "All other reasons" = all reports minus sexual content and harassment |
+| `month`, `count` | Month (YYYY-MM), user grievances received in India. For Snapchat: user content & account reports, joined across three report formats (Dec 2021 onwards; Jan–Feb 2022 missing); "All other reasons" = all reports minus sexual content and harassment. For ShareChat and Moj (Mohalla Tech): user reports by reason, June 2021 – October 2022 only (their public reports stop there); "Sexually explicit content", "Abusive language" (harassment), "Fake profile" + "Impersonation", and all other reasons; counts derived from published percentages up to April 2022 (`derived_from_share` = 1); November 2021 lists only some reasons |
 | `suspect_duplicate` | 1 = Snapchat Nov 2025, which repeats Oct 2025 exactly in every category (a duplicated report in the source); exclude from analysis |
 | `derived_from_share` | 1 = count computed from a published % share |
 | `is_synthetic_media`, `is_sexual_content`, `is_placebo` | Group flags |
