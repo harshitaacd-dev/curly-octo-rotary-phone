@@ -1,0 +1,122 @@
+{
+  "main_share_adjusted": {
+    "ncrb_relative": {
+      "growth_per_year": 1.145,
+      "ci95": [
+        1.036,
+        1.265
+      ]
+    },
+    "platforms": {
+      "Facebook": {
+        "relative_growth_per_year": 1.265,
+        "ci95": [
+          0.902,
+          1.775
+        ],
+        "p_diff_vs_ncrb_relative": 0.5793
+      },
+      "Instagram": {
+        "relative_growth_per_year": 1.093,
+        "ci95": [
+          0.673,
+          1.778
+        ],
+        "p_diff_vs_ncrb_relative": 0.8549
+      },
+      "X": {
+        "relative_growth_per_year": 1.485,
+        "ci95": [
+          0.737,
+          2.992
+        ],
+        "p_diff_vs_ncrb_relative": 0.4715
+      },
+      "Snapchat": {
+        "relative_growth_per_year": 0.842,
+        "ci95": [
+          0.749,
+          0.947
+        ],
+        "p_diff_vs_ncrb_relative": 0.0001
+      },
+      "Google": {
+        "relative_growth_per_year": 0.972,
+        "ci95": [
+          0.717,
+          1.318
+        ],
+        "p_diff_vs_ncrb_relative": 0.3151
+      }
+    }
+  },
+  "ncrb": {
+    "growth_per_year": 1.128,
+    "se": 0.05,
+    "ci95": [
+      1.023,
+      1.244
+    ]
+  },
+  "platforms": {
+    "Facebook": {
+      "growth_per_year": 3.737,
+      "ci95": [
+        2.443,
+        5.716
+      ],
+      "p_diff_vs_ncrb": 0.0,
+      "months": 36,
+      "relative_to_other_complaints": 1.265,
+      "relative_p": 0.1727
+    },
+    "Instagram": {
+      "growth_per_year": 1.616,
+      "ci95": [
+        0.782,
+        3.339
+      ],
+      "p_diff_vs_ncrb": 0.3363,
+      "months": 36,
+      "relative_to_other_complaints": 1.093,
+      "relative_p": 0.7187
+    },
+    "X": {
+      "growth_per_year": 11.623,
+      "ci95": [
+        4.824,
+        28.003
+      ],
+      "p_diff_vs_ncrb": 0.0,
+      "months": 36,
+      "relative_to_other_complaints": 1.485,
+      "relative_p": 0.2684
+    },
+    "Snapchat": {
+      "growth_per_year": 1.177,
+      "ci95": [
+        1.098,
+        1.261
+      ],
+      "p_diff_vs_ncrb": 0.4861,
+      "months": 34,
+      "relative_to_other_complaints": 0.842,
+      "relative_p": 0.004
+    },
+    "Google": {
+      "growth_per_year": 0.8,
+      "ci95": [
+        0.621,
+        1.031
+      ],
+      "p_diff_vs_ncrb": 0.0131,
+      "months": 36,
+      "relative_to_other_complaints": 0.972,
+      "relative_p": 0.8536
+    }
+  },
+  "pooled": {
+    "growth_per_year": 2.96,
+    "p_diff_vs_ncrb": 0.0398
+  }
+}
