@@ -171,7 +171,31 @@ foreach x in access_nfhs5_15to49_avg ads_nudify_to_genai_post {
     }
 }
 
+* Why the outcome is all cyber crimes against women: the "other" category (national totals)
+*   Expected: cyber share of all crimes against women 1.18% (2017), 3.24% (2022), 4.35% (2023),
+*   4.22% (2024); "other" share of cyber crimes against women 64.9% (2021), 75.2% (2024);
+*   2023-24 vs 2021-22: "other" +68%, the five named types together +18%.
+preserve
+    use "stata/national_year.dta", clear
+    keep if inrange(year, 2017, 2024)
+    generate double cyber_share_pct = 100 * cyber_vaw_cases / women_total_cases
+    generate double other_share_pct = 100 * cyber_vaw_other / cyber_vaw_cases
+    generate double named = cyber_vaw_cases - cyber_vaw_other
+    format cyber_share_pct other_share_pct %6.2f
+    list year cyber_vaw_cases women_total_cases cyber_share_pct cyber_vaw_other other_share_pct named, noobs sep(0)
+    quietly summarize cyber_vaw_other if inrange(year, 2021, 2022)
+    local o0 = r(mean)
+    quietly summarize cyber_vaw_other if inrange(year, 2023, 2024)
+    local o1 = r(mean)
+    quietly summarize named if inrange(year, 2021, 2022)
+    local n0 = r(mean)
+    quietly summarize named if inrange(year, 2023, 2024)
+    local n1 = r(mean)
+    display "2023-24 vs 2021-22: other x" %5.2f `o1'/`o0' ", named types x" %5.2f `n1'/`n0'
+restore
+
 * By crime type: each cyber head against offline crimes (NFHS-5 access)
+*   includes "other" by itself (expected 1.22, p = 0.46)
 display _n "--- Model 2 by crime type"
 use "stata/state_category_year_panel.dta", clear
 keep if inlist(category_group, "cyber_women", "offline_women") & !missing(access_nfhs5_15to49_avg)

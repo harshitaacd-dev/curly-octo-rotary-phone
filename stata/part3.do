@@ -5,6 +5,9 @@
 *   3b  Growth index (2022 = 100): how fast each source grew
 *   3c  Every platform: sexual-content complaints as a share of its complaints
 *   3d  Reporting chain, 2023 to 2024: each stage's change
+*   3e  MODEL. Main: share-adjusted growth, 2022-2024 (police: cyber vs offline crimes against women;
+*       each platform: sexual-content vs its other complaints), with a z-test against police.
+*       Secondary: raw growth of the counts, and a pooled five-platform summary.
 *
 * Run from the repository root:   do stata/part3.do
 * Output: stata/part3_results.txt (log), stata/part3_yearly.png, stata/part3_growth.png,
@@ -148,5 +151,102 @@ graph hbar log2_ratio if kind != "missing", over(stage, sort(order) label(labsiz
     ytitle("Change 2023 to 2024, doublings (0 = no change, 1 = 2x, -1 = half)") ///
     title("Complaints to platforms and police records, 2023 to 2024") bar(1, color(navy))
 graph export "stata/part3_chain.png", replace width(1800)
+
+* =============================================================================
+* 3e  MODEL: growth of police records versus complaints to platforms, 2022-2024
+*   MAIN (share-adjusted). Each side is measured against its own comparison group, so growth of
+*   the complaint route itself is removed: complaints to Meta for every reason rose about 7x in
+*   2023 with the amended IT Rules and the Grievance Appellate Committee.
+*     Police:   cases = exp(b x Cyber x (year - 2022) + State x crime + State x year)
+*               cyber crimes against women vs the five offline crimes; SE clustered by State
+*     Platform: complaints = exp(t x Sexual x years since Jan 2022 + type + month)
+*               sexual-content vs the platform's other complaints, monthly; robust SE
+*     z = (t - b) / sqrt(se_t^2 + se_b^2): the two sources are independent.
+*   Expected (Python): police 1.145 a year (1.04-1.27); Facebook 1.27 (p vs police 0.58),
+*   Instagram 1.09 (0.85), X 1.49 (0.47), Snapchat 0.84 (<0.001), Google 0.97 (0.32).
+*   SECONDARY (raw growth): police 1.13 a year; Facebook 3.74 (p < 0.001), Instagram 1.62 (0.34),
+*   X 11.62 (p < 0.001), Snapchat 1.18 (0.49), Google 0.80 (0.013); pooled 2.96 (p = 0.040).
+*   The pooled estimate is a rough summary of the platform side against police growth, not a
+*   ranking or comparison between platforms.
+* =============================================================================
+display _n "==================== 3e MODEL: POLICE VS PLATFORM GROWTH ===================="
+
+* ---- Police side, share-adjusted (cyber vs offline crimes against women)
+use "stata/state_category_year_panel.dta", clear
+keep if inlist(category_group, "cyber_women", "offline_women") & inrange(year, 2022, 2024)
+replace category = "cyber crimes against women (all)" if category_group == "cyber_women"
+collapse (sum) cases, by(state year category category_group)
+generate cyber = category_group == "cyber_women"
+generate double x = cyber * (year - 2022)
+egen sc = group(state category)
+egen st = group(state year)
+egen sid = group(state)
+display _n "--- Police, share-adjusted: cyber vs offline crimes against women"
+ppmlhdfe cases x, absorb(sc st) vce(cluster sid)
+scalar rb = _b[x]
+scalar rsb = _se[x]
+display "Police relative growth per year: " %6.3f exp(rb)
+
+* ---- Police side, raw
+use "stata/state_year_panel.dta", clear
+keep if inrange(year, 2022, 2024) & !missing(cyber_vaw_cases)
+generate t = year - 2022
+egen sid = group(state)
+display _n "--- Police, raw growth of cyber crimes against women"
+ppmlhdfe cyber_vaw_cases t, absorb(sid) vce(cluster sid)
+scalar nb = _b[t]
+scalar nsb = _se[t]
+display "Police raw growth per year: " %6.3f exp(nb)
+
+* ---- Platform side, each platform
+capture program drop platgrowth
+program define platgrowth
+    args plat
+    use "stata/platform_month_panel.dta", clear
+    drop if suspect_duplicate == 1
+    keep if platform == "`plat'" & month >= "2022-01" & month <= "2024-12"
+    generate target = inlist(category_group, "sexual", "synthetic")
+    collapse (sum) count, by(month target)
+    generate mdate = monthly(month, "YM")
+    format mdate %tm
+    generate double t = (mdate - tm(2022m1)) / 12
+    generate moy = month(dofm(mdate))
+    generate double x = target * t
+    * main: relative to the platform's other complaints
+    quietly ppmlhdfe count x, absorb(target mdate) vce(robust)
+    local rt = _b[x]
+    local rst = _se[x]
+    local zr = (`rt' - rb) / sqrt(`rst'^2 + rsb^2)
+    * secondary: raw growth of sexual-content complaints, HAC SE (6 lags)
+    keep if target == 1
+    tsset mdate
+    quietly glm count t i.moy, family(poisson) vce(hac nwest 6)
+    local t = _b[t]
+    local st = _se[t]
+    local z = (`t' - nb) / sqrt(`st'^2 + nsb^2)
+    display "`plat'" _col(14) "share-adjusted " %6.3f exp(`rt') "  p vs police " %6.4f 2*normal(-abs(`zr')) ///
+        "   |   raw " %7.3f exp(`t') "  p vs police " %6.4f 2*normal(-abs(`z'))
+end
+
+display _n "--- Platforms: growth per year (share-adjusted = main; raw = secondary)"
+foreach p in Facebook Instagram X Snapchat Google {
+    platgrowth `p'
+}
+
+* ---- Pooled five-platform summary (raw growth; five clusters only)
+use "stata/platform_month_panel.dta", clear
+drop if suspect_duplicate == 1
+keep if inlist(platform, "Facebook", "Instagram", "X", "Snapchat", "Google")
+keep if month >= "2022-01" & month <= "2024-12" & inlist(category_group, "sexual", "synthetic")
+collapse (sum) count, by(platform month)
+generate mdate = monthly(month, "YM")
+generate double t = (mdate - tm(2022m1)) / 12
+generate moy = month(dofm(mdate))
+generate double lc = ln(count + 1)
+encode platform, generate(pid)
+display _n "--- Pooled platforms (rough summary, not a comparison between platforms)"
+regress lc t i.pid i.moy, vce(cluster pid)
+display "Pooled raw growth per year: " %6.3f exp(_b[t]) "  p vs police " ///
+    %6.4f 2*normal(-abs((_b[t] - nb) / sqrt(_se[t]^2 + nsb^2)))
 
 log close

@@ -101,7 +101,7 @@ do stata/part3.do
 |---|---|---|
 | `part1.do` | 1a Model 1 (with crime types, event study, placebo, robustness, labelling controls); 1b across States; 1c TRAI within States, Delhi + Haryana merged; 1d India by year | `part1_results.txt`, `part1_national.png` |
 | `part2.do` | 2a Model 2 (all exposures, event study and pre-trend test, crime types, placebo, fake years, robustness); 2b labelling controls and stable versus unstable States | `part2_results.txt`, `part2_event_study.csv/.png` |
-| `part3.do` | 3a NCRB versus platform complaints by year; 3b growth index (2022 = 100); 3c every platform's sexual-content share; 3d reporting chain 2023 to 2024 | `part3_results.txt`, `part3_*.png` |
+| `part3.do` | 3a NCRB versus platform complaints by year; 3b growth index (2022 = 100); 3c every platform's sexual-content share; 3d reporting chain 2023 to 2024; 3e the Part 3 model (main: share-adjusted growth against police; secondary: raw growth and a pooled summary) | `part3_results.txt`, `part3_*.png` |
 
 Each do-file prints the result expected from the Python version next to each model, so you can check that
 Stata reproduces it. Packages (installed automatically if missing): `ftools`, `reghdfe`, `ppmlhdfe`.
