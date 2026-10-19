@@ -1,0 +1,478 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata/stata/part3_results.txt
+  log type:  text
+ opened on:  19 Oct 2026, 12:52:08
+
+. 
+. * =============================================================================
+. * A  DESCRIPTIVE
+. * =============================================================================
+. display _n "==================== A: BY YEAR ===================="
+
+==================== A: BY YEAR ====================
+
+. use "stata/national_year.dta", clear
+
+. keep if inrange(year, 2021, 2025)
+(10 observations deleted)
+
+. egen double platform_complaints = rowtotal(x_sexual x_synthetic meta_sexual google_sexual), missing
+
+. format cyber_vaw_cases platform_complaints snap_sexual sharechat_sexual meta_all x_all %12.0fc
+
+. display "Months covered (2021: June-December for most; X changed format from March 2025)"
+Months covered (2021: June-December for most; X changed format from March 2025)
+
+. list year x_months meta_months google_months snap_months sharechat_months, noobs sep(0)
+
+  +-------------------------------------------------------------+
+  | year   x_months   meta_m~s   google~s   snap_m~s   sharec~s |
+  |-------------------------------------------------------------|
+  | 2021          7          7          9          1          7 |
+  | 2022         12         12         12         10         10 |
+  | 2023         12         12         12         12          . |
+  | 2024         12         12         12         12          . |
+  | 2025         12         12         12         11          . |
+  +-------------------------------------------------------------+
+
+. list year cyber_vaw_cases platform_complaints snap_sexual sharechat_sexual, noobs sep(0)
+
+  +---------------------------------------------------+
+  | year   cyber_..   platfo~s   snap_s~l   sharec~al |
+  |---------------------------------------------------|
+  | 2021     10,730        865     23,813   3,873,709 |
+  | 2022     14,409      1,981    383,986   4,555,087 |
+  | 2023     19,510     24,997    527,690           . |
+  | 2024     18,615     51,763    632,775           . |
+  | 2025          .     52,038    810,295           . |
+  +---------------------------------------------------+
+
+. export delimited year cyber_vaw_cases platform_complaints x_sexual x_synthetic meta_sexual google_sexual ///
+>     snap_sexual sharechat_sexual moj_sexual meta_all x_all using "stata/tables/part3_table1_by_year.csv", replace
+(file stata/tables/part3_table1_by_year.csv not found)
+file stata/tables/part3_table1_by_year.csv saved
+
+. display "Complaints to Meta and X for every reason (the complaint routes themselves)"
+Complaints to Meta and X for every reason (the complaint routes themselves)
+
+. list year meta_all x_all, noobs sep(0)
+
+  +---------------------------+
+  | year   meta_all     x_all |
+  |---------------------------|
+  | 2021      7,813     2,811 |
+  | 2022     54,250     9,004 |
+  | 2023    395,469    16,424 |
+  | 2024    553,626   170,733 |
+  | 2025    834,320    34,969 |
+  +---------------------------+
+
+. 
+. preserve
+
+.     keep if inrange(year, 2022, 2024)
+(2 observations deleted)
+
+.     twoway (connected platform_complaints year) (connected cyber_vaw_cases year), ///
+>         yscale(log) ylabel(1000 5000 20000 50000, format(%9.0fc)) xlabel(2022(1)2024) ///
+>         ytitle("Number (log scale)") xtitle("") ///
+>         legend(order(1 "Complaints to X, Facebook, Instagram, Google: sexual content" ///
+>         2 "NCRB cyber crimes against women") cols(1)) title("Complaints to platforms and police records, India")
+
+.     graph export "stata/tables/part3_figure1_by_year.png", replace width(1800)
+file /Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata/stata/tables/part3_figure1_by_year.png saved as PNG format
+
+. restore
+
+. 
+. * Each platform's sexual-content complaints as % of all its complaints (compare each platform
+. * with itself over time only). Months without a full breakdown dropped; X stops at Feb 2025.
+. * Expected (%), 2021-2025: Facebook 5.9 5.2 3.2 4.9 5.6; Instagram 7.9 1.7 9.3 4.9 2.8;
+. * Snapchat 41.0 26.8 19.3 20.3 22.5; X 9.2 6.8 7.4 14.4 44.1 (Jan-Feb); Google ~0;
+. * ShareChat 7.2 8.5; Moj 12.0 9.2
+. use "stata/platform_month_panel.dta", clear
+
+. drop if suspect_duplicate == 1
+(3 observations deleted)
+
+. drop if platform == "X" & month >= "2025-03"
+(125 observations deleted)
+
+. bysort platform month: egen has_other = max(category_group == "placebo")
+
+. keep if has_other
+(2 observations deleted)
+
+. generate year = real(substr(month, 1, 4))
+
+. generate double target = count * inlist(category_group, "sexual", "synthetic")
+
+. collapse (sum) target count, by(platform year)
+
+. generate double share_pct = 100 * target / count
+
+. display _n "Sexual-content complaints, % of each platform's complaints"
+
+Sexual-content complaints, % of each platform's complaints
+
+. tabdisp platform year if year <= 2025, cell(share_pct) format(%5.1f)
+
+----------------------------------------
+          |             year            
+ platform | 2021  2022  2023  2024  2025
+----------+-----------------------------
+ Facebook |  5.9   5.2   3.2   4.9   5.6
+   Google |  0.0   0.0   0.0   0.0   0.1
+Instagram |  7.9   1.7   9.3   4.9   2.8
+      Moj | 12.0   9.2                  
+ShareChat |  7.2   8.5                  
+ Snapchat | 41.0  26.8  19.3  20.3  22.5
+        X |  9.2   6.8   7.4  14.4  44.1
+----------------------------------------
+
+. preserve
+
+.     keep if year <= 2025
+(4 observations deleted)
+
+.     keep platform year share_pct
+
+.     reshape wide share_pct, i(platform) j(year)
+(j = 2021 2022 2023 2024 2025)
+
+Data                               Long   ->   Wide
+-----------------------------------------------------------------------------
+Number of observations               29   ->   7           
+Number of variables                   3   ->   6           
+j variable (5 values)              year   ->   (dropped)
+xij variables:
+                              share_pct   ->   share_pct2021 share_pct2022 ... share_pct2025
+-----------------------------------------------------------------------------
+
+.     export delimited using "stata/tables/part3_table2_sexual_share.csv", replace
+(file stata/tables/part3_table2_sexual_share.csv not found)
+file stata/tables/part3_table2_sexual_share.csv saved
+
+. restore
+
+. 
+. * =============================================================================
+. * B  MAIN MODEL: SHARE-ADJUSTED GROWTH, 2022-2024
+. *   Police:   cases = exp(b x Cyber x (year - 2022) + State x crime + State x year); SE by State
+. *   Platform: complaints = exp(t x Sexual x years since Jan 2022 + type + month); robust SE
+. *   z = (t - b) / sqrt(se_t^2 + se_b^2)
+. *   The month effects absorb anything that moves every complaint on a platform, such as the
+. *   2022 IT Rules amendment and the Grievance Appellate Committee (Meta: all complaints ~7x in 2023).
+. *   Expected: police 1.145 a year (1.04-1.27); Facebook 1.27 (p vs police 0.58); Instagram 1.09
+. *   (0.85); X 1.49 (0.47); Snapchat 0.84 (<0.001); Google 0.97 (0.32)
+. * =============================================================================
+. display _n "==================== B: MAIN MODEL (SHARE-ADJUSTED) ===================="
+
+==================== B: MAIN MODEL (SHARE-ADJUSTED) ====================
+
+. build_m
+(280 observations deleted)
+(1,680 real changes made)
+
+. keep if inrange(year, 2022, 2024)
+(1,050 observations deleted)
+
+. fe_ids
+
+. generate double x = cyber * (year - 2022)
+
+. display _n "--- Police: cyber vs offline crimes against women"
+
+--- Police: cyber vs offline crimes against women
+
+. ppmlhdfe cases x, absorb(sc st) vce(cluster sid)
+(dropped 18 observations that are either singletons or separated by a fixed effect)
+Iteration 1:   deviance = 1.8242e+05  eps = .         iters = 4    tol = 1.0e-04  min(eta) =  -2.67  P   
+Iteration 2:   deviance = 5.2956e+04  eps = 2.44e+00  iters = 2    tol = 1.0e-04  min(eta) =  -3.72      
+Iteration 3:   deviance = 2.3501e+04  eps = 1.25e+00  iters = 2    tol = 1.0e-04  min(eta) =  -4.62      
+Iteration 4:   deviance = 1.5843e+04  eps = 4.83e-01  iters = 2    tol = 1.0e-04  min(eta) =  -5.60      
+Iteration 5:   deviance = 1.4011e+04  eps = 1.31e-01  iters = 2    tol = 1.0e-04  min(eta) =  -6.69      
+Iteration 6:   deviance = 1.3609e+04  eps = 2.95e-02  iters = 2    tol = 1.0e-04  min(eta) =  -7.77      
+Iteration 7:   deviance = 1.3527e+04  eps = 6.07e-03  iters = 2    tol = 1.0e-04  min(eta) =  -8.70      
+Iteration 8:   deviance = 1.3512e+04  eps = 1.08e-03  iters = 2    tol = 1.0e-04  min(eta) =  -9.52      
+Iteration 9:   deviance = 1.3511e+04  eps = 1.13e-04  iters = 2    tol = 1.0e-04  min(eta) =  -9.90      
+Iteration 10:  deviance = 1.3511e+04  eps = 2.97e-06  iters = 2    tol = 1.0e-04  min(eta) =  -9.97      
+Iteration 11:  deviance = 1.3511e+04  eps = 3.37e-09  iters = 2    tol = 1.0e-05  min(eta) =  -9.97   S  
+Iteration 12:  deviance = 1.3511e+04  eps = 4.66e-15  iters = 2    tol = 1.0e-07  min(eta) =  -9.97   S O
+------------------------------------------------------------------------------------------------------------
+(legend: p: exact partial-out   s: exact solver   h: step-halving   o: epsilon below tolerance)
+Converged in 12 iterations and 26 HDFE sub-iterations (tol = 1.0e-08)
+
+HDFE PPML regression                              No. of obs      =        612
+Absorbing 2 HDFE groups                           Residual df     =         34
+Statistics robust to heteroskedasticity           Wald chi2(1)    =       7.11
+Deviance             =  13510.85323               Prob > chi2     =     0.0077
+Log pseudolikelihood = -8810.047183               Pseudo R2       =     0.9931
+
+Number of clusters (sid)    =         35
+                                   (Std. err. adjusted for 35 clusters in sid)
+------------------------------------------------------------------------------
+             |               Robust
+       cases | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+           x |   .1355946   .0508659     2.67   0.008     .0358992    .2352899
+       _cons |   8.667827   .0029207  2967.73   0.000     8.662103    8.673552
+------------------------------------------------------------------------------
+
+Absorbed degrees of freedom:
+-----------------------------------------------------+
+ Absorbed FE | Categories  - Redundant  = Num. Coefs |
+-------------+---------------------------------------|
+          sc |       204         204           0    *|
+          st |       105         105           0    *|
+-----------------------------------------------------+
+* = FE nested within cluster; treated as redundant for DoF computation
+
+. scalar rb = _b[x]
+
+. scalar rsb = _se[x]
+
+. display "Police share-adjusted growth per year: " %6.3f exp(rb)
+Police share-adjusted growth per year:  1.145
+
+. tempname res
+
+. postfile `res' str20 source double(adj_growth adj_lo adj_hi adj_p_vs_police raw_growth raw_p_vs_police) ///
+>     using "stata/tables/part3_results_tmp.dta", replace
+(file stata/tables/part3_results_tmp.dta not found)
+
+. 
+. * ---- Police, raw (used in C)
+. use "stata/state_year_panel.dta", clear
+
+. keep if inrange(year, 2022, 2024) & !missing(cyber_vaw_cases)
+(348 observations deleted)
+
+. generate t = year - 2022
+
+. egen sid = group(state)
+
+. quietly ppmlhdfe cyber_vaw_cases t, absorb(sid) vce(cluster sid)
+
+. scalar nb = _b[t]
+
+. scalar nsb = _se[t]
+
+. post `res' ("Police (NCRB)") (exp(rb)) (exp(rb - 1.96 * rsb)) (exp(rb + 1.96 * rsb)) (.) (exp(nb)) (.)
+
+. 
+. capture program drop platgrowth
+
+. program define platgrowth
+  1.     args plat res
+  2.     use "stata/platform_month_panel.dta", clear
+  3.     drop if suspect_duplicate == 1
+  4.     keep if platform == "`plat'" & month >= "2022-01" & month <= "2024-12"
+  5.     generate target = inlist(category_group, "sexual", "synthetic")
+  6.     collapse (sum) count, by(month target)
+  7.     generate mdate = monthly(month, "YM")
+  8.     format mdate %tm
+  9.     generate double t = (mdate - tm(2022m1)) / 12
+ 10.     generate moy = month(dofm(mdate))
+ 11.     generate double x = target * t
+ 12.     * main: sexual-content complaints relative to the platform's other complaints
+.     quietly ppmlhdfe count x, absorb(target mdate) vce(robust)
+ 13.     local rt = _b[x]
+ 14.     local rst = _se[x]
+ 15.     local pr = 2 * normal(-abs((`rt' - rb) / sqrt(`rst'^2 + rsb^2)))
+ 16.     * secondary: raw growth of sexual-content complaints, Newey-West SE (6 lags)
+.     keep if target == 1
+ 17.     tsset mdate
+ 18.     quietly glm count t i.moy, family(poisson) vce(hac nwest 6)
+ 19.     local g = _b[t]
+ 20.     local sg = _se[t]
+ 21.     local praw = 2 * normal(-abs((`g' - nb) / sqrt(`sg'^2 + nsb^2)))
+ 22.     post `res' ("`plat'") (exp(`rt')) (exp(`rt' - 1.96 * `rst')) (exp(`rt' + 1.96 * `rst')) (`pr') (exp(`g')) (`praw')
+ 23.     display "`plat'" _col(13) "share-adjusted " %6.3f exp(`rt') " [" %5.2f exp(`rt' - 1.96 * `rst') "-" ///
+>         %5.2f exp(`rt' + 1.96 * `rst') "]  p vs police " %6.4f `pr' ///
+>         "  |  raw " %7.3f exp(`g') "  p vs police " %6.4f `praw'
+ 24. end
+
+. 
+. display _n "--- Platforms, growth per year (share-adjusted = MAIN; raw = SECONDARY, see C)"
+
+--- Platforms, growth per year (share-adjusted = MAIN; raw = SECONDARY, see C)
+
+. foreach p in Facebook Instagram X Snapchat Google {
+  2.     platgrowth `p' `res'
+  3. }
+(3 observations deleted)
+(2,300 observations deleted)
+(36 observations deleted)
+
+Time variable: mdate, 2022m1 to 2024m12
+        Delta: 1 month
+Facebook    share-adjusted  1.265 [ 1.00- 1.60]  p vs police 0.4422  |  raw   3.737  p vs police 0.0000
+(3 observations deleted)
+(2,371 observations deleted)
+(36 observations deleted)
+
+Time variable: mdate, 2022m1 to 2024m12
+        Delta: 1 month
+Instagram   share-adjusted  1.093 [ 0.78- 1.53]  p vs police 0.7959  |  raw   1.616  p vs police 0.3363
+(3 observations deleted)
+(2,216 observations deleted)
+(36 observations deleted)
+
+Time variable: mdate, 2022m1 to 2024m12
+        Delta: 1 month
+X           share-adjusted  1.485 [ 0.91- 2.41]  p vs police 0.3033  |  raw  11.623  p vs police 0.0000
+(3 observations deleted)
+(2,558 observations deleted)
+(34 observations deleted)
+
+Time variable: mdate, 2022m3 to 2024m12
+        Delta: 1 month
+Snapchat    share-adjusted  0.842 [ 0.78- 0.91]  p vs police 0.0000  |  raw   1.177  p vs police 0.4847
+(3 observations deleted)
+(2,336 observations deleted)
+(36 observations deleted)
+
+Time variable: mdate, 2022m1 to 2024m12
+        Delta: 1 month
+Google      share-adjusted  0.972 [ 0.79- 1.20]  p vs police 0.1673  |  raw   0.800  p vs police 0.0131
+
+. 
+. * =============================================================================
+. * C  SECONDARY: RAW GROWTH AND POOLED SUMMARY
+. *   Raw growth mixes in growth of the complaint routes themselves, so it is reported second.
+. *   Expected raw: police 1.13; Facebook 3.74 (p < 0.001); Instagram 1.62 (0.34); X 11.62 (p < 0.001);
+. *   Snapchat 1.18 (0.49); Google 0.80 (0.013). Pooled 2.96 (p = 0.040).
+. *   The pooled estimate is a rough summary of the whole platform side against police growth, not a
+. *   ranking or comparison between individual platforms (five clusters only).
+. * =============================================================================
+. display _n "==================== C: SECONDARY ===================="
+
+==================== C: SECONDARY ====================
+
+. display "Police raw growth per year: " %6.3f exp(nb)
+Police raw growth per year:  1.128
+
+. use "stata/platform_month_panel.dta", clear
+
+. drop if suspect_duplicate == 1
+(3 observations deleted)
+
+. keep if inlist(platform, "Facebook", "Instagram", "X", "Snapchat", "Google")
+(130 observations deleted)
+
+. keep if month >= "2022-01" & month <= "2024-12" & inlist(category_group, "sexual", "synthetic")
+(2,316 observations deleted)
+
+. collapse (sum) count, by(platform month)
+
+. generate mdate = monthly(month, "YM")
+
+. generate double t = (mdate - tm(2022m1)) / 12
+
+. generate moy = month(dofm(mdate))
+
+. generate double lc = ln(count + 1)
+
+. encode platform, generate(pid)
+
+. display _n "--- Pooled five platforms (rough summary)"
+
+--- Pooled five platforms (rough summary)
+
+. regress lc t i.pid i.moy, vce(cluster pid)
+
+Linear regression                               Number of obs     =        178
+                                                F(3, 4)           =          .
+                                                Prob > F          =          .
+                                                R-squared         =     0.8603
+                                                Root MSE          =     1.2232
+
+                                    (Std. err. adjusted for 5 clusters in pid)
+------------------------------------------------------------------------------
+             |               Robust
+          lc | Coefficient  std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+           t |   1.085296   .4666067     2.33   0.081    -.2102115    2.380804
+             |
+         pid |
+     Google  |  -3.333895   4.15e-15 -8.0e+14   0.000    -3.333895   -3.333895
+  Instagram  |   .0271089   4.08e-15  6.6e+12   0.000     .0271089    .0271089
+   Snapchat  |   5.001424   .0428326   116.77   0.000     4.882502    5.120347
+          X  |  -1.007001   4.08e-15 -2.5e+14   0.000    -1.007001   -1.007001
+             |
+         moy |
+          2  |  -.2915428   .2600337    -1.12   0.325    -1.013512    .4304266
+          3  |   .2632306   .1300306     2.02   0.113    -.0977922    .6242534
+          4  |    .586856   .4518538     1.30   0.264    -.6676913    1.841403
+          5  |    .473613   .3140502     1.51   0.206    -.3983302    1.345556
+          6  |   .3826897    .241831     1.58   0.189    -.2887406     1.05412
+          7  |   .3784571   .1499767     2.52   0.065    -.0379451    .7948592
+          8  |   .1273513   .2656217     0.48   0.657    -.6101327    .8648354
+          9  |   .3649756   .1258419     2.90   0.044     .0155824    .7143688
+         10  |   .1845543     .18446     1.00   0.374    -.3275889    .6966974
+         11  |   -.025906   .0926054    -0.28   0.794    -.2830198    .2312078
+         12  |   -.176232   .2996957    -0.59   0.588    -1.008321    .6558565
+             |
+       _cons |   3.815919   .7508483     5.08   0.007      1.73123    5.900608
+------------------------------------------------------------------------------
+
+. display "Pooled raw growth per year: " %6.3f exp(_b[t]) "  p vs police " ///
+>     %6.4f 2 * normal(-abs((_b[t] - nb) / sqrt(_se[t]^2 + nsb^2)))
+Pooled raw growth per year:  2.960  p vs police 0.0398
+
+. post `res' ("Pooled (5)") (.) (.) (.) (.) (exp(_b[t])) (2 * normal(-abs((_b[t] - nb) / sqrt(_se[t]^2 + nsb^2))))
+
+. postclose `res'
+
+. 
+. * Results table: share-adjusted growth (MAIN) and raw growth (SECONDARY), per year, 2022-2024
+. use "stata/tables/part3_results_tmp.dta", clear
+
+. format adj_growth adj_lo adj_hi raw_growth %6.3f
+
+. format adj_p_vs_police raw_p_vs_police %6.4f
+
+. label variable adj_growth "Share-adjusted growth per year (main)"
+
+. label variable adj_lo "95% low"
+
+. label variable adj_hi "95% high"
+
+. label variable adj_p_vs_police "p, differs from police"
+
+. label variable raw_growth "Raw growth per year (secondary)"
+
+. label variable raw_p_vs_police "p, differs from police (raw)"
+
+. list, noobs sep(0) abbreviate(20)
+
+  +-----------------------------------------------------------------------------------------------+
+  |        source   adj_growth   adj_lo   adj_hi   adj_p_vs_police   raw_growth   raw_p_vs_police |
+  |-----------------------------------------------------------------------------------------------|
+  | Police (NCRB)        1.145    1.037    1.265                 .        1.128                 . |
+  |      Facebook        1.265    1.001    1.599            0.4422        3.737            0.0000 |
+  |     Instagram        1.093    0.781    1.530            0.7959        1.616            0.3363 |
+  |             X        1.485    0.915    2.411            0.3033       11.623            0.0000 |
+  |      Snapchat        0.842    0.776    0.913            0.0000        1.177            0.4847 |
+  |        Google        0.972    0.787    1.200            0.1673        0.800            0.0131 |
+  |    Pooled (5)            .        .        .                 .        2.960            0.0398 |
+  +-----------------------------------------------------------------------------------------------+
+
+. export delimited using "stata/tables/part3_table3_model.csv", replace
+(file stata/tables/part3_table3_model.csv not found)
+file stata/tables/part3_table3_model.csv saved
+
+. export excel using "stata/tables/part3_table3_model.xlsx", firstrow(varlabels) replace
+file stata/tables/part3_table3_model.xlsx saved
+
+. erase "stata/tables/part3_results_tmp.dta"
+
+. 
+. log close
+      name:  <unnamed>
+       log:  /Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata/stata/part3_results.txt
+  log type:  text
+ closed on:  19 Oct 2026, 12:52:11
+--------------------------------------------------------------------------------------------------------------------------------------------------------
