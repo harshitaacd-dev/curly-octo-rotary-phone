@@ -107,6 +107,32 @@ DNH-DD). Access is correlated with income (0.58) and urban share (0.61).
 States record more cyber crime against women (and not more offline crime); once income is held fixed, access adds
 nothing. Urban share alone does not change the result. Models 1 and 2 stay null with either control.
 
+## Controls: police capacity
+
+Run: `python scripts/police_capacity.py` (writes `data/analysis/state_police.csv`). Source: BPR&D, *Data on Police
+Organizations 2024* (as on 1 January 2024): actual civil police strength (Table 2.1.3), cyber crime police stations
+(Table 5.1.4, 459 nationally) and cyber cells (Appendix 8; State rows sum to 658, the report's total says 624).
+`cyber_units_per_crore` = (stations + cells) per crore people; `civil_police_per_lakh_2020` = civil police per lakh
+in 2020 from the India Justice Report raw data (BPR&D figures). Regressions use log of each, standardised; 33-34 States.
+
+| Specification | Access | Income | Cyber units | Civil police | Notes |
+|---|---|---|---|---|---|
+| 1b levels, cyber crime against women: access, income, cyber units, police | 0.89 (p = 0.76) | 2.23 (p < 0.001) | 0.67 (p = 0.027) | 0.84 (p = 0.70) | |
+| 1b levels, offline crimes, same controls | 0.96 (0.92) | 1.13 (0.58) | 1.04 (0.74) | 0.90 (0.77) | |
+| Model 1, access + cyber units + police (per year) | 0.99 (0.79) | | 1.01 (0.55) | 0.96 (0.51) | null |
+| Model 2, access + police 2020 (after 2022) | **1.42 (p = 0.041)** | | | 0.57 (p = 0.011) | exploratory |
+| Model 2, access + police 2024 | 1.34 (0.16) | | | 0.65 (0.029) | |
+| Model 2, all controls | 1.42 (0.042) | 0.95 (0.79) | 1.02 (0.81) | 0.58 (0.035) | |
+
+- **Cyber police units do not explain recorded cyber crime against women.** Holding income fixed, States with more
+  cyber stations and cells per person record *less* (0.67), probably because small north-eastern States have many
+  units relative to population but few cases; the units are counted in 2024, after the outcome period.
+- **Model 2 with police strength:** once civil police per lakh is held fixed, more-connected States show a larger
+  post-2022 rise (1.42, p = 0.041), and better-policed States a smaller one (0.57). Access and police strength are
+  correlated (0.56), so neither shows alone (1.08 and 0.78). The joint pre-trend test passes (p = 0.45), but the
+  access event-study coefficients rise steadily from 2017 (-0.36, -0.23, -0.04, -0.02, 0.05; 2023: 0.26, 2024: 0.34),
+  more like a continuing trend than a break, and the 2024 police measure weakens it (p = 0.16). Report as exploratory.
+
 ## Model 2: the generative-AI boom (2023–2024)
 
 Treated: all cyber crimes against women, summed into one category (as in Model 1); comparison: offline crimes

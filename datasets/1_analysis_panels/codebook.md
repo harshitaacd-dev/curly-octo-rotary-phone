@@ -117,3 +117,16 @@ One row per State/UT (`python scripts/build_controls.py`).
 | `urban_share_cams` | % of persons 15+ in urban areas, implied by CAMS 2022-23: (total − rural) / (urban − rural) internet-use rates, averaged over two indicators | Built from CAMS 2022-23 |
 
 Income is missing for Lakshadweep and Dadra & Nagar Haveli and Daman & Diu (not published by RBI).
+
+## `state_police.csv`
+
+One row per State/UT (`python scripts/police_capacity.py`). BPR&D, Data on Police Organizations 2024, as on 1 January 2024.
+
+| Column | Meaning |
+|---|---|
+| `civil_police_actual` | Actual strength of civil police (Table 2.1.3) |
+| `cyber_police_stations` | Cyber crime police stations (Table 5.1.4) |
+| `cyber_cells` | Cyber cells (Appendix 8) |
+| `civil_police_per_lakh` | Civil police per lakh population (NCRB 2023 population) |
+| `cyber_units`, `cyber_units_per_crore` | Stations + cells; per crore population |
+| `civil_police_per_lakh_2020` | Civil police per lakh, 2020 (India Justice Report raw data, BPR&D figures) |
