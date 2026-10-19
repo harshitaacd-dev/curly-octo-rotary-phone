@@ -34,9 +34,9 @@ export delimited year cyber_vaw_cases women_total_cases cyber_share_pct cyber_va
     using "stata/tables/part2_table1_other_category.csv", replace
 twoway (connected cyber_share_pct year, yaxis(1)) (connected other_share_pct year, yaxis(2)), ///
     xline(2022.5, lpattern(dash)) xtitle("") ytitle("Cyber crime, % of all crimes against women", axis(1)) ///
-    ytitle("'Other', % of cyber crimes against women", axis(2)) ///
-    legend(order(1 "Cyber share of crimes against women" 2 "'Other' share of cyber crimes against women") cols(1)) ///
-    title("Cyber crime against women and the 'other' category, India")
+    ytitle("Other category, % of cyber crimes against women", axis(2)) ///
+    legend(order(1 "Cyber share of crimes against women" 2 "Other category share of cyber crimes against women") cols(1)) ///
+    title("Cyber crime against women and the other category, India")
 graph export "stata/tables/part2_figure1_other_category.png", replace width(1600)
 foreach v in cyber_vaw_other named {
     quietly summarize `v' if inrange(year, 2021, 2022)
@@ -213,9 +213,9 @@ zas access_nfhs5_15to49_avg z
 generate double treat = cyber * post * z
 display _n "--- (b) Separate baseline for each State's recording period"
 eststo, title("(b) Period baselines"): ppmlhdfe cases treat, absorb(scr st ct) vce(cluster sid)
-display _n "--- (c) Control for the 'other' share"
+display _n "--- (c) Control for the other share"
 eststo, title("(c) Other share"): ppmlhdfe cases treat cyb_other, absorb(sc st ct) vce(cluster sid)
-display _n "--- (c) Recording-period baselines + 'other' and IT Act shares"
+display _n "--- (c) Recording-period baselines + other and IT Act shares"
 eststo, title("(b)+(c) All"): ppmlhdfe cases treat cyb_other cyb_it, absorb(scr st ct) vce(cluster sid)
 
 foreach x in access_nfhs5_15to49_avg access_cams2023_15plus {
