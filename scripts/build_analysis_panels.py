@@ -391,6 +391,7 @@ EVENTS = {  # month ranges, inclusive
 
 
 SNAP = "data/external/platform_reports/snap.csv"
+SHARECHAT = "data/external/platform_reports/sharechat.csv"
 
 
 def snap_month(path=SNAP):
@@ -424,6 +425,40 @@ def snap_month(path=SNAP):
     return out
 
 
+SHARECHAT_GROUPS = {"Sexually explicit content": "sexual", "Abusive language": "harassment",
+                    "Fake profile": "impersonation", "Impersonation": "impersonation"}
+
+
+def sharechat_month(path=SHARECHAT):
+    """ShareChat and Moj user reports by month (June 2021 - October 2022; their public reports stop there).
+
+    From scripts/sharechat_parse.py. Groups: sexually explicit content, abusive language (harassment),
+    fake profile + impersonation, and all other reasons (placebo). All reports = sum of the reasons when
+    they add to about 100%. November 2021 lists only some reasons, so its "all other reasons" row is left
+    out. The stated total is not used because July 2022 repeats June 2022's total in the source.
+    """
+    if not os.path.exists(path):
+        return None
+    d = pd.read_csv(path)
+    d["grp"] = d.reason.map(SHARECHAT_GROUPS).fillna("placebo")
+    rows = []
+    for (app, month), m in d.groupby(["app", "month"]):
+        full = m.share_pct.sum() > 95
+        total = m["count"].sum() if full else m.total_reports.iloc[0]
+        derived = bool(m.derived_from_share.max())
+        named = {}
+        for grp, label in (("sexual", "Sexually explicit content"), ("harassment", "Abusive language"),
+                           ("impersonation", "Fake profile or impersonation")):
+            if (m.grp == grp).any():
+                named[grp] = m.loc[m.grp == grp, "count"].sum()
+                rows.append((app, label, grp, month, named[grp], derived))
+        if full:  # Nov 2021 lists only some reasons, so "all other reasons" is unknown that month
+            rows.append((app, "All other reasons", "placebo", month, total - sum(named.values()), derived))
+    out = pd.DataFrame(rows, columns=["platform", "category", "category_group", "month", "count", "derived_from_share"])
+    out["suspect_duplicate"] = 0
+    return out
+
+
 def platform_month(clean, trends_nat):
     g = pd.read_csv(os.path.join(clean, "platform_grievances_monthly.csv"))
     g = g.rename(columns={"group": "category_group"})
@@ -431,6 +466,9 @@ def platform_month(clean, trends_nat):
     snap = snap_month()
     if snap is not None:
         g = pd.concat([g, snap[g.columns]], ignore_index=True)
+    sc = sharechat_month()
+    if sc is not None:
+        g = pd.concat([g, sc[g.columns]], ignore_index=True)
     g["is_synthetic_media"] = (g.category_group == "synthetic").astype(int)
     g["is_sexual_content"] = (g.category_group == "sexual").astype(int)
     g["is_placebo"] = (g.category_group == "placebo").astype(int)

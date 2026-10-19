@@ -1,0 +1,668 @@
+app,month,reason,count,share_pct,total_reports,derived_from_share
+Moj,2021-06,Spam,719415,36.74,1958124,1
+Moj,2021-06,Others,205603,10.5,1958124,1
+Moj,2021-06,Abusive language,188763,9.64,1958124,1
+Moj,2021-06,Sexually explicit content,178777,9.13,1958124,1
+Moj,2021-06,Violence,162916,8.32,1958124,1
+Moj,2021-06,Hate speech,102018,5.21,1958124,1
+Moj,2021-06,Inappropriate comments,90661,4.63,1958124,1
+Moj,2021-06,Fake news,83220,4.25,1958124,1
+Moj,2021-06,Fake profile,70688,3.61,1958124,1
+Moj,2021-06,Illegal activities,62856,3.21,1958124,1
+Moj,2021-06,Suicide/Dangerous Acts,46995,2.4,1958124,1
+Moj,2021-06,Inappropriate profile picture,13707,0.7,1958124,1
+Moj,2021-06,Offensive,11553,0.59,1958124,1
+Moj,2021-06,Sharing personal information,10182,0.52,1958124,1
+Moj,2021-06,Inappropriate username/handle/status,6070,0.31,1958124,1
+Moj,2021-06,Terrorism,4895,0.25,1958124,1
+Moj,2021-07,Spam,1544718,36.6,4220540,1
+Moj,2021-07,Sexually explicit content,523769,12.41,4220540,1
+Moj,2021-07,Abusive language,452864,10.73,4220540,1
+Moj,2021-07,Violence,344396,8.16,4220540,1
+Moj,2021-07,Others,266316,6.31,4220540,1
+Moj,2021-07,Fake news,233396,5.53,4220540,1
+Moj,2021-07,Hate speech,226643,5.37,4220540,1
+Moj,2021-07,Illegal activities,157004,3.72,4220540,1
+Moj,2021-07,No category,117753,2.79,4220540,1
+Moj,2021-07,Suicide/Dangerous Acts,86521,2.05,4220540,1
+Moj,2021-07,Fake profile,78924,1.87,4220540,1
+Moj,2021-07,Inappropriate comments,78080,1.85,4220540,1
+Moj,2021-07,Inappropriate profile picture,34186,0.81,4220540,1
+Moj,2021-07,Sharing personal information,25323,0.6,4220540,1
+Moj,2021-07,Offensive,24057,0.57,4220540,1
+Moj,2021-07,Inappropriate username/handle/status,15616,0.37,4220540,1
+Moj,2021-07,Terrorism,11818,0.28,4220540,1
+Moj,2021-07,Non-agreement,0,0.0,4220540,1
+Moj,2021-08,Spam,1546933,37.4,4136184,1
+Moj,2021-08,Sexually explicit content,529432,12.8,4136184,1
+Moj,2021-08,Abusive language,465734,11.26,4136184,1
+Moj,2021-08,Violence,339167,8.2,4136184,1
+Moj,2021-08,Others,273815,6.62,4136184,1
+Moj,2021-08,Fake news,254375,6.15,4136184,1
+Moj,2021-08,Hate speech,220459,5.33,4136184,1
+Moj,2021-08,Illegal activities,155934,3.77,4136184,1
+Moj,2021-08,Suicide/Dangerous Acts,69074,1.67,4136184,1
+Moj,2021-08,Fake profile,67006,1.62,4136184,1
+Moj,2021-08,Inappropriate comments,64524,1.56,4136184,1
+Moj,2021-08,Inappropriate profile picture,36812,0.89,4136184,1
+Moj,2021-08,Sharing personal information,28540,0.69,4136184,1
+Moj,2021-08,Offensive,28126,0.68,4136184,1
+Moj,2021-08,No category,27712,0.67,4136184,1
+Moj,2021-08,Inappropriate username/handle/status,16545,0.4,4136184,1
+Moj,2021-08,Terrorism,11995,0.29,4136184,1
+Moj,2021-08,Non-agreement,0,0.0,4136184,1
+Moj,2021-09,Spam,1489321,36.15,4119836,1
+Moj,2021-09,Sexually explicit content,624155,15.15,4119836,1
+Moj,2021-09,Abusive language,514980,12.5,4119836,1
+Moj,2021-09,Violence,319699,7.76,4119836,1
+Moj,2021-09,Fake news,271497,6.59,4119836,1
+Moj,2021-09,Hate speech,225355,5.47,4119836,1
+Moj,2021-09,Others,207228,5.03,4119836,1
+Moj,2021-09,Illegal activities,165205,4.01,4119836,1
+Moj,2021-09,Suicide/Dangerous Acts,60562,1.47,4119836,1
+Moj,2021-09,Inappropriate comments,58502,1.42,4119836,1
+Moj,2021-09,Fake profile,49850,1.21,4119836,1
+Moj,2021-09,Inappropriate profile picture,33783,0.82,4119836,1
+Moj,2021-09,Offensive,28015,0.68,4119836,1
+Moj,2021-09,Sharing personal information,26367,0.64,4119836,1
+Moj,2021-09,No category,18951,0.46,4119836,1
+Moj,2021-09,Inappropriate username/handle/status,15243,0.37,4119836,1
+Moj,2021-09,Terrorism,11536,0.28,4119836,1
+Moj,2021-09,Non-agreement,0,0.0,4119836,1
+Moj,2021-10,Spam,1362746,36.71,3712193,1
+Moj,2021-10,Abusive language,562397,15.15,3712193,1
+Moj,2021-10,Sexually explicit content,392750,10.58,3712193,1
+Moj,2021-10,Violence,292150,7.87,3712193,1
+Moj,2021-10,Fake news,269876,7.27,3712193,1
+Moj,2021-10,Others,225701,6.08,3712193,1
+Moj,2021-10,Hate speech,211595,5.7,3712193,1
+Moj,2021-10,Illegal activities,152200,4.1,3712193,1
+Moj,2021-10,Inappropriate comments,53827,1.45,3712193,1
+Moj,2021-10,Suicide/Dangerous Acts,47887,1.29,3712193,1
+Moj,2021-10,Fake profile,32296,0.87,3712193,1
+Moj,2021-10,Inappropriate profile picture,25614,0.69,3712193,1
+Moj,2021-10,Offensive,23758,0.64,3712193,1
+Moj,2021-10,Sharing personal information,22644,0.61,3712193,1
+Moj,2021-10,No category,13735,0.37,3712193,1
+Moj,2021-10,Inappropriate username/handle/status,11879,0.32,3712193,1
+Moj,2021-10,Terrorism,11137,0.3,3712193,1
+Moj,2021-10,Non-agreement,0,0.0,3712193,1
+Moj,2021-11,Violence,271878,7.8,3485616,1
+Moj,2021-11,Fake news,254799,7.31,3485616,1
+Moj,2021-11,Hate speech,189966,5.45,3485616,1
+Moj,2021-11,Illegal activities,148139,4.25,3485616,1
+Moj,2021-11,Suicide/Dangerous Acts,43570,1.25,3485616,1
+Moj,2021-11,Sharing personal information,21262,0.61,3485616,1
+Moj,2021-11,Offensive,19868,0.57,3485616,1
+Moj,2021-11,Inappropriate username/handle/status,10457,0.3,3485616,1
+Moj,2021-11,Terrorism,9760,0.28,3485616,1
+Moj,2021-12,Spam,1163198,35.98,3232903,1
+Moj,2021-12,Abusive language,543774,16.82,3232903,1
+Moj,2021-12,Sexually explicit content,307449,9.51,3232903,1
+Moj,2021-12,Violence,253460,7.84,3232903,1
+Moj,2021-12,Others,244407,7.56,3232903,1
+Moj,2021-12,Fake news,226950,7.02,3232903,1
+Moj,2021-12,Hate speech,184275,5.7,3232903,1
+Moj,2021-12,Illegal activities,137075,4.24,3232903,1
+Moj,2021-12,Suicide/Dangerous Acts,37178,1.15,3232903,1
+Moj,2021-12,Inappropriate comments,26833,0.83,3232903,1
+Moj,2021-12,Fake profile,22307,0.69,3232903,1
+Moj,2021-12,Inappropriate profile picture,21014,0.65,3232903,1
+Moj,2021-12,Offensive,19721,0.61,3232903,1
+Moj,2021-12,Sharing personal information,18428,0.57,3232903,1
+Moj,2021-12,Inappropriate username/handle/status,10345,0.32,3232903,1
+Moj,2021-12,Terrorism,9699,0.3,3232903,1
+Moj,2021-12,No category,6466,0.2,3232903,1
+Moj,2021-12,Non-agreement,0,0.0,3232903,1
+Moj,2022-01,Spam,1182765,36.04,3281812,1
+Moj,2022-01,Abusive language,569394,17.35,3281812,1
+Moj,2022-01,Sexually explicit content,291753,8.89,3281812,1
+Moj,2022-01,Violence,262873,8.01,3281812,1
+Moj,2022-01,Fake news,239900,7.31,3281812,1
+Moj,2022-01,Others,220210,6.71,3281812,1
+Moj,2022-01,Hate speech,187391,5.71,3281812,1
+Moj,2022-01,Illegal activities,141446,4.31,3281812,1
+Moj,2022-01,Suicide/Dangerous Acts,37084,1.13,3281812,1
+Moj,2022-01,Inappropriate comments,31505,0.96,3281812,1
+Moj,2022-01,Fake profile,24285,0.74,3281812,1
+Moj,2022-01,Offensive,22973,0.7,3281812,1
+Moj,2022-01,Inappropriate profile picture,22973,0.7,3281812,1
+Moj,2022-01,Sharing personal information,20347,0.62,3281812,1
+Moj,2022-01,Inappropriate username/handle/status,10502,0.32,3281812,1
+Moj,2022-01,Terrorism,10174,0.31,3281812,1
+Moj,2022-01,No category,5579,0.17,3281812,1
+Moj,2022-01,Non-agreement,0,0.0,3281812,1
+Moj,2022-02,Spam,1006844,35.79,2813200,1
+Moj,2022-02,Abusive language,497374,17.68,2813200,1
+Moj,2022-02,Sexually explicit content,254032,9.03,2813200,1
+Moj,2022-02,Violence,227869,8.1,2813200,1
+Moj,2022-02,Fake news,209302,7.44,2813200,1
+Moj,2022-02,Others,178638,6.35,2813200,1
+Moj,2022-02,Hate speech,161759,5.75,2813200,1
+Moj,2022-02,Illegal activities,120968,4.3,2813200,1
+Moj,2022-02,Suicide/Dangerous Acts,31508,1.12,2813200,1
+Moj,2022-02,Inappropriate comments,27007,0.96,2813200,1
+Moj,2022-02,Fake profile,20536,0.73,2813200,1
+Moj,2022-02,Inappropriate profile picture,19130,0.68,2813200,1
+Moj,2022-02,Sharing personal information,18004,0.64,2813200,1
+Moj,2022-02,Offensive,16598,0.59,2813200,1
+Moj,2022-02,Terrorism,9846,0.35,2813200,1
+Moj,2022-02,Inappropriate username/handle/status,9284,0.33,2813200,1
+Moj,2022-02,No category,5064,0.18,2813200,1
+Moj,2022-02,Non-agreement,0,0.0,2813200,1
+Moj,2022-03,Spam,1175730,35.42,3319397,1
+Moj,2022-03,Abusive language,586537,17.67,3319397,1
+Moj,2022-03,Sexually explicit content,318330,9.59,3319397,1
+Moj,2022-03,Violence,267543,8.06,3319397,1
+Moj,2022-03,Fake news,261568,7.88,3319397,1
+Moj,2022-03,Hate speech,203479,6.13,3319397,1
+Moj,2022-03,Others,189870,5.72,3319397,1
+Moj,2022-03,Illegal activities,141406,4.26,3319397,1
+Moj,2022-03,Suicide/Dangerous Acts,38837,1.17,3319397,1
+Moj,2022-03,Inappropriate comments,30207,0.91,3319397,1
+Moj,2022-03,Fake profile,21908,0.66,3319397,1
+Moj,2022-03,Sharing personal information,20580,0.62,3319397,1
+Moj,2022-03,Inappropriate profile picture,19584,0.59,3319397,1
+Moj,2022-03,Offensive,18589,0.56,3319397,1
+Moj,2022-03,Terrorism,11618,0.35,3319397,1
+Moj,2022-03,Inappropriate username/handle/status,9626,0.29,3319397,1
+Moj,2022-03,No category,4647,0.14,3319397,1
+Moj,2022-03,Non-agreement,0,0.0,3319397,1
+Moj,2022-04,Spam,988199,34.65,2851946,1
+Moj,2022-04,Abusive language,504509,17.69,2851946,1
+Moj,2022-04,Sexually explicit content,258957,9.08,2851946,1
+Moj,2022-04,Fake news,234145,8.21,2851946,1
+Moj,2022-04,Violence,228156,8.0,2851946,1
+Moj,2022-04,Others,182239,6.39,2851946,1
+Moj,2022-04,Hate speech,176250,6.18,2851946,1
+Moj,2022-04,Illegal activities,122634,4.3,2851946,1
+Moj,2022-04,Suicide/Dangerous Acts,34794,1.22,2851946,1
+Moj,2022-04,Inappropriate comments,25953,0.91,2851946,1
+Moj,2022-04,Fake profile,22530,0.79,2851946,1
+Moj,2022-04,Inappropriate profile picture,19108,0.67,2851946,1
+Moj,2022-04,Sharing personal information,17397,0.61,2851946,1
+Moj,2022-04,Offensive,13689,0.48,2851946,1
+Moj,2022-04,Terrorism,9982,0.35,2851946,1
+Moj,2022-04,Inappropriate username/handle/status,9411,0.33,2851946,1
+Moj,2022-04,No category,3993,0.14,2851946,1
+Moj,2022-04,Non-agreement,0,0.0,2851946,1
+Moj,2022-05,Spam,1100678,33.84,3252137,0
+Moj,2022-05,Abusive language,577285,17.75,3252137,0
+Moj,2022-05,Sexually explicit content,299390,9.21,3252137,0
+Moj,2022-05,Misinformation,270248,8.31,3252137,0
+Moj,2022-05,Violence,254125,7.81,3252137,0
+Moj,2022-05,Others,241188,7.42,3252137,0
+Moj,2022-05,Hate speech,201146,6.19,3252137,0
+Moj,2022-05,Illegal activities,146025,4.49,3252137,0
+Moj,2022-05,Suicide/Dangerous Acts,40796,1.25,3252137,0
+Moj,2022-05,Inappropriate comments,23919,0.74,3252137,0
+Moj,2022-05,Fake profile,21439,0.66,3252137,0
+Moj,2022-05,Sharing personal information,18395,0.57,3252137,0
+Moj,2022-05,Inappropriate profile picture,17800,0.55,3252137,0
+Moj,2022-05,Offensive,16292,0.5,3252137,0
+Moj,2022-05,Terrorism,10966,0.34,3252137,0
+Moj,2022-05,Inappropriate username/handle/status,8730,0.27,3252137,0
+Moj,2022-05,Miscellaneous,3700,0.11,3252137,0
+Moj,2022-05,Non-agreement,15,0.0,3252137,0
+Moj,2022-06,Spam,1039026,33.02,3147021,0
+Moj,2022-06,Abusive language,567281,18.03,3147021,0
+Moj,2022-06,Sexually explicit content,283566,9.01,3147021,0
+Moj,2022-06,Misinformation,258789,8.22,3147021,0
+Moj,2022-06,Violence,247621,7.87,3147021,0
+Moj,2022-06,Others,232647,7.39,3147021,0
+Moj,2022-06,Hate speech,196256,6.24,3147021,0
+Moj,2022-06,Illegal activities,159216,5.06,3147021,0
+Moj,2022-06,Suicide/Dangerous Acts,36601,1.16,3147021,0
+Moj,2022-06,Fake profile,24506,0.78,3147021,0
+Moj,2022-06,Inappropriate comments,21187,0.67,3147021,0
+Moj,2022-06,Inappropriate profile picture,20603,0.65,3147021,0
+Moj,2022-06,Sharing personal information,18712,0.59,3147021,0
+Moj,2022-06,Offensive,15642,0.5,3147021,0
+Moj,2022-06,Terrorism,11243,0.36,3147021,0
+Moj,2022-06,Inappropriate username/handle/status,10217,0.32,3147021,0
+Moj,2022-06,Miscellaneous,3902,0.12,3147021,0
+Moj,2022-06,Non-agreement,6,0.0,3147021,0
+Moj,2022-07,Spam,1101898,33.27,3311651,0
+Moj,2022-07,Abusive language,599739,18.11,3311651,0
+Moj,2022-07,Sexually explicit content,307157,9.28,3311651,0
+Moj,2022-07,Misinformation,273792,8.27,3311651,0
+Moj,2022-07,Violence,271412,8.2,3311651,0
+Moj,2022-07,Hate speech,209101,6.31,3311651,0
+Moj,2022-07,Others,206152,6.23,3311651,0
+Moj,2022-07,Illegal activities,161385,4.87,3311651,0
+Moj,2022-07,Suicide/Dangerous Acts,38629,1.17,3311651,0
+Moj,2022-07,Fake profile,26163,0.79,3311651,0
+Moj,2022-07,Inappropriate profile picture,24269,0.79,3311651,0
+Moj,2022-07,Inappropriate comments,23444,0.71,3311651,0
+Moj,2022-07,Sharing personal information,22019,0.66,3311651,0
+Moj,2022-07,Offensive,18430,0.56,3311651,0
+Moj,2022-07,Terrorism,12952,0.39,3311651,0
+Moj,2022-07,Inappropriate username/handle/status,12031,0.36,3311651,0
+Moj,2022-07,Miscellaneous,3076,0.09,3311651,0
+Moj,2022-07,Non-agreement,2,0.0,3311651,0
+Moj,2022-08,Spam,986338,32.66,3019622,0
+Moj,2022-08,Abusive language,545018,18.05,3019622,0
+Moj,2022-08,Sexually explicit content,279938,9.27,3019622,0
+Moj,2022-08,Others,251035,8.31,3019622,0
+Moj,2022-08,Misinformation,239280,7.92,3019622,0
+Moj,2022-08,Violence,237653,7.87,3019622,0
+Moj,2022-08,Hate speech,183227,6.07,3019622,0
+Moj,2022-08,Illegal activities,145960,4.83,3019622,0
+Moj,2022-08,Suicide/Dangerous Acts,34019,1.13,3019622,0
+Moj,2022-08,Fake profile,22294,0.74,3019622,0
+Moj,2022-08,Inappropriate profile picture,19877,0.66,3019622,0
+Moj,2022-08,Sharing personal information,18859,0.62,3019622,0
+Moj,2022-08,Inappropriate comments,18133,0.6,3019622,0
+Moj,2022-08,Offensive,15450,0.51,3019622,0
+Moj,2022-08,Inappropriate username/handle/status,10014,0.33,3019622,0
+Moj,2022-08,Terrorism,9880,0.33,3019622,0
+Moj,2022-08,Miscellaneous,2644,0.09,3019622,0
+Moj,2022-08,Non-agreement,3,0.0,3019622,0
+Moj,2022-09,Spam,861600,32.67,2637632,0
+Moj,2022-09,Abusive language,486510,18.44,2637632,0
+Moj,2022-09,Sexually explicit content,248844,9.43,2637632,0
+Moj,2022-09,Others,213655,8.1,2637632,0
+Moj,2022-09,Violence,206685,7.84,2637632,0
+Moj,2022-09,Misinformation,202389,7.67,2637632,0
+Moj,2022-09,Hate speech,153478,5.82,2637632,0
+Moj,2022-09,Illegal activities,123691,4.69,2637632,0
+Moj,2022-09,Suicide/Dangerous Acts,34000,1.29,2637632,0
+Moj,2022-09,Fake profile,20667,0.78,2637632,0
+Moj,2022-09,Inappropriate profile picture,19129,0.73,2637632,0
+Moj,2022-09,Sharing personal information,17093,0.65,2637632,0
+Moj,2022-09,Inappropriate comments,16031,0.61,2637632,0
+Moj,2022-09,Offensive,13536,0.51,2637632,0
+Moj,2022-09,Inappropriate username/handle/status,9586,0.36,2637632,0
+Moj,2022-09,Terrorism,8672,0.33,2637632,0
+Moj,2022-09,Miscellaneous,2063,0.08,2637632,0
+Moj,2022-09,Non-agreement,3,0.0,2637632,0
+Moj,2022-10,Spam,798389,33.55,2379740,0
+Moj,2022-10,Abusive language,461103,19.38,2379740,0
+Moj,2022-10,Sexually explicit content,230041,9.67,2379740,0
+Moj,2022-10,Violence,181666,7.63,2379740,0
+Moj,2022-10,Others,176184,7.4,2379740,0
+Moj,2022-10,Misinformation,167623,7.04,2379740,0
+Moj,2022-10,Hate speech,131150,5.51,2379740,0
+Moj,2022-10,Illegal activities,108326,4.55,2379740,0
+Moj,2022-10,Suicide/Dangerous Acts,28493,1.2,2379740,0
+Moj,2022-10,Fake profile,18750,0.79,2379740,0
+Moj,2022-10,Inappropriate profile picture,17370,0.73,2379740,0
+Moj,2022-10,Sharing personal information,15674,0.66,2379740,0
+Moj,2022-10,Inappropriate comments,13803,0.58,2379740,0
+Moj,2022-10,Offensive,12894,0.54,2379740,0
+Moj,2022-10,Inappropriate username/handle/status,8459,0.36,2379740,0
+Moj,2022-10,Terrorism,8281,0.35,2379740,0
+Moj,2022-10,Miscellaneous,1529,0.06,2379740,0
+Moj,2022-10,Non-agreement,5,0.0,2379740,0
+ShareChat,2021-06,Others,2415111,37.57,6428297,1
+ShareChat,2021-06,Abusive language,1630859,25.37,6428297,1
+ShareChat,2021-06,Sexually explicit content,592046,9.21,6428297,1
+ShareChat,2021-06,Spam,437124,6.8,6428297,1
+ShareChat,2021-06,Fake profile,403697,6.28,6428297,1
+ShareChat,2021-06,Inappropriate profile picture,220491,3.43,6428297,1
+ShareChat,2021-06,No category,185135,2.88,6428297,1
+ShareChat,2021-06,Inappropriate comments,85496,1.33,6428297,1
+ShareChat,2021-06,Violence,80997,1.26,6428297,1
+ShareChat,2021-06,Illegal activities,71997,1.12,6428297,1
+ShareChat,2021-06,Offensive,61069,0.95,6428297,1
+ShareChat,2021-06,Wrong group/tag,57855,0.9,6428297,1
+ShareChat,2021-06,Sharing personal information,44355,0.69,6428297,1
+ShareChat,2021-06,Inappropriate username/handle/status,41784,0.65,6428297,1
+ShareChat,2021-06,Fake news,34713,0.54,6428297,1
+ShareChat,2021-06,Hate speech,23785,0.37,6428297,1
+ShareChat,2021-06,Non-agreement,18642,0.29,6428297,1
+ShareChat,2021-06,Inappropriate chatroom name,9642,0.15,6428297,1
+ShareChat,2021-06,Inappropriate chatroom picture,4500,0.07,6428297,1
+ShareChat,2021-06,Suicide/Dangerous Acts,3857,0.06,6428297,1
+ShareChat,2021-06,Terrorism,3214,0.05,6428297,1
+ShareChat,2021-06,Impersonation,0,0.0,6428297,1
+ShareChat,2021-07,Others,2132258,34.11,6251122,1
+ShareChat,2021-07,Abusive language,1286481,20.58,6251122,1
+ShareChat,2021-07,No category,606984,9.71,6251122,1
+ShareChat,2021-07,Sexually explicit content,482587,7.72,6251122,1
+ShareChat,2021-07,Spam,448831,7.18,6251122,1
+ShareChat,2021-07,Fake profile,243169,3.89,6251122,1
+ShareChat,2021-07,Illegal activities,165655,2.65,6251122,1
+ShareChat,2021-07,Violence,150027,2.4,6251122,1
+ShareChat,2021-07,Fake news,125022,2.0,6251122,1
+ShareChat,2021-07,Inappropriate profile picture,111270,1.78,6251122,1
+ShareChat,2021-07,Offensive,86265,1.38,6251122,1
+ShareChat,2021-07,Sharing personal information,80014,1.28,6251122,1
+ShareChat,2021-07,Inappropriate comments,74388,1.19,6251122,1
+ShareChat,2021-07,Wrong group/tag,73763,1.18,6251122,1
+ShareChat,2021-07,Inappropriate username/handle/status,66262,1.06,6251122,1
+ShareChat,2021-07,Inappropriate chatroom name,46883,0.75,6251122,1
+ShareChat,2021-07,Hate speech,28130,0.45,6251122,1
+ShareChat,2021-07,Non-agreement,21879,0.35,6251122,1
+ShareChat,2021-07,Suicide/Dangerous Acts,8752,0.14,6251122,1
+ShareChat,2021-07,Inappropriate chatroom picture,8752,0.14,6251122,1
+ShareChat,2021-07,Terrorism,2500,0.04,6251122,1
+ShareChat,2021-07,Impersonation,625,0.01,6251122,1
+ShareChat,2021-08,Others,4409644,37.51,11755916,1
+ShareChat,2021-08,Abusive language,2505186,21.31,11755916,1
+ShareChat,2021-08,No category,1005131,8.55,11755916,1
+ShareChat,2021-08,Sexually explicit content,824090,7.01,11755916,1
+ShareChat,2021-08,Spam,752379,6.4,11755916,1
+ShareChat,2021-08,Fake profile,612483,5.21,11755916,1
+ShareChat,2021-08,Inappropriate profile picture,263333,2.24,11755916,1
+ShareChat,2021-08,Illegal activities,257455,2.19,11755916,1
+ShareChat,2021-08,Violence,250401,2.13,11755916,1
+ShareChat,2021-08,Inappropriate username/handle/status,171636,1.46,11755916,1
+ShareChat,2021-08,Sharing personal information,156354,1.33,11755916,1
+ShareChat,2021-08,Offensive,150476,1.28,11755916,1
+ShareChat,2021-08,Fake news,148125,1.26,11755916,1
+ShareChat,2021-08,Wrong group/tag,89345,0.76,11755916,1
+ShareChat,2021-08,Inappropriate chatroom name,44672,0.38,11755916,1
+ShareChat,2021-08,Hate speech,44672,0.38,11755916,1
+ShareChat,2021-08,Non-agreement,25863,0.22,11755916,1
+ShareChat,2021-08,Suicide/Dangerous Acts,15283,0.13,11755916,1
+ShareChat,2021-08,Inappropriate chatroom picture,12932,0.11,11755916,1
+ShareChat,2021-08,Terrorism,9405,0.08,11755916,1
+ShareChat,2021-08,Inappropriate comments,4702,0.04,11755916,1
+ShareChat,2021-08,Impersonation,1176,0.01,11755916,1
+ShareChat,2021-09,Others,3194611,33.49,9539000,1
+ShareChat,2021-09,Abusive language,2322746,24.35,9539000,1
+ShareChat,2021-09,No category,810815,8.5,9539000,1
+ShareChat,2021-09,Sexually explicit content,650560,6.82,9539000,1
+ShareChat,2021-09,Spam,603819,6.33,9539000,1
+ShareChat,2021-09,Fake profile,546585,5.73,9539000,1
+ShareChat,2021-09,Inappropriate profile picture,210812,2.21,9539000,1
+ShareChat,2021-09,Illegal activities,204135,2.14,9539000,1
+ShareChat,2021-09,Violence,204135,2.14,9539000,1
+ShareChat,2021-09,Inappropriate username/handle/status,169794,1.78,9539000,1
+ShareChat,2021-09,Fake news,135454,1.42,9539000,1
+ShareChat,2021-09,Sharing personal information,135454,1.42,9539000,1
+ShareChat,2021-09,Offensive,131638,1.38,9539000,1
+ShareChat,2021-09,Wrong group/tag,85851,0.9,9539000,1
+ShareChat,2021-09,Hate speech,41018,0.43,9539000,1
+ShareChat,2021-09,Inappropriate chatroom name,30525,0.32,9539000,1
+ShareChat,2021-09,Non-agreement,21940,0.23,9539000,1
+ShareChat,2021-09,Suicide/Dangerous Acts,15262,0.16,9539000,1
+ShareChat,2021-09,Inappropriate chatroom picture,11447,0.12,9539000,1
+ShareChat,2021-09,Terrorism,7631,0.08,9539000,1
+ShareChat,2021-09,Impersonation,2862,0.03,9539000,1
+ShareChat,2021-09,Inappropriate comments,1908,0.02,9539000,1
+ShareChat,2021-10,Others,2519726,30.74,8196895,1
+ShareChat,2021-10,Abusive language,2186932,26.68,8196895,1
+ShareChat,2021-10,No category,757393,9.24,8196895,1
+ShareChat,2021-10,Sexually explicit content,505748,6.17,8196895,1
+ShareChat,2021-10,Spam,487715,5.95,8196895,1
+ShareChat,2021-10,Fake profile,420501,5.13,8196895,1
+ShareChat,2021-10,Illegal activities,187709,2.29,8196895,1
+ShareChat,2021-10,Violence,172954,2.11,8196895,1
+ShareChat,2021-10,Inappropriate profile picture,168036,2.05,8196895,1
+ShareChat,2021-10,Inappropriate username/handle/status,159839,1.95,8196895,1
+ShareChat,2021-10,Offensive,136068,1.66,8196895,1
+ShareChat,2021-10,Fake news,130331,1.59,8196895,1
+ShareChat,2021-10,Sharing personal information,121314,1.48,8196895,1
+ShareChat,2021-10,Wrong group/tag,118855,1.45,8196895,1
+ShareChat,2021-10,Hate speech,35247,0.43,8196895,1
+ShareChat,2021-10,Inappropriate chatroom name,27050,0.33,8196895,1
+ShareChat,2021-10,Non-agreement,17213,0.21,8196895,1
+ShareChat,2021-10,Suicide/Dangerous Acts,14754,0.18,8196895,1
+ShareChat,2021-10,Inappropriate chatroom picture,11476,0.14,8196895,1
+ShareChat,2021-10,Inappropriate comments,10656,0.13,8196895,1
+ShareChat,2021-10,Terrorism,6558,0.08,8196895,1
+ShareChat,2021-10,Impersonation,820,0.01,8196895,1
+ShareChat,2021-11,No category,686073,10.6,6472386,1
+ShareChat,2021-11,Sexually explicit content,430414,6.65,6472386,1
+ShareChat,2021-11,Spam,380576,5.88,6472386,1
+ShareChat,2021-11,Fake profile,313263,4.84,6472386,1
+ShareChat,2021-11,Illegal activities,154690,2.39,6472386,1
+ShareChat,2021-11,Violence,149512,2.31,6472386,1
+ShareChat,2021-11,Inappropriate profile picture,120386,1.86,6472386,1
+ShareChat,2021-11,Offensive,105500,1.63,6472386,1
+ShareChat,2021-11,Sharing personal information,99028,1.53,6472386,1
+ShareChat,2021-11,Wrong group/tag,95144,1.47,6472386,1
+ShareChat,2021-11,Inappropriate username/handle/status,94497,1.46,6472386,1
+ShareChat,2021-11,Fake news,89319,1.38,6472386,1
+ShareChat,2021-11,Hate speech,31067,0.48,6472386,1
+ShareChat,2021-11,Inappropriate chatroom name,23301,0.36,6472386,1
+ShareChat,2021-11,Non-agreement,16828,0.26,6472386,1
+ShareChat,2021-11,Suicide/Dangerous Acts,11003,0.17,6472386,1
+ShareChat,2021-11,Inappropriate comments,10356,0.16,6472386,1
+ShareChat,2021-11,Terrorism,5825,0.09,6472386,1
+ShareChat,2021-11,Inappropriate chatroom picture,5825,0.09,6472386,1
+ShareChat,2021-11,Impersonation,647,0.01,6472386,1
+ShareChat,2021-12,Abusive language,1599130,28.46,5618870,1
+ShareChat,2021-12,Others,1488439,26.49,5618870,1
+ShareChat,2021-12,No category,684378,12.18,5618870,1
+ShareChat,2021-12,Sexually explicit content,388264,6.91,5618870,1
+ShareChat,2021-12,Spam,332637,5.92,5618870,1
+ShareChat,2021-12,Fake profile,197784,3.52,5618870,1
+ShareChat,2021-12,Illegal activities,139348,2.48,5618870,1
+ShareChat,2021-12,Violence,138224,2.46,5618870,1
+ShareChat,2021-12,Wrong group/tag,109006,1.94,5618870,1
+ShareChat,2021-12,Offensive,104511,1.86,5618870,1
+ShareChat,2021-12,Inappropriate profile picture,92149,1.64,5618870,1
+ShareChat,2021-12,Fake news,85407,1.52,5618870,1
+ShareChat,2021-12,Sharing personal information,80350,1.43,5618870,1
+ShareChat,2021-12,Inappropriate username/handle/status,71360,1.27,5618870,1
+ShareChat,2021-12,Hate speech,31466,0.56,5618870,1
+ShareChat,2021-12,Inappropriate chatroom name,21914,0.39,5618870,1
+ShareChat,2021-12,Non-agreement,14609,0.26,5618870,1
+ShareChat,2021-12,Inappropriate comments,14047,0.25,5618870,1
+ShareChat,2021-12,Suicide/Dangerous Acts,10676,0.19,5618870,1
+ShareChat,2021-12,Terrorism,6743,0.12,5618870,1
+ShareChat,2021-12,Inappropriate chatroom picture,5057,0.09,5618870,1
+ShareChat,2021-12,Impersonation,1686,0.03,5618870,1
+ShareChat,2022-01,Others,1772428,28.64,6188644,1
+ShareChat,2022-01,Abusive language,1710541,27.64,6188644,1
+ShareChat,2022-01,No category,659709,10.66,6188644,1
+ShareChat,2022-01,Sexually explicit content,426398,6.89,6188644,1
+ShareChat,2022-01,Spam,381220,6.16,6188644,1
+ShareChat,2022-01,Fake profile,219078,3.54,6188644,1
+ShareChat,2022-01,Illegal activities,162142,2.62,6188644,1
+ShareChat,2022-01,Violence,146671,2.37,6188644,1
+ShareChat,2022-01,Offensive,132437,2.14,6188644,1
+ShareChat,2022-01,Wrong group/tag,116347,1.88,6188644,1
+ShareChat,2022-01,Inappropriate profile picture,98399,1.59,6188644,1
+ShareChat,2022-01,Fake news,92830,1.5,6188644,1
+ShareChat,2022-01,Sharing personal information,91592,1.48,6188644,1
+ShareChat,2022-01,Inappropriate username/handle/status,78596,1.27,6188644,1
+ShareChat,2022-01,Hate speech,28468,0.46,6188644,1
+ShareChat,2022-01,Inappropriate chatroom name,22898,0.37,6188644,1
+ShareChat,2022-01,Non-agreement,13615,0.22,6188644,1
+ShareChat,2022-01,Suicide/Dangerous Acts,12377,0.2,6188644,1
+ShareChat,2022-01,Inappropriate comments,8664,0.14,6188644,1
+ShareChat,2022-01,Terrorism,6189,0.1,6188644,1
+ShareChat,2022-01,Inappropriate chatroom picture,5570,0.09,6188644,1
+ShareChat,2022-01,Impersonation,1238,0.02,6188644,1
+ShareChat,2022-02,Others,1710045,30.1,5681213,1
+ShareChat,2022-02,Abusive language,1567447,27.59,5681213,1
+ShareChat,2022-02,No category,504492,8.88,5681213,1
+ShareChat,2022-02,Sexually explicit content,386891,6.81,5681213,1
+ShareChat,2022-02,Spam,360757,6.35,5681213,1
+ShareChat,2022-02,Fake profile,194866,3.43,5681213,1
+ShareChat,2022-02,Illegal activities,152257,2.68,5681213,1
+ShareChat,2022-02,Violence,139758,2.46,5681213,1
+ShareChat,2022-02,Offensive,128395,2.26,5681213,1
+ShareChat,2022-02,Wrong group/tag,106807,1.88,5681213,1
+ShareChat,2022-02,Fake news,89195,1.57,5681213,1
+ShareChat,2022-02,Inappropriate profile picture,89195,1.57,5681213,1
+ShareChat,2022-02,Sharing personal information,86923,1.53,5681213,1
+ShareChat,2022-02,Inappropriate username/handle/status,68175,1.2,5681213,1
+ShareChat,2022-02,Hate speech,28974,0.51,5681213,1
+ShareChat,2022-02,Inappropriate chatroom name,19316,0.34,5681213,1
+ShareChat,2022-02,Non-agreement,13067,0.23,5681213,1
+ShareChat,2022-02,Suicide/Dangerous Acts,11362,0.2,5681213,1
+ShareChat,2022-02,Inappropriate comments,11362,0.2,5681213,1
+ShareChat,2022-02,Terrorism,6817,0.12,5681213,1
+ShareChat,2022-02,Inappropriate chatroom picture,5113,0.09,5681213,1
+ShareChat,2022-02,Impersonation,568,0.01,5681213,1
+ShareChat,2022-03,Abusive language,2804565,40.06,7000911,1
+ShareChat,2022-03,Others,1665517,23.79,7000911,1
+ShareChat,2022-03,Sexually explicit content,466961,6.67,7000911,1
+ShareChat,2022-03,No category,464160,6.63,7000911,1
+ShareChat,2022-03,Spam,389951,5.57,7000911,1
+ShareChat,2022-03,Fake profile,181324,2.59,7000911,1
+ShareChat,2022-03,Illegal activities,169422,2.42,7000911,1
+ShareChat,2022-03,Offensive,143519,2.05,7000911,1
+ShareChat,2022-03,Violence,135818,1.94,7000911,1
+ShareChat,2022-03,Wrong group/tag,134417,1.92,7000911,1
+ShareChat,2022-03,Fake news,117615,1.68,7000911,1
+ShareChat,2022-03,Sharing personal information,84711,1.21,7000911,1
+ShareChat,2022-03,Inappropriate profile picture,77710,1.11,7000911,1
+ShareChat,2022-03,Inappropriate username/handle/status,59508,0.85,7000911,1
+ShareChat,2022-03,Hate speech,33604,0.48,7000911,1
+ShareChat,2022-03,Inappropriate chatroom name,21703,0.31,7000911,1
+ShareChat,2022-03,Non-agreement,15402,0.22,7000911,1
+ShareChat,2022-03,Suicide/Dangerous Acts,11902,0.17,7000911,1
+ShareChat,2022-03,Inappropriate comments,9801,0.14,7000911,1
+ShareChat,2022-03,Terrorism,7001,0.1,7000911,1
+ShareChat,2022-03,Inappropriate chatroom picture,4201,0.06,7000911,1
+ShareChat,2022-03,Impersonation,1400,0.02,7000911,1
+ShareChat,2022-04,Others,1396086,27.86,5011076,1
+ShareChat,2022-04,Abusive language,1206166,24.07,5011076,1
+ShareChat,2022-04,No category,512633,10.23,5011076,1
+ShareChat,2022-04,Sexually explicit content,443480,8.85,5011076,1
+ShareChat,2022-04,Spam,352780,7.04,5011076,1
+ShareChat,2022-04,Fake profile,153339,3.06,5011076,1
+ShareChat,2022-04,Illegal activities,149831,2.99,5011076,1
+ShareChat,2022-04,Wrong group/tag,134297,2.68,5011076,1
+ShareChat,2022-04,Offensive,128284,2.56,5011076,1
+ShareChat,2022-04,Violence,126279,2.52,5011076,1
+ShareChat,2022-04,Fake news,107237,2.14,5011076,1
+ShareChat,2022-04,Sharing personal information,78173,1.56,5011076,1
+ShareChat,2022-04,Inappropriate profile picture,68151,1.36,5011076,1
+ShareChat,2022-04,Inappropriate username/handle/status,51113,1.02,5011076,1
+ShareChat,2022-04,Hate speech,34075,0.68,5011076,1
+ShareChat,2022-04,Inappropriate chatroom name,17539,0.35,5011076,1
+ShareChat,2022-04,Non-agreement,13029,0.26,5011076,1
+ShareChat,2022-04,Suicide/Dangerous Acts,12027,0.24,5011076,1
+ShareChat,2022-04,Inappropriate comments,11525,0.23,5011076,1
+ShareChat,2022-04,Terrorism,10022,0.2,5011076,1
+ShareChat,2022-04,Inappropriate chatroom picture,3508,0.07,5011076,1
+ShareChat,2022-04,Impersonation,1002,0.02,5011076,1
+ShareChat,2022-05,Others,1440798,26.42,5452798,0
+ShareChat,2022-05,Abusive language,1283199,23.53,5452798,0
+ShareChat,2022-05,Sexually explicit content,557557,10.23,5452798,0
+ShareChat,2022-05,Miscellaneous,550778,10.1,5452798,0
+ShareChat,2022-05,Spam,408661,7.49,5452798,0
+ShareChat,2022-05,Illegal activities,172368,3.16,5452798,0
+ShareChat,2022-05,Fake profile,161363,2.96,5452798,0
+ShareChat,2022-05,Offensive,145408,2.67,5452798,0
+ShareChat,2022-05,Wrong group/tag,145351,2.67,5452798,0
+ShareChat,2022-05,Violence,135169,2.48,5452798,0
+ShareChat,2022-05,Misinformation,134805,2.47,5452798,0
+ShareChat,2022-05,Sharing personal information,85534,1.57,5452798,0
+ShareChat,2022-05,Inappropriate profile picture,71967,1.32,5452798,0
+ShareChat,2022-05,Inappropriate username/handle/status,55222,1.01,5452798,0
+ShareChat,2022-05,Hate speech,35494,0.65,5452798,0
+ShareChat,2022-05,Inappropriate chatroom name,17489,0.32,5452798,0
+ShareChat,2022-05,Non-agreement,14057,0.26,5452798,0
+ShareChat,2022-05,Suicide/Dangerous Acts,12878,0.24,5452798,0
+ShareChat,2022-05,Terrorism,10926,0.2,5452798,0
+ShareChat,2022-05,Inappropriate comments,8740,0.16,5452798,0
+ShareChat,2022-05,Inappropriate chatroom picture,3774,0.07,5452798,0
+ShareChat,2022-05,Impersonation,1260,0.02,5452798,0
+ShareChat,2022-06,Others,1394238,26.67,5227860,0
+ShareChat,2022-06,Abusive language,1282400,24.53,5227860,0
+ShareChat,2022-06,Miscellaneous,515950,9.87,5227860,0
+ShareChat,2022-06,Sexually explicit content,484202,9.26,5227860,0
+ShareChat,2022-06,Spam,412560,7.89,5227860,0
+ShareChat,2022-06,Illegal activities,173415,3.32,5227860,0
+ShareChat,2022-06,Fake profile,156032,2.98,5227860,0
+ShareChat,2022-06,Violence,143155,2.74,5227860,0
+ShareChat,2022-06,Wrong group/tag,124336,2.38,5227860,0
+ShareChat,2022-06,Offensive,123537,2.36,5227860,0
+ShareChat,2022-06,Misinformation,106603,2.04,5227860,0
+ShareChat,2022-06,Sharing personal information,84564,1.62,5227860,0
+ShareChat,2022-06,Inappropriate profile picture,69765,1.33,5227860,0
+ShareChat,2022-06,Inappropriate username/handle/status,56639,1.08,5227860,0
+ShareChat,2022-06,Hate speech,35862,0.69,5227860,0
+ShareChat,2022-06,Inappropriate chatroom name,18250,0.35,5227860,0
+ShareChat,2022-06,Non-agreement,14279,0.27,5227860,0
+ShareChat,2022-06,Suicide/Dangerous Acts,12735,0.24,5227860,0
+ShareChat,2022-06,Terrorism,8628,0.17,5227860,0
+ShareChat,2022-06,Inappropriate comments,6356,0.12,5227860,0
+ShareChat,2022-06,Inappropriate chatroom picture,3645,0.07,5227860,0
+ShareChat,2022-06,Impersonation,709,0.01,5227860,0
+ShareChat,2022-07,Others,1487037,27.12,5227860,0
+ShareChat,2022-07,Abusive language,1366925,24.93,5227860,0
+ShareChat,2022-07,Sexually explicit content,512972,9.36,5227860,0
+ShareChat,2022-07,Miscellaneous,494043,9.01,5227860,0
+ShareChat,2022-07,Spam,458158,8.36,5227860,0
+ShareChat,2022-07,Illegal activities,176211,3.21,5227860,0
+ShareChat,2022-07,Fake profile,164815,3.01,5227860,0
+ShareChat,2022-07,Offensive,142686,2.6,5227860,0
+ShareChat,2022-07,Violence,140196,2.56,5227860,0
+ShareChat,2022-07,Wrong group/tag,135136,2.46,5227860,0
+ShareChat,2022-07,Misinformation,100248,1.83,5227860,0
+ShareChat,2022-07,Sharing personal information,83992,1.53,5227860,0
+ShareChat,2022-07,Inappropriate profile picture,70691,1.29,5227860,0
+ShareChat,2022-07,Inappropriate username/handle/status,56758,1.04,5227860,0
+ShareChat,2022-07,Hate speech,32309,0.59,5227860,0
+ShareChat,2022-07,Inappropriate chatroom name,17779,0.32,5227860,0
+ShareChat,2022-07,Suicide/Dangerous Acts,13137,0.24,5227860,0
+ShareChat,2022-07,Non-agreement,10986,0.2,5227860,0
+ShareChat,2022-07,Terrorism,8046,0.15,5227860,0
+ShareChat,2022-07,Inappropriate comments,5750,0.1,5227860,0
+ShareChat,2022-07,Inappropriate chatroom picture,3429,0.06,5227860,0
+ShareChat,2022-07,Impersonation,1401,0.03,5227860,0
+ShareChat,2022-08,Others,1329618,26.7,4979832,0
+ShareChat,2022-08,Abusive language,1259342,25.29,4979832,0
+ShareChat,2022-08,Sexually explicit content,476098,9.56,4979832,0
+ShareChat,2022-08,Miscellaneous,475503,9.55,4979832,0
+ShareChat,2022-08,Spam,414127,8.32,4979832,0
+ShareChat,2022-08,Fake profile,149458,3.0,4979832,0
+ShareChat,2022-08,Illegal activities,148598,2.98,4979832,0
+ShareChat,2022-08,Offensive,124886,2.51,4979832,0
+ShareChat,2022-08,Violence,124418,2.5,4979832,0
+ShareChat,2022-08,Wrong group/tag,111474,2.24,4979832,0
+ShareChat,2022-08,Misinformation,84981,1.71,4979832,0
+ShareChat,2022-08,Sharing personal information,78361,1.57,4979832,0
+ShareChat,2022-08,Inappropriate profile picture,61935,1.24,4979832,0
+ShareChat,2022-08,Inappropriate username/handle/status,53663,1.08,4979832,0
+ShareChat,2022-08,Hate speech,29705,0.6,4979832,0
+ShareChat,2022-08,Inappropriate chatroom name,18014,0.36,4979832,0
+ShareChat,2022-08,Suicide/Dangerous Acts,13012,0.26,4979832,0
+ShareChat,2022-08,Non-agreement,9592,0.19,4979832,0
+ShareChat,2022-08,Terrorism,7612,0.15,4979832,0
+ShareChat,2022-08,Inappropriate comments,6334,0.13,4979832,0
+ShareChat,2022-08,Inappropriate chatroom picture,2571,0.05,4979832,0
+ShareChat,2022-08,Impersonation,530,0.01,4979832,0
+ShareChat,2022-09,Others,1262848,26.93,4688505,0
+ShareChat,2022-09,Abusive language,1195121,25.49,4688505,0
+ShareChat,2022-09,Miscellaneous,489323,10.44,4688505,0
+ShareChat,2022-09,Sexually explicit content,417151,8.9,4688505,0
+ShareChat,2022-09,Spam,381827,8.14,4688505,0
+ShareChat,2022-09,Fake profile,145091,3.09,4688505,0
+ShareChat,2022-09,Illegal activities,142180,3.03,4688505,0
+ShareChat,2022-09,Offensive,118003,2.52,4688505,0
+ShareChat,2022-09,Violence,117217,2.5,4688505,0
+ShareChat,2022-09,Wrong group/tag,90097,1.92,4688505,0
+ShareChat,2022-09,Sharing personal information,74254,1.58,4688505,0
+ShareChat,2022-09,Misinformation,72496,1.55,4688505,0
+ShareChat,2022-09,Inappropriate profile picture,56741,1.21,4688505,0
+ShareChat,2022-09,Inappropriate username/handle/status,48008,1.02,4688505,0
+ShareChat,2022-09,Hate speech,27151,0.58,4688505,0
+ShareChat,2022-09,Inappropriate chatroom name,17429,0.37,4688505,0
+ShareChat,2022-09,Suicide/Dangerous Acts,11532,0.25,4688505,0
+ShareChat,2022-09,Terrorism,7992,0.17,4688505,0
+ShareChat,2022-09,Non-agreement,6859,0.15,4688505,0
+ShareChat,2022-09,Inappropriate comments,4600,0.1,4688505,0
+ShareChat,2022-09,Inappropriate chatroom picture,2192,0.05,4688505,0
+ShareChat,2022-09,Impersonation,393,0.01,4688505,0
+ShareChat,2022-10,Others,1156651,28.96,3994260,0
+ShareChat,2022-10,Abusive language,1058961,26.51,3994260,0
+ShareChat,2022-10,Sexually explicit content,383377,9.6,3994260,0
+ShareChat,2022-10,Spam,343050,8.59,3994260,0
+ShareChat,2022-10,Miscellaneous,194576,4.87,3994260,0
+ShareChat,2022-10,Fake profile,129918,3.25,3994260,0
+ShareChat,2022-10,Illegal activities,125636,3.15,3994260,0
+ShareChat,2022-10,Violence,114992,2.88,3994260,0
+ShareChat,2022-10,Offensive,95981,2.4,3994260,0
+ShareChat,2022-10,Wrong group/tag,89521,2.24,3994260,0
+ShareChat,2022-10,Sharing personal information,66890,1.67,3994260,0
+ShareChat,2022-10,Misinformation,64634,1.62,3994260,0
+ShareChat,2022-10,Inappropriate profile picture,50325,1.26,3994260,0
+ShareChat,2022-10,Inappropriate username/handle/status,43547,1.09,3994260,0
+ShareChat,2022-10,Hate speech,28198,0.71,3994260,0
+ShareChat,2022-10,Inappropriate chatroom name,15669,0.39,3994260,0
+ShareChat,2022-10,Suicide/Dangerous Acts,10443,0.26,3994260,0
+ShareChat,2022-10,Terrorism,7633,0.19,3994260,0
+ShareChat,2022-10,Non-agreement,7480,0.19,3994260,0
+ShareChat,2022-10,Inappropriate comments,4862,0.12,3994260,0
+ShareChat,2022-10,Inappropriate chatroom picture,1780,0.04,3994260,0
+ShareChat,2022-10,Impersonation,136,0.0,3994260,0
