@@ -87,6 +87,50 @@ twoway connected meta_sexual_share_pct year, ytitle("% of all complaints to Face
     title("Meta: complaints about one's own intimate images, share of all complaints")
 graph export "stata/part3_meta_share.png", replace width(1600)
 
+* ---------------------------------------------------------------- 3b (continued): every platform
+* Sexual or synthetic-media complaints as a share of each platform's complaints. Platforms use
+* different categories, so compare each platform with itself over time, not across platforms.
+* ShareChat and Moj publish only June 2021 - October 2022 (pre-boom baseline). Months without a
+* complete breakdown (ShareChat and Moj, November 2021) are dropped. X stops at February 2025.
+*   Expected (Python), % by year 2021-2025: Facebook 5.9 5.2 3.2 4.9 5.6; Instagram 7.9 1.7 9.3 4.9 2.8;
+*   Snapchat 41.0 26.8 19.3 20.3 22.5; X 9.2 6.8 7.4 14.4 44.1 (2025 = Jan-Feb); Google ~0;
+*   ShareChat 7.2 8.5 (2021-22 only); Moj 12.0 9.2 (2021-22 only).
+use "stata/platform_month_panel.dta", clear
+drop if suspect_duplicate == 1
+drop if platform == "X" & month >= "2025-03"
+bysort platform month: egen has_other = max(category_group == "placebo")
+keep if has_other
+generate year = real(substr(month, 1, 4))
+generate double target = count * inlist(category_group, "sexual", "synthetic")
+tempfile plat
+save `plat'
+
+collapse (sum) target count, by(platform year)
+generate double share_pct = 100 * target / count
+display _n "Sexual or synthetic complaints, % of each platform's complaints, by year"
+tabdisp platform year if year <= 2025, cell(share_pct) format(%5.1f)
+
+* Simple before/after by platform: monthly share on a dummy for after 2022, and for after
+* Grok became free to all (December 2024). Robust SE.
+use `plat', clear
+collapse (sum) target count, by(platform month)
+generate double share_pct = 100 * target / count
+generate after2022 = month >= "2023-01"
+generate after_grok = month >= "2024-12"
+levelsof platform, local(plats)
+foreach p of local plats {
+    quietly count if platform == "`p'" & after2022 == 1
+    if r(N) == 0 {
+        display _n "--- `p': no data after 2022 (reports stop in October 2022); baseline only"
+        summarize share_pct if platform == "`p'"
+        continue
+    }
+    display _n "--- `p': after 2022"
+    regress share_pct after2022 if platform == "`p'", vce(robust)
+    display _n "--- `p': after Grok free for all"
+    regress share_pct after_grok if platform == "`p'", vce(robust)
+}
+
 * =============================================================================
 * 3c  MONTHLY MODEL: Grok launch dates
 *   For one platform, monthly complaints in a target group versus all other complaints to the

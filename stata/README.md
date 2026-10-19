@@ -18,7 +18,7 @@ Open a file in Stata with, for example: `use "stata/state_year_panel.dta", clear
 | 2b | Labelling controls: break States, recording regimes | `labelling_breaks.dta` + `state_category_year_panel.dta` |
 | 3a | Reporting funnel, 2023 to 2024 | `funnel_2023_2024.dta` |
 | 3b | Year by year: platform complaints, NCRB, news incidents | `national_year.dta` |
-| 3c | Monthly platform complaints and Grok launch dates | `platform_month_panel.dta` |
+| 3b, 3c | Monthly platform complaints by category (Facebook, Instagram, X, Snapchat, Google, ShareChat, Moj) and Grok launch dates | `platform_month_panel.dta` |
 | 3 (extra) | News-reported incidents by State and year | `news_incidents_state_year.dta` |
 | all | Every access measure, one row per State | `state_access.dta` |
 
@@ -57,7 +57,8 @@ effects). 17 States have at least one break. Merge on `state year`.
 - Internet: `internet_users_pct`, `internet_users_mn` (World Bank/ITU).
 - Platform complaints under the IT Rules, summed over the year: `<p>_all`, `<p>_sexual`, `x_synthetic`, and
   `<p>_months` (months reported; partial years are not comparable). `<p>` = `fb`, `ig`, `meta` (Facebook +
-  Instagram), `x`, `snap`, `google`.
+  Instagram), `x`, `snap`, `google`, `sharechat`, `moj` (ShareChat and Moj: June 2021 – October 2022 only;
+  their public reports stop there).
 - `meta_sexual_share_pct`: Meta intimate-image complaints as % of all complaints to Meta. Use this rather than
   raw Meta counts: all complaints to Meta rose about 7× in 2023 as the complaint route itself grew.
 - News incidents (2018–2024): `news_ai_deepfake`, `news_morphed`, `news_real_or_unspecified`, `news_all_incidents`.
@@ -93,7 +94,7 @@ do stata/part3.do
 |---|---|---|
 | `part1.do` | 1a Model 1 (with crime types, event study, placebo, robustness, labelling controls); 1b across States; 1c TRAI within States, Delhi + Haryana merged; 1d India by year | `part1_results.txt`, `part1_national.png` |
 | `part2.do` | 2a Model 2 (all exposures, event study and pre-trend test, crime types, placebo, fake years, robustness); 2b labelling controls and stable versus unstable States | `part2_results.txt`, `part2_event_study.csv/.png` |
-| `part3.do` | 3a funnel; 3b year-by-year table and charts; 3c monthly Grok model | `part3_results.txt`, `part3_*.png` |
+| `part3.do` | 3a funnel; 3b year-by-year table and charts, plus every platform's sexual-content share and a simple before/after test; 3c monthly Grok model | `part3_results.txt`, `part3_*.png` |
 
 Each do-file prints the result expected from the Python version next to each model, so you can check that
 Stata reproduces it. Packages (installed automatically if missing): `ftools`, `reghdfe`, `ppmlhdfe`.
