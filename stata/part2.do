@@ -9,7 +9,7 @@
 *     F  Controlling for capacity: income, urban share, civil police, cyber police units
 *     G  Expanding cyber policing within States, 2020-2024
 * Run from the repository root:   do stata/part2.do
-* Output: stata/part2_results.txt, stata/part2_event_study.csv/.png
+* Output: stata/part2_results.txt; tables and figures in stata/tables/ (part2_*)
 * =============================================================================
 
 run stata/setup.do
@@ -30,6 +30,14 @@ generate double other_share_pct = 100 * cyber_vaw_other / cyber_vaw_cases
 generate double named = cyber_vaw_cases - cyber_vaw_other
 format cyber_share_pct other_share_pct %6.2f
 list year cyber_vaw_cases women_total_cases cyber_share_pct cyber_vaw_other other_share_pct named, noobs sep(0)
+export delimited year cyber_vaw_cases women_total_cases cyber_share_pct cyber_vaw_other other_share_pct named ///
+    using "stata/tables/part2_table1_other_category.csv", replace
+twoway (connected cyber_share_pct year, yaxis(1)) (connected other_share_pct year, yaxis(2)), ///
+    xline(2022.5, lpattern(dash)) xtitle("") ytitle("Cyber crime, % of all crimes against women", axis(1)) ///
+    ytitle("'Other', % of cyber crimes against women", axis(2)) ///
+    legend(order(1 "Cyber share of crimes against women" 2 "'Other' share of cyber crimes against women") cols(1)) ///
+    title("Cyber crime against women and the 'other' category, India")
+graph export "stata/tables/part2_figure1_other_category.png", replace width(1600)
 foreach v in cyber_vaw_other named {
     quietly summarize `v' if inrange(year, 2021, 2022)
     local before = r(mean)
@@ -58,9 +66,10 @@ foreach x in access_nfhs5_15to49_avg access_cams2023_15plus ads_nudify_to_genai_
     zas `x' z
     generate double treat = cyber * post * z
     display _n "--- Model 2, exposure: `x'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("`x'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
     display "Rate ratio per SD after 2022: " %6.3f exp(_b[treat])
 }
+savetab part2_table2_model2 "Part 2, Model 2: change after 2022 per SD of exposure"
 
 * =============================================================================
 * C  VALIDITY
@@ -79,6 +88,8 @@ foreach x in access_nfhs5_15to49_avg ads_nudify_to_genai_post {
     display _n "--- Event study, exposure: `x'"
     ppmlhdfe cases es2017 es2018 es2019 es2020 es2021 es2023 es2024, absorb(sc st ct) vce(cluster sid)
     test es2017 es2018 es2019 es2020 es2021
+    estadd scalar pretrend_p = r(p)
+    eststo, title("`x'")
     if "`x'" == "access_nfhs5_15to49_avg" {
         preserve
             clear
@@ -90,16 +101,22 @@ foreach x in access_nfhs5_15to49_avg ads_nudify_to_genai_post {
                 replace coef = _b[es`y'] if year == `y'
                 replace se = _se[es`y'] if year == `y'
             }
-            export delimited using "stata/part2_event_study.csv", replace
+            export delimited using "stata/tables/part2_table3_event_study_coefs.csv", replace
             generate double lo = coef - 1.96 * se
             generate double hi = coef + 1.96 * se
             twoway (rcap lo hi year, lcolor(gs10)) (connected coef year), yline(0) xline(2022.5, lpattern(dash)) ///
                 legend(off) xtitle("") ytitle("Coefficient (log points per SD of access)") ///
                 title("Model 2 event study, base year 2022")
-            graph export "stata/part2_event_study.png", replace width(1600)
+            graph export "stata/tables/part2_figure2_event_study.png", replace width(1600)
         restore
     }
 }
+esttab using "stata/tables/part2_table3_event_study.rtf", replace eform b(3) p(3) star(* 0.10 ** 0.05 *** 0.01) ///
+    mtitles nonumbers stats(pretrend_p N, labels("Joint pre-trend test, p" "Observations") fmt(3 0)) ///
+    title("Part 2, event study (base 2022): rate ratio by year per SD of exposure")
+esttab using "stata/tables/part2_table3_event_study.csv", replace eform b(3) p(3) mtitles nonumbers ///
+    stats(pretrend_p N, labels("Joint pre-trend test, p" "Observations") fmt(3 0))
+eststo clear
 
 * C2 Fake start years, 2017-2022 only. Expected 1.06-1.10, all p > 0.16
 foreach fy in 2019 2020 2021 {
@@ -108,7 +125,7 @@ foreach fy in 2019 2020 2021 {
     zas access_nfhs5_15to49_avg z
     generate double treat = cyber * (year >= `fy') * z
     display _n "--- Fake start year `fy'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("Fake start `fy'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 }
 
 * C3 Placebo: cyber fraud. Expected 0.71 (p = 0.30)
@@ -118,7 +135,7 @@ keep if !missing(access_nfhs5_15to49_avg)
 zas access_nfhs5_15to49_avg z
 generate double treat = cyber * post * z
 display _n "--- Placebo: cyber fraud"
-ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+eststo, title("Placebo: cyber fraud"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 
 * C4 Dropping years and States. Expected 1.05-1.08, p 0.73-0.76
 foreach r in drop2020 drop2024 dropKATG {
@@ -130,8 +147,9 @@ foreach r in drop2020 drop2024 dropKATG {
     zas access_nfhs5_15to49_avg z
     generate double treat = cyber * post * z
     display _n "--- Check: `r'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("`r'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 }
+savetab part2_table4_validity "Part 2, validity checks (NFHS-5 exposure)"
 
 * =============================================================================
 * D  EACH CYBER CRIME TYPE against offline crimes (NFHS-5)
@@ -153,9 +171,10 @@ foreach h of local types {
     zas access_nfhs5_15to49_avg z
     generate double treat = cyber * post * z
     display _n "--- Type: `h'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("`h'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
     display "Rate ratio: " %6.3f exp(_b[treat])
 }
+savetab part2_table5_types "Part 2, Model 2 by cyber crime type (NFHS-5 exposure)"
 
 * =============================================================================
 * E  CONTROLLING FOR LABELLING
@@ -186,18 +205,18 @@ keep if breakstate == 0 & !missing(access_nfhs5_15to49_avg)
 zas access_nfhs5_15to49_avg z
 generate double treat = cyber * post * z
 display _n "--- (a) Without the 17 States with breaks"
-ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+eststo, title("(a) Stable States only"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 
 use `lab', clear
 keep if !missing(access_nfhs5_15to49_avg)
 zas access_nfhs5_15to49_avg z
 generate double treat = cyber * post * z
 display _n "--- (b) Separate baseline for each State's recording period"
-ppmlhdfe cases treat, absorb(scr st ct) vce(cluster sid)
+eststo, title("(b) Period baselines"): ppmlhdfe cases treat, absorb(scr st ct) vce(cluster sid)
 display _n "--- (c) Control for the 'other' share"
-ppmlhdfe cases treat cyb_other, absorb(sc st ct) vce(cluster sid)
+eststo, title("(c) Other share"): ppmlhdfe cases treat cyb_other, absorb(sc st ct) vce(cluster sid)
 display _n "--- (c) Recording-period baselines + 'other' and IT Act shares"
-ppmlhdfe cases treat cyb_other cyb_it, absorb(scr st ct) vce(cluster sid)
+eststo, title("(b)+(c) All"): ppmlhdfe cases treat cyb_other cyb_it, absorb(scr st ct) vce(cluster sid)
 
 foreach x in access_nfhs5_15to49_avg access_cams2023_15plus {
     use `lab', clear
@@ -210,7 +229,16 @@ foreach x in access_nfhs5_15to49_avg access_cams2023_15plus {
     display _n "--- (d) Stable vs unstable States, exposure: `x'"
     ppmlhdfe cases treat_stable treat_unstable post_stable, absorb(sc st ct) vce(cluster sid)
     test treat_stable = treat_unstable
+    estadd scalar diff_p = r(p)
+    eststo, title("(d) `x'")
 }
+esttab using "stata/tables/part2_table6_labelling.rtf", replace eform b(3) p(3) star(* 0.10 ** 0.05 *** 0.01) ///
+    drop(_cons, relax) mtitles nonumbers stats(diff_p N, labels("Stable = unstable, p" "Observations") fmt(3 0)) ///
+    title("Part 2, labelling controls (NFHS-5 exposure unless named)")
+esttab using "stata/tables/part2_table6_labelling.csv", replace eform b(3) p(3) drop(_cons, relax) mtitles nonumbers ///
+    stats(diff_p N, labels("Stable = unstable, p" "Observations") fmt(3 0))
+esttab, eform b(3) p(3) drop(_cons, relax) mtitles nonumbers stats(diff_p N)
+eststo clear
 
 * =============================================================================
 * F  CONTROLLING FOR CAPACITY (33 States with all controls)
@@ -233,9 +261,10 @@ foreach v in access income urban police cyber {
     generate double t_`v' = cyber * post * z_`v'
 }
 display _n "--- Model 2 + income and urban share"
-ppmlhdfe cases t_access t_income t_urban, absorb(sc st ct) vce(cluster sid)
+eststo, title("+ income, urban"): ppmlhdfe cases t_access t_income t_urban, absorb(sc st ct) vce(cluster sid)
 display _n "--- Model 2 + income, urban share, civil police and cyber police units"
-ppmlhdfe cases t_access t_income t_urban t_police t_cyber, absorb(sc st ct) vce(cluster sid)
+eststo, title("+ police capacity"): ppmlhdfe cases t_access t_income t_urban t_police t_cyber, absorb(sc st ct) vce(cluster sid)
+savetab part2_table7_capacity "Part 2, Model 2 with capacity controls (33 States; per SD after 2022)"
 
 * =============================================================================
 * G  EXPANDING CYBER POLICING WITHIN STATES, 2020-2024
@@ -253,9 +282,10 @@ foreach y in cyber_vaw_cases offline_vaw_cases cyber_total_cases cyber_fraud {
     local off female_pop_lakh
     if inlist("`y'", "cyber_total_cases", "cyber_fraud") local off population_lakh
     display _n "--- Outcome: `y'"
-    ppmlhdfe `y' ln_units, absorb(sid year) exposure(`off') vce(cluster sid)
+    eststo, title("`y'"): ppmlhdfe `y' ln_units, absorb(sid year) exposure(`off') vce(cluster sid)
     display "Rate ratio: " %6.3f exp(_b[ln_units])
 }
+savetab part2_table8_cyber_policing "Part 2, cyber police stations and cells within States, 2020-2024"
 
 * ---------------------------------------------------------------- optional: randomisation inference
 * Shuffles exposure across States (ssc install ritest). Slow: 300 model fits. Expected RI p = 0.58.

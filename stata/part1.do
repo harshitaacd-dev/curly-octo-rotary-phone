@@ -6,7 +6,7 @@
 *     Step 3  Changes in connections (TRAI 2022-2024), Delhi and Haryana combined
 *     Trend   India by year (descriptive)
 * Run from the repository root:   do stata/part1.do
-* Output: stata/part1_results.txt, stata/part1_national.png
+* Output: stata/part1_results.txt; tables and figure in stata/tables/ (part1_*)
 * Each model prints its rate ratio; "Expected" lines give the Python result to compare.
 * =============================================================================
 
@@ -26,36 +26,34 @@ egen sid = group(state)
 tempfile sy
 save `sy'
 
-* (a) No controls, all 35 States. Expected: cyber 1.54 (p = 0.010); offline 1.05 (p = 0.77)
+* For each outcome: (a) no controls, all 35 States; (b) with controls, 33 States (RBI publishes no
+* income for Lakshadweep and DNH-DD). One table per outcome: stata/tables/part1_table1_<outcome>.
+* Expected, cyber crime against women:
+*   (a) no controls:              access 1.54 (p = 0.010)
+*   + income:                     access 0.64 (0.26), income 2.55 (0.021)
+*   + income, urban:              access 0.84 (0.63), income 3.45 (0.004), urban 0.44 (0.034)
+*   + income, cyber units, police: access 0.89 (0.76), income 2.23 (<0.001), cyber units 0.67 (0.027), police 0.84 (0.70)
+*   all five:                     access 1.10 (0.79), income 2.75 (<0.001), urban 0.52 (0.031), cyber units 0.70 (0.025), police 0.92 (0.83)
+* Offline crimes against women: access 1.05 (0.77) with no controls; no variable significant with controls.
 foreach y in cyber_vaw_cases offline_vaw_cases {
     use `sy', clear
     keep if !missing(access_cams2023_15plus, `y')
     zas access_cams2023_15plus z_access
     display _n "--- Step 1(a), outcome: `y'"
-    ppmlhdfe `y' z_access, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
-    display "Rate ratio per SD of access: " %6.3f exp(_b[z_access])
-}
+    eststo, title("No controls"): ppmlhdfe `y' z_access, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
 
-* (b) With controls, 33 States (RBI publishes no income for Lakshadweep, DNH-DD).
-* Expected, cyber crime against women:
-*   + income:                    access 0.64 (0.26), income 2.55 (0.021)
-*   + income, urban:             access 0.84 (0.63), income 3.45 (0.004), urban 0.44 (0.034)
-*   + income, cyber units, police: access 0.89 (0.76), income 2.23 (<0.001), cyber units 0.67 (0.027), police 0.84 (0.70)
-*   all five:                    access 1.10 (0.79), income 2.75 (<0.001), urban 0.52 (0.031), cyber units 0.70 (0.025), police 0.92 (0.83)
-* Offline crimes against women: no variable significant.
-foreach y in cyber_vaw_cases offline_vaw_cases {
-    use `sy', clear
-    keep if !missing(access_cams2023_15plus, `y', ln_income, urban_share_cams, ln_police, ln_cyber_units)
+    keep if !missing(ln_income, urban_share_cams, ln_police, ln_cyber_units)
     zas access_cams2023_15plus z_access
     zas ln_income z_income
     zas urban_share_cams z_urban
     zas ln_police z_police
     zas ln_cyber_units z_cyber
     display _n "--- Step 1(b), outcome: `y'"
-    ppmlhdfe `y' z_access z_income, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
-    ppmlhdfe `y' z_access z_income z_urban, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
-    ppmlhdfe `y' z_access z_income z_cyber z_police, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
-    ppmlhdfe `y' z_access z_income z_urban z_cyber z_police, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+    eststo, title("+ income"): ppmlhdfe `y' z_access z_income, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+    eststo, title("+ urban"): ppmlhdfe `y' z_access z_income z_urban, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+    eststo, title("+ police capacity"): ppmlhdfe `y' z_access z_income z_cyber z_police, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+    eststo, title("All controls"): ppmlhdfe `y' z_access z_income z_urban z_cyber z_police, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+    savetab part1_table1_`y' "Part 1, Step 1: across States, outcome `y' (per SD of each State variable)"
 }
 
 * =============================================================================
@@ -75,9 +73,11 @@ foreach x in access_cams2023_15plus access_nss2017_5plus access_nfhs5_15to49_avg
     zas `x' z
     generate double treat = cyber * z * (year - 2017)
     display _n "--- Model 1, access: `x'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("`x'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
     display "Rate ratio per SD per year: " %6.3f exp(_b[treat])
 }
+
+savetab part1_table2_model1 "Part 1, Model 1: extra yearly growth per SD of access"
 
 * Check: each cyber crime type against offline crimes (all between 0.89 and 1.01, none significant)
 use "stata/state_category_year_panel.dta", clear
@@ -93,8 +93,9 @@ foreach h of local types {
     zas access_cams2023_15plus z
     generate double treat = cyber * z * (year - 2017)
     display _n "--- Model 1, type: `h'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("`h'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 }
+savetab part1_table2b_model1_types "Part 1, Model 1 by cyber crime type (CAMS 15+; per SD per year)"
 
 * Check: cyber fraud in place of cyber crime against women. Expected 1.06 (p = 0.61)
 build_m, placebo
@@ -103,7 +104,7 @@ keep if !missing(access_cams2023_15plus)
 zas access_cams2023_15plus z
 generate double treat = cyber * z * (year - 2017)
 display _n "--- Model 1 placebo: cyber fraud"
-ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+eststo, title("Placebo: cyber fraud"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 
 * Check: drop 2020, drop 2024, drop Karnataka and Telangana. Expected 0.96-0.97, p 0.30-0.43
 foreach r in drop2020 drop2024 dropKATG {
@@ -115,8 +116,9 @@ foreach r in drop2020 drop2024 dropKATG {
     zas access_cams2023_15plus z
     generate double treat = cyber * z * (year - 2017)
     display _n "--- Model 1 check: `r'"
-    ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
+    eststo, title("`r'"): ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
 }
+savetab part1_table2c_model1_checks "Part 1, Model 1 checks (CAMS 15+; per SD per year)"
 
 * =============================================================================
 * STEP 3  CHANGES IN CONNECTIONS (TRAI), 2022-2024
@@ -146,15 +148,16 @@ foreach v in combined reported dropdelhi withup {
     generate double other_cyber = ln(cyber_total_cases - cyber_vaw_cases + 1)
     egen sid = group(state)
     display _n "--- Step 3, version: `v'"
-    ppmlhdfe cyber_vaw_cases trai_10, absorb(sid year) exposure(female_pop_lakh) vce(cluster sid)
+    eststo, title("`v'"): ppmlhdfe cyber_vaw_cases trai_10, absorb(sid year) exposure(female_pop_lakh) vce(cluster sid)
     display "Rate ratio per 10 connections per 100: " %6.3f exp(_b[trai_10])
     if "`v'" == "combined" {
         display _n "--- Step 3 check: offline crimes against women"
-        ppmlhdfe offline_vaw_cases trai_10, absorb(sid year) exposure(female_pop_lakh) vce(cluster sid)
+        eststo, title("Offline (placebo)"): ppmlhdfe offline_vaw_cases trai_10, absorb(sid year) exposure(female_pop_lakh) vce(cluster sid)
         display _n "--- Step 3 check: control for growth in other cyber crime"
-        ppmlhdfe cyber_vaw_cases trai_10 other_cyber, absorb(sid year) exposure(female_pop_lakh) vce(cluster sid)
+        eststo, title("+ other cyber crime"): ppmlhdfe cyber_vaw_cases trai_10 other_cyber, absorb(sid year) exposure(female_pop_lakh) vce(cluster sid)
     }
 }
+savetab part1_table3_trai "Part 1, Step 3: TRAI connections, per 10 connections per 100 people"
 
 * =============================================================================
 * TREND  INDIA BY YEAR, 2017-2024 (descriptive)
@@ -167,6 +170,7 @@ tsset year
 generate double l_users = ln(internet_users_mn)
 generate double l_cyber = ln(cyber_vaw_cases)
 list year internet_users_mn cyber_vaw_cases offline_vaw_cases, noobs sep(0)
+export delimited year internet_users_mn cyber_vaw_cases offline_vaw_cases using "stata/tables/part1_table4_national.csv", replace
 correlate l_users l_cyber
 regress l_cyber l_users
 generate double g_users = D.l_users
@@ -176,6 +180,6 @@ twoway (connected cyber_vaw_cases year, yaxis(1)) (connected internet_users_mn y
     ytitle("Cyber crimes against women (NCRB)", axis(1)) ytitle("Internet users, million", axis(2)) ///
     xtitle("") legend(order(1 "Cyber crimes against women" 2 "Internet users")) ///
     title("India: internet users and recorded cyber crime against women")
-graph export "stata/part1_national.png", replace width(1600)
+graph export "stata/tables/part1_figure1_national.png", replace width(1600)
 
 log close

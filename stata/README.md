@@ -104,3 +104,25 @@ do stata/run_all.do
 | `run_all.do` | All three parts | |
 
 Every model is followed by a comment with the Python result, so Stata output can be checked line by line.
+
+**Tables and figures for the results section** are saved in `stata/tables/` (no screenshots needed): regression
+tables as Word (`.rtf`) and `.csv` (rate ratios with p-values in parentheses), descriptive tables as `.csv`, the
+Part 3 results table also as `.xlsx`, and charts as `.png`. Needs `estout` (installed automatically).
+
+| File | Results section |
+|---|---|
+| `part1_table1_cyber_vaw_cases`, `part1_table1_offline_vaw_cases` | Part 1, Step 1: across States, no controls and with controls |
+| `part1_table2_model1`, `part1_table2b_model1_types`, `part1_table2c_model1_checks` | Part 1, Model 1 and checks |
+| `part1_table3_trai` | Part 1, Step 3: TRAI connections |
+| `part1_table4_national.csv`, `part1_figure1_national.png` | India by year |
+| `part2_table1_other_category.csv`, `part2_figure1_other_category.png` | Part 2, the "other" category |
+| `part2_table2_model2` | Model 2 for each exposure |
+| `part2_table3_event_study`, `part2_figure2_event_study.png` | Event study and pre-trend test |
+| `part2_table4_validity` | Fake start years, placebo, dropping years/States |
+| `part2_table5_types` | Each cyber crime type |
+| `part2_table6_labelling` | Labelling controls |
+| `part2_table7_capacity` | Capacity controls |
+| `part2_table8_cyber_policing` | Expanding cyber policing, 2020-2024 |
+| `part3_table1_by_year.csv`, `part3_figure1_by_year.png` | Police records and platform complaints by year |
+| `part3_table2_sexual_share.csv` | Each platform's sexual-content share |
+| `part3_table3_model.csv/.xlsx` | Part 3 model: share-adjusted (main) and raw growth |

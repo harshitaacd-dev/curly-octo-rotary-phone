@@ -10,7 +10,7 @@
 * sexual act"; X sensitive adult content + synthetic or manipulated media; Google (incl. YouTube)
 * graphic sexual content; Snapchat sexual content. ShareChat and Moj stop in October 2022 (baseline).
 * Run from the repository root:   do stata/part3.do
-* Output: stata/part3_results.txt, stata/part3_yearly.png
+* Output: stata/part3_results.txt; tables and figure in stata/tables/ (part3_*)
 * =============================================================================
 
 run stata/setup.do
@@ -28,6 +28,8 @@ format cyber_vaw_cases platform_complaints snap_sexual sharechat_sexual meta_all
 display "Months covered (2021: June-December for most; X changed format from March 2025)"
 list year x_months meta_months google_months snap_months sharechat_months, noobs sep(0)
 list year cyber_vaw_cases platform_complaints snap_sexual sharechat_sexual, noobs sep(0)
+export delimited year cyber_vaw_cases platform_complaints x_sexual x_synthetic meta_sexual google_sexual ///
+    snap_sexual sharechat_sexual moj_sexual meta_all x_all using "stata/tables/part3_table1_by_year.csv", replace
 display "Complaints to Meta and X for every reason (the complaint routes themselves)"
 list year meta_all x_all, noobs sep(0)
 
@@ -38,7 +40,7 @@ preserve
         ytitle("Number (log scale)") xtitle("") ///
         legend(order(1 "Complaints to X, Facebook, Instagram, Google: sexual content" ///
         2 "NCRB cyber crimes against women") cols(1)) title("Complaints to platforms and police records, India")
-    graph export "stata/part3_yearly.png", replace width(1800)
+    graph export "stata/tables/part3_figure1_by_year.png", replace width(1800)
 restore
 
 * Each platform's sexual-content complaints as % of all its complaints (compare each platform
@@ -57,6 +59,12 @@ collapse (sum) target count, by(platform year)
 generate double share_pct = 100 * target / count
 display _n "Sexual-content complaints, % of each platform's complaints"
 tabdisp platform year if year <= 2025, cell(share_pct) format(%5.1f)
+preserve
+    keep if year <= 2025
+    keep platform year share_pct
+    reshape wide share_pct, i(platform) j(year)
+    export delimited using "stata/tables/part3_table2_sexual_share.csv", replace
+restore
 
 * =============================================================================
 * B  MAIN MODEL: SHARE-ADJUSTED GROWTH, 2022-2024
@@ -78,6 +86,9 @@ ppmlhdfe cases x, absorb(sc st) vce(cluster sid)
 scalar rb = _b[x]
 scalar rsb = _se[x]
 display "Police share-adjusted growth per year: " %6.3f exp(rb)
+tempname res
+postfile `res' str20 source double(adj_growth adj_lo adj_hi adj_p_vs_police raw_growth raw_p_vs_police) ///
+    using "stata/tables/part3_results_tmp.dta", replace
 
 * ---- Police, raw (used in C)
 use "stata/state_year_panel.dta", clear
@@ -87,10 +98,11 @@ egen sid = group(state)
 quietly ppmlhdfe cyber_vaw_cases t, absorb(sid) vce(cluster sid)
 scalar nb = _b[t]
 scalar nsb = _se[t]
+post `res' ("Police (NCRB)") (exp(rb)) (exp(rb - 1.96 * rsb)) (exp(rb + 1.96 * rsb)) (.) (exp(nb)) (.)
 
 capture program drop platgrowth
 program define platgrowth
-    args plat
+    args plat res
     use "stata/platform_month_panel.dta", clear
     drop if suspect_duplicate == 1
     keep if platform == "`plat'" & month >= "2022-01" & month <= "2024-12"
@@ -113,6 +125,7 @@ program define platgrowth
     local g = _b[t]
     local sg = _se[t]
     local praw = 2 * normal(-abs((`g' - nb) / sqrt(`sg'^2 + nsb^2)))
+    post `res' ("`plat'") (exp(`rt')) (exp(`rt' - 1.96 * `rst')) (exp(`rt' + 1.96 * `rst')) (`pr') (exp(`g')) (`praw')
     display "`plat'" _col(13) "share-adjusted " %6.3f exp(`rt') " [" %5.2f exp(`rt' - 1.96 * `rst') "-" ///
         %5.2f exp(`rt' + 1.96 * `rst') "]  p vs police " %6.4f `pr' ///
         "  |  raw " %7.3f exp(`g') "  p vs police " %6.4f `praw'
@@ -120,7 +133,7 @@ end
 
 display _n "--- Platforms, growth per year (share-adjusted = MAIN; raw = SECONDARY, see C)"
 foreach p in Facebook Instagram X Snapchat Google {
-    platgrowth `p'
+    platgrowth `p' `res'
 }
 
 * =============================================================================
@@ -147,5 +160,22 @@ display _n "--- Pooled five platforms (rough summary)"
 regress lc t i.pid i.moy, vce(cluster pid)
 display "Pooled raw growth per year: " %6.3f exp(_b[t]) "  p vs police " ///
     %6.4f 2 * normal(-abs((_b[t] - nb) / sqrt(_se[t]^2 + nsb^2)))
+post `res' ("Pooled (5)") (.) (.) (.) (.) (exp(_b[t])) (2 * normal(-abs((_b[t] - nb) / sqrt(_se[t]^2 + nsb^2))))
+postclose `res'
+
+* Results table: share-adjusted growth (MAIN) and raw growth (SECONDARY), per year, 2022-2024
+use "stata/tables/part3_results_tmp.dta", clear
+format adj_growth adj_lo adj_hi raw_growth %6.3f
+format adj_p_vs_police raw_p_vs_police %6.4f
+label variable adj_growth "Share-adjusted growth per year (main)"
+label variable adj_lo "95% low"
+label variable adj_hi "95% high"
+label variable adj_p_vs_police "p, differs from police"
+label variable raw_growth "Raw growth per year (secondary)"
+label variable raw_p_vs_police "p, differs from police (raw)"
+list, noobs sep(0) abbreviate(20)
+export delimited using "stata/tables/part3_table3_model.csv", replace
+export excel using "stata/tables/part3_table3_model.xlsx", firstrow(varlabels) replace
+erase "stata/tables/part3_results_tmp.dta"
 
 log close

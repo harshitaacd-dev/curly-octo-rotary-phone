@@ -5,6 +5,7 @@
 *     build_m   State x crime x year panel: cyber crimes against women (summed) + offline crimes
 *     merge_ctl add income, urban share and police capacity, in logs
 *     fe_ids    fixed-effect identifiers
+*     savetab   save the models stored with eststo as a table (Word .rtf and .csv) in stata/tables/
 * Each part file runs this first:  run stata/setup.do
 * =============================================================================
 
@@ -22,10 +23,12 @@ if _rc {
     }
 }
 
-foreach p in ftools reghdfe ppmlhdfe {
+foreach p in ftools reghdfe ppmlhdfe estout {
     capture which `p'
     if _rc ssc install `p', replace
 }
+
+capture mkdir "stata/tables"
 
 * zas x newname: standardise State-level variable x across the States in memory
 capture program drop zas
@@ -73,4 +76,17 @@ program define fe_ids
     egen st = group(state year)
     egen ct = group(category year)
     egen sid = group(state)
+end
+
+* savetab name "title": rate ratios with p-values in parentheses, one column per stored model
+capture program drop savetab
+program define savetab
+    args name title
+    local opts eform b(3) p(3) star(* 0.10 ** 0.05 *** 0.01) drop(_cons, relax) mtitles nonumbers ///
+        stats(N, labels("Observations") fmt(0)) ///
+        addnotes("Rate ratios (exp of coefficients); p-values in parentheses; SE clustered by State unless stated.")
+    esttab using "stata/tables/`name'.rtf", replace title("`title'") `opts'
+    esttab using "stata/tables/`name'.csv", replace title("`title'") `opts'
+    esttab, title("`title'") `opts'
+    eststo clear
 end
