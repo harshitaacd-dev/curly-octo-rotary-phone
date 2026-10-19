@@ -22,6 +22,7 @@ Open a file in Stata with, for example: `use "stata/state_year_panel.dta", clear
 | 3 (extra) | News-reported incidents by State and year | `news_incidents_state_year.dta` |
 | all | Every access measure, one row per State | `state_access.dta` |
 | 1, 2 | Controls: income per head (RBI) and urban share, one row per State | `state_controls.dta` |
+| 1, 2 | Police capacity: civil police, cyber police stations and cyber cells (BPR&D 2024), one row per State | `state_police.dta` |
 
 ## Files
 

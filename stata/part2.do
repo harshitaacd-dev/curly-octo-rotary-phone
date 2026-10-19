@@ -111,6 +111,32 @@ display _n "--- Model 2 with income and urban share controls"
 ppmlhdfe cases treat treat_inc treat_urb, absorb(sc st ct) vce(cluster sid)
 display "Rate ratio (access): " %6.3f exp(_b[treat])
 
+* Model 2 with police capacity (BPR&D): civil police per lakh 2020, cyber police units per crore
+*   Exploratory. Expected (Python): access + police: access 1.42 (p = 0.041), police 0.57 (0.011);
+*   access alone in the same States 1.08 (0.72). See analysis/models/README.md.
+use `m2', clear
+merge m:1 state using "stata/state_police.dta", keep(master match) nogenerate
+generate double ln_police = ln(civil_police_per_lakh_2020)
+generate double ln_cyber_units = ln(1 + cyber_units_per_crore)
+keep if !missing(access_nfhs5_15to49_avg, ln_police)
+zas access_nfhs5_15to49_avg z_access
+zas ln_police z_police
+zas ln_cyber_units z_cyber
+generate double treat = ai * post * z_access
+generate double treat_pol = ai * post * z_police
+generate double treat_cyb = ai * post * z_cyber
+display _n "--- Model 2 with civil police per lakh"
+ppmlhdfe cases treat treat_pol, absorb(sc st ct) vce(cluster sid)
+display _n "--- Model 2 with civil police and cyber police units"
+ppmlhdfe cases treat treat_pol treat_cyb, absorb(sc st ct) vce(cluster sid)
+display _n "--- Event study with police control (pre-trend test)"
+foreach y in 2017 2018 2019 2020 2021 2023 2024 {
+    generate double es`y' = ai * z_access * (year == `y')
+    generate double ep`y' = ai * z_police * (year == `y')
+}
+ppmlhdfe cases es2017-es2024 ep2017-ep2024, absorb(sc st ct) vce(cluster sid)
+test es2017 es2018 es2019 es2020 es2021
+
 * Event study, base year 2022, with joint pre-trend test
 foreach x in access_nfhs5_15to49_avg ads_nudify_to_genai_post {
     use `m2', clear

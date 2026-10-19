@@ -242,6 +242,26 @@ foreach y in cyber_vaw_cases offline_vaw_cases {
     ppmlhdfe `y' z_access z_income z_urban, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
 }
 
+* 1b with police capacity (BPR&D 2024): cyber police units per crore and civil police per lakh (2020)
+*   Expected (Python), cyber crime against women, access + income + cyber units + police:
+*   access 0.89 (0.76), income 2.23 (<0.001), cyber units 0.67 (0.027), police 0.84 (0.70).
+foreach y in cyber_vaw_cases offline_vaw_cases {
+    use `sy', clear
+    merge m:1 state using "stata/state_controls.dta", keep(master match) nogenerate
+    merge m:1 state using "stata/state_police.dta", keep(master match) nogenerate
+    generate double ln_income = ln(nsdp_pc_avg)
+    generate double ln_police = ln(civil_police_per_lakh_2020)
+    generate double ln_cyber_units = ln(1 + cyber_units_per_crore)
+    keep if !missing(access_cams2023_15plus, `y', ln_income, ln_police)
+    zas access_cams2023_15plus z_access
+    zas ln_income z_income
+    zas ln_police z_police
+    zas ln_cyber_units z_cyber
+    display _n "--- 1b with police capacity, outcome: `y'"
+    ppmlhdfe `y' z_cyber z_police, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+    ppmlhdfe `y' z_access z_income z_cyber z_police, absorb(year) exposure(female_pop_lakh) vce(cluster sid)
+}
+
 * =============================================================================
 * 1c  WITHIN STATES: TRAI connections, 2022-2024
 *   cases = TRAI connections per 100 (per 10) | State, year; exposure = female population
