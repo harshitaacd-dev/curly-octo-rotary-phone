@@ -84,6 +84,29 @@ https://www.trai.gov.in/sites/default/files/2024-09/PIR_12032024_0.pdf; TRAI, *P
 (2009), "Mapping Indian Districts Across Census Years, 1971–2001", CDE Working Paper 176, Delhi School of Economics,
 https://ideas.repec.org/p/cde/cdewps/176.html.
 
+## Controls: income and urbanisation
+
+Run: `python scripts/build_controls.py` then `python scripts/controls_checks.py` (writes `controls_checks.json`).
+Controls (`data/analysis/state_controls.csv`): log per capita net state domestic product, constant prices, mean
+2017-18 to 2022-23 (RBI, *Handbook of Statistics on Indian States 2024-25*, Table 20); urban share of persons 15+,
+implied by CAMS 2022-23 rural, urban and total internet-use rates (Census 2011 tables could not be downloaded; the
+implied shares are close to Census 2011 for the States checked). 33 States (no RBI income for Lakshadweep and
+DNH-DD). Access is correlated with income (0.58) and urban share (0.61).
+
+| Specification | Access (RR per SD) | p | Income | p | Urban share | p |
+|---|---|---|---|---|---|---|
+| 1b levels, cyber crime against women, no controls | 1.56 | 0.010 | | | | |
+| + income | 0.64 | 0.26 | 2.55 | 0.021 | | |
+| + urban share | 1.57 | 0.025 | | | 0.99 | 0.97 |
+| + income and urban share | 0.84 | 0.63 | 3.45 | 0.004 | 0.44 | 0.034 |
+| 1b levels, offline crimes against women, both controls | 0.92 | 0.81 | 1.11 | 0.63 | 1.02 | 0.97 |
+| Model 1, both controls (per year) | 0.95 | 0.54 | 0.99 | 0.79 | 1.04 | 0.60 |
+| Model 2, both controls (after 2022) | 1.23 | 0.25 | 0.93 | 0.71 | 0.86 | 0.52 |
+
+**The cross-State link between access and recorded cyber crime against women is explained by income.** Richer
+States record more cyber crime against women (and not more offline crime); once income is held fixed, access adds
+nothing. Urban share alone does not change the result. Models 1 and 2 stay null with either control.
+
 ## Model 2: the generative-AI boom (2023–2024)
 
 Treated: all cyber crimes against women, summed into one category (as in Model 1); comparison: offline crimes
