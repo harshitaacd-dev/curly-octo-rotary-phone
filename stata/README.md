@@ -16,9 +16,9 @@ Open a file in Stata with, for example: `use "stata/state_year_panel.dta", clear
 | 1 (chart) | India: internet users and cyber crime against women, by year | `national_year.dta` |
 | 2a | Model 2: the AI boom (after 2022 × pre-boom access) | `state_category_year_panel.dta` |
 | 2b | Labelling controls: break States, recording regimes | `labelling_breaks.dta` + `state_category_year_panel.dta` |
-| 3a | Reporting funnel, 2023 to 2024 | `funnel_2023_2024.dta` |
-| 3b | Year by year: platform complaints, NCRB, news incidents | `national_year.dta` |
-| 3b, 3c | Monthly platform complaints by category (Facebook, Instagram, X, Snapchat, Google, ShareChat, Moj) and Grok launch dates | `platform_month_panel.dta` |
+| 3a, 3b | Year by year and growth: platform complaints, NCRB, news incidents | `national_year.dta` |
+| 3c | Every platform's complaints by category, monthly (Facebook, Instagram, X, Snapchat, Google, ShareChat, Moj) | `platform_month_panel.dta` |
+| 3d | Reporting chain, 2023 to 2024 | `funnel_2023_2024.dta` |
 | 3 (extra) | News-reported incidents by State and year | `news_incidents_state_year.dta` |
 | all | Every access measure, one row per State | `state_access.dta` |
 
@@ -69,8 +69,8 @@ about zero); 2026 is partial.
 **`funnel_2023_2024.dta`** — one row per stage of the reporting chain: `y2023`, `y2024`,
 `ratio_2024_to_2023`, `kind` (online / recorded / missing).
 
-**`platform_month_panel.dta`** — platform × grievance category × month (2,533 rows). `count`, `category_group`,
-Grok dates (`grok2_images`, `grok_free`, `post_grok_free`), national search series. Drop `suspect_duplicate == 1`
+**`platform_month_panel.dta`** — platform × grievance category × month (2,663 rows). `count`, `category_group`,
+national search series. Drop `suspect_duplicate == 1`
 (Snapchat November 2025). Codebook section 3.
 
 **`news_incidents_state_year.dta`** — news-reported incidents by State and year, 2018–2024, by type
@@ -94,7 +94,7 @@ do stata/part3.do
 |---|---|---|
 | `part1.do` | 1a Model 1 (with crime types, event study, placebo, robustness, labelling controls); 1b across States; 1c TRAI within States, Delhi + Haryana merged; 1d India by year | `part1_results.txt`, `part1_national.png` |
 | `part2.do` | 2a Model 2 (all exposures, event study and pre-trend test, crime types, placebo, fake years, robustness); 2b labelling controls and stable versus unstable States | `part2_results.txt`, `part2_event_study.csv/.png` |
-| `part3.do` | 3a funnel; 3b year-by-year table and charts, plus every platform's sexual-content share and a simple before/after test; 3c monthly Grok model | `part3_results.txt`, `part3_*.png` |
+| `part3.do` | 3a NCRB versus platform complaints by year; 3b growth index (2022 = 100); 3c every platform's sexual-content share; 3d reporting chain 2023 to 2024 | `part3_results.txt`, `part3_*.png` |
 
 Each do-file prints the result expected from the Python version next to each model, so you can check that
 Stata reproduces it. Packages (installed automatically if missing): `ftools`, `reghdfe`, `ppmlhdfe`.
