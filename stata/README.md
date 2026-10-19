@@ -78,7 +78,22 @@ Grok dates (`grok2_images`, `grok_free`, `post_grok_free`), national search seri
 **`state_access.dta`** — one row per State: every access measure, TRAI per 100 for December 2021–2025, search
 exposure measures.
 
-## Packages
+## Do-files
 
-`ssc install ftools`, `ssc install reghdfe`, `ssc install ppmlhdfe` (once). The full model code is in
-`scripts/models.do`.
+Run from the repository root (the folder that contains `stata/`):
+
+```stata
+cd "path/to/curly-octo-rotary-phone"
+do stata/part1.do
+do stata/part2.do
+do stata/part3.do
+```
+
+| Do-file | Runs | Writes |
+|---|---|---|
+| `part1.do` | 1a Model 1 (with crime types, event study, placebo, robustness, labelling controls); 1b across States; 1c TRAI within States, Delhi + Haryana merged; 1d India by year | `part1_results.txt`, `part1_national.png` |
+| `part2.do` | 2a Model 2 (all exposures, event study and pre-trend test, crime types, placebo, fake years, robustness); 2b labelling controls and stable versus unstable States | `part2_results.txt`, `part2_event_study.csv/.png` |
+| `part3.do` | 3a funnel; 3b year-by-year table and charts; 3c monthly Grok model | `part3_results.txt`, `part3_*.png` |
+
+Each do-file prints the result expected from the Python version next to each model, so you can check that
+Stata reproduces it. Packages (installed automatically if missing): `ftools`, `reghdfe`, `ppmlhdfe`.
