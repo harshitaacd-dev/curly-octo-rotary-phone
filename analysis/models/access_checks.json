@@ -1,0 +1,192 @@
+{
+  "A_national_trend": {
+    "years": [
+      2017,
+      2024
+    ],
+    "cyber_vaw_cases": {
+      "elasticity": 0.99,
+      "corr_levels": 0.97,
+      "corr_growth": 0.28
+    },
+    "offline_vaw_cases": {
+      "elasticity": 0.09,
+      "corr_levels": 0.62,
+      "corr_growth": -0.04
+    },
+    "series": [
+      {
+        "year": 2017,
+        "cyber_vaw_cases": 4242.0,
+        "offline_vaw_cases": 271802,
+        "internet_users_mn": 247.46
+      },
+      {
+        "year": 2018,
+        "cyber_vaw_cases": 6030.0,
+        "offline_vaw_cases": 279278,
+        "internet_users_mn": 276.05
+      },
+      {
+        "year": 2019,
+        "cyber_vaw_cases": 8379.0,
+        "offline_vaw_cases": 300499,
+        "internet_users_mn": 410.09
+      },
+      {
+        "year": 2020,
+        "cyber_vaw_cases": 10405.0,
+        "offline_vaw_cases": 273272,
+        "internet_users_mn": 608.81
+      },
+      {
+        "year": 2021,
+        "cyber_vaw_cases": 10730.0,
+        "offline_vaw_cases": 315344,
+        "internet_users_mn": 696.61
+      },
+      {
+        "year": 2022,
+        "cyber_vaw_cases": 14409.0,
+        "offline_vaw_cases": 324095,
+        "internet_users_mn": 796.81
+      },
+      {
+        "year": 2023,
+        "cyber_vaw_cases": 19510.0,
+        "offline_vaw_cases": 321151,
+        "internet_users_mn": 866.47
+      },
+      {
+        "year": 2024,
+        "cyber_vaw_cases": 18615.0,
+        "offline_vaw_cases": 287039,
+        "internet_users_mn": 942.29
+      }
+    ]
+  },
+  "B_cross_state_levels": {
+    "access_cams2023_15plus": {
+      "cyber_vaw_cases": {
+        "rate_ratio": 1.542,
+        "p": 0.0098,
+        "states": 35,
+        "n": 280
+      },
+      "offline_vaw_cases": {
+        "rate_ratio": 1.048,
+        "p": 0.7689,
+        "states": 35,
+        "n": 280
+      },
+      "cyber_total_cases": {
+        "rate_ratio": 1.335,
+        "p": 0.1236,
+        "states": 35,
+        "n": 280
+      },
+      "cyber_fraud": {
+        "rate_ratio": 1.509,
+        "p": 0.2199,
+        "states": 35,
+        "n": 280
+      }
+    },
+    "access_nss2017_5plus": {
+      "cyber_vaw_cases": {
+        "rate_ratio": 1.336,
+        "p": 0.0644,
+        "states": 22,
+        "n": 176
+      },
+      "offline_vaw_cases": {
+        "rate_ratio": 1.071,
+        "p": 0.5939,
+        "states": 22,
+        "n": 176
+      },
+      "cyber_total_cases": {
+        "rate_ratio": 1.175,
+        "p": 0.2964,
+        "states": 22,
+        "n": 176
+      },
+      "cyber_fraud": {
+        "rate_ratio": 1.315,
+        "p": 0.2923,
+        "states": 22,
+        "n": 176
+      }
+    },
+    "access_nfhs5_15to49_avg": {
+      "cyber_vaw_cases": {
+        "rate_ratio": 1.12,
+        "p": 0.5398,
+        "states": 35,
+        "n": 280
+      },
+      "offline_vaw_cases": {
+        "rate_ratio": 0.972,
+        "p": 0.8882,
+        "states": 35,
+        "n": 280
+      },
+      "cyber_total_cases": {
+        "rate_ratio": 0.934,
+        "p": 0.7609,
+        "states": 35,
+        "n": 280
+      },
+      "cyber_fraud": {
+        "rate_ratio": 0.453,
+        "p": 0.0035,
+        "states": 35,
+        "n": 280
+      }
+    }
+  },
+  "C_within_state_trai": {
+    "main_delhi_haryana_merged": {
+      "rate_ratio": 1.295,
+      "p": 0.0337,
+      "states": 34,
+      "n": 102
+    },
+    "as_reported_unmerged": {
+      "rate_ratio": 1.155,
+      "p": 0.0009,
+      "states": 35,
+      "n": 105
+    },
+    "drop_delhi": {
+      "rate_ratio": 1.113,
+      "p": 0.4955,
+      "states": 34,
+      "n": 102
+    },
+    "merge_delhi_haryana_up": {
+      "rate_ratio": 1.289,
+      "p": 0.215,
+      "states": 33,
+      "n": 99
+    },
+    "placebo_offline_vaw": {
+      "rate_ratio": 1.13,
+      "p": 0.0299,
+      "states": 34,
+      "n": 102
+    },
+    "control_other_cyber_growth": {
+      "rate_ratio": 1.184,
+      "p": 0.136,
+      "states": 34,
+      "n": 101
+    },
+    "cyber_vs_offline": {
+      "rate_ratio": 1.049,
+      "p": 0.7332,
+      "states": 34,
+      "n": 204
+    }
+  }
+}

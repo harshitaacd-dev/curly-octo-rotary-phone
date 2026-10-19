@@ -210,6 +210,28 @@ foreach r in drop2020 drop2024 dropKATG {
     ppmlhdfe cases treat, absorb(sc st ct) vce(cluster state)
 }
 
+* =============================================================================
+* PART 1 CHECK C: TRAI connections within States, 2022-2024 (scripts/access_checks.py)
+*   Delhi and Haryana merged: TRAI's Delhi licence area includes Gurgaon and Faridabad
+*   (Haryana) and Noida and Ghaziabad (UP), and TRAI moved subscriptions from Delhi to
+*   Haryana in its State-wise counts (see analysis/models/README.md).
+* =============================================================================
+use "data/analysis/state_year_panel.dta", clear
+keep if inrange(year, 2022, 2024) & !missing(trai_subs_per100, cyber_vaw_cases)
+generate double subs_mn = trai_subs_per100 * population_lakh / 1000
+replace state = "Delhi+Haryana" if inlist(state, "Delhi", "Haryana")
+collapse (sum) cyber_vaw_cases offline_vaw_cases cyber_total_cases female_pop_lakh population_lakh subs_mn, by(state year)
+generate double trai_10 = subs_mn * 1000 / population_lakh / 10
+generate double other_cyber = ln(cyber_total_cases - cyber_vaw_cases + 1)
+
+display _n "--- Check C: cyber crime against women, Delhi + Haryana merged"
+ppmlhdfe cyber_vaw_cases trai_10, absorb(state year) exposure(female_pop_lakh) vce(cluster state)
+display "Rate ratio per 10 connections per 100: " %6.3f exp(_b[trai_10])
+display _n "--- Check C placebo: offline crimes against women"
+ppmlhdfe offline_vaw_cases trai_10, absorb(state year) exposure(female_pop_lakh) vce(cluster state)
+display _n "--- Check C with control for growth in other cyber crime"
+ppmlhdfe cyber_vaw_cases trai_10 other_cyber, absorb(state year) exposure(female_pop_lakh) vce(cluster state)
+
 * ---------------------------------------------------------------- optional: randomisation inference
 * Uncomment to permute exposure across States (needs: ssc install ritest). Slow: about 300 PPML fits.
 * use `m2', clear

@@ -31,6 +31,59 @@ women. Coefficient = extra yearly growth per SD of access.
 - **Event study** (`model1_event_study.csv`, base 2017): all coefficients small, negative and insignificant
   (−0.05 to −0.31).
 
+## Part 1 checks: is more access associated with more recorded cyber crime against women?
+
+Run: `python scripts/access_checks.py` (writes `access_checks.json`). Three simpler comparisons alongside Model 1.
+
+**A. National trend, 2017–2024.** Internet users (World Bank) and cyber crime against women rise together:
+elasticity 0.99, correlation of logs 0.97 (offline crimes against women: 0.09). Descriptive only: in years when
+internet use grew faster, cyber crime against women did not clearly grow faster (correlation of growth rates 0.28).
+
+**B. Across States (levels).** Poisson, year fixed effects, population offset, SE clustered by State; RR per SD of access.
+
+| Access measure | Cyber crime against women | Offline crimes against women | All cyber crime | Cyber fraud |
+|---|---|---|---|---|
+| CAMS 2022-23, 15+ (35 States) | **1.54 (p = 0.010)** | 1.05 (0.77) | 1.34 (0.12) | 1.51 (0.22) |
+| NSS 2017-18, 5+ (22 States) | 1.34 (0.064) | 1.07 (0.59) | 1.18 (0.30) | 1.32 (0.29) |
+| NFHS-5, 15–49 (35 States) | 1.12 (0.54) | 0.97 (0.89) | 0.93 (0.76) | 0.45 (0.004) |
+
+Better-connected States record more cyber crime against women and not more offline crime (CAMS; borderline with
+NSS; not with NFHS-5). A cross-sectional correlation: such States are also richer, more urban and have more cyber
+police capacity.
+
+**C. Within States over time: TRAI connections, 2022–2024.** Poisson, State and year fixed effects, population
+offset; RR per 10 more connections per 100 people. Dec 2021 excluded (TRAI misallocation).
+
+*Delhi and Haryana are merged into one unit.* TRAI's Delhi licence area also covers Gurgaon and Faridabad
+(Haryana) and Noida and Ghaziabad (UP): "Delhi Service area, apart from the State of Delhi, includes wireless
+subscribers of the areas served by the local exchanges of Ghaziabad & Noida (in UP) and Gurgaon & Faridabad (in
+Haryana)" (TRAI, Performance Indicator Reports). TRAI's State-wise internet count for Delhi fell from 45.1 million
+(March 2023) to 37.2 million (December 2025) while the Delhi licence area grew from 52.7 to 59.9 million and
+Haryana's State count rose from 22.3 to 31.9 million: a reallocation of subscriptions, not a loss of access.
+Following Kumar and Somanathan (2009), the two are combined into one unit with consistent coverage, as the panel
+already does for Jammu & Kashmir + Ladakh and Dadra & Nagar Haveli + Daman & Diu. Merging UP as well is a robustness
+check (UP is large and the offsetting gain appears in Haryana).
+
+| Version | RR | p | Units |
+|---|---|---|---|
+| **Delhi + Haryana merged (main)** | **1.30** | **0.034** | 34 |
+| As reported, unmerged | 1.16 | 0.001 | 35 |
+| Drop Delhi | 1.11 | 0.50 | 34 |
+| Delhi + Haryana + UP merged | 1.29 | 0.22 | 33 |
+| Placebo: offline crimes against women (merged) | 1.13 | 0.030 | 34 |
+| Control for growth in other cyber crime (merged) | 1.18 | 0.14 | 34 |
+| Cyber versus offline crimes against women in one model (merged) | 1.05 | 0.73 | 34 |
+
+Connections and recorded cyber crime against women move together within States, but offline crimes move with
+them too and the link is gone once recording capacity (other cyber crime) is controlled for: consistent with
+broader growth in recording rather than an effect of access.
+
+Sources: TRAI, *Yearly Performance Indicators 2022-23* (March 2024),
+https://www.trai.gov.in/sites/default/files/2024-09/PIR_12032024_0.pdf; TRAI, *Performance Indicators Oct–Dec 2025*
+(March 2026), https://trai.gov.in/sites/default/files/2026-03/QPIR_03032026_0.pdf; Kumar, H. and Somanathan, R.
+(2009), "Mapping Indian Districts Across Census Years, 1971–2001", CDE Working Paper 176, Delhi School of Economics,
+https://ideas.repec.org/p/cde/cdewps/176.html.
+
 ## Model 2: the generative-AI boom (2023–2024)
 
 Treated: all cyber crimes against women, summed into one category (as in Model 1); comparison: offline crimes
