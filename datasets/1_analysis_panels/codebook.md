@@ -130,3 +130,10 @@ One row per State/UT (`python scripts/police_capacity.py`). BPR&D, Data on Polic
 | `civil_police_per_lakh` | Civil police per lakh population (NCRB 2023 population) |
 | `cyber_units`, `cyber_units_per_crore` | Stations + cells; per crore population |
 | `civil_police_per_lakh_2020` | Civil police per lakh, 2020 (India Justice Report raw data, BPR&D figures) |
+
+## `state_police_year.csv`
+
+State × year, 2020–2024: `cyber_police_stations`, `cyber_cells`, `cyber_units` (sum), from BPR&D Data on Police
+Organizations as on 1 January 2020, 2021, 2022 and 2024 (text conversions in `data/external/controls/bprd_dopo_<year>.md`).
+`interpolated` = 1 for 2023 (average of 2022 and 2024; no 2023 report used). Uttar Pradesh cyber cells in 2021 and 2022
+are reported as a footnote (75; 75 + 4). Karnataka's count falls from 52 (2020) to 3 (2024) as it reclassified stations.

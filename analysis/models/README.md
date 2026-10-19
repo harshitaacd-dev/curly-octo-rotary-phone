@@ -133,6 +133,25 @@ in 2020 from the India Justice Report raw data (BPR&D figures). Regressions use 
   access event-study coefficients rise steadily from 2017 (-0.36, -0.23, -0.04, -0.02, 0.05; 2023: 0.26, 2024: 0.34),
   more like a continuing trend than a break, and the 2024 police measure weakens it (p = 0.16). Report as exploratory.
 
+**Within States over time (2020–2024).** Cyber police stations and cells by State and year from the BPR&D reports for
+1 January 2020, 2021, 2022 and 2024 (`data/analysis/state_police_year.csv`; 2023 = average of 2022 and 2024). National
+totals match the reports (stations 169, 202, 262, 459; cells 376, 541 incl. Uttar Pradesh's footnoted 75, 548, 658).
+Poisson, State and year fixed effects, population offset; RR per one-unit change in log(1 + cyber units per crore):
+
+| Outcome | RR | p | States |
+|---|---|---|---|
+| Cyber crime against women | 0.83 | 0.068 | 35 |
+| Offline crimes against women | 0.83 | 0.13 | 35 |
+| All cyber crime | 0.90 | 0.51 | 35 |
+| **Cyber fraud** | **1.63** | **0.027** | 26 |
+| Cyber vs offline crimes against women, one model | 1.00 | 0.91 | 35 |
+
+When a State adds cyber police units, it records more **cyber fraud** but not more cyber crime against women
+(dropping the interpolated 2023 or Karnataka, whose count falls from 52 to 3 as it reclassified its stations, leaves
+it null). Model 2 restricted to 2020–2024 with time-varying cyber units as a control: access 1.05 (p = 0.80), units
+1.02 (p = 0.44). Expanding cyber policing has gone with financial-fraud recording, not with recording of cyber crime
+against women.
+
 ## Model 2: the generative-AI boom (2023–2024)
 
 Treated: all cyber crimes against women, summed into one category (as in Model 1); comparison: offline crimes
