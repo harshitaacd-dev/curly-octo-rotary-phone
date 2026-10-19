@@ -91,17 +91,16 @@ exposure measures.
 Run from the repository root (the folder that contains `stata/`):
 
 ```stata
-cd "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata"   // your path
-do stata/part1.do
-do stata/part2.do
-do stata/part3.do
+cd "path/to/curly-octo-rotary-phone"
+do stata/run_all.do
 ```
 
-| Do-file | Runs | Writes |
+| Do-file | What it runs (sections follow the Methodology in the supervisor draft) | Writes |
 |---|---|---|
-| `part1.do` | 1a Model 1 (with crime types, event study, placebo, robustness, labelling controls); 1b across States; 1c TRAI within States, Delhi + Haryana merged; 1d India by year | `part1_results.txt`, `part1_national.png` |
-| `part2.do` | 2a Model 2 (all exposures, event study and pre-trend test, crime types, placebo, fake years, robustness); 2b labelling controls and stable versus unstable States | `part2_results.txt`, `part2_event_study.csv/.png` |
-| `part3.do` | 3a NCRB versus platform complaints by year; 3b growth index (2022 = 100); 3c every platform's sexual-content share; 3d reporting chain 2023 to 2024; 3e the Part 3 model (main: share-adjusted growth against police; secondary: raw growth and a pooled summary) | `part3_results.txt`, `part3_*.png` |
+| `setup.do` | Finds the repository root, installs `ftools`, `reghdfe`, `ppmlhdfe`, defines helper programs; run by each part | |
+| `part1.do` | Step 1 across States (no controls; + income, urban share, police capacity); Step 2 Model 1 and its checks; Step 3 TRAI connections with Delhi + Haryana combined; India by year | `part1_results.txt`, `part1_national.png` |
+| `part2.do` | A the "other" category; B Model 2 for each exposure; C validity (event study, fake start years, placebo, dropping years/States); D each crime type; E labelling controls; F capacity controls; G expanding cyber policing 2020-2024 | `part2_results.txt`, `part2_event_study.csv/.png` |
+| `part3.do` | A by year and each platform's sexual-content share; B main share-adjusted model with z-tests against police; C raw growth and pooled summary | `part3_results.txt`, `part3_yearly.png` |
+| `run_all.do` | All three parts | |
 
-Each do-file prints the result expected from the Python version next to each model, so you can check that
-Stata reproduces it. Packages (installed automatically if missing): `ftools`, `reghdfe`, `ppmlhdfe`.
+Every model is followed by a comment with the Python result, so Stata output can be checked line by line.
