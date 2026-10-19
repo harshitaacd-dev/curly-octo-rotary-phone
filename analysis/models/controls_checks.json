@@ -1,0 +1,172 @@
+{
+  "levels_1b": {
+    "cyber_vaw_cases": {
+      "none": {
+        "z_access": {
+          "rate_ratio": 1.557,
+          "p": 0.0098
+        }
+      },
+      "income": {
+        "z_access": {
+          "rate_ratio": 0.639,
+          "p": 0.2621
+        },
+        "z_income": {
+          "rate_ratio": 2.549,
+          "p": 0.0208
+        }
+      },
+      "urban": {
+        "z_access": {
+          "rate_ratio": 1.569,
+          "p": 0.025
+        },
+        "z_urban": {
+          "rate_ratio": 0.992,
+          "p": 0.9715
+        }
+      },
+      "income_urban": {
+        "z_access": {
+          "rate_ratio": 0.842,
+          "p": 0.6281
+        },
+        "z_income": {
+          "rate_ratio": 3.448,
+          "p": 0.0041
+        },
+        "z_urban": {
+          "rate_ratio": 0.441,
+          "p": 0.0339
+        }
+      }
+    },
+    "offline_vaw_cases": {
+      "none": {
+        "z_access": {
+          "rate_ratio": 1.05,
+          "p": 0.7618
+        }
+      },
+      "income": {
+        "z_access": {
+          "rate_ratio": 0.924,
+          "p": 0.7957
+        },
+        "z_income": {
+          "rate_ratio": 1.119,
+          "p": 0.5975
+        }
+      },
+      "urban": {
+        "z_access": {
+          "rate_ratio": 0.96,
+          "p": 0.8969
+        },
+        "z_urban": {
+          "rate_ratio": 1.118,
+          "p": 0.7595
+        }
+      },
+      "income_urban": {
+        "z_access": {
+          "rate_ratio": 0.918,
+          "p": 0.8099
+        },
+        "z_income": {
+          "rate_ratio": 1.113,
+          "p": 0.6255
+        },
+        "z_urban": {
+          "rate_ratio": 1.016,
+          "p": 0.9702
+        }
+      }
+    }
+  },
+  "model1": {
+    "none": {
+      "t_z_access": {
+        "rate_ratio": 0.966,
+        "p": 0.3782
+      }
+    },
+    "income": {
+      "t_z_access": {
+        "rate_ratio": 0.97,
+        "p": 0.5967
+      },
+      "t_z_income": {
+        "rate_ratio": 0.996,
+        "p": 0.9338
+      }
+    },
+    "urban": {
+      "t_z_access": {
+        "rate_ratio": 0.946,
+        "p": 0.4558
+      },
+      "t_z_urban": {
+        "rate_ratio": 1.026,
+        "p": 0.7186
+      }
+    },
+    "income_urban": {
+      "t_z_access": {
+        "rate_ratio": 0.951,
+        "p": 0.5354
+      },
+      "t_z_income": {
+        "rate_ratio": 0.988,
+        "p": 0.7949
+      },
+      "t_z_urban": {
+        "rate_ratio": 1.035,
+        "p": 0.5961
+      }
+    }
+  },
+  "model2": {
+    "none": {
+      "t_z_access": {
+        "rate_ratio": 1.076,
+        "p": 0.7134
+      }
+    },
+    "income": {
+      "t_z_access": {
+        "rate_ratio": 1.173,
+        "p": 0.255
+      },
+      "t_z_income": {
+        "rate_ratio": 0.868,
+        "p": 0.3223
+      }
+    },
+    "urban": {
+      "t_z_access": {
+        "rate_ratio": 1.239,
+        "p": 0.2233
+      },
+      "t_z_urban": {
+        "rate_ratio": 0.788,
+        "p": 0.1222
+      }
+    },
+    "income_urban": {
+      "t_z_access": {
+        "rate_ratio": 1.232,
+        "p": 0.251
+      },
+      "t_z_income": {
+        "rate_ratio": 0.925,
+        "p": 0.7053
+      },
+      "t_z_urban": {
+        "rate_ratio": 0.862,
+        "p": 0.5187
+      }
+    }
+  }
+}

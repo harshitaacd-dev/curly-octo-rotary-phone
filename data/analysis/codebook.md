@@ -105,3 +105,15 @@ One row per unit: every access measure above, plus TRAI per 100 for each Decembe
 
 **Facebook and Instagram "sexual" category** is Meta's "Content showing me in nudity/partial nudity or in a sexual act":
 complaints by people about intimate images of themselves, which platforms must act on within 24 hours under the IT Rules.
+
+## `state_controls.csv`
+
+One row per State/UT (`python scripts/build_controls.py`).
+
+| Column | Meaning | Source |
+|---|---|---|
+| `nsdp_pc_2019` | Per capita net state domestic product, 2019-20, constant 2011-12 prices (rupees) | RBI, Handbook of Statistics on Indian States 2024-25, Table 20 |
+| `nsdp_pc_avg` | Same, mean of 2017-18 to 2022-23 | RBI |
+| `urban_share_cams` | % of persons 15+ in urban areas, implied by CAMS 2022-23: (total − rural) / (urban − rural) internet-use rates, averaged over two indicators | Built from CAMS 2022-23 |
+
+Income is missing for Lakshadweep and Dadra & Nagar Haveli and Daman & Diu (not published by RBI).
