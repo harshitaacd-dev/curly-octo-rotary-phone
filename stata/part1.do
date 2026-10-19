@@ -16,6 +16,16 @@
 version 16
 clear all
 set more off
+* Run from the repository root; if Stata is in the stata folder itself, step up one level.
+capture confirm file "stata/state_year_panel.dta"
+if _rc {
+    capture confirm file "state_year_panel.dta"
+    if !_rc cd ..
+    else {
+        display as error "Cannot find the stata folder: cd to the folder that contains it, then run again"
+        exit 601
+    }
+}
 capture log close
 log using "stata/part1_results.txt", text replace
 

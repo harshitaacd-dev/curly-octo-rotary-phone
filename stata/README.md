@@ -83,7 +83,7 @@ exposure measures.
 Run from the repository root (the folder that contains `stata/`):
 
 ```stata
-cd "path/to/curly-octo-rotary-phone"
+cd "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata"   // your path
 do stata/part1.do
 do stata/part2.do
 do stata/part3.do
