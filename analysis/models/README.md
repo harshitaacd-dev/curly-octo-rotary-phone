@@ -222,3 +222,19 @@ The panel cannot detect an AI-boom signal in police-recorded data: estimates are
 measure, including the main specification, which passes its pre-trend test. Read together with
 `analysis/funnel/` (online complaints rise 18–21× from 2023 to 2024 while NCRB counts fall), the result is
 consistent with the signal being lost between online abuse and police records, not with the absence of abuse.
+
+## Part 3: police records versus complaints to platforms
+
+Run: `python scripts/part3_models.py` (writes `part3_results.json`). Yearly growth, 2022–2024: NCRB cyber crime against
+women from the State panel (Poisson, State effects, SE clustered by State); each platform's sexual-content complaints
+from its monthly reports (Poisson, month-of-year effects, HAC SE); z-test of the difference.
+
+| Source | Growth per year | 95% range | Differs from NCRB, p | Relative to own other complaints |
+|---|---|---|---|---|
+| NCRB cyber crime against women | 1.13 | 1.02–1.24 | | |
+| Facebook | 3.74 | 2.44–5.72 | <0.001 | 1.27 (p = 0.17) |
+| X | 11.62 | 4.82–28.00 | <0.001 | 1.49 (p = 0.27) |
+| Instagram | 1.62 | 0.78–3.34 | 0.34 | 1.09 (p = 0.72) |
+| Snapchat | 1.18 | 1.10–1.26 | 0.49 | 0.84 (p = 0.004) |
+| Google | 0.80 | 0.62–1.03 | 0.013 | 0.97 (p = 0.85) |
+| Five platforms pooled (5 clusters; summary) | 2.96 | | 0.040 | |

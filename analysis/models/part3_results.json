@@ -1,0 +1,71 @@
+{
+  "ncrb": {
+    "growth_per_year": 1.128,
+    "se": 0.05,
+    "ci95": [
+      1.023,
+      1.244
+    ]
+  },
+  "platforms": {
+    "Facebook": {
+      "growth_per_year": 3.737,
+      "ci95": [
+        2.443,
+        5.716
+      ],
+      "p_diff_vs_ncrb": 0.0,
+      "months": 36,
+      "relative_to_other_complaints": 1.265,
+      "relative_p": 0.1727
+    },
+    "Instagram": {
+      "growth_per_year": 1.616,
+      "ci95": [
+        0.782,
+        3.339
+      ],
+      "p_diff_vs_ncrb": 0.3363,
+      "months": 36,
+      "relative_to_other_complaints": 1.093,
+      "relative_p": 0.7187
+    },
+    "X": {
+      "growth_per_year": 11.623,
+      "ci95": [
+        4.824,
+        28.003
+      ],
+      "p_diff_vs_ncrb": 0.0,
+      "months": 36,
+      "relative_to_other_complaints": 1.485,
+      "relative_p": 0.2684
+    },
+    "Snapchat": {
+      "growth_per_year": 1.177,
+      "ci95": [
+        1.098,
+        1.261
+      ],
+      "p_diff_vs_ncrb": 0.4861,
+      "months": 34,
+      "relative_to_other_complaints": 0.842,
+      "relative_p": 0.004
+    },
+    "Google": {
+      "growth_per_year": 0.8,
+      "ci95": [
+        0.621,
+        1.031
+      ],
+      "p_diff_vs_ncrb": 0.0131,
+      "months": 36,
+      "relative_to_other_complaints": 0.972,
+      "relative_p": 0.8536
+    }
+  },
+  "pooled": {
+    "growth_per_year": 2.96,
+    "p_diff_vs_ncrb": 0.0398
+  }
+}
