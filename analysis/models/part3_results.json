@@ -1,4 +1,55 @@
 {
+  "main_share_adjusted": {
+    "ncrb_relative": {
+      "growth_per_year": 1.145,
+      "ci95": [
+        1.036,
+        1.265
+      ]
+    },
+    "platforms": {
+      "Facebook": {
+        "relative_growth_per_year": 1.265,
+        "ci95": [
+          0.902,
+          1.775
+        ],
+        "p_diff_vs_ncrb_relative": 0.5793
+      },
+      "Instagram": {
+        "relative_growth_per_year": 1.093,
+        "ci95": [
+          0.673,
+          1.778
+        ],
+        "p_diff_vs_ncrb_relative": 0.8549
+      },
+      "X": {
+        "relative_growth_per_year": 1.485,
+        "ci95": [
+          0.737,
+          2.992
+        ],
+        "p_diff_vs_ncrb_relative": 0.4715
+      },
+      "Snapchat": {
+        "relative_growth_per_year": 0.842,
+        "ci95": [
+          0.749,
+          0.947
+        ],
+        "p_diff_vs_ncrb_relative": 0.0001
+      },
+      "Google": {
+        "relative_growth_per_year": 0.972,
+        "ci95": [
+          0.717,
+          1.318
+        ],
+        "p_diff_vs_ncrb_relative": 0.3151
+      }
+    }
+  },
   "ncrb": {
     "growth_per_year": 1.128,
     "se": 0.05,

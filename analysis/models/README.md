@@ -225,6 +225,16 @@ consistent with the signal being lost between online abuse and police records, n
 
 ## Part 3: police records versus complaints to platforms
 
+**Main comparison (share-adjusted).** Each side against its own comparison group, so growth of the complaint route
+itself (Meta: all complaints up about 7x in 2023 with the amended IT Rules and the Grievance Appellate Committee) is
+removed. NCRB: cyber crimes against women relative to offline crimes against women, 2022–2024, **1.15 a year**
+(95% range 1.04–1.27). Platforms: sexual-content complaints relative to the platform's other complaints, monthly
+2022–2024: Facebook 1.27 (p vs NCRB = 0.58), Instagram 1.09 (0.85), X 1.49 (0.47), Snapchat 0.84 (<0.001, slower),
+Google 0.97 (0.32). Relative to their own routes, sexual-content complaints grew no faster than cyber crime did in
+police records.
+
+**Secondary comparison (raw growth):**
+
 Run: `python scripts/part3_models.py` (writes `part3_results.json`). Yearly growth, 2022–2024: NCRB cyber crime against
 women from the State panel (Poisson, State effects, SE clustered by State); each platform's sexual-content complaints
 from its monthly reports (Poisson, month-of-year effects, HAC SE); z-test of the difference.
