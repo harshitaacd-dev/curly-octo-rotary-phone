@@ -27,6 +27,7 @@ COPY = {
     "funnel_2023_2024": "analysis/funnel/funnel_2023_2024.csv",
     "state_controls": "data/analysis/state_controls.csv",
     "state_police": "data/analysis/state_police.csv",
+    "state_police_year": "data/analysis/state_police_year.csv",
 }
 NCRB = ["cyber_vaw_cases", "cyber_vaw_obscene_material", "cyber_vaw_morphing", "cyber_vaw_blackmail",
         "cyber_vaw_stalking", "cyber_vaw_fake_profile", "cyber_vaw_other", "offline_vaw_cases",

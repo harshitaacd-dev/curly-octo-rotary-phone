@@ -315,6 +315,23 @@ display _n "--- 1c cyber vs offline crimes against women"
 ppmlhdfe cases tc, absorb(sc st ct) vce(cluster sid)
 display "Rate ratio: " %6.3f exp(_b[tc])
 
+* 1e  CYBER POLICE CAPACITY WITHIN STATES, 2020-2024 (BPR&D reports; 2023 interpolated)
+*   cases = log(1 + cyber police stations and cells per crore) | State, year; population exposure
+*   Expected (Python): cyber crime against women 0.83 (p = 0.068); offline 0.83 (0.13);
+*   all cyber crime 0.90 (0.51); cyber fraud 1.63 (p = 0.027, 26 States).
+display _n "==================== 1e CYBER POLICE CAPACITY (WITHIN STATES) ===================="
+use "stata/state_year_panel.dta", clear
+merge 1:1 state year using "stata/state_police_year.dta", keep(match) nogenerate
+egen sid = group(state)
+generate double ln_units = ln(1 + cyber_units / (population_lakh / 100))
+foreach y in cyber_vaw_cases offline_vaw_cases cyber_total_cases cyber_fraud {
+    local off female_pop_lakh
+    if inlist("`y'", "cyber_total_cases", "cyber_fraud") local off population_lakh
+    display _n "--- 1e, outcome: `y'"
+    ppmlhdfe `y' ln_units, absorb(sid year) exposure(`off') vce(cluster sid)
+    display "Rate ratio: " %6.3f exp(_b[ln_units])
+}
+
 * =============================================================================
 * 1d  INDIA BY YEAR, 2017-2024: internet users and cyber crime against women
 *   Expected (Python): elasticity 0.99, correlation of logs 0.97, correlation of growth 0.28.

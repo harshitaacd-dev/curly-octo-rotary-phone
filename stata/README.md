@@ -23,6 +23,7 @@ Open a file in Stata with, for example: `use "stata/state_year_panel.dta", clear
 | all | Every access measure, one row per State | `state_access.dta` |
 | 1, 2 | Controls: income per head (RBI) and urban share, one row per State | `state_controls.dta` |
 | 1, 2 | Police capacity: civil police, cyber police stations and cyber cells (BPR&D 2024), one row per State | `state_police.dta` |
+| 1e | Cyber police stations and cells by State and year, 2020-2024 (BPR&D) | `state_police_year.dta` |
 
 ## Files
 
