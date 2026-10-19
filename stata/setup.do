@@ -12,7 +12,10 @@
 version 16
 set more off
 
-* Repository root: the folder that contains stata/. Steps up one level if run from stata/.
+* Repository root on this computer; every path below is relative to it.
+capture cd "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata"
+
+* If that folder is not found, fall back: use the current folder, or step up one level from stata/.
 capture confirm file "stata/state_year_panel.dta"
 if _rc {
     capture confirm file "state_year_panel.dta"

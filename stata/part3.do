@@ -13,7 +13,7 @@
 * Output: stata/part3_results.txt; tables and figure in stata/tables/ (part3_*)
 * =============================================================================
 
-run stata/setup.do
+run "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata/stata/setup.do"
 capture log close
 log using "stata/part3_results.txt", text replace
 

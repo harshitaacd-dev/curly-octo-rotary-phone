@@ -10,7 +10,7 @@
 * Each model prints its rate ratio; "Expected" lines give the Python result to compare.
 * =============================================================================
 
-run stata/setup.do
+run "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata/stata/setup.do"
 capture log close
 log using "stata/part1_results.txt", text replace
 

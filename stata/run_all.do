@@ -5,6 +5,7 @@
 * Results: stata/part1_results.txt, stata/part2_results.txt, stata/part3_results.txt, plus charts.
 * =============================================================================
 
-do stata/part1.do
-do stata/part2.do
-do stata/part3.do
+cd "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata"
+do "stata/part1.do"
+do "stata/part2.do"
+do "stata/part3.do"
