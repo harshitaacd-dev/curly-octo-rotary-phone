@@ -134,7 +134,7 @@ foreach y in 2017 2018 2019 2020 2021 2023 2024 {
     generate double es`y' = ai * z_access * (year == `y')
     generate double ep`y' = ai * z_police * (year == `y')
 }
-ppmlhdfe cases es2017-es2024 ep2017-ep2024, absorb(sc st ct) vce(cluster sid)
+ppmlhdfe cases es2017 es2018 es2019 es2020 es2021 es2023 es2024 ep2017 ep2018 ep2019 ep2020 ep2021 ep2023 ep2024, absorb(sc st ct) vce(cluster sid)
 test es2017 es2018 es2019 es2020 es2021
 
 * Event study, base year 2022, with joint pre-trend test
