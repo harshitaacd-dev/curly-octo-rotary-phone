@@ -21,6 +21,7 @@ Open a file in Stata with, for example: `use "stata/state_year_panel.dta", clear
 | 3d | Reporting chain, 2023 to 2024 | `funnel_2023_2024.dta` |
 | 3 (extra) | News-reported incidents by State and year | `news_incidents_state_year.dta` |
 | all | Every access measure, one row per State | `state_access.dta` |
+| 1, 2 | Controls: income per head (RBI) and urban share, one row per State | `state_controls.dta` |
 
 ## Files
 
@@ -75,6 +76,10 @@ national search series. Drop `suspect_duplicate == 1`
 
 **`news_incidents_state_year.dta`** — news-reported incidents by State and year, 2018–2024, by type
 (AI/deepfake, morphed, real or unspecified), with police action and private-individual counts.
+
+**`state_controls.dta`** — one row per State: `nsdp_pc_2019`, `nsdp_pc_avg` (per capita net state domestic
+product, constant prices, RBI Handbook of Statistics on Indian States 2024-25, Table 20), `urban_share_cams` (urban share
+of persons 15+, implied by CAMS 2022-23). Income missing for Lakshadweep and DNH-DD.
 
 **`state_access.dta`** — one row per State: every access measure, TRAI per 100 for December 2021–2025, search
 exposure measures.

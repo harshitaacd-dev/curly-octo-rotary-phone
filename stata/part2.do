@@ -43,6 +43,17 @@ program define zstate
     drop _tag
 end
 
+* Standardise a State-level variable into a new variable (mean 0, SD 1 across States)
+capture program drop zas
+program define zas
+    args x newname
+    capture drop `newname' _tag
+    egen _tag = tag(state)
+    quietly summarize `x' if _tag
+    generate double `newname' = (`x' - r(mean)) / r(sd)
+    drop _tag
+end
+
 capture program drop makefe
 program define makefe
     capture drop sc st ct sid
@@ -82,6 +93,23 @@ foreach x of local exposures {
     ppmlhdfe cases treat, absorb(sc st ct) vce(cluster sid)
     display "Rate ratio per SD after 2022: " %6.3f exp(_b[treat])
 }
+
+* Model 2 with controls: income and urban share, interacted like access (33 States)
+*   Expected (Python): access 1.23 (p = 0.25), income 0.93 (0.71), urban 0.86 (0.52).
+use `m2', clear
+merge m:1 state using "stata/state_controls.dta", keep(master match) nogenerate
+generate double ln_income = ln(nsdp_pc_avg)
+keep if !missing(ln_income, urban_share_cams)
+keep if !missing(access_nfhs5_15to49_avg)
+zas access_nfhs5_15to49_avg z_access
+zas ln_income z_income
+zas urban_share_cams z_urban
+generate double treat = ai * post * z_access
+generate double treat_inc = ai * post * z_income
+generate double treat_urb = ai * post * z_urban
+display _n "--- Model 2 with income and urban share controls"
+ppmlhdfe cases treat treat_inc treat_urb, absorb(sc st ct) vce(cluster sid)
+display "Rate ratio (access): " %6.3f exp(_b[treat])
 
 * Event study, base year 2022, with joint pre-trend test
 foreach x in access_nfhs5_15to49_avg ads_nudify_to_genai_post {
