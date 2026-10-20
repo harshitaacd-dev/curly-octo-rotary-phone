@@ -99,6 +99,7 @@ do stata/run_all.do
 |---|---|---|
 | `setup.do` | Finds the repository root, installs `ftools`, `reghdfe`, `ppmlhdfe`, defines helper programs; run by each part | |
 | `part1.do` | Step 1 across States (no controls; + income, urban share, police capacity); Step 2 Model 1 and its checks; Step 3 TRAI connections with Delhi + Haryana combined; India by year | `part1_results.txt`, `part1_national.png` |
+| `part1_long.do` | Part 1 over 2013-2024 with sexual-content cyber crime (IT Act 67, 67A, 66E): Model 1 and checks, Step 1 across States for 2013-2016, India by year | `part1_long_results.txt` |
 | `part2.do` | A the "other" category; B Model 2 for each exposure; C validity (event study, fake start years, placebo, dropping years/States); D each crime type; E labelling controls; F capacity controls; G expanding cyber policing 2020-2024 | `part2_results.txt`, `part2_event_study.csv/.png` |
 | `part3.do` | A by year and each platform's sexual-content share; B main share-adjusted model with z-tests against police; C raw growth and pooled summary | `part3_results.txt`, `part3_yearly.png` |
 | `run_all.do` | All three parts | |
@@ -115,6 +116,9 @@ Part 3 results table also as `.xlsx`, and charts as `.png`. Needs `estout` (inst
 | `part1_table2_model1`, `part1_table2b_model1_types`, `part1_table2c_model1_checks` | Part 1, Model 1 and checks |
 | `part1_table3_trai` | Part 1, Step 3: TRAI connections |
 | `part1_table4_national.csv`, `part1_figure1_national.png` | India by year |
+| `part1_long_table1_model1`, `part1_long_table2_checks` | Part 1, Model 1 over 2013-2024 and checks |
+| `part1_long_table3_across` | Part 1, Step 1 across States, 2013-2016 and 2017-2024, sexual-content cyber crime |
+| `part1_long_table4_national.csv`, `part1_long_figure1_national.png` | India by year, 2013-2024 |
 | `part2_table1_other_category.csv`, `part2_figure1_other_category.png` | Part 2, the "other" category |
 | `part2_table2_model2` | Model 2 for each exposure |
 | `part2_table3_event_study`, `part2_figure2_event_study.png` | Event study and pre-trend test |
