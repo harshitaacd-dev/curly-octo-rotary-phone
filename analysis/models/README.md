@@ -248,3 +248,23 @@ from its monthly reports (Poisson, month-of-year effects, HAC SE); z-test of the
 | Snapchat | 1.18 | 1.10–1.26 | 0.49 | 0.84 (p = 0.004) |
 | Google | 0.80 | 0.62–1.03 | 0.013 | 0.97 (p = 0.85) |
 | Five platforms pooled (5 clusters; summary) | 2.96 | | 0.040 | |
+
+## Part 1 over 2013-2024 (`scripts/part1_long.py` → `part1_long_results.json`)
+
+Cyber crimes against women start in 2017, so the longer run uses **sexual-content cyber crime**
+(IT Act Sec 67 + 67A + 66E, child abuse material excluded), by State, 2013-2024. It counts offences,
+not female victims; 2013-2015 is Sec 67 only. 34 units (Andhra Pradesh + Telangana merged). Panel:
+`data/analysis/state_category_year_long.csv`. Stata: `stata/part1_long.do` on branch `claude/stata`.
+
+| Model | Rate ratio | p |
+|---|---|---|
+| Model 1, 2013-2024, NSS 2017 (21 States) | 0.968 | 0.11 |
+| Model 1, 2013-2024, CAMS 15+ | 0.968 | 0.16 |
+| Model 1, 2013-2024, NFHS-5 | 0.983 | 0.51 |
+| 2017-2024 only, same outcome | 0.978 | 0.29 |
+| 2013-2016 only / 2014-2016 only | 0.921 / 1.103 | 0.012 / 0.43 |
+| Placebo, all other cyber crime | 1.008 | 0.85 |
+
+The 2013-2016 estimate depends on 2013 alone (drops to non-significant and flips sign without it).
+Across States, 2013-2016: access 1.28 (p = 0.24); with log income 1.50 (0.13). National, 2013-2024:
+elasticity of sexual-content cases to internet users 1.33 (R² 0.89); correlation of yearly growth 0.31.
