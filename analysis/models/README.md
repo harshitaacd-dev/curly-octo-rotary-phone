@@ -268,3 +268,28 @@ not female victims; 2013-2015 is Sec 67 only. 34 units (Andhra Pradesh + Telanga
 The 2013-2016 estimate depends on 2013 alone (drops to non-significant and flips sign without it).
 Across States, 2013-2016: access 1.28 (p = 0.24); with log income 1.50 (0.13). National, 2013-2024:
 elasticity of sexual-content cases to internet users 1.33 (R² 0.89); correlation of yearly growth 0.31.
+
+## The Jio shock (`scripts/jio_coverage.py`, `scripts/jio_models.py` → `jio_results.json`)
+
+Design from "Mobile Internet and Collective Action: Evidence from India's Jio Shock" (SSRN 6959526).
+**Coverage at launch** = share of a State's 2016 population (WorldPop, 1 km) within 5 km of a Jio cell
+(OpenCellID, MCC 405 / MNC 840, 854-874) first seen by 31 December 2016; March 2017 OpenCellID dump from
+archive.org. Output `data/analysis/state_jio.csv`; Jio cells in `data/external/jio/jio_cells_india.csv.gz`.
+The September 2016 cutoff is a check only: OpenCellID dates are when a cell was first *seen*, so it holds
+just 11,700 Jio cells and undercounts the network at launch.
+
+Main: cases ~ Cyber × Post(2017+) × Coverage | State × crime + State × year + crime × year, 2013-2022,
+Cyber = sexual-content cyber crime, comparison = offline crimes against women. Per 10 points of coverage.
+
+| | Rate ratio | p |
+|---|---|---|
+| Main, 2013-2022 | 0.850 | 0.051 (randomisation 0.048) |
+| To 2024 / Post from 2016 | 0.846 / 0.846 | 0.037 / 0.059 |
+| Cells seen by Sep 2016 / Mar 2017 / 7 km | 0.932 / 0.848 / 0.842 | 0.39 / 0.033 / 0.021 |
+| Drop 2013 / + year × urban, income | 0.877 / 0.793 | 0.12 / <0.001 |
+| Placebo date 2015 (2013-2016) / other cyber crime | 0.933 / 0.983 | 0.12 / 0.85 |
+| Paper's design: sexual-content / offline (placebo) | 0.814 / 0.968 | 0.011 / 0.016 |
+
+Event study (base 2016): 2014-2015 ≈ 0, 2013 +0.09 (p = 0.06); 2018-2020 −0.12 to −0.16 (p < 0.05);
+joint pre-trend p = 0.22. Sign is **negative**: States with less coverage at launch saw faster growth
+(by coverage tercile, sexual-content cases grew ×15 low, ×6 middle, ×3 high, from 2013-16 to 2018-22).
