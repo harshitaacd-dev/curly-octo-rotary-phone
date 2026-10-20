@@ -8,5 +8,6 @@
 cd "/Users/Academic/Downloads/curly-octo-rotary-phone-claude-stata"
 do "stata/part1.do"
 do "stata/part1_long.do"
+do "stata/jio.do"
 do "stata/part2.do"
 do "stata/part3.do"
